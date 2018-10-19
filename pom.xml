@@ -5,7 +5,7 @@
 	<artifactId>org.eclipse.papyrus.umllight.parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Papyrus UML Light</name>
+	<name>org.eclipse.papyrus.umllight.parent</name>
 	<description>A Papyrus DSML for UML Modeling</description>
 	<inceptionYear>2018</inceptionYear>
 	<modules>
