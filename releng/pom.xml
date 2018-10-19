@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.eclipse.papyrus.umllight</groupId>
+		<artifactId>org.eclipse.papyrus.umllight.parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>>../</relativePath>
+	</parent>
+	<artifactId>org.eclipse.papyrus.umllight.releng</artifactId>
+	<packaging>pom</packaging>
+	<description>This plug-in contains the different modules relatives to the releng of UML Light : update site, feature, product, rcp.</description>
+	<modules>
+		<module>org.eclipse.papyrus.umllight.feature</module>
+	</modules>
+
+	<profiles>
+		<profile>
+			<id>product</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<modules>
+				<module>org.eclipse.papyrus.umllight.p2</module>
+				<module>org.eclipse.papyrus.umllight.rcp</module>
+				<module>org.eclipse.papyrus.umllight.product</module>
+				<module>org.eclipse.papyrus.umllight.feature</module>
+			
+			</modules>
+		</profile>
+	</profiles>
+</project>

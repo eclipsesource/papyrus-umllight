@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Core
+Bundle-SymbolicName: org.eclipse.papyrus.umllight.core
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: org.eclipse.papyrus.umllight.core.internal.Activator
+Require-Bundle: org.eclipse.ui,
+  org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: org.eclipse.papyrus.umllight.core
+Bundle-ActivationPolicy: lazy
+Export-Package: org.eclipse.papyrus.umllight.core.internal
