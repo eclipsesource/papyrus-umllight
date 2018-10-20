@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="UML Light  Target Platform - Release" sequenceNumber="1539952395">
+<target name="UML Light  Target Platform - Release" sequenceNumber="1539964663">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.platform.feature.group" version="4.8.0.v20180611-0656"/>
@@ -52,10 +52,11 @@
       <unit id="org.eclipse.papyrus.infra.services.feature.feature.group" version="3.0.0.201806130934"/>
       <unit id="org.eclipse.papyrus.views.properties.toolsmiths" version="2.0.2.201806131019"/>
       <unit id="org.eclipse.papyrus.uml.assistants.feature.feature.group" version="4.0.0.201806131019"/>
+      <unit id="org.eclipse.papyrus.toolsmiths.feature.feature.group" version="1.2.0.201806131019"/>
       <repository id="papyrus" location="http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/photon"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.eclipse.papyrus.compare.feature.feature.group" version="0.7.0.201810182331"/>
+      <unit id="org.eclipse.papyrus.compare.feature.feature.group" version="0.7.0.201810191459"/>
       <repository location="http://download.eclipse.org/modeling/mdt/papyrus/components/compare/updates/nightly/"/>
     </location>
   </locations>
