@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: UML Light UI
+Bundle-SymbolicName: org.eclipse.papyrus.umllight.ui;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: org.eclipse.papyrus.umllight.ui.internal.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.eclipse.papyrus.umllight.core;bundle-version="0.0.1",
+ org.eclipse.papyrus.infra.newchild;bundle-version="[4.0.0,5.0.0)"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: org.eclipse.papyrus.umllight.core
+Bundle-ActivationPolicy: lazy
+Export-Package: org.eclipse.papyrus.umllight.ui.internal;x-internal:=true

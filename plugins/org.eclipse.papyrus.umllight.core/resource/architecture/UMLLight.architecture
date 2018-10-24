@@ -3,7 +3,7 @@
   <stakeholders xmi:type="architecture:Stakeholder" xmi:id="_ysbS4NOxEeiTpIcrXWETSQ" id="org.eclipse.papyrus.umllight.modeler" name="UML Light Modeler" description="a stakeholder in charge of UML modeling" concerns="__JaYANOxEeiTpIcrXWETSQ"/>
   <concerns xmi:type="architecture:Concern" xmi:id="__JaYANOxEeiTpIcrXWETSQ" id="org.eclipse.papyrus.umllight.concern.basic" name="Basic UML Modeling" description="The concern of UML Light modeling"/>
   <contexts xmi:type="architecture:ArchitectureDescriptionLanguage" xmi:id="_H1R78NOyEeiTpIcrXWETSQ" id="org.eclipse.papyrus.umllight" name="UML Light" description="UML Light, a simplified subset of UML" icon="platform:/plugin/org.eclipse.papyrus.umllight.core/icons/papyrus.png" defaultViewpoints="_cXaRUNO0Eei48-PIi9TeBw" creationCommandClass="org.eclipse.papyrus.umllight.core.command.CreateUMLLightCommand">
-    <viewpoints xmi:type="architecture:ArchitectureViewpoint" xmi:id="_cXaRUNO0Eei48-PIi9TeBw" id="org.eclipse.papyrus.umllight.viewpoint.basic" name="UML Light" description="UML Light Viewpoint" icon="platform:/plugin/org.eclipse.papyrus.umllight.core/icons/papyrus.png" concerns="__JaYANOxEeiTpIcrXWETSQ" representationKinds="_m8PFgNO1Eei48-PIi9TeBw"/>
+    <viewpoints xmi:type="architecture:ArchitectureViewpoint" xmi:id="_cXaRUNO0Eei48-PIi9TeBw" id="org.eclipse.papyrus.umllight.viewpoint.basic" name="UML Light" description="UML Light Viewpoint" icon="platform:/plugin/org.eclipse.papyrus.umllight.core/icons/papyrus.png" concerns="__JaYANOxEeiTpIcrXWETSQ" representationKinds="_m8PFgNO1Eei48-PIi9TeBw _KQVFMNbrEeimr-yFskxXQQ"/>
     <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.infra.emf/model/infra-emf.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
     <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.infra.gmfdiag.common/model/notation.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
     <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.infra.gmfdiag.common/model/gmfdiag-common.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
@@ -54,6 +54,30 @@
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_rhJHkNtqEeiKL9qM2SXqag" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Constraint_ConstrainedElementEdge"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_Gf8QUNtrEeiKL9qM2SXqag" permit="true" elementTypeID="org.eclipse.papyrus.umldi.EnumerationLiteral_LiteralLabel"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_toFl8NtqEeiKL9qM2SXqag" permit="false"/>
+      <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/palette/UMLLightClassDiagram.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xmi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_KQVFMNbrEeimr-yFskxXQQ" id="org.eclipse.papyrus.umllight.diagram.package" name=" Light Package Diagram" description="Simplified version of the package diagram" icon="platform:/plugin/org.eclipse.papyrus.infra.viewpoints.policy/icons/Diagram_Package.gif" concerns="__JaYANOxEeiTpIcrXWETSQ" implementationID="PapyrusUMLClassDiagram" customStyle="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/style/umllight_style.css" creationCommandClass="org.eclipse.papyrus.uml.diagram.clazz.CreateClassDiagramCommand">
+      <modelRules xmi:type="representation:ModelRule" xmi:id="_KQVFMdbrEeimr-yFskxXQQ" permit="true" elementMultiplicity="1" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_KQVFMtbrEeimr-yFskxXQQ" permit="true" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </owningRules>
+      <childRules xmi:type="gmfdiagrepresentation:ChildRule" xmi:id="_KQVFM9brEeimr-yFskxXQQ" permit="true"/>
+      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_gNzzsNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.package"/>
+      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_qVJQENbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.model"/>
+      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_u6fqkNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.profile"/>
+      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_qajUgNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.comment"/>
+      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_qfISgNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.constraint"/>
+      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_qj3BgNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.dependency"/>
+      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_2JgO8NbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.packageimport"/>
+      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_5aRcINbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.containmentlink"/>
+      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_5fq5gNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.contextlink"/>
+      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_BSHiINbtEeimr-yFskxXQQ" permit="true" element="clazz.tool.link"/>
+      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_HXXpINbtEeimr-yFskxXQQ" permit="true" element="clazz.tool.profileapplication"/>
+      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_MRfZwNbtEeimr-yFskxXQQ" permit="false" element="clazz.tool.*"/>
+      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_PvQhINbtEeimr-yFskxXQQ" permit="false" element="create*"/>
+      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_ToIQINbtEeimr-yFskxXQQ" permit="true"/>
       <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/palette/UMLLightClassDiagram.paletteconfiguration#/"/>
     </representationKinds>
     <metamodel xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>

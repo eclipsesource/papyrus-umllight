@@ -7,5 +7,13 @@
             path="resource/architecture/UMLLight.architecture">
       </model>
    </extension>
-
+   <extension
+         point="org.eclipse.papyrus.infra.newchild">
+      <menuCreationModel
+            model="resource/creationmenu/UMLLightNewChild.creationmenumodel">
+      </menuCreationModel>
+      <menuCreationModel
+            model="resource/creationmenu/UMLLightNewRelationship.creationmenumodel">
+      </menuCreationModel>
+   </extension>
 </plugin>
