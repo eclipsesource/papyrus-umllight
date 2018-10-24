@@ -16,4 +16,9 @@
             model="resource/creationmenu/UMLLightNewRelationship.creationmenumodel">
       </menuCreationModel>
    </extension>
+   <extension
+         point="org.eclipse.papyrus.infra.gmfdiag.assistant.modelProviders">
+      <modelProvider
+            uri="resource/assistant/UMLLightUseCase.assistants"></modelProvider>
+   </extension>
 </plugin>
