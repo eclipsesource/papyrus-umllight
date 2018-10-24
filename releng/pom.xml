@@ -6,7 +6,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		<groupId>org.eclipse.papyrus.umllight</groupId>
 		<artifactId>org.eclipse.papyrus.umllight.parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>>../</relativePath>
 	</parent>
 	<artifactId>org.eclipse.papyrus.umllight.releng</artifactId>
 	<packaging>pom</packaging>
