@@ -53,6 +53,6 @@ location papyrus "http://download.eclipse.org/modeling/mdt/papyrus/updates/relea
 	org.eclipse.papyrus.toolsmiths.feature.feature.group
 }
 // Using nightly version of Papyrus compare for now because the latest stable version has Photon incompatibilities 
-location "http://download.eclipse.org/modeling/mdt/papyrus/components/compare/updates/nightly/" {
+location "http://download.eclipse.org/modeling/mdt/papyrus/components/compare/updates/nightly/latest/" {
 	org.eclipse.papyrus.compare.feature.feature.group 
 }
