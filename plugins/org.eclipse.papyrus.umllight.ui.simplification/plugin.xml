@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<!--
+  Copyright (c) 2016, 2018 EclipseSource Services GmbH, Christian W. Damus, and others.
+ 
+  All rights reserved. This program and the accompanying materials
+  are made available under the terms of the Eclipse Public License v1.0
+  which accompanies this distribution, and is available at
+  http://www.eclipse.org/legal/epl-v10.html
+ 
+  Contributors:
+    Martin Fleck (EclipseSource) mfleck@eclipsesource.com - Initial API and implementation
+    Christian W. Damus - adapted for UML Light
+-->
+<plugin>
+   <extension
+         point="org.eclipse.ui.activities">
+
+      <category
+            id="org.eclipse.papyrus.umllight.ui.simplification.activities"
+            name="UML Light Advanced Functionality"
+            description="Advanced Eclipse capabilities not ordinarily needed for modeling with UML Light.">
+      </category>
+      <categoryActivityBinding
+            categoryId="org.eclipse.papyrus.umllight.ui.simplification.activities"
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EclipseUI">
+      </categoryActivityBinding>
+      <categoryActivityBinding
+            categoryId="org.eclipse.papyrus.umllight.ui.simplification.activities"
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.PDE">
+      </categoryActivityBinding>
+      <categoryActivityBinding
+            categoryId="org.eclipse.papyrus.umllight.ui.simplification.activities"
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Debug">
+      </categoryActivityBinding>
+      <categoryActivityBinding
+            categoryId="org.eclipse.papyrus.umllight.ui.simplification.activities"
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.JDT">
+      </categoryActivityBinding>
+      <categoryActivityBinding
+            categoryId="org.eclipse.papyrus.umllight.ui.simplification.activities"
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Xtext">
+      </categoryActivityBinding>
+      <categoryActivityBinding
+            categoryId="org.eclipse.papyrus.umllight.ui.simplification.activities"
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Ant">
+      </categoryActivityBinding>
+      <categoryActivityBinding
+            categoryId="org.eclipse.papyrus.umllight.ui.simplification.activities"
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus">
+      </categoryActivityBinding>
+      <categoryActivityBinding
+            categoryId="org.eclipse.papyrus.umllight.ui.simplification.activities"
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Equinox">
+      </categoryActivityBinding>
+      <categoryActivityBinding
+            categoryId="org.eclipse.papyrus.umllight.ui.simplification.activities"
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF">
+      </categoryActivityBinding>
+      <categoryActivityBinding
+            categoryId="org.eclipse.papyrus.umllight.ui.simplification.activities"
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.ExternalTools">
+      </categoryActivityBinding>
+      <categoryActivityBinding
+            categoryId="org.eclipse.papyrus.umllight.ui.simplification.activities"
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.OCL">
+      </categoryActivityBinding>
+      <categoryActivityBinding
+            categoryId="org.eclipse.papyrus.umllight.ui.simplification.activities"
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.QVTo">
+      </categoryActivityBinding>
+      
+      <!-- Eclipse UI -->
+      <activity
+            id="org.eclipse.papyrus.umllight.ui.simplification.EclipseUI"
+            name="Advanced Eclipse UI Functionality">
+      </activity>
+      <activityPatternBinding
+			activityId="org.eclipse.papyrus.umllight.ui.simplification.EclipseUI"
+			pattern="org.eclipse.ui.editors\/org\.eclipse\.ui\.edit\.text\.gotoLastEditPosition">
+      </activityPatternBinding>
+      <activityPatternBinding
+			activityId="org.eclipse.papyrus.umllight.ui.simplification.EclipseUI"
+			pattern="org.eclipse.ui.editors\/org\.eclipse\.ui\.edit\.text\.gotoPreviousAnnotation">
+      </activityPatternBinding>
+      <activityPatternBinding
+			activityId="org.eclipse.papyrus.umllight.ui.simplification.EclipseUI"
+			pattern="org.eclipse.ui.editors\/org\.eclipse\.ui\.edit\.text\.gotoNextAnnotation">
+      </activityPatternBinding>
+      
+      <!-- PDE -->
+      <activity
+            id="org.eclipse.papyrus.umllight.ui.simplification.PDE"
+            name="Plugin Development (PDE) Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.PDE"
+            pattern="org\.eclipse\.pde\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.PDE"
+            pattern="org\.eclipse\.pde\.ds\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.PDE"
+            pattern="org\.eclipse\.pde\.ua\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.PDE"
+            isEqualityPattern="true"
+            pattern="org.eclipse.pde.api.tools.ui/org.eclipse.pde.api.tools.ui.views.apitooling.views.apitoolingview">
+      </activityPatternBinding>
+      
+      <!-- Debug -->
+      <activity
+            id="org.eclipse.papyrus.umllight.ui.simplification.Debug"
+            name="Debug Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Debug"
+            pattern="org\.eclipse\.debug\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Debug"
+            pattern="org\.eclipse\.debug\.ui\.examples\/.*">
+      </activityPatternBinding>
+      
+      <!-- JDT -->
+      <activity
+            id="org.eclipse.papyrus.umllight.ui.simplification.JDT"
+            name="Java Development (JDT) Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.JDT"
+            pattern="org\.eclipse\.jdt\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.JDT"
+            pattern="org\.eclipse\.jdt\.debug\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.JDT"
+            pattern="org\.eclipse\.jdt\.junit\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.JDT"
+            pattern="org\.eclipse\.jdt\.debug/debugModel">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.JDT"
+            pattern="org\.eclipse\.jdt/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.JDT"
+            pattern="org\.eclipse\.jdt\..*/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.JDT"
+            isEqualityPattern="true"
+            pattern="org.eclipse.jdt.core/javanature">
+      </activityPatternBinding>
+      
+      
+      <!-- Xtend/Xtext/Xbase -->
+      <activity
+            id="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
+            name="Xtend/Xtext/Xbase Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
+            pattern="org\.eclipse\.xtend\.examples\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
+            pattern="org\.eclipse\.xtend\.ide\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtext.xtext.ui/org.eclipse.xtext.xtext.ui.wizard.project.NewXtextProjectWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtext.xtext.ui/org.eclipse.xtext.xtext.ui.wizard.ecore2xtext.NewXtextProjectFromEcoreWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtext.xtext.ui/org.eclipse.xtext.projectwiz">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtext.xtext.ui/org.eclipse.xtext.ui.XtextCallHierarchy">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
+            pattern="org\.eclipse\.xtext\.xtext\.ui\.examples\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtext.xtext.ui.graph/org.eclipse.xtext.xtext.ui.graph.view">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtend.shared.ui/org.eclipse.xtend.shared.ui.properties.XpandMainPreferencePage">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtend.shared.ui/org.eclipse.xtend.shared.ui.properties.MetamodelContributorsPropertyPage">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtend.shared.ui/org.eclipse.xtend.shared.ui.properties.EditorConfigurationPage">
+      </activityPatternBinding>
+       <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xtend.shared.ui/org.eclipse.xtend.shared.ui.properties.BuilderPreferencePage">
+      </activityPatternBinding>
+      
+      <!-- Ant -->
+      <activity
+            id="org.eclipse.papyrus.umllight.ui.simplification.Ant"
+            name="Ant Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Ant"
+            pattern="org\.eclipse\.ant\.ui\/.*">
+      </activityPatternBinding>
+      
+      <!-- Papyrus -->
+      <activity
+            id="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            name="Advanced Papyrus Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.customization.properties/org.eclipse.papyrus.customization.properties.perspective">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.customization.properties.generation/org.eclipse.papyrus.customization.properties.generation.wizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.infra.viewpoints.configuration.editor/org.eclipse.papyrus.infra.viewpoints.configuration.presentation.ConfigurationModelWizardID">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.emf.facet.custom.metamodel.editor/org.eclipse.papyrus.emf.facet.custom.metamodel.v0_2_0.custom.presentation.CustomModelWizardID">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            pattern="org\.eclipse\.papyrus\.infra\..*\/.*WizardID">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            pattern="org\.eclipse\.papyrus\..*\/org.eclipse.emf.ecore.Wizard.category.ID">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            pattern="org\.eclipse\.papyrus\.customization\.nattableconfiguration\/.*">
+      </activityPatternBinding>      
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.customization.nattableconfiguration/org.eclipse.papyrus.infra.nattable.create.configuration.wizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.infra.gmfdiag.css.properties/org.eclipse.papyrus.infra.gmfdiag.css.theme.menu">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.infra.gmfdiag.css.properties/org.eclipse.papyrus.infra.gmfdiag.css.theme.define">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.infra.gmfdiag.css.properties/org.eclipse.papyrus.infra.gmfdiag.css.theme.edit">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.infra.viewpoints.policy/org.eclipse.papyrus.infra.viewpoints.policy.ViewpointExplorer">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.infra.core.pluginexplorer/org.eclipse.papyrus.infra.core.pluginexplorer.PluginsContentView">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.customization.properties/org.eclipse.papyrus.customization.properties.preview">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            isEqualityPattern="true"
+            pattern="org.eclipse.papyrus.uml.oclconstraintevaluation/org.eclipse.papyrus.uml.oclconstraintevaluation.OCLEvaluationView">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            pattern="org\.eclipse\.papyrus\.uml\.alf\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            pattern="org\.eclipse\.papyrus\.toolsmiths/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            pattern="org\.eclipse\.papyrus\.uml\.properties\.generation/.*">
+      </activityPatternBinding>
+      
+      <!-- Equinox -->
+      <activity
+            id="org.eclipse.papyrus.umllight.ui.simplification.Equinox"
+            name="Equinox Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Equinox"
+            pattern="org\.eclipse\equinox\.p2\.ui\/.*">
+      </activityPatternBinding>
+      
+      <!-- EMF -->
+      <activity
+            id="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            name="Advanced EMF Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            pattern="org\.eclipse\.emf\.codegen\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            pattern="org\.eclipse\.emf\.codegen\.ecore\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            pattern="org\.eclipse\.emf\.mapping\.ecore2xml\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            pattern="org\.eclipse\.emf\.mwe2\.language\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            pattern="org\.eclipse\.emf\.mwe\.ui\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.emf.ecore.editor/org.eclipse.emf.ecore.presentation.EcoreModelWizardID">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.emf.importer/org.eclipse.emf.importer.ui.EMFModelWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.emf.importer/org.eclipse.emf.importer.ui.EMFProjectWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.emf.mapping.ecore2ecore.editor/org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreModelWizardID">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.emf.mapping.ecore2ecore.editor/org.eclipse.emf.codegen.ecore.ui.mappingWizardCategory">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.emf.mapping.ecore2xml.ui/org.eclipse.emf.codegen.ecore.ui.mappingWizardCategory">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.emf.codegen.ecore.ui/org.eclipse.emf.codegen.ecore.ui.wizardCategory">
+      </activityPatternBinding>
+       <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            isEqualityPattern="true"
+            pattern="org.eclipse.xsd.editor/org.eclipse.xsd.presentation.XSDModelWizardID">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            pattern="org.eclipse.uml2.uml.editor/org\.eclipse\.uml2\.uml\.editor\.presentation\.UMLModelWizardID">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            pattern="org\.eclipse\.(?:emf|xsd)\.example\.installer/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            pattern="org\.eclipse\.emf\..*\.examples/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            pattern="org\.eclipse\.uml2\.examples(?:\..*)?/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            pattern="org\.eclipse\.gef\.examples\.ui\.pde/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
+            pattern="org\.eclipse\.gmf\.examples\..*/.*">
+      </activityPatternBinding>
+      
+      <!-- External Tools -->
+      <activity
+            id="org.eclipse.papyrus.umllight.ui.simplification.ExternalTools"
+            name="External Tools Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.ExternalTools"
+            pattern="org\.eclipse\.ui\.externaltools\/.*">
+      </activityPatternBinding>
+      
+      <!-- OCL -->
+      <activity
+            id="org.eclipse.papyrus.umllight.ui.simplification.OCL"
+            name="OCL Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.OCL"
+            pattern="org\.eclipse\.ocl\.examples\/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.OCL"
+            isEqualityPattern="true"
+            pattern="org.eclipse.ocl.xtext.completeocl.ui/org.eclipse.ocl.xtext.completeocl.ui.CompleteOCLFileNewWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.OCL"
+            isEqualityPattern="true"
+            pattern="org.eclipse.ocl.xtext.oclinecore.ui/org.eclipse.ocl.xtext.oclinecore.ui.preferences.ProjectPreferencePage">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.OCL"
+            isEqualityPattern="true"
+            pattern="org.eclipse.ocl.xtext.oclinecore.ui/org.eclipse.ocl.xtext.oclinecore.ui.OCLinEcoreFileNewWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.OCL"
+            isEqualityPattern="true"
+            pattern="org.eclipse.ocl.xtext.oclinecore.ui/org.eclipse.ocl.xtext.oclinecore.ui.EcoreWithOCLFileNewWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.OCL"
+            isEqualityPattern="true"
+            pattern="org.eclipse.ocl.xtext.oclstdlib.ui/org.eclipse.ocl.xtext.oclstdlib.ui.OCLstdlibFileNewWizard">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.OCL"
+            isEqualityPattern="true"
+            pattern="org.eclipse.ocl.xtext.base.ui/org.eclipse.ocl.ui.wizards">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.OCL"
+            isEqualityPattern="true"
+            pattern="org.eclipse.ocl.examples.emf.validation.validity.ui/org.eclipse.ocl.examples.emf.validation.validity.ui.validity">
+      </activityPatternBinding>
+      
+      <!-- QVTo -->
+      <activity
+            id="org.eclipse.papyrus.umllight.ui.simplification.QVTo"
+            name="QVT Operational Functionality">
+      </activity>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.QVTo"
+            pattern="org\.eclipse\.m2m\.qvt\.oml\.ui/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.QVTo"
+            pattern="org\.eclipse\.m2m\.qvt\.oml\.samples/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.QVTo"
+            pattern="org\.eclipse\.m2m\.qvt\.oml\.runtime\.ui/.*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.QVTo"
+            pattern="org\.eclipse\.m2m\.qvt\.oml\.editor\.ui/.*">
+      </activityPatternBinding>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="*">
+         <hiddenMenuItem
+               id="org.eclipse.ui.run">
+         </hiddenMenuItem>
+      </perspectiveExtension>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.papyrus.infra.core.perspective">
+         <hiddenToolBarItem
+               id="org.eclipse.papyrus.infra.emf.readonly.EnableWriteCommand">
+         </hiddenToolBarItem>
+         <hiddenToolBarItem
+               id="org.eclipse.papyrus.infra.discovery.ui.menu.toolbars.discoveryCommand">
+         </hiddenToolBarItem>
+         <hiddenToolBarItem
+               id="org.eclipse.papyrus.editor.previousTabCommand">
+         </hiddenToolBarItem>
+         <hiddenToolBarItem
+               id="org.eclipse.papyrus.editor.nextTabCommand">
+         </hiddenToolBarItem>
+         <hiddenToolBarItem
+               id="org.eclipse.papyrus.infra.viewpoints.policy.toolbar.diagrams">
+         </hiddenToolBarItem>
+      </perspectiveExtension>
+   </extension>
+ 
+   <extension
+         point="org.eclipse.ui.navigator.viewer">
+      <viewerActionBinding
+            viewerId="org.eclipse.ui.navigator.ProjectExplorer">
+         <includes>
+            <actionExtension
+                  pattern="org.eclipse.papyrus.umllight.ui.simplification.navigator.*">
+            </actionExtension>
+         </includes>
+      </viewerActionBinding>
+   </extension>
+   <extension
+         point="org.eclipse.ui.navigator.navigatorContent">
+      <actionProvider
+            class="org.eclipse.papyrus.umllight.ui.simplification.internal.navigator.ProjectExplorerOpenActionProvider"
+            id="org.eclipse.papyrus.umllight.ui.simplification.navigator.actions.ProjectExplorerOpenActionProvider"
+            overrides="org.eclipse.jdt.ui.navigator.actions.OpenActions">
+            <enablement>
+		         <or>
+		            <instanceof 
+		                  	value="org.eclipse.core.resources.IFile" /> 
+		         </or>
+         </enablement>
+      </actionProvider>
+   </extension>
+</plugin>
