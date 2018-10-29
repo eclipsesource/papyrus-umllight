@@ -20,12 +20,6 @@
         <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Class_Shape"/>
       </elementDescriptors>
     </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.classifiertemplateparameter" label="Classifier Template Parameter" description="Create a Classifier Template Parameter" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ClassifierTemplateParameter.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ClassifierTemplateParameter_TemplateParameterLabel"/>
-      </elementDescriptors>
-    </ownedConfigurations>
     <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.comment" label="Comment" description="Create a comment" kind="CreationTool">
       <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Comment.gif"/>
       <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
@@ -33,15 +27,6 @@
       </elementDescriptors>
       <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Comment_Shape"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.component" label="Component" description="Create a component" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Component_Shape"/>
-      </elementDescriptors>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Component_Shape_CN"/>
       </elementDescriptors>
     </ownedConfigurations>
     <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.constraint" label="Constraint" description="Create a constraint" kind="CreationTool">
@@ -69,12 +54,6 @@
       </elementDescriptors>
       <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.DataType_InterfaceNestedClassifierLabel"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createDurationObservation7CreationTool" label="Duration Observation" description="Create new Duration Observation" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/DurationObservation.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.DurationObservation_Shape"/>
       </elementDescriptors>
     </ownedConfigurations>
     <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.enumeration" label="Enumeration" description="Create an enumeration" kind="CreationTool">
@@ -119,24 +98,6 @@
         <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Interface_InterfaceNestedClassifierLabel"/>
       </elementDescriptors>
     </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.instancespecification" label="Instance Specification" description="Create an Instance Specification" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/InstanceSpecification.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InstanceSpecification_Shape"/>
-      </elementDescriptors>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InstanceSpecification_Shape_CN"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.informationitem" label="Information Item" description="Create an Information Item" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/InformationItem.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InformationItem_Shape"/>
-      </elementDescriptors>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InformationItem_Shape_CN"/>
-      </elementDescriptors>
-    </ownedConfigurations>
     <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.primitivetype" label="Primitive Type" description="Create a Primitive Type" kind="CreationTool">
       <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/PrimitiveType.gif"/>
       <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
@@ -155,15 +116,6 @@
         <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.PrimitiveType_InterfaceNestedClassifierLabel"/>
       </elementDescriptors>
     </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.model" label="Model" description="Create a model" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Model.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Model_Shape"/>
-      </elementDescriptors>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Model_Shape_CN"/>
-      </elementDescriptors>
-    </ownedConfigurations>
     <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.operation" label="Operation" description="Create an operation" kind="CreationTool">
       <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Operation.gif"/>
       <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
@@ -180,12 +132,6 @@
       </elementDescriptors>
       <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Operation_PrimitiveTypeOperationLabel"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.OperationTemplateParameter" label="Operation Template Parameter" description="Create an Operation Template Parameter" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/OperationTemplateParameter.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.OperationTemplateParameter_TemplateParameterLabel"/>
       </elementDescriptors>
     </ownedConfigurations>
     <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.package" label="Package" description="Create new Package" kind="CreationTool">
@@ -218,78 +164,9 @@
         <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Property_PrimitiveTypeAttributeLabel"/>
       </elementDescriptors>
     </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.reception" label="Reception" description="Create a reception" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Reception.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Reception_ReceptionLabel"/>
-      </elementDescriptors>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Reception_InterfaceReceptionLabel"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.redefinabletemplatesignature" label="Redefinable Template Signature" description="Create a Redefinable Template Signature" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/RedefinableTemplateSignature.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.RedefinableTemplateSignature_Shape"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.signal" label="Signal" description="Create a signal" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Signal.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Signal_Shape"/>
-      </elementDescriptors>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Signal_Shape_CN"/>
-      </elementDescriptors>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Signal_ClassNestedClassifierLabel"/>
-      </elementDescriptors>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Signal_ComponentNestedClassifierLabel"/>
-      </elementDescriptors>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Signal_InterfaceNestedClassifierLabel"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.slot" label="Slot" description="Create a Slot" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Slot.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Slot_SlotLabel"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.templateparameter" label="Template Parameter" description="Create a Template Parameter" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/TemplateParameter.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.TemplateParameter_TemplateParameterLabel"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.templatesignature" label="Template Signature" description="Create a Template Signature" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/TemplateSignature.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.TemplateSignature_Shape"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createTimeObservation22CreationTool" label="Time Observation" description="Create new Time Observation" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/TimeObservation.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.TimeObservation_Shape"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.connectableelementtemplateparameter" label="Connectable Element Template Parameter" description="Create a Connectable Element Template Parameter" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ConnectableElementTemplateParameter.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ConnectableElementTemplateParameter_TemplateParameterLabel"/>
-      </elementDescriptors>
-    </ownedConfigurations>
   </drawerConfigurations>
   <drawerConfigurations xmi:type="paletteconfiguration:DrawerConfiguration" id="clazz.group.relationships" label="Edges" description="Edges">
     <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.gmf.runtime.diagram.ui" iconPath="/icons/group.gif"/>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.abstraction" label="Abstraction" description="Create an Abstraction" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Abstraction.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Abstraction_Edge"/>
-      </elementDescriptors>
-    </ownedConfigurations>
     <ownedConfigurations xmi:type="paletteconfiguration:StackConfiguration" id="clazz.group.relationships.associations" label="Associations">
       <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.associationdirected" label="Association (Directed)" description="Create a Directed Association" kind="ConnectionTool">
         <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.uml.service.types" iconPath="/icons/Association_none_directed.gif"/>
@@ -328,12 +205,6 @@
         <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.AssociationClass_Edge"/>
       </elementDescriptors>
     </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.containmentlink" label="Containment Link" description="Create a Containment Link" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.uml.diagram.clazz" iconPath="icons/obj16/ContainmentConnection.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Element_ContainmentEdge"/>
-      </elementDescriptors>
-    </ownedConfigurations>
     <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.contextlink" label="Context Link" description="Creation of a context link for a Constraint" kind="ConnectionTool">
       <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Association.gif"/>
       <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
@@ -352,97 +223,16 @@
         <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Dependency_BranchEdge"/>
       </elementDescriptors>
     </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.elementimport" label="Element Import" description="Create a Element Import" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ElementImport.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ElementImport_Edge"/>
-      </elementDescriptors>
-    </ownedConfigurations>
     <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.generalization" label="Generalization" description=" Create a Generalization" kind="ConnectionTool">
       <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Generalization.gif"/>
       <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Generalization_Edge"/>
       </elementDescriptors>
     </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.generalizationset" label="Generalization Set" description="Generalization Set" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/GeneralizationSet.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.GeneralizationSet_Edge"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.informationflowlink" label="Information Flow" description="Create an Information Flow" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/InformationFlow.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InformationFlow_Edge"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.instancespecificationlink" label="Instance Specification" description="Create an Instance Specification" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.uml.diagram.clazz" iconPath="icons/obj16/InstanceLink.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InstanceSpecification_Edge"/>
-      </elementDescriptors>
-    </ownedConfigurations>
     <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.interfacerealization" label="Interface Realization" description="Create an Interface Realization" kind="ConnectionTool">
       <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/InterfaceRealization.gif"/>
       <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InterfaceRealization_Edge"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.link" label="Link" description="Creation of a link for comment, constraint, TimeObservation, DurationObservation" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.papyrus.uml.diagram.clazz" iconPath="icons/obj16/Link.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Comment_AnnotatedElementEdge"/>
-      </elementDescriptors>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.TimeObservation_EventEdge"/>
-      </elementDescriptors>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.DurationObservation_EventEdge"/>
-      </elementDescriptors>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_ConstrainedElementEdge"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.packageimport" label="Package Import" description=" Create a Package Import" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/PackageImport.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.PackageImport_Edge"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.packagemerge" label="Package Merge" description="Create a Package Merge" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/PackageMerge.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.PackageMerge_Edge"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.profileapplication" label="Profile Application" description="Create a Profile Application" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ProfileApplication.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ProfileApplication_Edge"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.realization" label="Realization" description="Create a Realization" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Realization.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Realization_Edge"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.substitution" label="Substitution" description="Create a substitution" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Substitution.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Substitution_Edge"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.templatebinding" label="Template Binding" description="Create a Template Binding" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/TemplateBinding.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.TemplateBinding_Edge"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="clazz.tool.usage" label="Usage" description="Create an Usage" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Usage.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Usage_Edge"/>
       </elementDescriptors>
     </ownedConfigurations>
   </drawerConfigurations>
