@@ -63,14 +63,8 @@
   <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="PrimitiveType" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.PrimitiveType"/>
   </menu>
-  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Profile" displayAllRoles="false">
-    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Profile"/>
-  </menu>
   <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Property" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Property"/>
-  </menu>
-  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="StringExpression" displayAllRoles="false">
-    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.StringExpression"/>
   </menu>
   <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="UseCase" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.UseCase"/>

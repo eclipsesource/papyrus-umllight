@@ -66,7 +66,6 @@
       <childRules xmi:type="gmfdiagrepresentation:ChildRule" xmi:id="_KQVFM9brEeimr-yFskxXQQ" permit="true"/>
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_gNzzsNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.package"/>
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_qVJQENbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.model"/>
-      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_u6fqkNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.profile"/>
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_qajUgNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.comment"/>
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_qfISgNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.constraint"/>
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_qj3BgNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.dependency"/>
@@ -74,10 +73,24 @@
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_5aRcINbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.containmentlink"/>
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_5fq5gNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.contextlink"/>
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_BSHiINbtEeimr-yFskxXQQ" permit="true" element="clazz.tool.link"/>
-      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_HXXpINbtEeimr-yFskxXQQ" permit="true" element="clazz.tool.profileapplication"/>
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_MRfZwNbtEeimr-yFskxXQQ" permit="false" element="clazz.tool.*"/>
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_PvQhINbtEeimr-yFskxXQQ" permit="false" element="create*"/>
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_ToIQINbtEeimr-yFskxXQQ" permit="true"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_ZyzbkNuAEeiz8qHnQ39r-A" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Package_Shape"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_e7PfkNuBEeie-v_cAFusrA" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Package_Shape_CN"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_e7PfkduBEeie-v_cAFusrA" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Model_Shape"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_eDVcoNuAEeiz8qHnQ39r-A" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Model_Shape_CN"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_ePAhINuAEeiz8qHnQ39r-A" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Comment_Shape"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_0483kNuCEeiwaPLBgLi07Q" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Comment_Shape_CN"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_kzBV0NuCEeiwaPLBgLi07Q" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Constraint_PackagedElementShape"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_k5lQ0NuCEeiwaPLBgLi07Q" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Constraint_PackagedElementShape_CN"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_esYZoNuAEeiz8qHnQ39r-A" permit="true" elementTypeID="org.eclipse.papyrus.umldi.PackageImport_Edge"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_j5bGQNuAEeiz8qHnQ39r-A" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Dependency_Edge"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_AOEVsNuDEeiwaPLBgLi07Q" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Comment_AnnotatedElementEdge"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_YqVFsNuCEeiwaPLBgLi07Q" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Constraint_ContextEdge"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_ifUN0NuCEeiwaPLBgLi07Q" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Constraint_ConstrainedElementEdge"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_m9soMNuDEeighZmUYRFaeg" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Element_ContainmentEdge"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_k1YYMNuAEeiz8qHnQ39r-A" permit="false"/>
       <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/palette/UMLLightClassDiagram.paletteconfiguration#/"/>
     </representationKinds>
     <metamodel xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>

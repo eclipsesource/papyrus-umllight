@@ -9,9 +9,6 @@
   <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="Dependency" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Dependency"/>
   </menu>
-  <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="ElementImport" displayAllRoles="false">
-    <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.ElementImport"/>
-  </menu>
   <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="Extend" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Extend"/>
   </menu>
@@ -26,14 +23,5 @@
   </menu>
   <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="PackageImport" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.PackageImport"/>
-  </menu>
-  <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="ProfileApplication" visible="false" displayAllRoles="false">
-    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.ProfileApplication"/>
-  </menu>
-  <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="Realization" displayAllRoles="false">
-    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Realization"/>
-  </menu>
-  <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="Usage" displayAllRoles="false">
-    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Usage"/>
   </menu>
 </ElementCreationMenuModel:Folder>
