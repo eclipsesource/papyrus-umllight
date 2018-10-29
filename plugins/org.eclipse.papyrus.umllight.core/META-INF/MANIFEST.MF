@@ -4,8 +4,7 @@ Bundle-Name: Core
 Bundle-SymbolicName: org.eclipse.papyrus.umllight.core;singleton:=true
 Bundle-Version: 0.0.1.qualifier
 Bundle-Activator: org.eclipse.papyrus.umllight.core.internal.Activator
-Require-Bundle: org.eclipse.ui,
- org.eclipse.core.runtime,
+Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.papyrus.uml.diagram.common;bundle-version="3.2.0",
  org.eclipse.papyrus.infra.architecture;bundle-version="2.0.0",
  org.eclipse.papyrus.uml.service.types;bundle-version="[4.0.0,5.0.0)",

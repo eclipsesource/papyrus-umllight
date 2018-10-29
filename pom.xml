@@ -8,11 +8,7 @@
 	<name>org.eclipse.papyrus.umllight.parent</name>
 	<description>A Papyrus DSML for UML Modeling</description>
 	<inceptionYear>2018</inceptionYear>
-	<modules>
-		<module>plugins/org.eclipse.papyrus.umllight.core</module>
-		<module>plugins/org.eclipse.papyrus.umllight.ui.simplification</module>
-		<module>releng</module>
-	</modules>
+
 	<properties>
 		<!-- plugins versions -->
 		<!-- use 'mvn versions:display-plugin-updates' to check for the latest -->
@@ -27,6 +23,14 @@
 		<!-- release | nightly -->
 		<target.version>0.0.1-SNAPSHOT</target.version>
 	</properties>
+
+	<modules>
+		<module>plugins/org.eclipse.papyrus.umllight.core</module>
+		<module>plugins/org.eclipse.papyrus.umllight.ui.simplification</module>
+		<module>plugins/org.eclipse.papyrus.umllight.ui</module>
+		<module>releng</module>
+	</modules>
+
 	<build>
 		<pluginManagement>
 			<plugins>
