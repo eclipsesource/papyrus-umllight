@@ -10,6 +10,7 @@
 	<inceptionYear>2018</inceptionYear>
 	<modules>
 		<module>plugins/org.eclipse.papyrus.umllight.core</module>
+		<module>plugins/org.eclipse.papyrus.umllight.ui.simplification</module>
 		<module>releng</module>
 	</modules>
 	<properties>

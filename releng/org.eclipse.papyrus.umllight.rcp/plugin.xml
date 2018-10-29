@@ -24,4 +24,22 @@ Apache Software Foundation http://www.apache.org/"/>
       <property name="preferenceCustomization" value="plugin_customization.ini"/>
     </product>
   </extension>
+   
+   <!-- Capabilities preference page to let the user access advanced functionality. -->
+   <extension
+         point="org.eclipse.ui.preferencePages">
+	  <page            
+            category="org.eclipse.ui.preferencePages.Workbench"
+            name="Capabilities"
+            id="org.eclipse.sdk.capabilities">
+            <class class="org.eclipse.ui.activities.ActivityCategoryPreferencePage">
+                <parameter name="allowAdvanced" value="true"/>
+                <parameter name="captionMessage" value="Capabilities allow you to enable or disable various product components. These Capabilities are grouped according to a set of predefined categories." />
+            	<parameter name="activityName" value="&amp;Capabilities:" />
+                <parameter name="categoryName" value="Cate&amp;gories:" />
+            	<parameter name="activityPromptButton" value="&amp;Prompt when enabling capabilities"/>
+            	<parameter name="activityPromptButtonTooltip" value="Prompt when a feature is first used that requires enablement of some capability"/>
+            </class>
+      </page>   
+   </extension>
 </plugin>
