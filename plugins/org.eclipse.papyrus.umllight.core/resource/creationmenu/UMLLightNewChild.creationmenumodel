@@ -45,9 +45,6 @@
   <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="LiteralUnlimitedNatural" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.LiteralUnlimitedNatural"/>
   </menu>
-  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Model" displayAllRoles="false">
-    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Model"/>
-  </menu>
   <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="OpaqueExpression" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.OpaqueExpression"/>
   </menu>

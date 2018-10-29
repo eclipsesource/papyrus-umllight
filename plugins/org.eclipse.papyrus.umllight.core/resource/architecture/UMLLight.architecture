@@ -65,7 +65,6 @@
       </owningRules>
       <childRules xmi:type="gmfdiagrepresentation:ChildRule" xmi:id="_KQVFM9brEeimr-yFskxXQQ" permit="true"/>
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_gNzzsNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.package"/>
-      <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_qVJQENbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.model"/>
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_qajUgNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.comment"/>
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_qfISgNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.constraint"/>
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_qj3BgNbsEeimr-yFskxXQQ" permit="true" element="clazz.tool.dependency"/>
@@ -78,8 +77,6 @@
       <paletteRules xmi:type="gmfdiagrepresentation:PaletteRule" xmi:id="_ToIQINbtEeimr-yFskxXQQ" permit="true"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_ZyzbkNuAEeiz8qHnQ39r-A" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Package_Shape"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_e7PfkNuBEeie-v_cAFusrA" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Package_Shape_CN"/>
-      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_e7PfkduBEeie-v_cAFusrA" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Model_Shape"/>
-      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_eDVcoNuAEeiz8qHnQ39r-A" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Model_Shape_CN"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_ePAhINuAEeiz8qHnQ39r-A" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Comment_Shape"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_0483kNuCEeiwaPLBgLi07Q" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Comment_Shape_CN"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_kzBV0NuCEeiwaPLBgLi07Q" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Constraint_PackagedElementShape"/>
