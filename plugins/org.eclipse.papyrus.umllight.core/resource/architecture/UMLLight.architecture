@@ -92,6 +92,7 @@
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_m9soMNuDEeighZmUYRFaeg" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Element_ContainmentEdge"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_k1YYMNuAEeiz8qHnQ39r-A" permit="false"/>
       <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/palette/UMLLightClassDiagram.paletteconfiguration#/"/>
+      <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/model/PapyrusUMLClassDiagram.paletteconfiguration#/"/>
     </representationKinds>
     <metamodel xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
   </contexts>
