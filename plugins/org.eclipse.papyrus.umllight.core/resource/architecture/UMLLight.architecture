@@ -3,7 +3,7 @@
   <stakeholders xmi:type="architecture:Stakeholder" xmi:id="_ysbS4NOxEeiTpIcrXWETSQ" id="org.eclipse.papyrus.umllight.modeler" name="UML Light Modeler" description="a stakeholder in charge of UML modeling" concerns="__JaYANOxEeiTpIcrXWETSQ"/>
   <concerns xmi:type="architecture:Concern" xmi:id="__JaYANOxEeiTpIcrXWETSQ" id="org.eclipse.papyrus.umllight.concern.basic" name="Basic UML Modeling" description="The concern of UML Light modeling"/>
   <contexts xmi:type="architecture:ArchitectureDescriptionLanguage" xmi:id="_H1R78NOyEeiTpIcrXWETSQ" id="org.eclipse.papyrus.umllight" name="UML Light" description="UML Light, a simplified subset of UML" icon="platform:/plugin/org.eclipse.papyrus.umllight.core/icons/papyrus.png" defaultViewpoints="_cXaRUNO0Eei48-PIi9TeBw" creationCommandClass="org.eclipse.papyrus.umllight.core.command.CreateUMLLightCommand">
-    <viewpoints xmi:type="architecture:ArchitectureViewpoint" xmi:id="_cXaRUNO0Eei48-PIi9TeBw" id="org.eclipse.papyrus.umllight.viewpoint.basic" name="UML Light" description="UML Light Viewpoint" icon="platform:/plugin/org.eclipse.papyrus.umllight.core/icons/papyrus.png" concerns="__JaYANOxEeiTpIcrXWETSQ" representationKinds="_m8PFgNO1Eei48-PIi9TeBw _KQVFMNbrEeimr-yFskxXQQ _QFSP4Ne7Eei06N6G_WzOfA"/>
+    <viewpoints xmi:type="architecture:ArchitectureViewpoint" xmi:id="_cXaRUNO0Eei48-PIi9TeBw" id="org.eclipse.papyrus.umllight.viewpoint.basic" name="UML Light" description="UML Light Viewpoint" icon="platform:/plugin/org.eclipse.papyrus.umllight.core/icons/papyrus.png" concerns="__JaYANOxEeiTpIcrXWETSQ" representationKinds="_m8PFgNO1Eei48-PIi9TeBw _KQVFMNbrEeimr-yFskxXQQ _QFSP4Ne7Eei06N6G_WzOfA _fPfAUNt4EeiKL9qM2SXqag"/>
     <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.infra.emf/model/infra-emf.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
     <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.infra.gmfdiag.common/model/notation.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
     <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.infra.gmfdiag.common/model/gmfdiag-common.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
@@ -18,6 +18,7 @@
     <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
     <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types.ui/model/uml-advice.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
     <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/types/UMLLightDI.elementtypesconfigurations#_uP7iMNe-Eei45p8ZR9NzBw"/>
+    <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.diagram.statemachine/model/stateMachineDiagram.elementtypesconfigurations#_wYwtMMeDEeSwP_9Vn5UnWg"/>
     <representationKinds xmi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_m8PFgNO1Eei48-PIi9TeBw" id="org.eclipse.papyrus.umllight.diagram.class" name=" Light Class Diagram" description="Simplified version of the class diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/icons/obj16/Diagram_Class.gif" concerns="__JaYANOxEeiTpIcrXWETSQ" implementationID="PapyrusUMLClassDiagram" customStyle="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/style/umllight_style.css" creationCommandClass="org.eclipse.papyrus.uml.diagram.clazz.CreateClassDiagramCommand">
       <modelRules xmi:type="representation:ModelRule" xmi:id="_2WgzYNR_EeiRo86uKpcSsw" permit="true" elementMultiplicity="1" multiplicity="-1"/>
       <owningRules xmi:type="representation:OwningRule" xmi:id="_2wpxsNR_EeiRo86uKpcSsw" permit="true" multiplicity="-1"/>
@@ -89,7 +90,6 @@
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_ifUN0NuCEeiwaPLBgLi07Q" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Constraint_ConstrainedElementEdge"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_m9soMNuDEeighZmUYRFaeg" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Element_ContainmentEdge"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_k1YYMNuAEeiz8qHnQ39r-A" permit="false"/>
-      <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/palette/UMLLightClassDiagram.paletteconfiguration#/"/>
       <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/model/PapyrusUMLClassDiagram.paletteconfiguration#/"/>
     </representationKinds>
     <representationKinds xmi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_QFSP4Ne7Eei06N6G_WzOfA" id="org.eclipse.papyrus.umllight.diagram.package" name=" Light Use Case Diagram" description="Simplified version of the use case diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.usecase/icons/obj16/Diagram_UseCase.gif" concerns="__JaYANOxEeiTpIcrXWETSQ" implementationID="UseCase" customStyle="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/style/umllight_style.css" creationCommandClass="org.eclipse.papyrus.uml.diagram.usecase.CreateUseCaseDiagramCommand">
@@ -123,6 +123,24 @@
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_hAFLgduJEeiEnue7qWPHtw" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Comment_AnnotatedElementEdge"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_vp8-8NuJEeiEnue7qWPHtw" permit="false"/>
       <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/palette/UMLLightUseCaseDiagram.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xmi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_fPfAUNt4EeiKL9qM2SXqag" id="org.eclipse.papyrus.umllight.diagram.statemachine" name=" Light Statemachine Diagram" description="Simplified version of the statemachine diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.statemachine/icons/obj16/Diagram_StateMachine.gif" concerns="__JaYANOxEeiTpIcrXWETSQ" implementationID="PapyrusUMLStateMachineDiagram" customStyle="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/style/umllight_style.css" creationCommandClass="org.eclipse.papyrus.uml.diagram.statemachine.CreateStateMachineDiagramCommand">
+      <modelRules xmi:type="representation:ModelRule" xmi:id="_LMKmgNt5EeiKL9qM2SXqag" permit="true" elementMultiplicity="1" multiplicity="-1"/>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_LnDywNt5EeiKL9qM2SXqag" permit="true" multiplicity="-1"/>
+      <childRules xmi:type="gmfdiagrepresentation:ChildRule" xmi:id="_MTKq0Nt5EeiKL9qM2SXqag" permit="true"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_wiQssNuZEeiC9qMBYIg5kQ" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Region_Shape"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_w3RlUNuXEeiC9qMBYIg5kQ" permit="true" elementTypeID="org.eclipse.papyrus.umldi.StateMachine_Shape"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_0dTQ0NuXEeiC9qMBYIg5kQ" permit="true" elementTypeID="org.eclipse.papyrus.umldi.FinalState_Shape"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_0uxbUNuXEeiC9qMBYIg5kQ" permit="true" elementTypeID="org.eclipse.papyrus.umldi.State_Shape"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_01jYwNuXEeiC9qMBYIg5kQ" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Pseudostate_InitialShape"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_0_QHUNuXEeiC9qMBYIg5kQ" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Pseudostate_ChoiceShape"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_1HCxYNuXEeiC9qMBYIg5kQ" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Pseudostate_JunktionShape"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_1TOzQNuXEeiC9qMBYIg5kQ" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Comment_Shape"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_IvILQNuYEeiC9qMBYIg5kQ" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Transition_InternalTransitionLabel"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_LZ1eANuYEeiC9qMBYIg5kQ" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Comment_AnnotatedElementEdge"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_wqCvsNuZEeiC9qMBYIg5kQ" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Transition_Edge"/>
+      <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_TpWdINuYEeiC9qMBYIg5kQ" permit="false" elementTypeID="*"/>
+      <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/palette/UMLLightStateMachineDiagram.paletteconfiguration#/"/>
     </representationKinds>
     <metamodel xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
   </contexts>
