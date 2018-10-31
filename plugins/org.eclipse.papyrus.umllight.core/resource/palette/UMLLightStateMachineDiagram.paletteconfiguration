@@ -1,65 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<paletteconfiguration:PaletteConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.8" id="org.eclipse.papyrus.umllight.diagram.statemachine.paletteconfiguration" label="UMLLightStateMachineDiagram Palette" description="This is the palette of UMLLightStateMachineDiagram">
-  <drawerConfigurations xmi:type="paletteconfiguration:DrawerConfiguration" id="createNodesGroup" label="Nodes" description="">
-    <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.gmf.runtime.diagram.ui" iconPath="/icons/group.gif"/>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="statemachine.createNodesGroup.state" label="State" description="State" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/State.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.State_Shape"/>
+<paletteconfiguration:PaletteConfiguration
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2"
+    xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.8"
+    id="org.eclipse.papyrus.umllight.diagram.statemachine.paletteconfiguration"
+    label="UMLLightStateMachineDiagram Palette"
+    description="This is the palette of UMLLightStateMachineDiagram">
+  <drawerConfigurations
+      xmi:type="paletteconfiguration:DrawerConfiguration"
+      id="createNodesGroup"
+      label="Nodes"
+      description="">
+    <icon xmi:type="paletteconfiguration:IconDescriptor"
+        pluginID="org.eclipse.gmf.runtime.diagram.ui"
+        iconPath="/icons/group.gif"/>
+    <ownedConfigurations
+        xmi:type="paletteconfiguration:ToolConfiguration"
+        id="statemachine.createNodesGroup.state"
+        label="State"
+        description="State"
+        kind="CreationTool">
+      <icon
+          xmi:type="paletteconfiguration:IconDescriptor"
+          pluginID="org.eclipse.uml2.uml.edit"
+          iconPath="/icons/full/obj16/State.gif"/>
+      <elementDescriptors
+          xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType
+            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.State_Shape"/>
       </elementDescriptors>
     </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="statemachine.createNodesGroup.initial" label="Initial" description="Initial" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Pseudostate_initial.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Pseudostate_InitialShape"/>
+    <ownedConfigurations
+        xmi:type="paletteconfiguration:ToolConfiguration"
+        id="statemachine.createNodesGroup.initial"
+        label="Initial"
+        description="Initial"
+        kind="CreationTool">
+      <icon
+          xmi:type="paletteconfiguration:IconDescriptor"
+          pluginID="org.eclipse.uml2.uml.edit"
+          iconPath="/icons/full/obj16/Pseudostate_initial.gif"/>
+      <elementDescriptors
+          xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType
+            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Pseudostate_InitialShape"/>
       </elementDescriptors>
     </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="statemachine.createNodesGroup.finalstate" label="FinalState" description="FinalState" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/FinalState.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.FinalState_Shape"/>
+    <ownedConfigurations
+        xmi:type="paletteconfiguration:ToolConfiguration"
+        id="statemachine.createNodesGroup.finalstate"
+        label="FinalState"
+        description="FinalState"
+        kind="CreationTool">
+      <icon
+          xmi:type="paletteconfiguration:IconDescriptor"
+          pluginID="org.eclipse.uml2.uml.edit"
+          iconPath="/icons/full/obj16/FinalState.gif"/>
+      <elementDescriptors
+          xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType
+            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.FinalState_Shape"/>
       </elementDescriptors>
     </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="statemachine.createNodesGroup.choice" label="Choice" description="Choice" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Pseudostate_choice.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Pseudostate_ChoiceShape"/>
+    <ownedConfigurations
+        xmi:type="paletteconfiguration:ToolConfiguration"
+        id="statemachine.createNodesGroup.choice"
+        label="Choice"
+        description="Choice"
+        kind="CreationTool">
+      <icon
+          xmi:type="paletteconfiguration:IconDescriptor"
+          pluginID="org.eclipse.uml2.uml.edit"
+          iconPath="/icons/full/obj16/Pseudostate_choice.gif"/>
+      <elementDescriptors
+          xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType
+            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Pseudostate_ChoiceShape"/>
       </elementDescriptors>
     </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="statemachine.createNodesGroup.junction" label="Junction" description="Junction" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Pseudostate_junction.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Pseudostate_JunctionShape"/>
+    <ownedConfigurations
+        xmi:type="paletteconfiguration:ToolConfiguration"
+        id="statemachine.createNodesGroup.junction"
+        label="Junction"
+        description="Junction"
+        kind="CreationTool">
+      <icon
+          xmi:type="paletteconfiguration:IconDescriptor"
+          pluginID="org.eclipse.uml2.uml.edit"
+          iconPath="/icons/full/obj16/Pseudostate_junction.gif"/>
+      <elementDescriptors
+          xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType
+            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Pseudostate_JunctionShape"/>
       </elementDescriptors>
     </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="statemachine.createNodesGroup.region" label="Region" description="Region" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Region.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Region_Shape"/>
+    <ownedConfigurations
+        xmi:type="paletteconfiguration:ToolConfiguration"
+        id="statemachine.createNodesGroup.region"
+        label="Region"
+        description="Region"
+        kind="CreationTool">
+      <icon
+          xmi:type="paletteconfiguration:IconDescriptor"
+          pluginID="org.eclipse.uml2.uml.edit"
+          iconPath="/icons/full/obj16/Region.gif"/>
+      <elementDescriptors
+          xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType
+            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Region_Shape"/>
       </elementDescriptors>
     </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="statemachine.createNodesGroup.comment" label="Comment" description="Comment" kind="CreationTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Comment.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Comment_Shape"/>
+    <ownedConfigurations
+        xmi:type="paletteconfiguration:ToolConfiguration"
+        id="statemachine.createNodesGroup.comment"
+        label="Comment"
+        description="Comment"
+        kind="CreationTool">
+      <icon
+          xmi:type="paletteconfiguration:IconDescriptor"
+          pluginID="org.eclipse.uml2.uml.edit"
+          iconPath="/icons/full/obj16/Comment.gif"/>
+      <elementDescriptors
+          xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType
+            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Comment_Shape"/>
       </elementDescriptors>
     </ownedConfigurations>
   </drawerConfigurations>
-  <drawerConfigurations xmi:type="paletteconfiguration:DrawerConfiguration" id="createEdgesGroup" label="Edges" description="">
-    <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.gmf.runtime.diagram.ui" iconPath="/icons/group.gif"/>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="statemachine.createEdgesGroup.transition" label="Transition" description="Transition" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Transition_local.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Transition_Edge"/>
+  <drawerConfigurations
+      xmi:type="paletteconfiguration:DrawerConfiguration"
+      id="createEdgesGroup"
+      label="Edges"
+      description="">
+    <icon xmi:type="paletteconfiguration:IconDescriptor"
+        pluginID="org.eclipse.gmf.runtime.diagram.ui"
+        iconPath="/icons/group.gif"/>
+    <ownedConfigurations
+        xmi:type="paletteconfiguration:ToolConfiguration"
+        id="statemachine.createEdgesGroup.transition"
+        label="Transition"
+        description="Transition"
+        kind="ConnectionTool">
+      <icon
+          xmi:type="paletteconfiguration:IconDescriptor"
+          pluginID="org.eclipse.uml2.uml.edit"
+          iconPath="/icons/full/obj16/Transition_local.gif"/>
+      <elementDescriptors
+          xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType
+            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Transition_Edge"/>
       </elementDescriptors>
     </ownedConfigurations>
-    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="statemachine.createEdgesGroup.link" label="Comment Link" description="Creation of a link for comment, constraint" kind="ConnectionTool">
-      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Comment.gif"/>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Comment_AnnotatedElementEdge"/>
+    <ownedConfigurations
+        xmi:type="paletteconfiguration:ToolConfiguration"
+        id="statemachine.createEdgesGroup.link"
+        label="Comment Link"
+        description="Creation of a link for comment, constraint"
+        kind="ConnectionTool">
+      <icon
+          xmi:type="paletteconfiguration:IconDescriptor"
+          pluginID="org.eclipse.papyrus.umllight.core"
+          iconPath="/icons/full/obj16/Link.gif"/>
+      <elementDescriptors
+          xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType
+            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Comment_AnnotatedElementEdge"/>
       </elementDescriptors>
-      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_ConstrainedElementEdge"/>
+      <elementDescriptors
+          xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType
+            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Constraint_ConstrainedElementEdge"/>
       </elementDescriptors>
     </ownedConfigurations>
   </drawerConfigurations>

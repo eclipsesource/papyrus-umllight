@@ -4,131 +4,95 @@
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2"
     xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.8"
-    id="org.eclipse.papyrus.umllight.di.usecase"
+    id="org.eclipse.papyrus.umllight.di.sequence"
     label="UML Light Use Case Diagram Palette"
     description="Palette definition for the Use Case Diagram in the UML Light language.">
   <drawerConfigurations
       xmi:type="paletteconfiguration:DrawerConfiguration"
-      id="usecase.group.nodes"
+      id="sequence.group.nodes"
       label="Nodes"
-      description="Diagram Nodes">
+      description="Diagram node shapes">
     <icon xmi:type="paletteconfiguration:IconDescriptor"
         pluginID="org.eclipse.gmf.runtime.diagram.ui"
         iconPath="/icons/group.gif"/>
     <ownedConfigurations
         xmi:type="paletteconfiguration:ToolConfiguration"
-        id="usecase.tool.package"
-        label="Package"
-        description="Create Package"
+        id="sequence.tool.lifeline"
+        label="Lifeline"
+        description="Create a Lifeline"
         kind="CreationTool">
       <icon
           xmi:type="paletteconfiguration:IconDescriptor"
           pluginID="org.eclipse.uml2.uml.edit"
-          iconPath="/icons/full/obj16/Package.gif"/>
+          iconPath="/icons/full/obj16/Lifeline.gif"/>
       <elementDescriptors
           xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType
             xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Package_Shape_CN"/>
-      </elementDescriptors>
-      <elementDescriptors
-          xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType
-            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Package_Shape"/>
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Lifeline_Shape"/>
       </elementDescriptors>
     </ownedConfigurations>
     <ownedConfigurations
         xmi:type="paletteconfiguration:ToolConfiguration"
-        id="usecase.tool.subject"
-        label="Subject"
-        description="Create Subject"
+        id="sequence.tool.actionExecutionSpecification"
+        label="Action Execution Specification"
+        description="Create an Action Execution Specification"
         kind="CreationTool">
       <icon
           xmi:type="paletteconfiguration:IconDescriptor"
           pluginID="org.eclipse.uml2.uml.edit"
-          iconPath="/icons/full/obj16/Class.gif"/>
+          iconPath="/icons/full/obj16/ActionExecutionSpecification.gif"/>
       <elementDescriptors
           xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType
             xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/types/UMLLightDI.elementtypesconfigurations#org.eclipse.papyrus.umllight.di.Class_SubjectShape"/>
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ActionExecutionSpecification_Shape"/>
       </elementDescriptors>
     </ownedConfigurations>
     <ownedConfigurations
         xmi:type="paletteconfiguration:ToolConfiguration"
-        id="usecase.tool.actor"
-        label="Actor"
-        description="Create Actor"
+        id="sequence.tool.behaviorExecutionSpecification"
+        label="Behavior Execution Specification"
+        description="Create an BehaviorExecutionSpecification"
         kind="CreationTool">
       <icon
           xmi:type="paletteconfiguration:IconDescriptor"
           pluginID="org.eclipse.uml2.uml.edit"
-          iconPath="/icons/full/obj16/Actor.gif"/>
+          iconPath="/icons/full/obj16/BehaviorExecutionSpecification.gif"/>
       <elementDescriptors
           xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType
             xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Actor_Shape"/>
-      </elementDescriptors>
-      <elementDescriptors
-          xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType
-            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Actor_Shape_CCN"/>
-      </elementDescriptors>
-      <elementDescriptors
-          xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType
-            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Actor_Shape_CN"/>
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.BehaviorExecutionSpecification_Shape"/>
       </elementDescriptors>
     </ownedConfigurations>
     <ownedConfigurations
         xmi:type="paletteconfiguration:ToolConfiguration"
-        id="usecase.tool.usecase"
-        label="Use Case"
-        description="Create Use Case"
+        id="sequence.tool.interactionUse"
+        label="Interaction Use"
+        description="Create InteractionUse"
         kind="CreationTool">
       <icon
           xmi:type="paletteconfiguration:IconDescriptor"
           pluginID="org.eclipse.uml2.uml.edit"
-          iconPath="/icons/full/obj16/UseCase.gif"/>
+          iconPath="/icons/full/obj16/InteractionUse.gif"/>
       <elementDescriptors
           xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType
             xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.UseCase_Shape"/>
-      </elementDescriptors>
-      <elementDescriptors
-          xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType
-            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.UseCase_Shape_CCN"/>
-      </elementDescriptors>
-      <elementDescriptors
-          xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType
-            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.UseCase_Shape_CN"/>
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.InteractionUse_Shape"/>
       </elementDescriptors>
     </ownedConfigurations>
     <ownedConfigurations
         xmi:type="paletteconfiguration:ToolConfiguration"
-        id="usecase.tool.comment"
+        id="sequence.tool.comment"
         label="Comment"
-        description="Create Comment"
+        description="Create a comment"
         kind="CreationTool">
       <icon
           xmi:type="paletteconfiguration:IconDescriptor"
           pluginID="org.eclipse.uml2.uml.edit"
           iconPath="/icons/full/obj16/Comment.gif"/>
-      <elementDescriptors
-          xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType
-            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Comment_Shape_CN"/>
-      </elementDescriptors>
       <elementDescriptors
           xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType
@@ -139,85 +103,102 @@
   </drawerConfigurations>
   <drawerConfigurations
       xmi:type="paletteconfiguration:DrawerConfiguration"
-      id="usecase.group.links"
-      label="Links"
-      description="Diagram Links">
+      id="sequence.group.edges"
+      label="Edges"
+      description="Diagram connections">
     <icon xmi:type="paletteconfiguration:IconDescriptor"
         pluginID="org.eclipse.gmf.runtime.diagram.ui"
         iconPath="/icons/group.gif"/>
     <ownedConfigurations
         xmi:type="paletteconfiguration:ToolConfiguration"
-        id="usecase.tool.association"
-        label="Association"
-        description="Create Association Link"
+        id="sequence.tool.message.sync"
+        label="Sync Call Message"
+        description="Create MessageSync"
         kind="ConnectionTool">
       <icon
           xmi:type="paletteconfiguration:IconDescriptor"
           pluginID="org.eclipse.uml2.uml.edit"
-          iconPath="/icons/full/obj16/Association.gif"/>
+          iconPath="/icons/full/obj16/Message_synchCall.gif"/>
       <elementDescriptors
           xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType
             xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.AssociationNonDirected_Edge"/>
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_SynchEdge"/>
       </elementDescriptors>
     </ownedConfigurations>
     <ownedConfigurations
         xmi:type="paletteconfiguration:ToolConfiguration"
-        id="usecase.tool.generalization"
-        label="Generalization"
-        description="Create Generalization Link"
+        id="sequence.tool.message.async"
+        label="Async Call Message"
+        description="Create MessageAsync"
         kind="ConnectionTool">
       <icon
           xmi:type="paletteconfiguration:IconDescriptor"
           pluginID="org.eclipse.uml2.uml.edit"
-          iconPath="/icons/full/obj16/Generalization.gif"/>
+          iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
       <elementDescriptors
           xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType
             xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Generalization_Edge"/>
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
       </elementDescriptors>
     </ownedConfigurations>
     <ownedConfigurations
         xmi:type="paletteconfiguration:ToolConfiguration"
-        id="usecase.tool.include"
-        label="Include"
-        description="Create Include Link"
+        id="sequence.tool.message.reply"
+        label="Reply Message"
+        description="Create MessageReply"
         kind="ConnectionTool">
       <icon
           xmi:type="paletteconfiguration:IconDescriptor"
           pluginID="org.eclipse.uml2.uml.edit"
-          iconPath="/icons/full/obj16/Include.gif"/>
+          iconPath="/icons/full/obj16/Message_reply.gif"/>
       <elementDescriptors
           xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType
             xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Include_Edge"/>
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_ReplyEdge"/>
       </elementDescriptors>
     </ownedConfigurations>
     <ownedConfigurations
         xmi:type="paletteconfiguration:ToolConfiguration"
-        id="usecase.tool.extend"
-        label="Extend"
-        description="Create Extend"
+        id="sequence.tool.message.create"
+        label="Create Message"
+        description="Create MessageCreate"
         kind="ConnectionTool">
       <icon
           xmi:type="paletteconfiguration:IconDescriptor"
           pluginID="org.eclipse.uml2.uml.edit"
-          iconPath="/icons/full/obj16/Extend.gif"/>
+          iconPath="/icons/full/obj16/Message_createMessage.gif"/>
       <elementDescriptors
           xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType
             xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Extend_Edge"/>
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_CreateEdge"/>
       </elementDescriptors>
     </ownedConfigurations>
     <ownedConfigurations
         xmi:type="paletteconfiguration:ToolConfiguration"
-        id="usecase.tool.commentlink"
-        label="Comment link"
-        description="Create Comment Link"
+        id="sequence.tool.message.delete"
+        label="Delete Message"
+        description="Create MessageDelete"
+        kind="ConnectionTool">
+      <icon
+          xmi:type="paletteconfiguration:IconDescriptor"
+          pluginID="org.eclipse.uml2.uml.edit"
+          iconPath="/icons/full/obj16/Message_deleteMessage.gif"/>
+      <elementDescriptors
+          xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType
+            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
+            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_DeleteEdge"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations
+        xmi:type="paletteconfiguration:ToolConfiguration"
+        id="sequence.tool.commentLink"
+        label="Comment Link"
+        description="Create a comment link"
         kind="ConnectionTool">
       <icon
           xmi:type="paletteconfiguration:IconDescriptor"
