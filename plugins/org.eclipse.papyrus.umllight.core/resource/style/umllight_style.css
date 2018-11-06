@@ -12,7 +12,8 @@
  * lightgray: #F2F8FA and #A9C8D4
  */
 
-* {
+ClassDiagram *,
+UseCaseDiagram * {
 	gradient: none;
 	transparency: 0;
 	lineWidth: 1px;
@@ -27,15 +28,17 @@
 Comment {
 	fillColor: #FFFDDB;
 	shadow: false;
+	gradient: none;
 }
 
 Constraint {
 	fillColor: #FFEBF1;
 	shadow: false;
+	gradient: none;
 }
 
 AssociationClass, Class, DataType, Enumeration, Package, Interface, PrimitiveType,
-UseCase {
+UseCase, StateMachine, State, Region {
 	fillColor: white;
 	lineColor: steelblue;
 	nameBackgroundColor: ghostwhite;
@@ -107,7 +110,8 @@ UseCaseDiagram UseCase {
 	fillColor: ghostwhite;
 }
 
-UseCaseDiagram * {
+UseCaseDiagram *,
+StateMachineDiagram * {
 	elementIcon: false;
 }
 
@@ -121,4 +125,13 @@ Actor {
 	shadow: false;
 	lineColor: steelblue;
 	isFloatingLabelConstrained: true;
+}
+
+StateMachine * {
+	shadow: false;
+	shadowWidth: 0px;
+}
+
+FinalState * {
+	fillColor: white;
 }
