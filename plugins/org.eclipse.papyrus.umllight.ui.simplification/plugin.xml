@@ -323,6 +323,14 @@
             activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
             pattern="org\.eclipse\.papyrus\.uml\.properties\.generation/.*">
       </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            pattern="org\.eclipse\.papyrus\.uml\.diagram\.wizards/org\.eclipse\.papyrus\.uml\.diagram\.wizards\..*">
+      </activityPatternBinding>
+      <activityPatternBinding
+            activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
+            pattern="org\.eclipse\.papyrus\.uml\.perspective/org\.eclipse\.papyrus\.uml\.diagram\.wizards\..*">
+      </activityPatternBinding>
       
       <!-- Equinox -->
       <activity
