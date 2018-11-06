@@ -18,7 +18,7 @@ import org.eclipse.papyrus.infra.core.resource.ModelSet;
 import org.eclipse.papyrus.infra.emf.utils.EMFHelper;
 
 /**
- * This is the <code>UMLLightArchitecture</code> type. Enjoy.
+ * This is the <code>UMLLightArchitecture</code> type.  Enjoy.
  *
  */
 public class UMLLightArchitecture {
@@ -26,7 +26,7 @@ public class UMLLightArchitecture {
 	public static final String CONTEXT_ID = "org.eclipse.papyrus.umllight";
 
 	public static final String VIEWPOINT_ID = "org.eclipse.papyrus.umllight.viewpoint.basic";
-
+  
 	/**
 	 * Not instantiable by clients.
 	 */
