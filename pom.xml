@@ -26,6 +26,7 @@
 
 	<modules>
 		<module>plugins/org.eclipse.papyrus.umllight.core</module>
+		<module>plugins/org.eclipse.papyrus.umllight.ui.simplification.transforms</module>
 		<module>plugins/org.eclipse.papyrus.umllight.ui.simplification</module>
 		<module>plugins/org.eclipse.papyrus.umllight.ui</module>
 		<module>releng</module>
