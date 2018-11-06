@@ -30,8 +30,10 @@
       startupMessageRect="7,4,445,16"
       startupForegroundColor="888A85" />
    <launcher name="papyrus-umllight">
-      <linux icon="../org.eclipse.papyrus.umllight.rcp/icons/UMLLightIcon.xpm"/>
-      <win useIco="false">
+      <linux icon="../org.eclipse.papyrus.umllight.rcp/icons/uml-light.xpm"/>
+      <macosx icon="../org.eclipse.papyrus.umllight.rcp/icons/uml-light.icns"/>
+      <win useIco="true">
+         <ico path="../org.eclipse.papyrus.umllight.rcp/icons/uml-light.ico"/>
          <bmp/>
       </win>
    </launcher>
@@ -97,6 +99,7 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
    <features>
       <feature id="org.eclipse.platform"/>
       <feature id="org.eclipse.papyrus.umllight.feature"/>
+      <feature id="org.eclipse.papyrus.umllight.rcp.feature"/>
       <feature id="org.eclipse.equinox.p2.user.ui"/>
       <feature id="org.eclipse.rcp"/>
       <feature id="org.eclipse.papyrus.editor.feature"/>
