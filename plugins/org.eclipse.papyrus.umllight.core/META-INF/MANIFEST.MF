@@ -12,8 +12,12 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.papyrus.infra.viewpoints.policy;bundle-version="[3.0.0,4.0.0)",
  org.eclipse.papyrus.uml.diagram.clazz;bundle-version="3.0.100",
  org.eclipse.papyrus.uml.diagram.statemachine;bundle-version="3.1.0",
- org.eclipse.papyrus.uml.diagram.usecase;bundle-version="[4.0.0,5.0.0)"
+ org.eclipse.papyrus.uml.diagram.usecase;bundle-version="[4.0.0,5.0.0)",
+ org.eclipse.papyrus.uml.diagram.sequence;bundle-version="[5.0.100,6.0.0)",
+ org.eclipse.papyrus.infra.gmfdiag.assistant;bundle-version="1.3.100"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: org.eclipse.papyrus.umllight.core
 Bundle-ActivationPolicy: lazy
-Export-Package: org.eclipse.papyrus.umllight.core.internal
+Export-Package: org.eclipse.papyrus.umllight.core.internal,
+ org.eclipse.papyrus.umllight.core.internal.provider;x-internal:=true
+Import-Package: com.google.common.collect;version="21.0.0"

@@ -20,5 +20,16 @@
          point="org.eclipse.papyrus.infra.gmfdiag.assistant.modelProviders">
       <modelProvider
             uri="resource/assistant/UMLLightUseCase.assistants"></modelProvider>
+      <modelProvider
+            uri="resource/assistant/UMLLightSequence.assistants"></modelProvider>
+   </extension>
+   <extension
+         point="org.eclipse.gmf.runtime.diagram.ui.editpolicyProviders">
+      <editpolicyProvider
+            class="org.eclipse.papyrus.umllight.core.internal.provider.SequenceEditPolicyProvider">
+         <Priority
+               name="High">
+         </Priority>
+      </editpolicyProvider>
    </extension>
 </plugin>

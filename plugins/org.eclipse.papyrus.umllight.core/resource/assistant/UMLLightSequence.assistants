@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assistant:ModelingAssistantProvider xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assistant="http://www.eclipse.org/Papyrus/2014/diagram/assistant" xmlns:filters="http://www.eclipse.org/Papyrus/2014/common/filters" name="UML Light Sequence Diagram Assistants">
+  <ownedFilter xsi:type="assistant:ElementTypeFilter" name="Interaction" elementTypeID="org.eclipse.papyrus.umldi.Interaction_Shape"/>
+  <ownedFilter xsi:type="assistant:ElementTypeFilter" name="Lifeline" elementTypeID="org.eclipse.papyrus.umldi.Lifeline_Shape"/>
+  <ownedFilter xsi:type="assistant:ElementTypeFilter" name="Action Execution Specification" elementTypeID="org.eclipse.papyrus.umldi.ActionExecutionSpecification_Shape"/>
+  <ownedFilter xsi:type="assistant:ElementTypeFilter" name="Behavior Execution Specification" elementTypeID="org.eclipse.papyrus.umldi.BehaviorExecutionSpecification_Shape"/>
+  <ownedFilter xsi:type="assistant:ElementTypeFilter" name="Message" elementTypeID="org.eclipse.papyrus.umldi.Message_Edge"/>
+  <ownedFilter xsi:type="assistant:ElementTypeFilter" name="Comment" elementTypeID="org.eclipse.papyrus.umldi.Comment_Shape"/>
+  <ownedFilter xsi:type="filters:CompoundFilter" name="Execution Specification" filter="//@ownedFilter.2 //@ownedFilter.3" operator="or"/>
+  <ownedFilter xsi:type="filters:CompoundFilter" name="Lifeline or Execution Specification" filter="//@ownedFilter.1 //@ownedFilter.6" operator="or"/>
+  <ownedFilter xsi:type="filters:CompoundFilter" name="Lifeline, Execution Specification, or Message" filter="//@ownedFilter.7 //@ownedFilter.4" operator="or"/>
+  <popupAssistant elementTypeID="org.eclipse.papyrus.umldi.Lifeline_Shape" filter="//@ownedFilter.0"/>
+  <popupAssistant elementTypeID="org.eclipse.papyrus.umldi.ActionExecutionSpecification_Shape" filter="//@ownedFilter.1"/>
+  <popupAssistant elementTypeID="org.eclipse.papyrus.umldi.BehaviorExecutionSpecification_Shape" filter="//@ownedFilter.1"/>
+  <popupAssistant elementTypeID="org.eclipse.papyrus.umldi.Comment_Shape" filter="//@ownedFilter.1"/>
+  <connectionAssistant elementTypeID="org.eclipse.papyrus.umldi.Message_SynchEdge" sourceFilter="//@ownedFilter.7" targetFilter="//@ownedFilter.7"/>
+  <connectionAssistant elementTypeID="org.eclipse.papyrus.umldi.Message_AsynchEdge" sourceFilter="//@ownedFilter.7" targetFilter="//@ownedFilter.7"/>
+  <connectionAssistant elementTypeID="org.eclipse.papyrus.umldi.Message_ReplyEdge" sourceFilter="//@ownedFilter.6" targetFilter="//@ownedFilter.7"/>
+  <connectionAssistant elementTypeID="org.eclipse.papyrus.umldi.Message_CreateEdge" sourceFilter="//@ownedFilter.7" targetFilter="//@ownedFilter.1"/>
+  <connectionAssistant elementTypeID="org.eclipse.papyrus.umldi.Message_DeleteEdge" sourceFilter="//@ownedFilter.7" targetFilter="//@ownedFilter.1"/>
+  <connectionAssistant elementTypeID="org.eclipse.papyrus.umldi.Comment_AnnotatedElementEdge" sourceFilter="//@ownedFilter.5" targetFilter="//@ownedFilter.8"/>
+  <elementTypeID>org.eclipse.papyrus.umldi.Interaction_Shape</elementTypeID>
+  <elementTypeID>org.eclipse.papyrus.umldi.Lifeline_Shape</elementTypeID>
+  <elementTypeID>org.eclipse.papyrus.umldi.ActionExecutionSpecification_Shape</elementTypeID>
+  <elementTypeID>org.eclipse.papyrus.umldi.BehaviorExecutionSpecification_Shape</elementTypeID>
+  <elementTypeID>org.eclipse.papyrus.umldi.Comment_Shape</elementTypeID>
+  <elementTypeID>org.eclipse.papyrus.umldi.Message_SynchEdge</elementTypeID>
+  <elementTypeID>org.eclipse.papyrus.umldi.Message_AsynchEdge</elementTypeID>
+  <elementTypeID>org.eclipse.papyrus.umldi.Message_ReplyEdge</elementTypeID>
+  <elementTypeID>org.eclipse.papyrus.umldi.Message_CreateEdge</elementTypeID>
+  <elementTypeID>org.eclipse.papyrus.umldi.Message_DeleteEdge</elementTypeID>
+  <elementTypeID>org.eclipse.papyrus.umldi.Comment_AnnotatedElementEdge</elementTypeID>
+  <relationshipTypeID>org.eclipse.papyrus.umldi.Message_SynchEdge</relationshipTypeID>
+  <relationshipTypeID>org.eclipse.papyrus.umldi.Message_AsynchEdge</relationshipTypeID>
+  <relationshipTypeID>org.eclipse.papyrus.umldi.Message_ReplyEdge</relationshipTypeID>
+  <relationshipTypeID>org.eclipse.papyrus.umldi.Message_CreateEdge</relationshipTypeID>
+  <relationshipTypeID>org.eclipse.papyrus.umldi.Message_DeleteEdge</relationshipTypeID>
+  <relationshipTypeID>org.eclipse.papyrus.umldi.Comment_AnnotatedElementEdge</relationshipTypeID>
+</assistant:ModelingAssistantProvider>

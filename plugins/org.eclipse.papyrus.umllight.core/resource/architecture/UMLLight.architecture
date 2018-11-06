@@ -3,7 +3,7 @@
   <stakeholders xmi:type="architecture:Stakeholder" xmi:id="_ysbS4NOxEeiTpIcrXWETSQ" id="org.eclipse.papyrus.umllight.modeler" name="UML Light Modeler" description="a stakeholder in charge of UML modeling" concerns="__JaYANOxEeiTpIcrXWETSQ"/>
   <concerns xmi:type="architecture:Concern" xmi:id="__JaYANOxEeiTpIcrXWETSQ" id="org.eclipse.papyrus.umllight.concern.basic" name="Basic UML Modeling" description="The concern of UML Light modeling"/>
   <contexts xmi:type="architecture:ArchitectureDescriptionLanguage" xmi:id="_H1R78NOyEeiTpIcrXWETSQ" id="org.eclipse.papyrus.umllight" name="UML Light" description="UML Light, a simplified subset of UML" icon="platform:/plugin/org.eclipse.papyrus.umllight.core/icons/papyrus.png" defaultViewpoints="_cXaRUNO0Eei48-PIi9TeBw" creationCommandClass="org.eclipse.papyrus.umllight.core.command.CreateUMLLightCommand">
-    <viewpoints xmi:type="architecture:ArchitectureViewpoint" xmi:id="_cXaRUNO0Eei48-PIi9TeBw" id="org.eclipse.papyrus.umllight.viewpoint.basic" name="UML Light" description="UML Light Viewpoint" icon="platform:/plugin/org.eclipse.papyrus.umllight.core/icons/papyrus.png" concerns="__JaYANOxEeiTpIcrXWETSQ" representationKinds="_m8PFgNO1Eei48-PIi9TeBw _KQVFMNbrEeimr-yFskxXQQ _QFSP4Ne7Eei06N6G_WzOfA _fPfAUNt4EeiKL9qM2SXqag"/>
+    <viewpoints xmi:type="architecture:ArchitectureViewpoint" xmi:id="_cXaRUNO0Eei48-PIi9TeBw" id="org.eclipse.papyrus.umllight.viewpoint.basic" name="UML Light" description="UML Light Viewpoint" icon="platform:/plugin/org.eclipse.papyrus.umllight.core/icons/papyrus.png" concerns="__JaYANOxEeiTpIcrXWETSQ" representationKinds="_m8PFgNO1Eei48-PIi9TeBw _KQVFMNbrEeimr-yFskxXQQ _QFSP4Ne7Eei06N6G_WzOfA _fPfAUNt4EeiKL9qM2SXqag _tSZdkNyNEeied6dzn3Rt8g"/>
     <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.infra.emf/model/infra-emf.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
     <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.infra.gmfdiag.common/model/notation.elementtypesconfigurations#_ScP1oFYCEeS0WsAAtVmToA"/>
     <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.infra.gmfdiag.common/model/gmfdiag-common.elementtypesconfigurations#_rWI4YHPzEeSnGJwaJWHCSg"/>
@@ -141,6 +141,41 @@
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_wqCvsNuZEeiC9qMBYIg5kQ" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Transition_Edge"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_TpWdINuYEeiC9qMBYIg5kQ" permit="false" elementTypeID="*"/>
       <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/palette/UMLLightStateMachineDiagram.paletteconfiguration#/"/>
+    </representationKinds>
+    <representationKinds xmi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_tSZdkNyNEeied6dzn3Rt8g" id="org.eclipse.papyrus.umllight.di.sequence" name="Light Sequence Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.sequence/icons/obj16/Diagram_Sequence.gif" implementationID="PapyrusUMLSequenceDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.sequence.CreateSequenceDiagramCommand">
+      <concerns xmi:type="architecture:Concern" href="file:/Users/damus/git/Papyrus/plugins/uml/architecture/org.eclipse.papyrus.uml.architecture/model/uml.architecture#_HQhf5MSYEeaKZJ_pGfaSiA"/>
+      <modelRules xmi:type="representation:ModelRule" xmi:id="_tSZdkdyNEeied6dzn3Rt8g" permit="true" elementMultiplicity="1" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </modelRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_tSZdktyNEeied6dzn3Rt8g" permit="true" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_tSZdk9yNEeied6dzn3Rt8g" permit="true" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        <newModelPath xmi:type="representation:ModelAutoCreate" xmi:id="_tSaEoNyNEeied6dzn3Rt8g" creationType="org.eclipse.papyrus.uml.Interaction">
+          <feature xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/classifierBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_tSaEodyNEeied6dzn3Rt8g" permit="true" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        <newModelPath xmi:type="representation:ModelAutoCreate" xmi:id="_tSaEotyNEeied6dzn3Rt8g" creationType="org.eclipse.papyrus.uml.Interaction">
+          <feature xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/ownedBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_tSaEo9yNEeied6dzn3Rt8g" permit="true" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+        <newModelPath xmi:type="representation:ModelAutoCreate" xmi:id="_tSaEpNyNEeied6dzn3Rt8g" creationType="org.eclipse.papyrus.uml.Interaction">
+          <feature xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_tSaEpdyNEeied6dzn3Rt8g" permit="true" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+        <newModelPath xmi:type="representation:ModelAutoCreate" xmi:id="_tSaEptyNEeied6dzn3Rt8g" creationType="org.eclipse.papyrus.uml.Interaction">
+          <feature xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/classifierBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <childRules xmi:type="gmfdiagrepresentation:ChildRule" xmi:id="_tSaEp9yNEeied6dzn3Rt8g" permit="true"/>
+      <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/palette/UMLLightSequenceDiagram.paletteconfiguration#/"/>
     </representationKinds>
     <metamodel xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
   </contexts>
