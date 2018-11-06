@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde?>
+<!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
+<target name="UML Light Target Platform - 2018-12 Nightly" sequenceNumber="1541465627">
+  <locations>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.platform.feature.group" version="4.9.0.v20180906-1121"/>
+      <unit id="org.eclipse.sdk.feature.group" version="4.9.0.v20180906-1121"/>
+      <unit id="org.eclipse.rcp.feature.group" version="4.9.0.v20180906-1121"/>
+      <unit id="org.eclipse.jdt.feature.group" version="3.15.0.v20180906-0745"/>
+      <unit id="org.eclipse.equinox.p2.discovery.feature.feature.group" version="1.2.100.v20180822-1357"/>
+      <unit id="org.eclipse.equinox.executable.feature.group" version="3.8.100.v20180827-1352"/>
+      <unit id="org.eclipse.draw2d" version="3.10.100.201606061308"/>
+      <unit id="org.eclipse.gef" version="3.11.0.201606061308"/>
+      <unit id="org.eclipse.m2m.qvt.oml.sdk.feature.group" version="3.9.0.v20180911-0720"/>
+      <unit id="org.eclipse.emf.sdk.feature.group" version="2.15.0.v20180905-1732"/>
+      <unit id="org.eclipse.xsd.sdk.feature.group" version="2.15.0.v20180722-1116"/>
+      <unit id="org.eclipse.emf.validation.sdk.feature.group" version="1.12.0.201805030717"/>
+      <unit id="org.eclipse.emf.transaction.sdk.feature.group" version="1.12.0.201805140824"/>
+      <unit id="org.eclipse.emf.workspace.feature.group" version="1.12.0.201805140824"/>
+      <unit id="org.eclipse.gmf.runtime.notation.sdk.feature.group" version="1.12.0.201805221301"/>
+      <unit id="org.eclipse.gmf.runtime.sdk.feature.group" version="1.12.0.201806010809"/>
+      <unit id="org.eclipse.uml2.sdk.feature.group" version="5.4.1.v20180903-1400"/>
+      <repository id="eclipse-platform" location="http://download.eclipse.org/releases/2018-09/"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.egit.feature.group" version="5.1.3.201810200350-r"/>
+      <unit id="org.eclipse.jgit.feature.group" version="5.1.3.201810200350-r"/>
+      <repository id="egit" location="http://download.eclipse.org/egit/updates-5.1.3"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.apache.commons.io" version="2.2.0.v201405211200"/>
+      <unit id="org.apache.commons.io.source" version="2.2.0.v201405211200"/>
+      <unit id="com.google.inject" version="3.0.0.v201605172100"/>
+      <unit id="com.google.guava" version="21.0.0.v20170206-1425"/>
+      <unit id="com.google.guava.source" version="21.0.0.v20170206-1425"/>
+      <unit id="javaewah" version="1.1.6.v20160919-1400"/>
+      <unit id="org.apache.commons.compress" version="1.15.0.v20180119-1613"/>
+      <unit id="org.apache.commons.lang" version="2.6.0.v201404270220"/>
+      <unit id="org.kohsuke.args4j" version="2.33.0.v20160323-2218"/>
+      <unit id="org.mockito" version="1.9.5.v201605172210"/>
+      <unit id="org.hamcrest" version="1.1.0.v20090501071000"/>
+      <unit id="org.hamcrest.library" version="1.3.0.v20180524-2246"/>
+      <unit id="org.hamcrest.integration" version="1.3.0.v201305210900"/>
+      <unit id="org.hamcrest.text" version="1.1.0.v20090501071000"/>
+      <unit id="org.objenesis" version="1.0.0.v201505121915"/>
+      <repository id="orbit" location="http://download.eclipse.org/tools/orbit/downloads/drops/S20181031145145/repository/"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.papyrus.sdk.feature.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.papyrus.infra.gmfdiag.feature.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.papyrus.infra.services.feature.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.papyrus.views.properties.toolsmiths" version="0.0.0"/>
+      <unit id="org.eclipse.papyrus.uml.assistants.feature.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.papyrus.toolsmiths.feature.feature.group" version="0.0.0"/>
+      <repository id="papyrus" location="http://download.eclipse.org/modeling/mdt/papyrus/updates/nightly/master"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.papyrus.compare.feature.feature.group" version="0.0.0"/>
+      <repository location="http://download.eclipse.org/modeling/mdt/papyrus/components/compare/updates/nightly/latest/"/>
+    </location>
+  </locations>
+</target>

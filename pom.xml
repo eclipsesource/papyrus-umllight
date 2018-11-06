@@ -17,10 +17,10 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.source>1.8</java.source>
 		<java.target>1.8</java.target>
-		<target.eclipseversion>photon</target.eclipseversion>
-		<!-- photon | oxygen -->
-		<target.branch>release</target.branch>
+		<!-- r2018-12 | photon | oxygen -->
+		<target.eclipseversion>r2018-12</target.eclipseversion>
 		<!-- release | nightly -->
+		<target.branch>nightly</target.branch>
 		<target.version>0.0.1-SNAPSHOT</target.version>
 	</properties>
 
@@ -150,6 +150,11 @@
 						<environment>
 							<os>linux</os>
 							<ws>gtk</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+							<os>macosx</os>
+							<ws>cocoa</ws>
 							<arch>x86_64</arch>
 						</environment>
 						<!-- <environment><os>macosx</os><ws>cocoa</ws><arch>x86_64</arch></environment>-->
