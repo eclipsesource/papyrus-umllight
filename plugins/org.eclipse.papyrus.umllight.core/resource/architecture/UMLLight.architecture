@@ -142,8 +142,7 @@
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_TpWdINuYEeiC9qMBYIg5kQ" permit="false" elementTypeID="*"/>
       <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/palette/UMLLightStateMachineDiagram.paletteconfiguration#/"/>
     </representationKinds>
-    <representationKinds xmi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_tSZdkNyNEeied6dzn3Rt8g" id="org.eclipse.papyrus.umllight.di.sequence" name="Light Sequence Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.sequence/icons/obj16/Diagram_Sequence.gif" implementationID="PapyrusUMLSequenceDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.sequence.CreateSequenceDiagramCommand">
-      <concerns xmi:type="architecture:Concern" href="file:/Users/damus/git/Papyrus/plugins/uml/architecture/org.eclipse.papyrus.uml.architecture/model/uml.architecture#_HQhf5MSYEeaKZJ_pGfaSiA"/>
+    <representationKinds xmi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_tSZdkNyNEeied6dzn3Rt8g" id="org.eclipse.papyrus.umllight.di.sequence" name="Light Sequence Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.sequence/icons/obj16/Diagram_Sequence.gif" concerns="__JaYANOxEeiTpIcrXWETSQ" implementationID="PapyrusUMLSequenceDiagram" creationCommandClass="org.eclipse.papyrus.uml.diagram.sequence.CreateSequenceDiagramCommand">
       <modelRules xmi:type="representation:ModelRule" xmi:id="_tSZdkdyNEeied6dzn3Rt8g" permit="true" elementMultiplicity="1" multiplicity="-1">
         <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
       </modelRules>
