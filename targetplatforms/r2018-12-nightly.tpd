@@ -1,6 +1,6 @@
 target "UML Light Target Platform - 2018-12 Nightly" with source requirements
 
-location "http://download.eclipse.org/releases/2018-12/" eclipse-photon {
+location "http://download.eclipse.org/releases/2018-09/" eclipse-platform {
 	org.eclipse.platform.feature.group
 	org.eclipse.sdk.feature.group
 	org.eclipse.rcp.feature.group
@@ -45,14 +45,14 @@ location orbit "http://download.eclipse.org/tools/orbit/downloads/drops/S2018103
 }
 
 location papyrus "http://download.eclipse.org/modeling/mdt/papyrus/updates/nightly/master" {
-	org.eclipse.papyrus.sdk.feature.feature.group
-	org.eclipse.papyrus.infra.gmfdiag.feature.feature.group
-	org.eclipse.papyrus.infra.services.feature.feature.group
-	org.eclipse.papyrus.views.properties.toolsmiths
-	org.eclipse.papyrus.uml.assistants.feature.feature.group
-	org.eclipse.papyrus.toolsmiths.feature.feature.group
+	org.eclipse.papyrus.sdk.feature.feature.group lazy
+	org.eclipse.papyrus.infra.gmfdiag.feature.feature.group lazy
+	org.eclipse.papyrus.infra.services.feature.feature.group lazy
+	org.eclipse.papyrus.views.properties.toolsmiths lazy
+	org.eclipse.papyrus.uml.assistants.feature.feature.group lazy
+	org.eclipse.papyrus.toolsmiths.feature.feature.group lazy
 }
 // Using nightly version of Papyrus compare for now because the latest stable version has Photon incompatibilities 
 location "http://download.eclipse.org/modeling/mdt/papyrus/components/compare/updates/nightly/latest/" {
-	org.eclipse.papyrus.compare.feature.feature.group 
+	org.eclipse.papyrus.compare.feature.feature.group lazy
 }
