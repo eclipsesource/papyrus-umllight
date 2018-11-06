@@ -1,1 +1,124 @@
 @charset "UTF-8";
+
+/**
+ * Color combinations (fill and border)
+ * ------------------------------------
+ * yellow:    #FFFDDB and #FFEA00
+ * orange:    #FFF0D6 and #FFA200
+ * red:       #FFEBF1 and #DB1A54
+ * blue:      #EDFBFF and #109DC4
+ * turquoise: #EDFFFE and #10C4AD
+ * green:     #EDFFF0 and #10C452
+ * lightgray: #F2F8FA and #A9C8D4
+ */
+
+* {
+	gradient: none;
+	transparency: 0;
+	lineWidth: 1px;
+	elementIcon: true;
+	shadow: true;
+	shadowWidth: 2px;
+	shadowColor: darkgray;
+	radiusWidth: 3px;
+	radiusHeight: 3px;
+}
+
+Comment {
+	fillColor: #FFFDDB;
+	shadow: false;
+}
+
+Constraint {
+	fillColor: #FFEBF1;
+	shadow: false;
+}
+
+AssociationClass, Class, DataType, Enumeration, Package, Interface, PrimitiveType,
+UseCase {
+	fillColor: white;
+	lineColor: steelblue;
+	nameBackgroundColor: ghostwhite;
+}
+
+/* Line between member end classes should be black, we but can only style complete AssociationClass */
+AssociationClass {
+	lineColor: #000000;
+}
+
+Package {
+	fillColor: white;
+}
+
+/* hide compartments by default */
+AssociationClass > Compartment,
+Class > Compartment,
+DataType > Compartment,
+Interface > Compartment {
+	visible: false;
+}
+
+/* show attribute compartment without title */
+AssociationClass > Compartment[kind="attributes"],
+Class > Compartment[kind="attributes"],
+DataType > Compartment[kind="attributes"],
+Interface > Compartment[kind="attributes"]
+AssociationClass > Compartment[kind="operations"],
+Class > Compartment[kind="operations"],
+DataType > Compartment[kind="operations"],
+Interface > Compartment[kind="operations"] {
+    visible: true;
+    showTitle: false;
+}
+
+Property {
+	maskLabel: name type multiplicity;
+}
+
+Association > Label {
+	elementIcon: false;
+}
+
+Association > Label:sourceMultiplicity,
+Association > Label:targetMultiplicity {
+	visible: false;
+}
+ 
+Association > Label:sourceRole,
+Association > Label:targetRole {
+	maskLabel: name multiplicity;
+}
+
+Association > Label:name,
+Usage > Label {
+	visible: false;
+}
+
+UseCaseDiagram Class > Compartment[kind="usecases"] {
+    visible: true;
+    showTitle: false;
+}
+
+UseCaseDiagram Class {
+	textAlignment: left;
+}
+
+UseCaseDiagram UseCase {
+	fillColor: ghostwhite;
+}
+
+UseCaseDiagram * {
+	elementIcon: false;
+}
+
+UseCaseDiagram Package {
+	elementIcon: true;
+}
+
+Actor {
+	fillColor: white;
+	elementIcon: false;
+	shadow: false;
+	lineColor: steelblue;
+	isFloatingLabelConstrained: true;
+}
