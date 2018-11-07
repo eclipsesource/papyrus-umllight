@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
    <feature url="features/org.eclipse.papyrus.umllight.feature_0.0.1.qualifier.jar" id="org.eclipse.papyrus.umllight.feature" version="0.0.1.qualifier" os="linux,macosx,win32" arch="x86,x86_64"/>
+   <feature url="features/org.eclipse.papyrus.umllight.rcp.feature_0.0.1.qualifier.jar" id="org.eclipse.papyrus.umllight.rcp.feature" version="0.0.1.qualifier" os="linux,macosx,win32" arch="x86,x86_64"/>
 </site>

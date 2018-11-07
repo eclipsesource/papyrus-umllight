@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.papyrus.umllight.rcp.feature"
+      label="%featureName"
+      version="0.0.1.qualifier"
+      provider-name="%providerName"
+      plugin="org.eclipse.papyrus.umllight.rcp"
+      os="linux,macosx,win32"
+      arch="x86,x86_64">
+
+   <description>
+      This feature provides a stream-lined product for UML based on Papyrus.
+   </description>
+
+	<license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.papyrus.umllight.rcp"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
