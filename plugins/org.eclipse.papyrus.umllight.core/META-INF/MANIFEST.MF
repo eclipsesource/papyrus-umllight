@@ -18,6 +18,8 @@ Require-Bundle: org.eclipse.core.runtime,
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: org.eclipse.papyrus.umllight.core
 Bundle-ActivationPolicy: lazy
-Export-Package: org.eclipse.papyrus.umllight.core.internal,
+Export-Package: org.eclipse.papyrus.umllight.core.command,
+ org.eclipse.papyrus.umllight.core.internal,
+ org.eclipse.papyrus.umllight.core.internal.advice;x-internal:=true,
  org.eclipse.papyrus.umllight.core.internal.provider;x-internal:=true
 Import-Package: com.google.common.collect;version="21.0.0"
