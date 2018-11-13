@@ -4,4 +4,7 @@
     <specializedTypes xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Class"/>
     <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Classifier_SubjectShape"/>
   </elementTypeConfigurations>
+  <adviceBindingsConfigurations xmi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_WTm9EOaSEeiDlPiDRVMD0w" description="Advice to suppress creation of features and other class content in an Interaction." identifier="org.eclipse.papyrus.umllight.di.advice.interactionContents" inheritance="all" editHelperAdviceClassName="org.eclipse.papyrus.umllight.core.internal.advice.InteractionContentsAdvice">
+    <target xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Interaction"/>
+  </adviceBindingsConfigurations>
 </elementtypesconfigurations:ElementTypeSetConfiguration>
