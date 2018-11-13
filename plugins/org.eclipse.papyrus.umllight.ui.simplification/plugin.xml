@@ -538,6 +538,15 @@
          <hiddenToolBarItem
                id="org.eclipse.papyrus.infra.viewpoints.policy.toolbar.diagrams">
          </hiddenToolBarItem>
+         <hiddenToolBarItem
+               id="org.eclipse.papyrus.infra.nattable.toolbar.createnattable">
+         </hiddenToolBarItem>
+         <hiddenToolBarItem
+               id="org.eclipse.papyrus.infra.viewpoints.policy.toolbar.tables.command">
+         </hiddenToolBarItem>
+         <hiddenToolBarItem
+               id="org.eclipse.papyrus.infra.nattable.createFromCatalog.command">
+         </hiddenToolBarItem>
       </perspectiveExtension>
    </extension>
  
