@@ -142,10 +142,13 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.equinox.transforms.xslt" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.papyrus.umllight.ui.simplification.transforms" autoStart="true" startLevel="1" />
+      <property name="osgi.framework.extensions" value="org.eclipse.equinox.transforms.hook" />
    </configurations>
 
    <repositories>
-      <repository location="http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/photon" enabled="true" />
+      <repository location="http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/2018-09" enabled="true" />
    </repositories>
 
    <preferencesInfo>

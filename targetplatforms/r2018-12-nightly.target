@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="UML Light Target Platform - 2018-12 Nightly" sequenceNumber="1541465627">
+<target name="UML Light Target Platform - 2018-12 Nightly" sequenceNumber="1541519008">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.platform.feature.group" version="4.9.0.v20180906-1121"/>
@@ -21,6 +21,8 @@
       <unit id="org.eclipse.gmf.runtime.notation.sdk.feature.group" version="1.12.0.201805221301"/>
       <unit id="org.eclipse.gmf.runtime.sdk.feature.group" version="1.12.0.201806010809"/>
       <unit id="org.eclipse.uml2.sdk.feature.group" version="5.4.1.v20180903-1400"/>
+      <unit id="org.eclipse.equinox.transforms.hook" version="1.2.200.v20180827-1235"/>
+      <unit id="org.eclipse.equinox.transforms.xslt" version="1.0.500.v20180827-1235"/>
       <repository id="eclipse-platform" location="http://download.eclipse.org/releases/2018-09/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">

@@ -1,0 +1,2 @@
+#Bundle ID regex, Resource Path regex, resource path
+org\.eclipse\.papyrus\.infra\.nattable\.common,plugin\.xml,/transforms/nattable.xslt
