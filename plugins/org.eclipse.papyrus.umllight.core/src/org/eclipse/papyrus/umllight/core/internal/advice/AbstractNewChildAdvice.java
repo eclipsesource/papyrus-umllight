@@ -31,6 +31,24 @@ abstract class AbstractNewChildAdvice extends AbstractEditHelperAdvice {
 	}
 
 	@Override
+	public void configureRequest(IEditCommandRequest request) {
+		super.configureRequest(request);
+
+		if (request instanceof CreateElementRequest) {
+			configureCreateRequest((CreateElementRequest) request);
+		}
+	}
+
+	/**
+	 * Implemented by subclasses to optionally configure a create {@code request}.
+	 * 
+	 * @param request the request to configure
+	 */
+	protected void configureCreateRequest(CreateElementRequest request) {
+		// Pass
+	}
+
+	@Override
 	public boolean approveRequest(IEditCommandRequest request) {
 		if (request instanceof CreateElementRequest) {
 			return approveCreateRequest((CreateElementRequest) request);
