@@ -16,4 +16,7 @@
   <adviceBindingsConfigurations xmi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_6iDq8OziEeiBXYlwKyMIDA" description="Advice for editing a UML Light classifier as subject." identifier="org.eclipse.papyrus.umllight.di.advice.classifierAsSubject" inheritance="all" editHelperAdviceClassName="org.eclipse.papyrus.umllight.core.internal.advice.ClassifierAsSubjectAdvice">
     <target xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Classifier"/>
   </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_YdlrwOz9Eeih69FIoM025g" description="Advice for creating relationships of classifiers." identifier="org.eclipse.papyrus.umllight.di.advice.classifierRelationships" inheritance="all" editHelperAdviceClassName="org.eclipse.papyrus.umllight.core.internal.advice.ClassifierRelationshipsAdvice">
+    <target xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Classifier"/>
+  </adviceBindingsConfigurations>
 </elementtypesconfigurations:ElementTypeSetConfiguration>
