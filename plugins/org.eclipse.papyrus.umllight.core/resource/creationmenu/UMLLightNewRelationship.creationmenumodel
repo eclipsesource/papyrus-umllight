@@ -30,4 +30,7 @@
   <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="PackageImport" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.PackageImport"/>
   </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="Transition" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Transition"/>
+  </menu>
 </ElementCreationMenuModel:Folder>

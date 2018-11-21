@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ElementCreationMenuModel:Folder xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" label="New Child">
+<ElementCreationMenuModel:Folder xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel" xmlns:assistant="http://www.eclipse.org/Papyrus/2014/diagram/assistant" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:filters="http://www.eclipse.org/Papyrus/2014/common/filters" label="New Child">
   <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Actor" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Actor"/>
   </menu>
@@ -65,5 +65,29 @@
   </menu>
   <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="UseCase" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.UseCase"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="StateMachine" role="ownedBehavior" displayAllRoles="false">
+    <filter xsi:type="filters:CompoundFilter" operator="not">
+      <filter xsi:type="assistant:ElementTypeFilter" href="../assistant/UMLLightUseCase.assistants#//@ownedFilter.2"/>
+    </filter>
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.StateMachine"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="StateMachine" role="packagedElement" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.StateMachine"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Initial State" role="subvertex" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../types/UMLLight.elementtypesconfigurations#_ICEUQO2cEeivp-E0jxzQrg"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Final State" role="subvertex" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.FinalState"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Choice" role="subvertex" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../types/UMLLight.elementtypesconfigurations#_MBXwgO2eEeivp-E0jxzQrg"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Junction" role="subvertex" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../types/UMLLight.elementtypesconfigurations#_MReCAO2eEeivp-E0jxzQrg"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="State" role="subvertex" displayAllRoles="false">
+    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.State"/>
   </menu>
 </ElementCreationMenuModel:Folder>
