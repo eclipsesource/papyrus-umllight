@@ -20,8 +20,20 @@
     <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/types/UMLLightDI.elementtypesconfigurations#_uP7iMNe-Eei45p8ZR9NzBw"/>
     <elementTypes xmi:type="elementtypesconfigurations:ElementTypeSetConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.diagram.statemachine/model/stateMachineDiagram.elementtypesconfigurations#_wYwtMMeDEeSwP_9Vn5UnWg"/>
     <representationKinds xmi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_m8PFgNO1Eei48-PIi9TeBw" id="org.eclipse.papyrus.umllight.diagram.class" name="Light Class Diagram" description="Simplified version of the class diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.clazz/icons/obj16/Diagram_Class.gif" concerns="__JaYANOxEeiTpIcrXWETSQ" implementationID="PapyrusUMLClassDiagram" customStyle="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/style/umllight_style.css" creationCommandClass="org.eclipse.papyrus.uml.diagram.clazz.CreateClassDiagramCommand">
-      <modelRules xmi:type="representation:ModelRule" xmi:id="_2WgzYNR_EeiRo86uKpcSsw" permit="true" elementMultiplicity="1" multiplicity="-1"/>
-      <owningRules xmi:type="representation:OwningRule" xmi:id="_2wpxsNR_EeiRo86uKpcSsw" permit="true" multiplicity="-1"/>
+      <modelRules xmi:type="representation:ModelRule" xmi:id="_2WgzYNR_EeiRo86uKpcSsw" permit="false" elementMultiplicity="1" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </modelRules>
+      <modelRules xmi:type="representation:ModelRule" xmi:id="_rZbO8O2SEeitgq1z0sVnow" permit="false" elementMultiplicity="1" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </modelRules>
+      <modelRules xmi:type="representation:ModelRule" xmi:id="_5A0rAO2NEeifX8BMmiNuTQ" permit="true" elementMultiplicity="1" multiplicity="-1"/>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_2wpxsNR_EeiRo86uKpcSsw" permit="false" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_i_1t0O2SEeitgq1z0sVnow" permit="false" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_5A1SEO2NEeifX8BMmiNuTQ" permit="true" multiplicity="-1"/>
       <childRules xmi:type="gmfdiagrepresentation:ChildRule" xmi:id="_3LIuQNR_EeiRo86uKpcSsw" permit="true"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_x331kNtpEeiKL9qM2SXqag" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Constraint_PackagedElementShape"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_nT_ckNtoEeiKL9qM2SXqag" permit="true" elementTypeID="org.eclipse.papyrus.umldi.AssociationClass_Shape"/>
@@ -96,13 +108,19 @@
       <modelRules xmi:type="representation:ModelRule" xmi:id="_QFSP4de7Eei06N6G_WzOfA" permit="true" elementMultiplicity="1" multiplicity="-1">
         <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
       </modelRules>
-      <modelRules xmi:type="representation:ModelRule" xmi:id="_CcRKkNe9EeifX4gM-fXRUA" permit="true" elementMultiplicity="1" multiplicity="-1">
+      <modelRules xmi:type="representation:ModelRule" xmi:id="_CcRKkNe9EeifX4gM-fXRUA" permit="false" elementMultiplicity="1" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </modelRules>
+      <modelRules xmi:type="representation:ModelRule" xmi:id="_xTA4gO2SEeitgq1z0sVnow" permit="true" elementMultiplicity="1" multiplicity="-1">
         <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
       </modelRules>
       <owningRules xmi:type="representation:OwningRule" xmi:id="_QFSP4te7Eei06N6G_WzOfA" permit="true" multiplicity="-1">
         <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
       </owningRules>
-      <owningRules xmi:type="representation:OwningRule" xmi:id="_CcRKkde9EeifX4gM-fXRUA" permit="true" multiplicity="-1">
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_CcRKkde9EeifX4gM-fXRUA" permit="false" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_zqwzAO2SEeitgq1z0sVnow" permit="true" multiplicity="-1">
         <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
       </owningRules>
       <childRules xmi:type="gmfdiagrepresentation:ChildRule" xmi:id="_QFSP49e7Eei06N6G_WzOfA" permit="true"/>
@@ -125,8 +143,30 @@
       <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/palette/UMLLightUseCaseDiagram.paletteconfiguration#/"/>
     </representationKinds>
     <representationKinds xmi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_fPfAUNt4EeiKL9qM2SXqag" id="org.eclipse.papyrus.umllight.diagram.statemachine" name="Light State Machine Diagram" description="Simplified version of the statemachine diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.statemachine/icons/obj16/Diagram_StateMachine.gif" concerns="__JaYANOxEeiTpIcrXWETSQ" implementationID="PapyrusUMLStateMachineDiagram" customStyle="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/style/umllight_style.css" creationCommandClass="org.eclipse.papyrus.uml.diagram.statemachine.CreateStateMachineDiagramCommand">
-      <modelRules xmi:type="representation:ModelRule" xmi:id="_LMKmgNt5EeiKL9qM2SXqag" permit="true" elementMultiplicity="1" multiplicity="-1"/>
-      <owningRules xmi:type="representation:OwningRule" xmi:id="_LnDywNt5EeiKL9qM2SXqag" permit="true" multiplicity="-1"/>
+      <modelRules xmi:type="representation:ModelRule" xmi:id="_WlPyMO2OEeifX8BMmiNuTQ" permit="true" elementMultiplicity="1" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </modelRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_WlQZQO2OEeifX8BMmiNuTQ" permit="true" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_OyvfMe2OEeifX8BMmiNuTQ" permit="false" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_PLoD0O2PEeifX8BMmiNuTQ" permit="false" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_ErnowO2PEeifX8BMmiNuTQ" permit="true" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        <newModelPath xmi:type="representation:ModelAutoCreate" xmi:id="_Ernowe2PEeifX8BMmiNuTQ" creationType="org.eclipse.papyrus.uml.StateMachine">
+          <feature xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/ownedBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_Ernowu2PEeifX8BMmiNuTQ" permit="true" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+        <newModelPath xmi:type="representation:ModelAutoCreate" xmi:id="_Ernow-2PEeifX8BMmiNuTQ" creationType="org.eclipse.papyrus.uml.StateMachine">
+          <feature xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+        </newModelPath>
+      </owningRules>
       <childRules xmi:type="gmfdiagrepresentation:ChildRule" xmi:id="_MTKq0Nt5EeiKL9qM2SXqag" permit="true"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_wiQssNuZEeiC9qMBYIg5kQ" permit="true" elementTypeID="org.eclipse.papyrus.umldi.Region_Shape"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_w3RlUNuXEeiC9qMBYIg5kQ" permit="true" elementTypeID="org.eclipse.papyrus.umldi.StateMachine_Shape"/>
@@ -149,11 +189,8 @@
       <owningRules xmi:type="representation:OwningRule" xmi:id="_tSZdktyNEeied6dzn3Rt8g" permit="true" multiplicity="-1">
         <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Interaction"/>
       </owningRules>
-      <owningRules xmi:type="representation:OwningRule" xmi:id="_tSZdk9yNEeied6dzn3Rt8g" permit="true" multiplicity="-1">
-        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
-        <newModelPath xmi:type="representation:ModelAutoCreate" xmi:id="_tSaEoNyNEeied6dzn3Rt8g" creationType="org.eclipse.papyrus.uml.Interaction">
-          <feature xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/classifierBehavior"/>
-        </newModelPath>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_tSZdk9yNEeied6dzn3Rt8g" permit="false" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
       </owningRules>
       <owningRules xmi:type="representation:OwningRule" xmi:id="_tSaEodyNEeied6dzn3Rt8g" permit="true" multiplicity="-1">
         <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
@@ -165,12 +202,6 @@
         <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
         <newModelPath xmi:type="representation:ModelAutoCreate" xmi:id="_tSaEpNyNEeied6dzn3Rt8g" creationType="org.eclipse.papyrus.uml.Interaction">
           <feature xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
-        </newModelPath>
-      </owningRules>
-      <owningRules xmi:type="representation:OwningRule" xmi:id="_tSaEpdyNEeied6dzn3Rt8g" permit="true" multiplicity="-1">
-        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
-        <newModelPath xmi:type="representation:ModelAutoCreate" xmi:id="_tSaEptyNEeied6dzn3Rt8g" creationType="org.eclipse.papyrus.uml.Interaction">
-          <feature xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/classifierBehavior"/>
         </newModelPath>
       </owningRules>
       <childRules xmi:type="gmfdiagrepresentation:ChildRule" xmi:id="_tSaEp9yNEeied6dzn3Rt8g" permit="true"/>
