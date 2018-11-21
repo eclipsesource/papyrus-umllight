@@ -12,6 +12,7 @@
 package org.eclipse.papyrus.umllight.ui.internal.wizard;
 
 import org.eclipse.jface.viewers.IStructuredSelection;
+import org.eclipse.papyrus.infra.core.resource.ModelSet;
 import org.eclipse.papyrus.uml.diagram.wizards.pages.SelectRepresentationKindPage;
 import org.eclipse.papyrus.uml.diagram.wizards.wizards.NewPapyrusProjectWizard;
 import org.eclipse.ui.IWorkbench;
@@ -64,4 +65,11 @@ public class NewUMLLightProjectWizard extends NewPapyrusProjectWizard {
 		return kernel.createSelectRepresentationKindPage();
 	}
 
+	@Override
+	protected void initDomainModel(ModelSet modelSet, String contextId, String[] viewpointIds) {
+		super.initDomainModel(modelSet, contextId, viewpointIds);
+
+		// Standard content for UML Light, e.g. library imports
+		kernel.initDomainModel(modelSet);
+	}
 }
