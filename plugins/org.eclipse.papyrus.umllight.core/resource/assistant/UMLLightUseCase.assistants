@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<assistant:ModelingAssistantProvider xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assistant="http://www.eclipse.org/Papyrus/2014/diagram/assistant" name="UML Light Use Case Diagram Assistants">
+<assistant:ModelingAssistantProvider xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:assistant="http://www.eclipse.org/Papyrus/2014/diagram/assistant" xmlns:filters="http://www.eclipse.org/Papyrus/2014/common/filters" name="UML Light Use Case Diagram Assistants">
   <ownedFilter xsi:type="assistant:ElementTypeFilter" name="Package" elementTypeID="org.eclipse.papyrus.umldi.Package_UseCaseDiagram"/>
+  <ownedFilter xsi:type="assistant:ElementTypeFilter" name="Actor" elementTypeID="org.eclipse.papyrus.uml.Actor"/>
+  <ownedFilter xsi:type="assistant:ElementTypeFilter" name="Use Case" elementTypeID="org.eclipse.papyrus.uml.UseCase"/>
+  <ownedFilter xsi:type="filters:CompoundFilter" name="either Actor or Use Case" filter="//@ownedFilter.1 //@ownedFilter.2" operator="or"/>
   <popupAssistant elementTypeID="org.eclipse.papyrus.umllight.di.Class_SubjectShape" filter="//@ownedFilter.0"/>
   <elementTypeID>org.eclipse.papyrus.umldi.Package_UseCaseDiagram</elementTypeID>
   <elementTypeID>org.eclipse.papyrus.umllight.di.Class_SubjectShape</elementTypeID>

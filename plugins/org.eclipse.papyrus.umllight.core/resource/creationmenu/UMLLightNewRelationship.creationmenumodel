@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ElementCreationMenuModel:Folder xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" label="New Relationship">
-  <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="Abstraction" displayAllRoles="false">
-    <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Abstraction"/>
-  </menu>
+<ElementCreationMenuModel:Folder xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ElementCreationMenuModel="http://www.eclipse.org/papyrus/infra/newchild/elementcreationmenumodel" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:filters="http://www.eclipse.org/Papyrus/2014/common/filters" label="New Relationship">
   <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="Association" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Association"/>
+  </menu>
+  <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="AssociationClass" displayAllRoles="false">
+    <filter xsi:type="filters:CompoundFilter" name="neither Actor nor Use Case" operator="not">
+      <filter xsi:type="filters:CompoundFilter" href="../assistant/UMLLightUseCase.assistants#//@ownedFilter.3"/>
+    </filter>
+    <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.AssociationClass"/>
   </menu>
   <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="Dependency" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Dependency"/>
@@ -19,6 +22,9 @@
     <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Include"/>
   </menu>
   <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="InterfaceRealization" displayAllRoles="false">
+    <filter xsi:type="filters:CompoundFilter" name="neither Actor nor Use Case" operator="not">
+      <filter xsi:type="filters:CompoundFilter" href="../assistant/UMLLightUseCase.assistants#//@ownedFilter.3"/>
+    </filter>
     <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.InterfaceRealization"/>
   </menu>
   <menu xsi:type="ElementCreationMenuModel:CreateRelationshipMenu" label="PackageImport" displayAllRoles="false">

@@ -11,32 +11,30 @@
  *****************************************************************************/
 package org.eclipse.papyrus.umllight.core.internal.advice;
 
-import org.eclipse.emf.ecore.EClass;
+import static org.eclipse.papyrus.uml.service.types.utils.ElementUtil.isTypeOf;
+
 import org.eclipse.emf.ecore.EReference;
 import org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest;
-import org.eclipse.uml2.uml.Class;
-import org.eclipse.uml2.uml.Interaction;
+import org.eclipse.papyrus.uml.service.types.element.UMLElementTypes;
+import org.eclipse.uml2.uml.EnumerationLiteral;
 import org.eclipse.uml2.uml.UMLPackage;
 
 /**
- * Edit-helper advice to suppress creation of features and other contents of
- * {@link Class}es that are not interesting in {@link Interaction}s in the
- * <em>UML Light</em> context.
+ * Edit-helper advice to suppress creation of value specifications in
+ * {@link EnumerationLiteral}s.
  */
-public class InteractionContentsAdvice extends AbstractNewChildAdvice {
+public class EnumerationLiteralContentsAdvice extends AbstractNewChildAdvice {
 
 	/**
 	 * Initializes me.
 	 */
-	public InteractionContentsAdvice() {
+	public EnumerationLiteralContentsAdvice() {
 		super();
 	}
 
 	@Override
 	protected boolean approveCreateRequest(CreateElementRequest request, EReference containment) {
-		EClass owner = containment.getEContainingClass();
-		return (owner == UMLPackage.Literals.INTERACTION) // Needed by the diagram editor
-				|| (owner == UMLPackage.Literals.ELEMENT); // For owned comment
-		// Exclude Behavior as owner: we don't want behavior parameters in UML Light
+		return !isTypeOf(request.getElementType(), UMLElementTypes.VALUE_SPECIFICATION)
+				|| (containment != UMLPackage.Literals.INSTANCE_SPECIFICATION__SPECIFICATION);
 	}
 }
