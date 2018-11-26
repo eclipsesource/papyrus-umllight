@@ -13,10 +13,21 @@ package org.eclipse.papyrus.umllight.ui.internal.wizard;
 
 import static java.lang.String.format;
 
+import java.util.Objects;
+import java.util.Optional;
+import java.util.stream.Stream;
+
 import org.eclipse.emf.common.command.Command;
+import org.eclipse.emf.common.util.URI;
+import org.eclipse.emf.ecore.util.EcoreUtil;
+import org.eclipse.emf.edit.command.AddCommand;
 import org.eclipse.jface.viewers.IStructuredSelection;
 import org.eclipse.papyrus.infra.architecture.ArchitectureDescriptionUtils;
+import org.eclipse.papyrus.infra.core.resource.IEMFModel;
 import org.eclipse.papyrus.infra.core.resource.ModelSet;
+import org.eclipse.papyrus.infra.core.services.ServiceException;
+import org.eclipse.papyrus.infra.emf.utils.ServiceUtilsForResourceSet;
+import org.eclipse.papyrus.infra.services.semantic.service.SemanticService;
 import org.eclipse.papyrus.uml.diagram.wizards.pages.SelectRepresentationKindPage;
 import org.eclipse.papyrus.uml.diagram.wizards.pages.SelectRepresentationKindPage.ContextProvider;
 import org.eclipse.papyrus.uml.diagram.wizards.wizards.CreateModelWizard;
@@ -26,6 +37,12 @@ import org.eclipse.papyrus.umllight.core.internal.UMLLightArchitecture;
 import org.eclipse.papyrus.umllight.ui.internal.Activator;
 import org.eclipse.ui.INewWizard;
 import org.eclipse.ui.IWorkbench;
+import org.eclipse.uml2.common.util.UML2Util;
+import org.eclipse.uml2.uml.Package;
+import org.eclipse.uml2.uml.PackageImport;
+import org.eclipse.uml2.uml.UMLFactory;
+import org.eclipse.uml2.uml.UMLPackage;
+import org.eclipse.uml2.uml.resource.UMLResource;
 
 /**
  * A shared core behaviour of the model creation wizards for <em>UML Light</em>.
@@ -107,7 +124,7 @@ class CreateUMLLightModelWizardKernel {
 	}
 
 	/**
-	 * initialize the domain model to set the <em>UML Light</em> architecture
+	 * Initialize the domain model to set the <em>UML Light</em> architecture
 	 * context and viewpoint even for initialization of the diagrams for an existing
 	 * UML model resource.
 	 * 
@@ -121,15 +138,14 @@ class CreateUMLLightModelWizardKernel {
 	void initDomainModel(ModelSet modelSet, String contextId, String[] viewpointIds) {
 		ArchitectureDescriptionUtils util = new ArchitectureDescriptionUtils(modelSet);
 
-		Command switchContext = util.switchArchitectureContextId(contextId);
-		Command switchViewpoint = util.switchArchitectureViewpointIds(viewpointIds);
+		execute(modelSet, //
+				util.switchArchitectureContextId(contextId), //
+				util.switchArchitectureViewpointIds(viewpointIds));
+	}
 
-		Command init = switchContext;
-		if (switchViewpoint != null) {
-			init = (init == null) ? switchViewpoint : init.chain(switchViewpoint);
-		}
-
-		modelSet.getTransactionalEditingDomain().getCommandStack().execute(init);
+	private void execute(ModelSet modelSet, Command... commands) {
+		Stream.of(commands).filter(Objects::nonNull).reduce(Command::chain)
+				.ifPresent(modelSet.getTransactionalEditingDomain().getCommandStack()::execute);
 	}
 
 	/**
@@ -169,4 +185,53 @@ class CreateUMLLightModelWizardKernel {
 		};
 	}
 
+	/**
+	 * Initialize a new domain model that already has the <em>UML Light</em>
+	 * architecture context and viewpoint configured.
+	 * 
+	 * @param modelSet the model set to initialize
+	 * 
+	 * @see #initDomainModel(ModelSet, String, String[])
+	 */
+	void initDomainModel(ModelSet modelSet) {
+		execute(modelSet, createImportLibrariesCommand(modelSet));
+	}
+
+	/**
+	 * Obtain a command to import standard libraries commonly required for <em>UML
+	 * Light</em> models.
+	 * 
+	 * @param modelSet the model set in which to import libraries
+	 * 
+	 * @return the import libraries command
+	 */
+	Command createImportLibrariesCommand(ModelSet modelSet) {
+		Command result = null;
+
+		Package primitiveTypes = UML2Util.load(modelSet, URI.createURI(UMLResource.UML_PRIMITIVE_TYPES_LIBRARY_URI),
+				UMLPackage.Literals.PACKAGE);
+		if (primitiveTypes != null) {
+			PackageImport packageImport = UMLFactory.eINSTANCE.createPackageImport();
+			packageImport.setImportedPackage(primitiveTypes);
+
+			try {
+				SemanticService semanticService = ServiceUtilsForResourceSet.getInstance()
+						.getService(SemanticService.class, modelSet);
+				Optional<Package> root = Stream.of(semanticService.getSemanticIModels())
+						.filter(IEMFModel.class::isInstance).map(IEMFModel.class::cast).map(IEMFModel::getResource)
+						.map(r -> EcoreUtil.getObjectByType(r.getContents(), UMLPackage.Literals.PACKAGE))
+						.filter(Objects::nonNull).map(Package.class::cast).findFirst();
+
+				// Create a command to add the import if this hasn't been imported already
+				result = root.filter(p -> !p.getImportedPackages().contains(primitiveTypes))
+						.map(p -> AddCommand.create(modelSet.getTransactionalEditingDomain(), p,
+								UMLPackage.Literals.NAMESPACE__PACKAGE_IMPORT, packageImport))
+						.orElse(null);
+			} catch (ServiceException e) {
+				Activator.getDefault().log(e);
+			}
+		}
+
+		return result;
+	}
 }

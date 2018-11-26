@@ -91,6 +91,9 @@ public class InitUMLLightModelWizard extends InitModelWizard {
 			kernel.initDomainModel(modelSet, contextId, viewpointIds);
 		} else {
 			super.initDomainModel(modelSet, contextId, viewpointIds);
+
+			// Standard content for UML Light, e.g. library imports
+			kernel.initDomainModel(modelSet);
 		}
 	}
 

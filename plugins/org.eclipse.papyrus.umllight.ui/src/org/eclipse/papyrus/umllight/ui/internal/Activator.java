@@ -14,6 +14,7 @@ package org.eclipse.papyrus.umllight.ui.internal;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.core.runtime.IStatus;
+import org.eclipse.papyrus.infra.core.log.LogHelper;
 import org.eclipse.papyrus.umllight.ui.internal.newchild.CreationMenuCleaner;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.eclipse.ui.progress.UIJob;
@@ -30,6 +31,8 @@ public class Activator extends AbstractUIPlugin {
 	// The shared instance
 	private static Activator plugin;
 
+	private LogHelper logHelper;
+
 	/**
 	 * Initializes me.
 	 */
@@ -40,6 +43,7 @@ public class Activator extends AbstractUIPlugin {
 	public void start(BundleContext context) throws Exception {
 		super.start(context);
 
+		logHelper = new LogHelper(context.getBundle());
 		plugin = this;
 
 		configureCreationMenus();
@@ -47,6 +51,7 @@ public class Activator extends AbstractUIPlugin {
 
 	public void stop(BundleContext context) throws Exception {
 		plugin = null;
+		logHelper = null;
 
 		super.stop(context);
 	}
@@ -70,5 +75,9 @@ public class Activator extends AbstractUIPlugin {
 				return CreationMenuCleaner.clean();
 			}
 		}.schedule();
+	}
+
+	public void log(Throwable exception) {
+		logHelper.error("Uncaught exception", exception); //$NON-NLS-1$
 	}
 }
