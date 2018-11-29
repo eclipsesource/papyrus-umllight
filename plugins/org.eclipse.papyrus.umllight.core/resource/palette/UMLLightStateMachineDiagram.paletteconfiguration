@@ -102,23 +102,6 @@
     </ownedConfigurations>
     <ownedConfigurations
         xmi:type="paletteconfiguration:ToolConfiguration"
-        id="statemachine.createNodesGroup.region"
-        label="Region"
-        description="Region"
-        kind="CreationTool">
-      <icon
-          xmi:type="paletteconfiguration:IconDescriptor"
-          pluginID="org.eclipse.uml2.uml.edit"
-          iconPath="/icons/full/obj16/Region.gif"/>
-      <elementDescriptors
-          xmi:type="paletteconfiguration:ElementDescriptor">
-        <elementType
-            xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration"
-            href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Region_Shape"/>
-      </elementDescriptors>
-    </ownedConfigurations>
-    <ownedConfigurations
-        xmi:type="paletteconfiguration:ToolConfiguration"
         id="statemachine.createNodesGroup.comment"
         label="Comment"
         description="Comment"
