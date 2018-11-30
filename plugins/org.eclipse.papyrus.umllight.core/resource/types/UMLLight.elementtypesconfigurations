@@ -45,7 +45,7 @@
   <adviceBindingsConfigurations xmi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_Cqu60O2qEeiYJ-25w9qH1g" description="Advice on creation and editing of a transition." identifier="org.eclipse.papyrus.umllight.advice.transitionContents" inheritance="all" editHelperAdviceClassName="org.eclipse.papyrus.umllight.core.internal.advice.StateMachineAdvice">
     <target xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Transition"/>
   </adviceBindingsConfigurations>
-  <adviceBindingsConfigurations xmi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_jG0LoO2qEeiX27RadN3Erg" description="Advice on creation and editing of a transition." identifier="org.eclipse.papyrus.umllight.advice.stateContents" inheritance="all" editHelperAdviceClassName="org.eclipse.papyrus.umllight.core.internal.advice.StateMachineAdvice">
+  <adviceBindingsConfigurations xmi:type="elementtypesconfigurations:AdviceBindingConfiguration" xmi:id="_jG0LoO2qEeiX27RadN3Erg" description="Advice on creation and editing of a state." identifier="org.eclipse.papyrus.umllight.advice.stateContents" inheritance="all" editHelperAdviceClassName="org.eclipse.papyrus.umllight.core.internal.advice.StateMachineAdvice">
     <target xmi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.State"/>
   </adviceBindingsConfigurations>
 </elementtypesconfigurations:ElementTypeSetConfiguration>

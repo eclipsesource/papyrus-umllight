@@ -15,11 +15,9 @@ import java.util.function.Consumer;
 
 import org.eclipse.gef.EditPart;
 import org.eclipse.gmf.runtime.diagram.ui.editpolicies.EditPolicyRoles;
-import org.eclipse.papyrus.infra.gmfdiag.common.editpolicies.PapyrusConnectionHandleEditPolicy;
-import org.eclipse.papyrus.infra.gmfdiag.common.editpolicies.PapyrusPopupBarEditPolicy;
-import org.eclipse.papyrus.uml.diagram.sequence.edit.parts.AbstractMessageEditPart;
-import org.eclipse.papyrus.uml.diagram.sequence.edit.parts.CInteractionInteractionCompartmentEditPart;
-import org.eclipse.papyrus.uml.diagram.sequence.edit.parts.SequenceDiagramEditPart;
+import org.eclipse.papyrus.infra.gmfdiag.common.editpolicies.DefaultCreationEditPolicy;
+import org.eclipse.papyrus.uml.diagram.statemachine.edit.parts.PackageEditPart;
+import org.eclipse.papyrus.uml.diagram.statemachine.edit.parts.StateEditPart;
 
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
@@ -27,23 +25,22 @@ import com.google.common.collect.Multimap;
 /**
  * Edit-policy provider for the <em>UML Light</em> sequence diagram.
  */
-public class SequenceEditPolicyProvider extends AbstractUMLLightEditPolicyProvider {
+public class StateMachineEditPolicyProvider extends AbstractUMLLightEditPolicyProvider {
 
 	/**
 	 * Initializes me.
 	 */
-	public SequenceEditPolicyProvider() {
-		super(SequenceDiagramEditPart.MODEL_ID);
+	public StateMachineEditPolicyProvider() {
+		super(PackageEditPart.MODEL_ID);
 	}
 
 	protected Multimap<Class<? extends EditPart>, Consumer<? super EditPart>> createEditPolicyMap() {
 		Multimap<Class<? extends EditPart>, Consumer<? super EditPart>> result = ArrayListMultimap.create(1, 1);
 
-		result.put(CInteractionInteractionCompartmentEditPart.class,
-				ep -> ep.installEditPolicy(EditPolicyRoles.POPUPBAR_ROLE, new PapyrusPopupBarEditPolicy()));
-		result.put(AbstractMessageEditPart.class, ep -> ep.installEditPolicy(EditPolicyRoles.CONNECTION_HANDLES_ROLE,
-				new PapyrusConnectionHandleEditPolicy()));
+		result.put(StateEditPart.class,
+				ep -> ep.installEditPolicy(EditPolicyRoles.CREATION_ROLE, new DefaultCreationEditPolicy()));
 
 		return result;
 	}
+
 }
