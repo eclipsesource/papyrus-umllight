@@ -24,6 +24,7 @@ import org.eclipse.gmf.runtime.emf.type.core.requests.ConfigureRequest;
 import org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest;
 import org.eclipse.papyrus.uml.service.types.element.UMLElementTypes;
 import org.eclipse.uml2.uml.StateMachine;
+import org.eclipse.uml2.uml.UMLPackage;
 import org.eclipse.uml2.uml.util.UMLSwitch;
 
 /**
@@ -65,8 +66,10 @@ public class StateMachineAdvice extends AbstractNewChildAdvice {
 
 	@Override
 	protected boolean approveCreateRequest(CreateElementRequest request, EReference containment) {
-		// We don't support constraints in state machines in UML Light
-		return !isTypeOf(UMLElementTypes.CONSTRAINT, request.getElementType());
+		// We don't support composite states
+		return (containment != UMLPackage.Literals.STATE__REGION)
+				// We don't support constraints in state machines in UML Light
+				&& !isTypeOf(UMLElementTypes.CONSTRAINT, request.getElementType());
 	}
 
 }

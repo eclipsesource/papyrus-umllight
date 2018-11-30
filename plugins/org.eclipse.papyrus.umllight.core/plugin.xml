@@ -31,5 +31,11 @@
                name="High">
          </Priority>
       </editpolicyProvider>
+      <editpolicyProvider
+            class="org.eclipse.papyrus.umllight.core.internal.provider.StateMachineEditPolicyProvider">
+         <Priority
+               name="High">
+         </Priority>
+      </editpolicyProvider>
    </extension>
 </plugin>
