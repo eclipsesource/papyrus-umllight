@@ -209,8 +209,30 @@
       <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/palette/UMLLightSequenceDiagram.paletteconfiguration#/"/>
     </representationKinds>
     <representationKinds xmi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_xFJ_UNxSEeiMndLsCK64ZQ" id="org.eclipse.papyrus.umllight.diagram.activity" name="Light Activity Diagram" description="Simplified version of the activity diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.activity/icons/obj16/Diagram_Activity.gif" concerns="__JaYANOxEeiTpIcrXWETSQ" implementationID="PapyrusUMLActivityDiagram" customStyle="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/style/umllight_style.css" creationCommandClass="org.eclipse.papyrus.uml.diagram.activity.CreateActivityDiagramCommand">
-      <modelRules xmi:type="representation:ModelRule" xmi:id="_3GJb8NxTEeiMndLsCK64ZQ" permit="true" elementMultiplicity="1" multiplicity="-1"/>
-      <owningRules xmi:type="representation:OwningRule" xmi:id="_3Wj2gNxTEeiMndLsCK64ZQ" permit="true" multiplicity="-1"/>
+      <modelRules xmi:type="representation:ModelRule" xmi:id="_3GJb8NxTEeiMndLsCK64ZQ" permit="true" elementMultiplicity="1" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </modelRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_3Wj2gNxTEeiMndLsCK64ZQ" permit="true" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Activity"/>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_sI_xUPkwEeiKWJa2NO5rkQ" permit="false" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_oBuZ8PkwEeiKWJa2NO5rkQ" permit="false" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_yPX5sPkwEeiKWJa2NO5rkQ" permit="true" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier"/>
+        <newModelPath xmi:type="representation:ModelAutoCreate" xmi:id="_VowXMPkzEeiKWJa2NO5rkQ" creationType="org.eclipse.papyrus.uml.Activity">
+          <feature xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//BehavioredClassifier/ownedBehavior"/>
+        </newModelPath>
+      </owningRules>
+      <owningRules xmi:type="representation:OwningRule" xmi:id="_wcUnsPkwEeiKWJa2NO5rkQ" permit="true" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+        <newModelPath xmi:type="representation:ModelAutoCreate" xmi:id="_xSMYYPkzEeiKWJa2NO5rkQ"  creationType="org.eclipse.papyrus.uml.Activity">
+          <feature xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
+        </newModelPath>
+      </owningRules>
       <childRules xmi:type="gmfdiagrepresentation:ChildRule" xmi:id="_3lfDUNxTEeiMndLsCK64ZQ" permit="true"/>
       <assistantRules xmi:type="gmfdiagrepresentation:AssistantRule" xmi:id="_Ea4HwNxcEeiMndLsCK64ZQ" permit="true"/>
       <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/org.eclipse.papyrus.umllight.core/resource/palette/UMLLightActivityDiagram.paletteconfiguration#/"/>
