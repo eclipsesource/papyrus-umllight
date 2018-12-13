@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Composite xmlns:uml="clr-namespace:org.eclipse.papyrus.uml.properties.widgets"
-	xmlns:j="clr-namespace:java.lang" xmlns:ppel="clr-namespace:org.eclipse.papyrus.infra.properties.ui.widgets.layout"
+<Composite xmlns:j="clr-namespace:java.lang" xmlns:ppel="clr-namespace:org.eclipse.papyrus.infra.properties.ui.widgets.layout"
 	xmlns="http://www.eclipse.org/xwt/presentation" xmlns:ppe="clr-namespace:org.eclipse.papyrus.infra.properties.ui.widgets"
+	xmlns:umllight="clr-namespace:org.eclipse.papyrus.umllight.ui.properties.widgets"
 	xmlns:x="http://www.eclipse.org/xwt">
 	<Composite.layout>
 		<ppel:PropertiesLayout></ppel:PropertiesLayout>
@@ -28,7 +28,7 @@
 		</Composite.layout>
 		<ppe:EnumCombo input="{Binding}" property="UML:Parameter:direction"></ppe:EnumCombo>
 		<ppe:ReferenceDialog input="{Binding}" property="UML:TypedElement:type"></ppe:ReferenceDialog>
-		<uml:MultiplicityDialog input="{Binding}" property="Multiplicity:multiplicity"></uml:MultiplicityDialog>
+		<umllight:UMLLightMultiplicityDialog input="{Binding}" property="Multiplicity:multiplicity"></umllight:UMLLightMultiplicityDialog>
 		<ppe:ReferenceDialog input="{Binding}"
 			property="UML:Parameter:defaultValue"></ppe:ReferenceDialog>
 	</Composite>

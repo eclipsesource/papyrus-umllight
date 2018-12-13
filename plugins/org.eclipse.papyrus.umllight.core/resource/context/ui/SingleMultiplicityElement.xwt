@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Composite xmlns:x="http://www.eclipse.org/xwt" xmlns:j="clr-namespace:java.lang"
 	xmlns:ppel="clr-namespace:org.eclipse.papyrus.infra.properties.ui.widgets.layout"
-	xmlns:uml="clr-namespace:org.eclipse.papyrus.uml.properties.widgets"
+	xmlns:umllight="clr-namespace:org.eclipse.papyrus.umllight.ui.properties.widgets"
 	xmlns:ppe="clr-namespace:org.eclipse.papyrus.infra.properties.ui.widgets" xmlns="http://www.eclipse.org/xwt/presentation">
 	<Composite.layout>
 		<ppel:PropertiesLayout></ppel:PropertiesLayout>
@@ -19,6 +19,6 @@
 		<Composite.layout>
 			<ppel:PropertiesLayout></ppel:PropertiesLayout>
 		</Composite.layout>
-		<uml:MultiplicityDialog input="{Binding}" property="Multiplicity:multiplicity"></uml:MultiplicityDialog>
+		<umllight:UMLLightMultiplicityDialog input="{Binding}" property="Multiplicity:multiplicity"></umllight:UMLLightMultiplicityDialog>
 	</Composite>
 </Composite>

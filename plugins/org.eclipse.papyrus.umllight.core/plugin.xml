@@ -43,4 +43,9 @@
          point="org.eclipse.papyrus.infra.properties.contexts">
 		<context appliedByDefault="true" contextModel="resource/context/UML-Light.contexts" isCustomizable="true"/>
 	</extension>
+   <extension 
+         name="Properties View Environment for UML Light"
+         point="org.eclipse.papyrus.infra.properties.environments">
+      <environment environmentModel="resource/context/Environment.xmi"/>
+   </extension>
 </plugin>

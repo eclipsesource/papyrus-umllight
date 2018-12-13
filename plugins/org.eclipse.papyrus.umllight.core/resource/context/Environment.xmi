@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<environment:Environment
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:environment="http://www.eclipse.org/papyrus/properties/environment/0.9">
+  <propertyEditorTypes
+      label="Light Multiplicity Editor"
+      widgetClass="UMLLightMultiplicityDialog"
+      namespace="//@namespaces.0"
+      type="Reference"/>
+  <namespaces
+      name="umllight"
+      value="org.eclipse.papyrus.umllight.ui.properties.widgets"/>
+</environment:Environment>
