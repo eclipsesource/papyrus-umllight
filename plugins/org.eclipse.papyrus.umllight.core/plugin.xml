@@ -38,4 +38,9 @@
          </Priority>
       </editpolicyProvider>
    </extension>
+    <extension
+         name="UML Subset for UML Light"
+         point="org.eclipse.papyrus.infra.properties.contexts">
+		<context appliedByDefault="true" contextModel="resource/context/UML-Light.contexts" isCustomizable="true"/>
+	</extension>
 </plugin>
