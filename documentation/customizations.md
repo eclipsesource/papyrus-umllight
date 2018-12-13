@@ -50,17 +50,24 @@ The architecture model itself is contributed on the
 ### Palette Definition Models
 
 Each diagram type (_representation kind_) in the _UML Light_ architecture model
-references a palette definition model that lays out the tools in the diagram editor's
-palette.  For example, the [UMLLightClassDiagram.paletteconfiguration][classpal] resource
-is essentially a subset of the _Papyrus UML_ palette for the class diagram, presenting
-only tools for the subset of class modeling concepts in the _UML Light_ dialect.
+references one or more palette definition models that lay out the tools in the diagram
+editor's palette.  For example, the [UMLLightClassDiagram.paletteconfiguration][classpal]
+resource is essentially a subset of the _Papyrus UML_ palette for the class diagram,
+presenting only tools for the subset of class modeling concepts in the _UML Light_
+dialect.
+
+In addition, a representation kind can specify _palette rules_ that restrict the tools presented in the palette by inclusion and exclusion of tools by pattern match against the
+tool identifiers.  This mechanism is employed for the _UML Light_ package diagram, which
+in the architecture model references the class diagram palette configuration discussed
+above and applies a series of inclusion/exclusion rules to select a subset of the tools.
+This reflects the nature of the diagram as logically a subset of the class diagram.
 
 [classpal]: https://github.com/eclipsesource/papyrus-umllight/blob/master/plugins/org.eclipse.papyrus.umllight.core/resource/palette/UMLLightClassDiagram.paletteconfiguration
 
 ### Diagram Assistant Models
 
 A close corollary of the palette definition model is the diagram assistant model.  Unlike
-the former, this model is not reference by the architecture model.  Instead, the
+the former, this model is not referenced by the architecture model.  Instead, the
 association with the _UML Light_ language is made in two parts:
 
 - contribution of the assistant model (if different to what _Papyrus UML_ provides) on
