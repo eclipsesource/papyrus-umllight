@@ -10,27 +10,18 @@
 	</Composite.layout>
 	<Composite>
 		<Composite.layout>
-			<ppel:PropertiesLayout></ppel:PropertiesLayout>
+			<ppel:PropertiesLayout numColumns="1"></ppel:PropertiesLayout>
 		</Composite.layout>
-		<ppe:StringEditor input="{Binding}" property="UML:NamedElement:name"></ppe:StringEditor>
-		<ppe:StringEditor input="{Binding}" property="UML:NamedElement:label"></ppe:StringEditor>
-	</Composite>
-	<Composite>
-		<Composite.layout>
-			<ppel:PropertiesLayout numColumns="2"></ppel:PropertiesLayout>
-		</Composite.layout>
-		<ppe:BooleanRadio input="{Binding}"
-			property="UML:BehavioralFeature:isAbstract"></ppe:BooleanRadio>
-		<ppe:BooleanRadio input="{Binding}" property="UML:Feature:isStatic"></ppe:BooleanRadio>
-		<ppe:EnumCombo input="{Binding}" property="UML:NamedElement:visibility"></ppe:EnumCombo>
+		<ppe:ReferenceDialog input="{Binding}"
+			property="UML:Operation:bodyCondition"></ppe:ReferenceDialog>
 	</Composite>
 	<Composite>
 		<Composite.layout>
 			<ppel:PropertiesLayout numColumns="2"></ppel:PropertiesLayout>
 		</Composite.layout>
 		<ppe:MultiReference input="{Binding}"
-			property="UML:BehavioralFeature:ownedParameter"></ppe:MultiReference>
+			property="UML:Operation:precondition"></ppe:MultiReference>
 		<ppe:MultiReference input="{Binding}"
-			property="UML:BehavioralFeature:method"></ppe:MultiReference>
+			property="UML:Operation:postcondition"></ppe:MultiReference>
 	</Composite>
 </Composite>

@@ -260,6 +260,11 @@
       <widget href="ui/SingleTypedElement.xwt#/"/>
     </sections>
   </tabs>
+  <tabs xmi:id="_vMwxgP8IEeif09Qs_5sVbA" label="Constraints" id="uml-light-constraints" category="org.eclipse.papyrus" image="" priority="11">
+    <sections xmi:id="_vMwxgf8IEeif09Qs_5sVbA" name="SingleOperationConstraints" sectionFile="ui/SingleOperationConstraints.xwt">
+      <widget href="ui/SingleOperationConstraints.xwt#/"/>
+    </sections>
+  </tabs>
   <views xmi:id="_69ur3KDJEeSZxfCXzZz3-w" name="SingleFinalState" sections="_69cXZ6DJEeSZxfCXzZz3-w" automaticContext="true">
     <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69ur3aDJEeSZxfCXzZz3-w" name="isSingleFinalState">
       <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
@@ -723,7 +728,7 @@
       <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMSf7xEeioQ5IXbg1K0w" name="umlClassName" value="OpaqueExpression"/>
     </constraints>
   </views>
-  <views xmi:id="_3OPMSv7xEeioQ5IXbg1K0w" name="SingleOperation" sections="_3OOlPv7xEeioQ5IXbg1K0w" automaticContext="true">
+  <views xmi:id="_3OPMSv7xEeioQ5IXbg1K0w" name="SingleOperation" sections="_3OOlPv7xEeioQ5IXbg1K0w _vMwxgf8IEeif09Qs_5sVbA" automaticContext="true">
     <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMS_7xEeioQ5IXbg1K0w" name="isSingleOperation">
       <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
       <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMTP7xEeioQ5IXbg1K0w" name="umlClassName" value="Operation"/>
