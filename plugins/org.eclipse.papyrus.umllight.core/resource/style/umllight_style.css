@@ -77,6 +77,12 @@ Property {
 	maskLabel: name type multiplicity;
 }
 
+Association  {
+	fillColor: white;
+	lineColor: steelblue;
+	shadow: false;
+}
+
 Association > Label,
 AssociationClass > Label {
 	elementIcon: false;
