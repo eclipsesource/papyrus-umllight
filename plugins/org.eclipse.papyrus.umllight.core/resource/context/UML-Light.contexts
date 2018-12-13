@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contexts:Context xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:constraints="http://www.eclipse.org/papyrus/constraints/0.9" xmlns:contexts="http://www.eclipse.org/papyrus/properties/contexts/0.9" xmi:id="_69QJkKDJEeSZxfCXzZz3-w" name="UML Light">
+  <tabs xmi:id="_69QJkaDJEeSZxfCXzZz3-w" label="UML" id="uml-light" category="org.eclipse.papyrus" image="" priority="10">
+    <sections xmi:id="_69cXZ6DJEeSZxfCXzZz3-w" name="SingleFinalState" sectionFile="ui/SingleFinalState.xwt">
+      <widget href="ui/SingleFinalState.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69cXaKDJEeSZxfCXzZz3-w" name="MultipleFinalState" sectionFile="ui/MultipleFinalState.xwt">
+      <widget href="ui/MultipleFinalState.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQZKDJEeSZxfCXzZz3-w" name="SinglePseudostate" sectionFile="ui/SinglePseudostate.xwt">
+      <widget href="ui/SinglePseudostate.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQZaDJEeSZxfCXzZz3-w" name="MultiplePseudostate" sectionFile="ui/MultiplePseudostate.xwt">
+      <widget href="ui/MultiplePseudostate.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQVKDJEeSZxfCXzZz3-w" name="SingleRegion" sectionFile="ui/SingleRegion.xwt">
+      <widget href="ui/SingleRegion.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQVaDJEeSZxfCXzZz3-w" name="MultipleRegion" sectionFile="ui/MultipleRegion.xwt">
+      <widget href="ui/MultipleRegion.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQYKDJEeSZxfCXzZz3-w" name="SingleState" sectionFile="ui/SingleState.xwt">
+      <widget href="ui/SingleState.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQYaDJEeSZxfCXzZz3-w" name="MultipleState" sectionFile="ui/MultipleState.xwt">
+      <widget href="ui/MultipleState.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQUqDJEeSZxfCXzZz3-w" name="SingleStateMachine" sectionFile="ui/SingleStateMachine.xwt">
+      <widget href="ui/SingleStateMachine.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQU6DJEeSZxfCXzZz3-w" name="MultipleStateMachine" sectionFile="ui/MultipleStateMachine.xwt">
+      <widget href="ui/MultipleStateMachine.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQWKDJEeSZxfCXzZz3-w" name="SingleTransition" sectionFile="ui/SingleTransition.xwt">
+      <widget href="ui/SingleTransition.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQWaDJEeSZxfCXzZz3-w" name="MultipleTransition" sectionFile="ui/MultipleTransition.xwt">
+      <widget href="ui/MultipleTransition.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69idmaDJEeSZxfCXzZz3-w" name="SingleComment" sectionFile="ui/SingleComment.xwt">
+      <widget href="ui/SingleComment.xwt#/"/>
+    </sections>
+  </tabs>
+  <views xmi:id="_69ur3KDJEeSZxfCXzZz3-w" name="SingleFinalState" sections="_69cXZ6DJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69ur3aDJEeSZxfCXzZz3-w" name="isSingleFinalState">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69ur3qDJEeSZxfCXzZz3-w" name="umlClassName" value="FinalState"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69ur36DJEeSZxfCXzZz3-w" elementMultiplicity="-1" name="MultipleFinalState" sections="_69cXaKDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69ur4KDJEeSZxfCXzZz3-w" name="isMultipleFinalState">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69ur4aDJEeSZxfCXzZz3-w" name="umlClassName" value="FinalState"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69okFKDJEeSZxfCXzZz3-w" name="SinglePseudostate" sections="_69WQZKDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69okFaDJEeSZxfCXzZz3-w" name="isSinglePseudostate">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69okFqDJEeSZxfCXzZz3-w" name="umlClassName" value="Pseudostate"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69okF6DJEeSZxfCXzZz3-w" elementMultiplicity="-1" name="MultiplePseudostate" sections="_69WQZaDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69okGKDJEeSZxfCXzZz3-w" name="isMultiplePseudostate">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69okGaDJEeSZxfCXzZz3-w" name="umlClassName" value="Pseudostate"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69iet6DJEeSZxfCXzZz3-w" name="SingleStateMachine" sections="_69WQUqDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69ieuKDJEeSZxfCXzZz3-w" name="isSingleStateMachine">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69ieuaDJEeSZxfCXzZz3-w" name="umlClassName" value="StateMachine"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69ieuqDJEeSZxfCXzZz3-w" elementMultiplicity="-1" name="MultipleStateMachine" sections="_69WQU6DJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69ieu6DJEeSZxfCXzZz3-w" name="isMultipleStateMachine">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69ievKDJEeSZxfCXzZz3-w" name="umlClassName" value="StateMachine"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69ie4aDJEeSZxfCXzZz3-w" name="SingleState" sections="_69WQYKDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69ie4qDJEeSZxfCXzZz3-w" name="isSingleState">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69ie46DJEeSZxfCXzZz3-w" name="umlClassName" value="State"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69ie5KDJEeSZxfCXzZz3-w" elementMultiplicity="-1" name="MultipleState" sections="_69WQYaDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69ie5aDJEeSZxfCXzZz3-w" name="isMultipleState">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69ie5qDJEeSZxfCXzZz3-w" name="umlClassName" value="State"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69ieyaDJEeSZxfCXzZz3-w" name="SingleTransition" sections="_69WQWKDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69ieyqDJEeSZxfCXzZz3-w" name="isSingleTransition">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69iey6DJEeSZxfCXzZz3-w" name="umlClassName" value="Transition"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69iezKDJEeSZxfCXzZz3-w" elementMultiplicity="-1" name="MultipleTransition" sections="_69WQWaDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69iezaDJEeSZxfCXzZz3-w" name="isMultipleTransition">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69iezqDJEeSZxfCXzZz3-w" name="umlClassName" value="Transition"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69ievaDJEeSZxfCXzZz3-w" name="SingleRegion" sections="_69WQVKDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69ievqDJEeSZxfCXzZz3-w" name="isSingleRegion">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69iev6DJEeSZxfCXzZz3-w" name="umlClassName" value="Region"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69iewKDJEeSZxfCXzZz3-w" elementMultiplicity="-1" name="MultipleRegion" sections="_69WQVaDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69iewaDJEeSZxfCXzZz3-w" name="isMultipleRegion">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69iewqDJEeSZxfCXzZz3-w" name="umlClassName" value="Region"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69usq6DJEeSZxfCXzZz3-w" name="SingleComment" sections="_69idmaDJEeSZxfCXzZz3-w">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69usrKDJEeSZxfCXzZz3-w" name="isSingleComment">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69usraDJEeSZxfCXzZz3-w" name="umlClassName" value="Comment"/>
+    </constraints>
+  </views>
+  <dataContexts xmi:id="_690xgaDJEeSZxfCXzZz3-w" name="UML" label="UML">
+    <elements xmi:id="_690xgqDJEeSZxfCXzZz3-w" name="Comment" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xg6DJEeSZxfCXzZz3-w" name="body" description="Specifies a string that is the comment."/>
+      <properties xmi:id="_690xhKDJEeSZxfCXzZz3-w" name="annotatedElement" type="Reference" description="References the Element(s) being commented."/>
+    </elements>
+    <elements xmi:id="_690xhaDJEeSZxfCXzZz3-w" name="Element" supertypes="_6964maDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xhqDJEeSZxfCXzZz3-w" name="ownedElement" type="Reference" description="The Elements owned by this element."/>
+      <properties xmi:id="_690xh6DJEeSZxfCXzZz3-w" name="owner" type="Reference" description="The Element that owns this element."/>
+      <properties xmi:id="_690xiKDJEeSZxfCXzZz3-w" name="ownedComment" type="Reference" multiplicity="-1" description="The Comment owned by this element."/>
+    </elements>
+    <elements xmi:id="_690xiaDJEeSZxfCXzZz3-w" name="Package" supertypes="_690xoqDJEeSZxfCXzZz3-w _690xkqDJEeSZxfCXzZz3-w _690x1KDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xiqDJEeSZxfCXzZz3-w" name="ownedType" type="Reference" description="References the packaged elements that are Types."/>
+      <properties xmi:id="_690xi6DJEeSZxfCXzZz3-w" name="packageMerge" type="Reference" description="References the PackageMerges that are owned by this Package."/>
+      <properties xmi:id="_690xjKDJEeSZxfCXzZz3-w" name="packagedElement" type="Reference" description="Specifies the packageable elements that are owned by this Package."/>
+      <properties xmi:id="_690xjaDJEeSZxfCXzZz3-w" name="nestedPackage" type="Reference" description="References the packaged elements that are Packages."/>
+      <properties xmi:id="_690xjqDJEeSZxfCXzZz3-w" name="nestingPackage" type="Reference" description="References the Package that owns this Package."/>
+      <properties xmi:id="_690xj6DJEeSZxfCXzZz3-w" name="profileApplication" type="Reference" description="References the ProfileApplications that indicate which profiles have been applied to the Package."/>
+      <properties xmi:id="_690xkKDJEeSZxfCXzZz3-w" name="ownedStereotype" type="Reference" multiplicity="-1" description=""/>
+      <properties xmi:id="_690xkaDJEeSZxfCXzZz3-w" name="URI" description="Provides an identifier for the package that can be used for many purposes. A URI is the universally unique identification of the package following the IETF URI specification, RFC 2396 http://www.ietf.org/rfc/rfc2396.txt and it must comply with those syntax rules."/>
+    </elements>
+    <elements xmi:id="_690xkqDJEeSZxfCXzZz3-w" name="PackageableElement" supertypes="_690xk6DJEeSZxfCXzZz3-w _690x5aDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690xk6DJEeSZxfCXzZz3-w" name="NamedElement" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xlKDJEeSZxfCXzZz3-w" name="name" description="The name of the NamedElement."/>
+      <properties xmi:id="_690xlaDJEeSZxfCXzZz3-w" name="visibility" type="Enumeration" description="Determines where the NamedElement appears within different Namespaces within the overall model, and its accessibility."/>
+      <properties xmi:id="_690xlqDJEeSZxfCXzZz3-w" name="qualifiedName" description="A name which allows the NamedElement to be identified within a hierarchy of nested Namespaces. It is constructed from the names of the containing namespaces starting at the root of the hierarchy and ending with the name of the NamedElement itself."/>
+      <properties xmi:id="_690xl6DJEeSZxfCXzZz3-w" name="clientDependency" type="Reference" description="Indicates the dependencies that reference the client."/>
+      <properties xmi:id="_690xmKDJEeSZxfCXzZz3-w" name="namespace" type="Reference" description="Specifies the namespace that owns the NamedElement."/>
+      <properties xmi:id="_690xmaDJEeSZxfCXzZz3-w" name="nameExpression" type="Reference" description="The string expression used to define the name of this named element."/>
+    </elements>
+    <elements xmi:id="_690xmqDJEeSZxfCXzZz3-w" name="Dependency" supertypes="_690xkqDJEeSZxfCXzZz3-w _690xnaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xm6DJEeSZxfCXzZz3-w" name="supplier" type="Reference" description="The element(s) independent of the client element(s), in the same respect and the same dependency relationship. In some directed dependency relationships (such as Refinement Abstractions), a common convention in the domain of class-based OO software is to put the more abstract element in this role. Despite this convention, users of UML may stipulate a sense of dependency suitable for their domain, which makes a more abstract element dependent on that which is more specific."/>
+      <properties xmi:id="_690xnKDJEeSZxfCXzZz3-w" name="client" type="Reference" description="The element(s) dependent on the supplier element(s). In some cases (such as a Trace Abstraction) the assignment of direction (that is, the designation of the client element) is at the discretion of the modeler, and is a stipulation."/>
+    </elements>
+    <elements xmi:id="_690xnaDJEeSZxfCXzZz3-w" name="DirectedRelationship" supertypes="_690xoKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xnqDJEeSZxfCXzZz3-w" name="source" type="Reference" description="Specifies the sources of the DirectedRelationship."/>
+      <properties xmi:id="_690xn6DJEeSZxfCXzZz3-w" name="target" type="Reference" description="Specifies the targets of the DirectedRelationship."/>
+    </elements>
+    <elements xmi:id="_690xoKDJEeSZxfCXzZz3-w" name="Relationship" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xoaDJEeSZxfCXzZz3-w" name="relatedElement" type="Reference" description="Specifies the elements related by the Relationship."/>
+    </elements>
+    <elements xmi:id="_690xoqDJEeSZxfCXzZz3-w" name="Namespace" supertypes="_690xk6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xo6DJEeSZxfCXzZz3-w" name="elementImport" type="Reference" description="References the ElementImports owned by the Namespace."/>
+      <properties xmi:id="_690xpKDJEeSZxfCXzZz3-w" name="packageImport" type="Reference" description="References the PackageImports owned by the Namespace."/>
+      <properties xmi:id="_690xpaDJEeSZxfCXzZz3-w" name="ownedRule" type="Reference" description="Specifies a set of Constraints owned by this Namespace."/>
+      <properties xmi:id="_690xpqDJEeSZxfCXzZz3-w" name="member" type="Reference" description="A collection of NamedElements identifiable within the Namespace, either by being owned or by being introduced by importing or inheritance."/>
+      <properties xmi:id="_690xp6DJEeSZxfCXzZz3-w" name="importedMember" type="Reference" description="References the PackageableElements that are members of this Namespace as a result of either PackageImports or ElementImports."/>
+      <properties xmi:id="_690xqKDJEeSZxfCXzZz3-w" name="ownedMember" type="Reference" description="A collection of NamedElements owned by the Namespace."/>
+    </elements>
+    <elements xmi:id="_690xqaDJEeSZxfCXzZz3-w" name="ElementImport" supertypes="_690xnaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xqqDJEeSZxfCXzZz3-w" name="visibility" type="Enumeration" description="Specifies the visibility of the imported PackageableElement within the importing Package. The default visibility is the same as that of the imported element. If the imported element does not have a visibility, it is possible to add visibility to the element import."/>
+      <properties xmi:id="_690xq6DJEeSZxfCXzZz3-w" name="alias" description="Specifies the name that should be added to the namespace of the importing package in lieu of the name of the imported packagable element. The aliased name must not clash with any other member name in the importing package. By default, no alias is used."/>
+      <properties xmi:id="_690xrKDJEeSZxfCXzZz3-w" name="importedElement" type="Reference" description="Specifies the PackageableElement whose name is to be added to a Namespace."/>
+      <properties xmi:id="_690xraDJEeSZxfCXzZz3-w" name="importingNamespace" type="Reference" description="Specifies the Namespace that imports a PackageableElement from another Package."/>
+    </elements>
+    <elements xmi:id="_690xrqDJEeSZxfCXzZz3-w" name="PackageImport" supertypes="_690xnaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xr6DJEeSZxfCXzZz3-w" name="visibility" type="Enumeration" description="Specifies the visibility of the imported PackageableElements within the importing Namespace, i.e., whether imported elements will in turn be visible to other packages that use that importingPackage as an importedPackage. If the PackageImport is public, the imported elements will be visible outside the package, while if it is private they will not."/>
+      <properties xmi:id="_690xsKDJEeSZxfCXzZz3-w" name="importedPackage" type="Reference" description="Specifies the Package whose members are imported into a Namespace."/>
+      <properties xmi:id="_690xsaDJEeSZxfCXzZz3-w" name="importingNamespace" type="Reference" description="Specifies the Namespace that imports the members from a Package."/>
+    </elements>
+    <elements xmi:id="_690xsqDJEeSZxfCXzZz3-w" name="Constraint" supertypes="_690xkqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xs6DJEeSZxfCXzZz3-w" name="constrainedElement" type="Reference" description="The ordered set of Elements referenced by this Constraint."/>
+      <properties xmi:id="_690xtKDJEeSZxfCXzZz3-w" name="specification" type="Reference" description="A condition that must be true when evaluated in order for the constraint to be satisfied."/>
+      <properties xmi:id="_690xtaDJEeSZxfCXzZz3-w" name="context" type="Reference" description="Specifies the namespace that owns the NamedElement."/>
+    </elements>
+    <elements xmi:id="_690xtqDJEeSZxfCXzZz3-w" name="ValueSpecification" supertypes="_690xkqDJEeSZxfCXzZz3-w _690xt6DJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690xt6DJEeSZxfCXzZz3-w" name="TypedElement" supertypes="_690xk6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xuKDJEeSZxfCXzZz3-w" name="type" type="Reference" description="This information is derived from the return result for this Operation.&#xD;&#xA;The type of the TypedElement."/>
+    </elements>
+    <elements xmi:id="_690xuaDJEeSZxfCXzZz3-w" name="Type" supertypes="_690xkqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xuqDJEeSZxfCXzZz3-w" name="package" type="Reference" description="Specifies the owning package of this classifier, if any."/>
+    </elements>
+    <elements xmi:id="_690xu6DJEeSZxfCXzZz3-w" name="Association" supertypes="_690xwaDJEeSZxfCXzZz3-w _690xoKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xvKDJEeSZxfCXzZz3-w" name="ownedEnd" type="Reference" description="The ends that are owned by the association itself."/>
+      <properties xmi:id="_690xvaDJEeSZxfCXzZz3-w" name="memberEnd" type="Reference" description="Each end represents participation of instances of the classifier connected to the end in links of the association."/>
+      <properties xmi:id="_690xvqDJEeSZxfCXzZz3-w" name="isDerived" description="Specifies whether the association is derived from other model elements such as other associations or constraints."/>
+      <properties xmi:id="_690xv6DJEeSZxfCXzZz3-w" name="endType" type="Reference" description="References the classifiers that are used as types of the ends of the association."/>
+      <properties xmi:id="_690xwKDJEeSZxfCXzZz3-w" name="navigableOwnedEnd" type="Reference" description="The navigable ends that are owned by the association itself."/>
+    </elements>
+    <elements xmi:id="_690xwaDJEeSZxfCXzZz3-w" name="Classifier" supertypes="_690xoqDJEeSZxfCXzZz3-w _690x0KDJEeSZxfCXzZz3-w _690xuaDJEeSZxfCXzZz3-w _690x1KDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690xwqDJEeSZxfCXzZz3-w" name="isAbstract" type="Boolean" description="If true, the Classifier does not provide a complete declaration and can typically not be instantiated. An abstract classifier is intended to be used by other classifiers e.g. as the target of general metarelationships or generalization relationships.&#xD;&#xA;"/>
+      <properties xmi:id="_690xw6DJEeSZxfCXzZz3-w" name="generalization" type="Reference" description="Specifies the Generalization relationships for this Classifier. These Generalizations navigaten to more general classifiers in the generalization hierarchy."/>
+      <properties xmi:id="_690xxKDJEeSZxfCXzZz3-w" name="powertypeExtent" type="Reference" description="Designates the GeneralizationSet of which the associated Classifier is a power type."/>
+      <properties xmi:id="_690xxaDJEeSZxfCXzZz3-w" name="feature" type="Reference" description="Note that there may be members of the Classifier that are of the type Feature but are not included in this association, e.g. inherited features.&#xD;&#xA;Specifies each feature defined in the classifier."/>
+      <properties xmi:id="_690xxqDJEeSZxfCXzZz3-w" name="inheritedMember" type="Reference" description="Specifies all elements inherited by this classifier from the general classifiers."/>
+      <properties xmi:id="_690xx6DJEeSZxfCXzZz3-w" name="redefinedClassifier" type="Reference" description="References the Classifiers that are redefined by this Classifier."/>
+      <properties xmi:id="_690xyKDJEeSZxfCXzZz3-w" name="general" type="Reference" description="References the general classifier in the Generalization relationship.&#xD;&#xA;Specifies the general Classifiers for this Classifier."/>
+      <properties xmi:id="_690xyaDJEeSZxfCXzZz3-w" name="substitution" type="Reference" description="References the substitutions that are owned by this Classifier."/>
+      <properties xmi:id="_690xyqDJEeSZxfCXzZz3-w" name="attribute" type="Reference" description="Refers to all of the Properties that are direct (i.e. not inherited or imported) attributes of the classifier."/>
+      <properties xmi:id="_690xy6DJEeSZxfCXzZz3-w" name="representation" type="Reference" description="References a collaboration use which indicates the collaboration that represents this classifier."/>
+      <properties xmi:id="_690xzKDJEeSZxfCXzZz3-w" name="collaborationUse" type="Reference" description="References the collaboration uses owned by the classifier."/>
+      <properties xmi:id="_690xzaDJEeSZxfCXzZz3-w" name="ownedUseCase" type="Reference" description="References the use cases owned by this classifier."/>
+      <properties xmi:id="_690xzqDJEeSZxfCXzZz3-w" name="useCase" type="Reference" description="The set of use cases for which this Classifier is the subject."/>
+      <properties xmi:id="_690xz6DJEeSZxfCXzZz3-w" name="isFinalSpecialization" type="Boolean" description="If true, the Classifier cannot be specialized by generalization. Note that this property is preserved through package merge operations; that is, the capability to specialize a Classifier (i.e., isFinalSpecialization =false) must be preserved in the resulting Classifier of a package merge operation where a Classifier with isFinalSpecialization =false is merged with a matching Classifier with isFinalSpecialization =true: the resulting Classifier will have isFinalSpecialization=false. Default is false."/>
+    </elements>
+    <elements xmi:id="_690x0KDJEeSZxfCXzZz3-w" name="RedefinableElement" supertypes="_690xk6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690x0aDJEeSZxfCXzZz3-w" name="isLeaf" description="Indicates whether it is possible to further specialize a RedefinableElement. If the value is true, then it is not possible to further specialize the RedefinableElement."/>
+      <properties xmi:id="_690x0qDJEeSZxfCXzZz3-w" name="redefinedElement" type="Reference" description="The redefinable element that is being redefined by this element."/>
+      <properties xmi:id="_690x06DJEeSZxfCXzZz3-w" name="redefinitionContext" type="Reference" description="References the contexts that this element may be redefined from."/>
+    </elements>
+    <elements xmi:id="_690x1KDJEeSZxfCXzZz3-w" name="TemplateableElement" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690x1aDJEeSZxfCXzZz3-w" name="templateBinding" type="Reference" description="The optional bindings from this element to templates."/>
+      <properties xmi:id="_690x1qDJEeSZxfCXzZz3-w" name="ownedTemplateSignature" type="Reference" description="The optional template signature specifying the formal template parameters."/>
+    </elements>
+    <elements xmi:id="_690x16DJEeSZxfCXzZz3-w" name="TemplateBinding" supertypes="_690xnaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690x2KDJEeSZxfCXzZz3-w" name="signature" type="Reference" description="The template signature for the template that is the target of the binding."/>
+      <properties xmi:id="_690x2aDJEeSZxfCXzZz3-w" name="parameterSubstitution" type="Reference" description="The parameter substitutions owned by this template binding."/>
+      <properties xmi:id="_690x2qDJEeSZxfCXzZz3-w" name="boundElement" type="Reference" description="The element that is bound by this binding."/>
+    </elements>
+    <elements xmi:id="_690x26DJEeSZxfCXzZz3-w" name="TemplateSignature" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690x3KDJEeSZxfCXzZz3-w" name="parameter" type="Reference" description="The ordered set of all formal template parameters for this template signature."/>
+      <properties xmi:id="_690x3aDJEeSZxfCXzZz3-w" name="ownedParameter" type="Reference" description="The formal template parameters that are owned by this template signature."/>
+      <properties xmi:id="_690x3qDJEeSZxfCXzZz3-w" name="template" type="Reference" description="The element that owns this template signature."/>
+    </elements>
+    <elements xmi:id="_690x36DJEeSZxfCXzZz3-w" name="TemplateParameter" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690x4KDJEeSZxfCXzZz3-w" name="signature" type="Reference" description="The template signature that owns this template parameter."/>
+      <properties xmi:id="_690x4aDJEeSZxfCXzZz3-w" name="parameteredElement" type="Reference" description="The element exposed by this template parameter."/>
+      <properties xmi:id="_690x4qDJEeSZxfCXzZz3-w" name="ownedParameteredElement" type="Reference" description="The element that is owned by this template parameter."/>
+      <properties xmi:id="_690x46DJEeSZxfCXzZz3-w" name="default" type="Reference" description="The element that is the default for this formal template parameter."/>
+      <properties xmi:id="_690x5KDJEeSZxfCXzZz3-w" name="ownedDefault" type="Reference" description="The element that is owned by this template parameter for the purpose of providing a default."/>
+    </elements>
+    <elements xmi:id="_690x5aDJEeSZxfCXzZz3-w" name="ParameterableElement" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690x5qDJEeSZxfCXzZz3-w" name="owningTemplateParameter" type="Reference" description="The formal template parameter that owns this element."/>
+      <properties xmi:id="_690x56DJEeSZxfCXzZz3-w" name="templateParameter" type="Reference" description="The template parameter that exposes this element as a formal parameter."/>
+    </elements>
+    <elements xmi:id="_690x6KDJEeSZxfCXzZz3-w" name="TemplateParameterSubstitution" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690x6aDJEeSZxfCXzZz3-w" name="formal" type="Reference" description="The formal template parameter that is associated with this substitution."/>
+      <properties xmi:id="_690x6qDJEeSZxfCXzZz3-w" name="actual" type="Reference" description="The element that is the actual parameter for this substitution."/>
+      <properties xmi:id="_690x66DJEeSZxfCXzZz3-w" name="ownedActual" type="Reference" description="The actual parameter that is owned by this substitution."/>
+      <properties xmi:id="_690x7KDJEeSZxfCXzZz3-w" name="templateBinding" type="Reference" description="The optional bindings from this element to templates."/>
+    </elements>
+    <elements xmi:id="_690x7aDJEeSZxfCXzZz3-w" name="Generalization" supertypes="_690xnaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690x7qDJEeSZxfCXzZz3-w" name="isSubstitutable" description="Indicates whether the specific classifier can be used wherever the general classifier can be used. If true, the execution traces of the specific classifier will be a superset of the execution traces of the general classifier."/>
+      <properties xmi:id="_690x76DJEeSZxfCXzZz3-w" name="general" type="Reference" description="References the general classifier in the Generalization relationship."/>
+      <properties xmi:id="_690x8KDJEeSZxfCXzZz3-w" name="generalizationSet" type="Reference" description="Designates a set in which instances of Generalization is considered members."/>
+      <properties xmi:id="_690x8aDJEeSZxfCXzZz3-w" name="specific" type="Reference" description="References the specializing classifier in the Generalization relationship."/>
+    </elements>
+    <elements xmi:id="_690x8qDJEeSZxfCXzZz3-w" name="GeneralizationSet" supertypes="_690xkqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690x86DJEeSZxfCXzZz3-w" name="isCovering" description="Indicates (via the associated Generalizations) whether or not the set of specific Classifiers are covering for a particular general classifier. When isCovering is true, every instance of a particular general Classifier is also an instance of at least one of its specific Classifiers for the GeneralizationSet. When isCovering is false, there are one or more instances of the particular general Classifier that are not instances of at least one of its specific Classifiers defined for the GeneralizationSet."/>
+      <properties xmi:id="_690x9KDJEeSZxfCXzZz3-w" name="isDisjoint" description="Indicates whether or not the set of specific Classifiers in a Generalization relationship have instance in common. If isDisjoint is true, the specific Classifiers for a particular GeneralizationSet have no members in common; that is, their intersection is empty. If isDisjoint is false, the specific Classifiers in a particular GeneralizationSet have one or more members in common; that is, their intersection is not empty. For example, Person could have two Generalization relationships, each with the different specific Classifier: Manager or Staff. This would be disjoint because every instance of Person must either be a Manager or Staff. In contrast, Person could have two Generalization relationships involving two specific (and non-covering) Classifiers: Sales Person and Manager. This GeneralizationSet would not be disjoint because there are instances of Person which can be a Sales Person and a Manager."/>
+      <properties xmi:id="_690x9aDJEeSZxfCXzZz3-w" name="powertype" type="Reference" description="Designates the Classifier that is defined as the power type for the associated GeneralizationSet."/>
+      <properties xmi:id="_690x9qDJEeSZxfCXzZz3-w" name="generalization" type="Reference" description="Designates the instances of Generalization which are members of a given GeneralizationSet."/>
+    </elements>
+    <elements xmi:id="_690x96DJEeSZxfCXzZz3-w" name="Feature" supertypes="_690x0KDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690x-KDJEeSZxfCXzZz3-w" name="isStatic" description="Specifies whether this feature characterizes individual instances classified by the classifier (false) or the classifier itself (true)."/>
+      <properties xmi:id="_690x-aDJEeSZxfCXzZz3-w" name="featuringClassifier" type="Reference" description="The Classifiers that have this Feature as a feature."/>
+    </elements>
+    <elements xmi:id="_690x-qDJEeSZxfCXzZz3-w" name="Substitution" supertypes="_690x_aDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690x-6DJEeSZxfCXzZz3-w" name="contract" type="Reference" description="The contract with which the substituting classifier complies."/>
+      <properties xmi:id="_690x_KDJEeSZxfCXzZz3-w" name="substitutingClassifier" type="Reference" description="Instances of the substituting classifier are runtime substitutable where instances of the contract classifier are expected."/>
+    </elements>
+    <elements xmi:id="_690x_aDJEeSZxfCXzZz3-w" name="Realization" supertypes="_690x_qDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690x_qDJEeSZxfCXzZz3-w" name="Abstraction" supertypes="_690xmqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690x_6DJEeSZxfCXzZz3-w" name="mapping" type="Reference" description="An composition of an Expression that states the abstraction relationship between the supplier and the client. In some cases, such as Derivation, it is usually formal and unidirectional; in other cases, such as Trace, it is usually informal and bidirectional. The mapping expression is optional and may be omitted if the precise relationship between the elements is not specified."/>
+    </elements>
+    <elements xmi:id="_690yAKDJEeSZxfCXzZz3-w" name="OpaqueExpression" supertypes="_690xtqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yAaDJEeSZxfCXzZz3-w" name="body" description="The text of the expression, possibly in multiple languages."/>
+      <properties xmi:id="_690yAqDJEeSZxfCXzZz3-w" name="language" description="Specifies the languages in which the expression is stated. The interpretation of the expression body depends on the languages. If the languages are unspecified, they might be implicit from the expression body or the context. Languages are matched to body strings by order."/>
+      <properties xmi:id="_690yA6DJEeSZxfCXzZz3-w" name="result" type="Reference" description="Restricts an opaque expression to return exactly one return result. When the invocation of the opaque expression completes, a single set of values is returned to its owner. This association is derived from the single return result parameter of the associated behavior."/>
+      <properties xmi:id="_690yBKDJEeSZxfCXzZz3-w" name="behavior" type="Reference" description="Specifies the behavior of the opaque expression."/>
+    </elements>
+    <elements xmi:id="_690yBaDJEeSZxfCXzZz3-w" name="Parameter" supertypes="_690yFaDJEeSZxfCXzZz3-w _690yDqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yBqDJEeSZxfCXzZz3-w" name="parameterSet" type="Reference" description="The parameter sets containing the parameter. See ParameterSet."/>
+      <properties xmi:id="_690yB6DJEeSZxfCXzZz3-w" name="operation" type="Reference" description="References the Operation owning this parameter."/>
+      <properties xmi:id="_690yCKDJEeSZxfCXzZz3-w" name="direction" type="Enumeration" description="Indicates whether a parameter is being sent into or out of a behavioral element."/>
+      <properties xmi:id="_690yCaDJEeSZxfCXzZz3-w" name="default" description="Specifies a String that represents a value to be used when no argument is supplied for the Parameter."/>
+      <properties xmi:id="_690yCqDJEeSZxfCXzZz3-w" name="defaultValue" type="Reference" description="Specifies a ValueSpecification that represents a value to be used when no argument is supplied for the Parameter."/>
+      <properties xmi:id="_690yC6DJEeSZxfCXzZz3-w" name="isException" description="Tells whether an output parameter may emit a value to the exclusion of the other outputs."/>
+      <properties xmi:id="_690yDKDJEeSZxfCXzZz3-w" name="isStream" description="Tells whether an input parameter may accept values while its behavior is executing, or whether an output parameter post values while the behavior is executing."/>
+      <properties xmi:id="_690yDaDJEeSZxfCXzZz3-w" name="effect" type="Enumeration" description="Specifies the effect that the owner of the parameter has on values passed in or out of the parameter."/>
+    </elements>
+    <elements xmi:id="_690yDqDJEeSZxfCXzZz3-w" name="MultiplicityElement" supertypes="_690xhaDJEeSZxfCXzZz3-w _6964nqDJEeSZxfCXzZz3-w _6964oaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yD6DJEeSZxfCXzZz3-w" name="isOrdered" description="For a multivalued multiplicity, this attribute specifies whether the values in an instantiation of this element are sequentially ordered."/>
+      <properties xmi:id="_690yEKDJEeSZxfCXzZz3-w" name="isUnique" description="For a multivalued multiplicity, this attributes specifies whether the values in an instantiation of this element are unique."/>
+      <properties xmi:id="_690yEaDJEeSZxfCXzZz3-w" name="upper" description="Specifies the upper bound of the multiplicity interval."/>
+      <properties xmi:id="_690yEqDJEeSZxfCXzZz3-w" name="lower" description="Specifies the lower bound of the multiplicity interval."/>
+      <properties xmi:id="_690yE6DJEeSZxfCXzZz3-w" name="upperValue" type="Reference" description="The specification of the upper bound for this multiplicity."/>
+      <properties xmi:id="_690yFKDJEeSZxfCXzZz3-w" name="lowerValue" type="Reference" description="The specification of the lower bound for this multiplicity."/>
+    </elements>
+    <elements xmi:id="_690yFaDJEeSZxfCXzZz3-w" name="ConnectableElement" supertypes="_690xt6DJEeSZxfCXzZz3-w _690x5aDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yFqDJEeSZxfCXzZz3-w" name="end" type="Reference" description="Denotes a connector that attaches to this connectable element."/>
+    </elements>
+    <elements xmi:id="_690yF6DJEeSZxfCXzZz3-w" name="ConnectorEnd" supertypes="_690yDqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yGKDJEeSZxfCXzZz3-w" name="definingEnd" type="Reference" description="A derived association referencing the corresponding association end on the association which types the connector owing this connector end. This association is derived by selecting the association end at the same place in the ordering of association ends as this connector end.&#xD;&#xA;"/>
+      <properties xmi:id="_690yGaDJEeSZxfCXzZz3-w" name="role" type="Reference" description="The connectable element attached at this connector end. When an instance of the containing classifier is created, a link may (depending on the multiplicities) be created to an instance of the classifier that types this connectable element.&#xD;&#xA;"/>
+      <properties xmi:id="_690yGqDJEeSZxfCXzZz3-w" name="partWithPort" type="Reference" description="Indicates the role of the internal structure of a classifier with the port to which the connector end is attached."/>
+    </elements>
+    <elements xmi:id="_690yG6DJEeSZxfCXzZz3-w" name="Property" supertypes="_690y2qDJEeSZxfCXzZz3-w _690yFaDJEeSZxfCXzZz3-w _690yLKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yHKDJEeSZxfCXzZz3-w" name="class" type="Reference" description="References the Class that owns the Property."/>
+      <properties xmi:id="_690yHaDJEeSZxfCXzZz3-w" name="datatype" type="Reference" description="The DataType that owns this Property."/>
+      <properties xmi:id="_690yHqDJEeSZxfCXzZz3-w" name="isDerived" description="If isDerived is true, the value of the attribute is derived from information elsewhere.&#xD;&#xA;Specifies whether the Property is derived, i.e., whether its value or values can be computed from other information."/>
+      <properties xmi:id="_690yH6DJEeSZxfCXzZz3-w" name="isDerivedUnion" description="Specifies whether the property is derived as the union of all of the properties that are constrained to subset it."/>
+      <properties xmi:id="_690yIKDJEeSZxfCXzZz3-w" name="aggregation" type="Enumeration" description="Specifies the kind of aggregation that applies to the Property."/>
+      <properties xmi:id="_690yIaDJEeSZxfCXzZz3-w" name="isComposite" description="If isComposite is true, the object containing the attribute is a container for the object or value contained in the attribute.&#xD;&#xA;This is a derived value, indicating whether the aggregation of the Property is composite or not."/>
+      <properties xmi:id="_690yIqDJEeSZxfCXzZz3-w" name="redefinedProperty" type="Reference" description="References the properties that are redefined by this property."/>
+      <properties xmi:id="_690yI6DJEeSZxfCXzZz3-w" name="owningAssociation" type="Reference" description="References the owning association of this property, if any."/>
+      <properties xmi:id="_690yJKDJEeSZxfCXzZz3-w" name="defaultValue" type="Reference" description="A ValueSpecification that is evaluated to give a default value for the Property when an object of the owning Classifier is instantiated."/>
+      <properties xmi:id="_690yJaDJEeSZxfCXzZz3-w" name="opposite" type="Reference" description="In the case where the property is one navigable end of a binary association with both ends navigable, this gives the other end."/>
+      <properties xmi:id="_690yJqDJEeSZxfCXzZz3-w" name="subsettedProperty" type="Reference" description="References the properties of which this property is constrained to be a subset."/>
+      <properties xmi:id="_690yJ6DJEeSZxfCXzZz3-w" name="association" type="Reference" description="References the association of which this property is a member, if any."/>
+      <properties xmi:id="_690yKKDJEeSZxfCXzZz3-w" name="qualifier" type="Reference" description="An optional list of ordered qualifier attributes for the end. If the list is empty, then the Association is not qualified."/>
+      <properties xmi:id="_690yKaDJEeSZxfCXzZz3-w" name="associationEnd" type="Reference" description="Designates the optional association end that owns a qualifier attribute."/>
+      <properties xmi:id="_690yKqDJEeSZxfCXzZz3-w" name="interface" type="Reference"/>
+      <properties xmi:id="_690yK6DJEeSZxfCXzZz3-w" name="isID" type="Boolean"/>
+    </elements>
+    <elements xmi:id="_690yLKDJEeSZxfCXzZz3-w" name="DeploymentTarget" supertypes="_690xk6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yLaDJEeSZxfCXzZz3-w" name="deployment" type="Reference" description="The set of Deployments for a DeploymentTarget."/>
+      <properties xmi:id="_690yLqDJEeSZxfCXzZz3-w" name="deployedElement" type="Reference" description="The set of elements that are manifested in an Artifact that is involved in Deployment to a DeploymentTarget."/>
+    </elements>
+    <elements xmi:id="_690yL6DJEeSZxfCXzZz3-w" name="Deployment" supertypes="_690xmqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yMKDJEeSZxfCXzZz3-w" name="deployedArtifact" type="Reference" description="The Artifacts that are deployed onto a Node. This association specializes the supplier association."/>
+      <properties xmi:id="_690yMaDJEeSZxfCXzZz3-w" name="configuration" type="Reference" description="The specification of properties that parameterize the deployment and execution of one or more Artifacts."/>
+      <properties xmi:id="_690yMqDJEeSZxfCXzZz3-w" name="location" type="Reference" description="The DeployedTarget which is the target of a Deployment."/>
+    </elements>
+    <elements xmi:id="_690yM6DJEeSZxfCXzZz3-w" name="DeployedArtifact" supertypes="_690xk6DJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690yNKDJEeSZxfCXzZz3-w" name="DeploymentSpecification" supertypes="_690yOKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yNaDJEeSZxfCXzZz3-w" name="deploymentLocation" description="The location where an Artifact is deployed onto a Node. This is typically a 'directory' or 'memory address'."/>
+      <properties xmi:id="_690yNqDJEeSZxfCXzZz3-w" name="executionLocation" description="The location where a component Artifact executes. This may be a local or remote location."/>
+      <properties xmi:id="_690yN6DJEeSZxfCXzZz3-w" name="deployment" type="Reference" description="The deployment with which the DeploymentSpecification is associated."/>
+    </elements>
+    <elements xmi:id="_690yOKDJEeSZxfCXzZz3-w" name="Artifact" supertypes="_690xwaDJEeSZxfCXzZz3-w _690yM6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yOaDJEeSZxfCXzZz3-w" name="fileName" description="A concrete name that is used to refer to the Artifact in a physical context. Example: file system name, universal resource locator."/>
+      <properties xmi:id="_690yOqDJEeSZxfCXzZz3-w" name="nestedArtifact" type="Reference" description="The Artifacts that are defined (nested) within the Artifact.&#xD;&#xA;The association is a specialization of the ownedMember association from Namespace to NamedElement.&#xD;&#xA;"/>
+      <properties xmi:id="_690yO6DJEeSZxfCXzZz3-w" name="manifestation" type="Reference" description="The set of model elements that are manifested in the Artifact. That is, these model elements are utilized in the construction (or generation) of the artifact."/>
+      <properties xmi:id="_690yPKDJEeSZxfCXzZz3-w" name="ownedOperation" type="Reference" description="The Operations defined for the Artifact. The association is a specialization of the ownedMember association."/>
+      <properties xmi:id="_690yPaDJEeSZxfCXzZz3-w" name="ownedAttribute" type="Reference" description="The attributes or association ends defined for the Artifact.&#xD;&#xA;The association is a specialization of the ownedMember association.&#xD;&#xA;"/>
+    </elements>
+    <elements xmi:id="_690yPqDJEeSZxfCXzZz3-w" name="Manifestation" supertypes="_690x_qDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yP6DJEeSZxfCXzZz3-w" name="utilizedElement" type="Reference" description="The model element that is utilized in the manifestation in an Artifact."/>
+    </elements>
+    <elements xmi:id="_690yQKDJEeSZxfCXzZz3-w" name="Operation" supertypes="_690yTqDJEeSZxfCXzZz3-w _690x5aDJEeSZxfCXzZz3-w _690x1KDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yQaDJEeSZxfCXzZz3-w" name="interface" type="Reference" description="The Interface that owns this Operation."/>
+      <properties xmi:id="_690yQqDJEeSZxfCXzZz3-w" name="class" type="Reference" description="The class that owns the operation."/>
+      <properties xmi:id="_690yQ6DJEeSZxfCXzZz3-w" name="isQuery" description="Specifies whether an execution of the BehavioralFeature leaves the state of the system unchanged (isQuery=true) or whether side effects may occur (isQuery=false)."/>
+      <properties xmi:id="_690yRKDJEeSZxfCXzZz3-w" name="isOrdered" description="This information is derived from the return result for this Operation.&#xD;&#xA;Specifies whether the return parameter is ordered or not, if present."/>
+      <properties xmi:id="_690yRaDJEeSZxfCXzZz3-w" name="isUnique" description="This information is derived from the return result for this Operation.&#xD;&#xA;Specifies whether the return parameter is unique or not, if present."/>
+      <properties xmi:id="_690yRqDJEeSZxfCXzZz3-w" name="lower" description="This information is derived from the return result for this Operation.&#xD;&#xA;Specifies the lower multiplicity of the return parameter, if present."/>
+      <properties xmi:id="_690yR6DJEeSZxfCXzZz3-w" name="upper" description="This information is derived from the return result for this Operation.&#xD;&#xA;Specifies the upper multiplicity of the return parameter, if present."/>
+      <properties xmi:id="_690ySKDJEeSZxfCXzZz3-w" name="precondition" type="Reference" description="An optional set of Constraints on the state of the system when the Operation is invoked."/>
+      <properties xmi:id="_690ySaDJEeSZxfCXzZz3-w" name="postcondition" type="Reference" description="An optional set of Constraints specifying the state of the system when the Operation is completed."/>
+      <properties xmi:id="_690ySqDJEeSZxfCXzZz3-w" name="redefinedOperation" type="Reference" description="References the Operations that are redefined by this Operation."/>
+      <properties xmi:id="_690yS6DJEeSZxfCXzZz3-w" name="datatype" type="Reference" description="The DataType that owns this Operation."/>
+      <properties xmi:id="_690yTKDJEeSZxfCXzZz3-w" name="bodyCondition" type="Reference" description="An optional Constraint on the result values of an invocation of this Operation."/>
+      <properties xmi:id="_690yTaDJEeSZxfCXzZz3-w" name="type" type="Reference" description="This information is derived from the return result for this Operation.&#xD;&#xA;Specifies the return result of the operation, if present."/>
+    </elements>
+    <elements xmi:id="_690yTqDJEeSZxfCXzZz3-w" name="BehavioralFeature" supertypes="_690xoqDJEeSZxfCXzZz3-w _690x96DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yT6DJEeSZxfCXzZz3-w" name="ownedParameter" type="Reference" description="Specifies the ordered set of formal parameters of this BehavioralFeature."/>
+      <properties xmi:id="_690yUKDJEeSZxfCXzZz3-w" name="isAbstract" description="If true, then the behavioral feature does not have an implementation, and one must be supplied by a more specific element. If false, the behavioral feature must have an implementation in the classifier or one must be inherited from a more general element."/>
+      <properties xmi:id="_690yUaDJEeSZxfCXzZz3-w" name="method" type="Reference" description="A behavioral description that implements the behavioral feature. There may be at most one behavior for a particular pairing of a classifier (as owner of the behavior) and a behavioral feature (as specification of the behavior)."/>
+      <properties xmi:id="_690yUqDJEeSZxfCXzZz3-w" name="concurrency" type="Enumeration" description="Specifies the semantics of concurrent calls to the same passive instance (i.e., an instance originating from a class with isActive being false). Active instances control access to their own behavioral features."/>
+      <properties xmi:id="_690yU6DJEeSZxfCXzZz3-w" name="raisedException" type="Reference" description="References the Types representing exceptions that may be raised during an invocation of this feature.&#xD;&#xA;The signals that the behavioral feature raises as exceptions."/>
+      <properties xmi:id="_690yVKDJEeSZxfCXzZz3-w" name="ownedParameterSet" type="Reference" description="The ParameterSets owned by this BehavioralFeature."/>
+    </elements>
+    <elements xmi:id="_690yVaDJEeSZxfCXzZz3-w" name="Behavior" supertypes="_690yXqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yVqDJEeSZxfCXzZz3-w" name="isReentrant" description="Tells whether the behavior can be invoked while it is still executing from a previous invocation."/>
+      <properties xmi:id="_690yV6DJEeSZxfCXzZz3-w" name="redefinedBehavior" type="Reference" description="References a behavior that this behavior redefines. A subtype of Behavior may redefine any other subtype of Behavior. If the behavior implements a behavioral feature, it replaces the redefined behavior. If the behavior is a classifier behavior, it extends the redefined behavior."/>
+      <properties xmi:id="_690yWKDJEeSZxfCXzZz3-w" name="ownedParameter" type="Reference" description="References a list of parameters to the behavior which describes the order and type of arguments that can be given when the behavior is invoked and of the values which will be returned when the behavior completes its execution.&#xD;&#xA;"/>
+      <properties xmi:id="_690yWaDJEeSZxfCXzZz3-w" name="context" type="Reference" description="The classifier that is the context for the execution of the behavior. If the behavior is owned by a BehavioredClassifier, that classifier is the context. Otherwise, the context is the first BehavioredClassifier reached by following the chain of owner relationships. For example, following this algorithm, the context of an entry action in a state machine is the classifier that owns the state machine. The features of the context classifier as well as the elements visible to the context classifier are visible to the behavior."/>
+      <properties xmi:id="_690yWqDJEeSZxfCXzZz3-w" name="precondition" type="Reference" description="An optional set of Constraints specifying what must be fulfilled when the behavior is invoked."/>
+      <properties xmi:id="_690yW6DJEeSZxfCXzZz3-w" name="postcondition" type="Reference" description="An optional set of Constraints specifying what is fulfilled after the execution of the behavior is completed, if its precondition was fulfilled before its invocation."/>
+      <properties xmi:id="_690yXKDJEeSZxfCXzZz3-w" name="ownedParameterSet" type="Reference" description="The ParameterSets owned by this Behavior."/>
+      <properties xmi:id="_690yXaDJEeSZxfCXzZz3-w" name="specification" type="Reference" description="Designates a behavioral feature that the behavior implements. The behavioral feature must be owned by the classifier that owns the behavior or be inherited by it. The parameters of the behavioral feature and the implementing behavior must match. A behavior does not need to have a specification, in which case it either is the classifer behavior of a BehavioredClassifier or it can only be invoked by another behavior of the classifier."/>
+    </elements>
+    <elements xmi:id="_690yXqDJEeSZxfCXzZz3-w" name="Class" supertypes="_690yt6DJEeSZxfCXzZz3-w _690yZaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yX6DJEeSZxfCXzZz3-w" name="nestedClassifier" type="Reference" description="References all the Classifiers that are defined (nested) within the Class."/>
+      <properties xmi:id="_690yYKDJEeSZxfCXzZz3-w" name="ownedOperation" type="Reference" description="The operations owned by the class."/>
+      <properties xmi:id="_690yYaDJEeSZxfCXzZz3-w" name="superClass" type="Reference" description="This gives the superclasses of a class."/>
+      <properties xmi:id="_690yYqDJEeSZxfCXzZz3-w" name="isActive" description="Determines whether an object specified by this class is active or not. If true, then the owning class is referred to as an active class. If false, then such a class is referred to as a passive class."/>
+      <properties xmi:id="_690yY6DJEeSZxfCXzZz3-w" name="ownedReception" type="Reference" description="Receptions that objects of this class are willing to accept."/>
+      <properties xmi:id="_690yZKDJEeSZxfCXzZz3-w" name="extension" type="Reference" description="References the Extensions that specify additional properties of the metaclass. The property is derived from the extensions whose memberEnds are typed by the Class."/>
+    </elements>
+    <elements xmi:id="_690yZaDJEeSZxfCXzZz3-w" name="BehavioredClassifier" supertypes="_690xwaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yZqDJEeSZxfCXzZz3-w" name="ownedBehavior" type="Reference" description="References behavior specifications owned by a classifier."/>
+      <properties xmi:id="_690yZ6DJEeSZxfCXzZz3-w" name="classifierBehavior" type="Reference" description="A behavior specification that specifies the behavior of the classifier itself."/>
+      <properties xmi:id="_690yaKDJEeSZxfCXzZz3-w" name="interfaceRealization" type="Reference" description="The set of InterfaceRealizations owned by the BehavioredClassifier. Interface realizations reference the Interfaces of which the BehavioredClassifier is an implementation."/>
+    </elements>
+    <elements xmi:id="_690yaaDJEeSZxfCXzZz3-w" name="InterfaceRealization" supertypes="_690x_aDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yaqDJEeSZxfCXzZz3-w" name="contract" type="Reference" description="References the Interface specifying the conformance contract."/>
+      <properties xmi:id="_690ya6DJEeSZxfCXzZz3-w" name="implementingClassifier" type="Reference" description="References the BehavioredClassifier that owns this Interfacerealization (i.e., the classifier that realizes the Interface to which it points)."/>
+    </elements>
+    <elements xmi:id="_690ybKDJEeSZxfCXzZz3-w" name="Interface" supertypes="_690xwaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690ybaDJEeSZxfCXzZz3-w" name="ownedAttribute" type="Reference" description="The attributes (i.e. the properties) owned by the class."/>
+      <properties xmi:id="_690ybqDJEeSZxfCXzZz3-w" name="ownedOperation" type="Reference" description="The operations owned by the class."/>
+      <properties xmi:id="_690yb6DJEeSZxfCXzZz3-w" name="nestedClassifier" type="Reference" description="References all the Classifiers that are defined (nested) within the Class."/>
+      <properties xmi:id="_690ycKDJEeSZxfCXzZz3-w" name="redefinedInterface" type="Reference" description="References all the Interfaces redefined by this Interface."/>
+      <properties xmi:id="_690ycaDJEeSZxfCXzZz3-w" name="ownedReception" type="Reference" description="Receptions that objects providing this interface are willing to accept."/>
+      <properties xmi:id="_690ycqDJEeSZxfCXzZz3-w" name="protocol" type="Reference" description="References a protocol state machine specifying the legal sequences of the invocation of the behavioral features described in the interface."/>
+    </elements>
+    <elements xmi:id="_690yc6DJEeSZxfCXzZz3-w" name="Reception" supertypes="_690yTqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690ydKDJEeSZxfCXzZz3-w" name="signal" type="Reference" description="The signal that this reception handles."/>
+    </elements>
+    <elements xmi:id="_690ydaDJEeSZxfCXzZz3-w" name="Signal" supertypes="_690xwaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690ydqDJEeSZxfCXzZz3-w" name="ownedAttribute" type="Reference" description="The attributes owned by the signal."/>
+    </elements>
+    <elements xmi:id="_690yd6DJEeSZxfCXzZz3-w" name="ProtocolStateMachine" supertypes="_690yeaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yeKDJEeSZxfCXzZz3-w" name="conformance" type="Reference" description="Conformance between protocol state machines."/>
+    </elements>
+    <elements xmi:id="_690yeaDJEeSZxfCXzZz3-w" name="StateMachine" supertypes="_690yVaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yeqDJEeSZxfCXzZz3-w" name="region" type="Reference" description="The regions owned directly by the state machine."/>
+      <properties xmi:id="_690ye6DJEeSZxfCXzZz3-w" name="submachineState" type="Reference" description="References the submachine(s) in case of a submachine state. Multiple machines are referenced in case of a concurrent state."/>
+      <properties xmi:id="_690yfKDJEeSZxfCXzZz3-w" name="connectionPoint" type="Reference" description="The connection points defined for this state machine. They represent the interface of the state machine when used as part of submachine state."/>
+      <properties xmi:id="_690yfaDJEeSZxfCXzZz3-w" name="extendedStateMachine" type="Reference" description="The state machines of which this is an extension."/>
+    </elements>
+    <elements xmi:id="_690yfqDJEeSZxfCXzZz3-w" name="Region" supertypes="_690xoqDJEeSZxfCXzZz3-w _690x0KDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yf6DJEeSZxfCXzZz3-w" name="subvertex" type="Reference" description="The set of vertices that are owned by this region."/>
+      <properties xmi:id="_690ygKDJEeSZxfCXzZz3-w" name="transition" type="Reference" description="The set of transitions owned by the region. Note that internal transitions are owned by a region, but applies to the source state."/>
+      <properties xmi:id="_690ygaDJEeSZxfCXzZz3-w" name="state" type="Reference" description="The State that owns the Region. If a Region is owned by a State, then it cannot also be owned by a StateMachine."/>
+      <properties xmi:id="_690ygqDJEeSZxfCXzZz3-w" name="extendedRegion" type="Reference" description="The region of which this region is an extension."/>
+      <properties xmi:id="_690yg6DJEeSZxfCXzZz3-w" name="stateMachine" type="Reference" description="The StateMachine that owns the Region. If a Region is owned by a StateMachine, then it cannot also be owned by a State."/>
+    </elements>
+    <elements xmi:id="_690yhKDJEeSZxfCXzZz3-w" name="Vertex" supertypes="_690xk6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yhaDJEeSZxfCXzZz3-w" name="outgoing" type="Reference" description="Specifies the transitions departing from this vertex."/>
+      <properties xmi:id="_690yhqDJEeSZxfCXzZz3-w" name="incoming" type="Reference" description="Specifies the transitions entering this vertex."/>
+      <properties xmi:id="_690yh6DJEeSZxfCXzZz3-w" name="container" type="Reference" description="The region that contains this vertex."/>
+    </elements>
+    <elements xmi:id="_690yiKDJEeSZxfCXzZz3-w" name="Transition" supertypes="_690xoqDJEeSZxfCXzZz3-w _690x0KDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yiaDJEeSZxfCXzZz3-w" name="kind" type="Enumeration" description="Indicates  the precise type of the transition."/>
+      <properties xmi:id="_690yiqDJEeSZxfCXzZz3-w" name="container" type="Reference" description="Designates the region that owns this transition."/>
+      <properties xmi:id="_690yi6DJEeSZxfCXzZz3-w" name="source" type="Reference" description="Designates the originating vertex (state or pseudostate) of the transition."/>
+      <properties xmi:id="_690yjKDJEeSZxfCXzZz3-w" name="target" type="Reference" description="Designates the target vertex that is reached when the transition is taken."/>
+      <properties xmi:id="_690yjaDJEeSZxfCXzZz3-w" name="redefinedTransition" type="Reference" description="The transition that is redefined by this transition."/>
+      <properties xmi:id="_690yjqDJEeSZxfCXzZz3-w" name="guard" type="Reference" description="A guard is a constraint that provides a fine-grained control over the firing of the transition. The guard is evaluated when an event occurrence is dispatched by the state machine. If the guard is true at that time, the transition may be enabled, otherwise, it is disabled. Guards should be pure expressions without side effects. Guard expressions with side effects are ill formed."/>
+      <properties xmi:id="_690yj6DJEeSZxfCXzZz3-w" name="effect" type="Reference" description="Specifies an optional behavior to be performed when the transition fires."/>
+      <properties xmi:id="_690ykKDJEeSZxfCXzZz3-w" name="trigger" type="Reference" description="Specifies the triggers that may fire the transition."/>
+    </elements>
+    <elements xmi:id="_690ykaDJEeSZxfCXzZz3-w" name="Trigger" supertypes="_690xk6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690ykqDJEeSZxfCXzZz3-w" name="event" type="Reference" description="The event that causes the trigger."/>
+      <properties xmi:id="_690yk6DJEeSZxfCXzZz3-w" name="port" type="Reference" multiplicity="-1" description="A optional port of the receiver object on which the behavioral feature is invoked."/>
+    </elements>
+    <elements xmi:id="_690ylKDJEeSZxfCXzZz3-w" name="Event" supertypes="_690xkqDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690ylaDJEeSZxfCXzZz3-w" name="Port" supertypes="_690yG6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690ylqDJEeSZxfCXzZz3-w" name="isBehavior" description="Specifies whether requests arriving at this port are sent to the classifier behavior of this classifier. Such ports are referred to as behavior port. Any invocation of a behavioral feature targeted at a behavior port will be handled by the instance of the owning classifier itself, rather than by any instances that this classifier may contain."/>
+      <properties xmi:id="_690yl6DJEeSZxfCXzZz3-w" name="isService" description="If true indicates that this port is used to provide the published functionality of a classifier; if false, this port is used to implement the classifier but is not part of the essential externally-visible functionality of the classifier and can, therefore, be altered or deleted along with the internal implementation of the classifier and other properties that are considered part of its implementation."/>
+      <properties xmi:id="_690ymKDJEeSZxfCXzZz3-w" name="required" type="Reference" description="References the interfaces specifying the set of operations and receptions which the classifier expects its environment to handle. This association is derived as the set of interfaces required by the type of the port or its supertypes."/>
+      <properties xmi:id="_690ymaDJEeSZxfCXzZz3-w" name="redefinedPort" type="Reference" description="A port may be redefined when its containing classifier is specialized. The redefining port may have additional interfaces to those that are associated with the redefined port or it may replace an interface by one of its subtypes."/>
+      <properties xmi:id="_690ymqDJEeSZxfCXzZz3-w" name="provided" type="Reference" description="References the interfaces specifying the set of operations and receptions which the classifier offers to its environment, and which it will handle either directly or by forwarding it to a part of its internal structure. This association is derived from the interfaces realized by the type of the port or by the type of the port, if the port was typed by an interface.&#xD;&#xA;"/>
+      <properties xmi:id="_690ym6DJEeSZxfCXzZz3-w" name="protocol" type="Reference" description="References an optional protocol state machine which describes valid interactions at this interaction point."/>
+      <properties xmi:id="_690ynKDJEeSZxfCXzZz3-w" name="isConjugated" type="Boolean"/>
+    </elements>
+    <elements xmi:id="_690ynaDJEeSZxfCXzZz3-w" name="State" supertypes="_690xoqDJEeSZxfCXzZz3-w _690x0KDJEeSZxfCXzZz3-w _690yhKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690ynqDJEeSZxfCXzZz3-w" name="isComposite" description="A state with isComposite=true is said to be a composite state. A composite state is a state that contains at least one region."/>
+      <properties xmi:id="_690yn6DJEeSZxfCXzZz3-w" name="isOrthogonal" description="A state with isOrthogonal=true is said to be an orthogonal composite state. An orthogonal composite state contains two or more regions."/>
+      <properties xmi:id="_690yoKDJEeSZxfCXzZz3-w" name="isSimple" description="A state with isSimple=true is said to be a simple state. A simple state does not have any regions and it does not refer to any submachine state machine."/>
+      <properties xmi:id="_690yoaDJEeSZxfCXzZz3-w" name="isSubmachineState" description="A state with isSubmachineState=true is said to be a submachine state. Such a state refers to a state machine (submachine)."/>
+      <properties xmi:id="_690yoqDJEeSZxfCXzZz3-w" name="submachine" type="Reference" description="The state machine that is to be inserted in place of the (submachine) state."/>
+      <properties xmi:id="_690yo6DJEeSZxfCXzZz3-w" name="connection" type="Reference" description="The entry and exit connection points used in conjunction with this (submachine) state, i.e. as targets and sources, respectively, in the region with the submachine state. A connection point reference references the corresponding definition of a connection point pseudostate in the statemachine referenced by the submachinestate."/>
+      <properties xmi:id="_690ypKDJEeSZxfCXzZz3-w" name="connectionPoint" type="Reference" description="The entry and exit pseudostates of a composite state. These can only be entry or exit Pseudostates, and they must have different names. They can only be defined for composite states."/>
+      <properties xmi:id="_690ypaDJEeSZxfCXzZz3-w" name="redefinedState" type="Reference" description="The state of which this state is a redefinition."/>
+      <properties xmi:id="_690ypqDJEeSZxfCXzZz3-w" name="stateInvariant" type="Reference" description="Specifies conditions that are always true when this state is the current state. In protocol state machines, state invariants are additional conditions to the preconditions of the outgoing transitions, and to the postcondition of the incoming transitions.&#xD;&#xA;"/>
+      <properties xmi:id="_690yp6DJEeSZxfCXzZz3-w" name="entry" type="Reference" description="An optional behavior that is executed whenever this state is entered regardless of the transition taken to reach the state. If defined, entry actions are always executed to completion prior to any internal behavior or transitions performed within the state.&#xD;&#xA;"/>
+      <properties xmi:id="_690yqKDJEeSZxfCXzZz3-w" name="exit" type="Reference" description="An optional behavior that is executed whenever this state is exited regardless of which transition was taken out of the state. If defined, exit actions are always executed to completion only after all internal activities and transition actions have completed execution."/>
+      <properties xmi:id="_690yqaDJEeSZxfCXzZz3-w" name="doActivity" type="Reference" description="An optional behavior that is executed while being in the state. The execution starts when this state is entered, and stops either by itself, or when the state is exited, whichever comes first."/>
+      <properties xmi:id="_690yqqDJEeSZxfCXzZz3-w" name="deferrableTrigger" type="Reference" description="A list of triggers that are candidates to be retained by the state machine if they trigger no transitions out of the state (not consumed). A deferred trigger is retained until the state machine reaches a state configuration where it is no longer deferred.&#xD;&#xA;"/>
+      <properties xmi:id="_690yq6DJEeSZxfCXzZz3-w" name="region" type="Reference" description="The regions owned directly by the state."/>
+    </elements>
+    <elements xmi:id="_690yrKDJEeSZxfCXzZz3-w" name="ConnectionPointReference" supertypes="_690yhKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yraDJEeSZxfCXzZz3-w" name="entry" type="Reference" description="The entryPoint kind pseudo states corresponding to this connection point."/>
+      <properties xmi:id="_690yrqDJEeSZxfCXzZz3-w" name="exit" type="Reference" description="The exitPoints kind pseudo states corresponding to this connection point."/>
+      <properties xmi:id="_690yr6DJEeSZxfCXzZz3-w" name="state" type="Reference" description="The State in which the connection point refreshens are defined."/>
+    </elements>
+    <elements xmi:id="_690ysKDJEeSZxfCXzZz3-w" name="Pseudostate" supertypes="_690yhKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690ysaDJEeSZxfCXzZz3-w" name="kind" type="Enumeration" description="Determines the precise type of the Pseudostate and can be one of: entryPoint, exitPoint, initial, deepHistory, shallowHistory, join, fork, junction, terminate or choice."/>
+      <properties xmi:id="_690ysqDJEeSZxfCXzZz3-w" name="stateMachine" type="Reference" description="The StateMachine in which this Pseudostate is defined. This only applies to Pseudostates of the kind entryPoint or exitPoint."/>
+      <properties xmi:id="_690ys6DJEeSZxfCXzZz3-w" name="state" type="Reference" description="The State that owns this pseudostate and in which it appears."/>
+    </elements>
+    <elements xmi:id="_690ytKDJEeSZxfCXzZz3-w" name="ProtocolConformance" supertypes="_690xnaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690ytaDJEeSZxfCXzZz3-w" name="generalMachine" type="Reference" description="Specifies the protocol state machine to which the specific state machine conforms."/>
+      <properties xmi:id="_690ytqDJEeSZxfCXzZz3-w" name="specificMachine" type="Reference" description="Specifies the state machine which conforms to the general state machine."/>
+    </elements>
+    <elements xmi:id="_690yt6DJEeSZxfCXzZz3-w" name="EncapsulatedClassifier" supertypes="_690yuaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yuKDJEeSZxfCXzZz3-w" name="ownedPort" type="Reference" description="References a set of ports that an encapsulated classifier owns."/>
+    </elements>
+    <elements xmi:id="_690yuaDJEeSZxfCXzZz3-w" name="StructuredClassifier" supertypes="_690xwaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yuqDJEeSZxfCXzZz3-w" name="ownedAttribute" type="Reference" description="References the properties owned by the classifier."/>
+      <properties xmi:id="_690yu6DJEeSZxfCXzZz3-w" name="part" type="Reference" description="References the properties specifying instances that the classifier owns by composition. This association is derived, selecting those owned properties where isComposite is true."/>
+      <properties xmi:id="_690yvKDJEeSZxfCXzZz3-w" name="role" type="Reference" description="References the roles that instances may play in this classifier."/>
+      <properties xmi:id="_690yvaDJEeSZxfCXzZz3-w" name="ownedConnector" type="Reference" description="References the connectors owned by the classifier."/>
+    </elements>
+    <elements xmi:id="_690yvqDJEeSZxfCXzZz3-w" name="Connector" supertypes="_690x96DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yv6DJEeSZxfCXzZz3-w" name="type" type="Reference" description="An optional association that specifies the link corresponding to this connector."/>
+      <properties xmi:id="_690ywKDJEeSZxfCXzZz3-w" name="redefinedConnector" type="Reference" description="A connector may be redefined when its containing classifier is specialized. The redefining connector may have a type that specializes the type of the redefined connector. The types of the connector ends of the redefining connector may specialize the types of the connector ends of the redefined connector. The properties of the connector ends of the redefining connector may be replaced."/>
+      <properties xmi:id="_690ywaDJEeSZxfCXzZz3-w" name="end" type="Reference" description="A connector consists of at least two connector ends, each representing the participation of instances of the classifiers typing the connectable elements attached to this end. The set of connector ends is ordered."/>
+      <properties xmi:id="_690ywqDJEeSZxfCXzZz3-w" name="kind" type="Enumeration" description="Indicates the kind of connector."/>
+      <properties xmi:id="_690yw6DJEeSZxfCXzZz3-w" name="contract" type="Reference" description="The set of Behaviors that specify the valid interaction patterns across the connector."/>
+    </elements>
+    <elements xmi:id="_690yxKDJEeSZxfCXzZz3-w" name="Extension" supertypes="_690xu6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yxaDJEeSZxfCXzZz3-w" name="isRequired" description="Indicates whether an instance of the extending stereotype must be created when an instance of the extended class is created. The attribute value is derived from the multiplicity of the Property referenced by Extension::ownedEnd; a multiplicity of 1 means that isRequired is true, but otherwise it is false. Since the default multiplicity of an ExtensionEnd is 0..1, the default value of isRequired is false."/>
+      <properties xmi:id="_690yxqDJEeSZxfCXzZz3-w" name="metaclass" type="Reference" description="References the Class that is extended through an Extension. The property is derived from the type of the memberEnd that is not the ownedEnd."/>
+    </elements>
+    <elements xmi:id="_690yx6DJEeSZxfCXzZz3-w" name="ExtensionEnd" supertypes="_690yG6DJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690yyKDJEeSZxfCXzZz3-w" name="Stereotype" supertypes="_690yXqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yyaDJEeSZxfCXzZz3-w" name="icon" type="Reference" description="Stereotype can change the graphical appearance of the extended model element by using attached icons. When this association is not null, it references the location of the icon content to be displayed within diagrams presenting the extended model elements."/>
+    </elements>
+    <elements xmi:id="_690yyqDJEeSZxfCXzZz3-w" name="Image" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yy6DJEeSZxfCXzZz3-w" name="content" description="This contains the serialization of the image according to the format. The value could represent a bitmap, image such as a GIF file, or drawing 'instructions' using a standard such as Scalable Vector Graphic (SVG) (which is XML based)."/>
+      <properties xmi:id="_690yzKDJEeSZxfCXzZz3-w" name="location" description="This contains a location that can be used by a tool to locate the image as an alternative to embedding it in the stereotype."/>
+      <properties xmi:id="_690yzaDJEeSZxfCXzZz3-w" name="format" description="This indicates the format of the content - which is how the string content should be interpreted. The following values are reserved: SVG, GIF, PNG, JPG, WMF, EMF, BMP.&#xD;&#xA;&#xD;&#xA;In addition the prefix 'MIME: ' is also reserved. This option can be used as an alternative to express the reserved values above, for example &quot;SVG&quot; could instead be expressed as &quot;MIME: image/svg+xml&quot;."/>
+    </elements>
+    <elements xmi:id="_690yzqDJEeSZxfCXzZz3-w" name="Profile" supertypes="_690xiaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690yz6DJEeSZxfCXzZz3-w" name="metaclassReference" type="Reference" description="References a metaclass that may be extended."/>
+      <properties xmi:id="_690y0KDJEeSZxfCXzZz3-w" name="metamodelReference" type="Reference" description="References a package containing (directly or indirectly) metaclasses that may be extended."/>
+    </elements>
+    <elements xmi:id="_690y0aDJEeSZxfCXzZz3-w" name="Model" supertypes="_690xiaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690y0qDJEeSZxfCXzZz3-w" name="viewpoint" description="The name of the viewpoint that is expressed by a model (This name may refer to a profile definition)."/>
+    </elements>
+    <elements xmi:id="_690y06DJEeSZxfCXzZz3-w" name="ParameterSet" supertypes="_690xk6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690y1KDJEeSZxfCXzZz3-w" name="parameter" type="Reference" description="Parameters in the parameter set."/>
+      <properties xmi:id="_690y1aDJEeSZxfCXzZz3-w" name="condition" type="Reference" description="Constraint that should be satisfied for the owner of the parameters in an input parameter set to start execution using the values provided for those parameters, or the owner of the parameters in an output parameter set to end execution providing the values for those parameters, if all preconditions and conditions on input parameter sets were satisfied."/>
+    </elements>
+    <elements xmi:id="_690y1qDJEeSZxfCXzZz3-w" name="DataType" supertypes="_690xwaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690y16DJEeSZxfCXzZz3-w" name="ownedAttribute" type="Reference" description="The Attributes owned by the DataType."/>
+      <properties xmi:id="_690y2KDJEeSZxfCXzZz3-w" name="ownedOperation" type="Reference" description="The Operations owned by the DataType."/>
+    </elements>
+    <elements xmi:id="_690y2aDJEeSZxfCXzZz3-w" name="OperationTemplateParameter" supertypes="_690x36DJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690y2qDJEeSZxfCXzZz3-w" name="StructuralFeature" supertypes="_690x96DJEeSZxfCXzZz3-w _690xt6DJEeSZxfCXzZz3-w _690yDqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690y26DJEeSZxfCXzZz3-w" name="isReadOnly" description="States whether the feature's value may be modified by a client."/>
+    </elements>
+    <elements xmi:id="_690y3KDJEeSZxfCXzZz3-w" name="ConnectableElementTemplateParameter" supertypes="_690x36DJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690y3aDJEeSZxfCXzZz3-w" name="CollaborationUse" supertypes="_690xk6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690y3qDJEeSZxfCXzZz3-w" name="type" type="Reference" description="The collaboration which is used in this occurrence. The collaboration defines the cooperation between its roles which are mapped to properties of the classifier owning the collaboration use."/>
+      <properties xmi:id="_690y36DJEeSZxfCXzZz3-w" name="roleBinding" type="Reference" description="A mapping between features of the collaboration type and features of the classifier or operation. This mapping indicates which connectable element of the classifier or operation plays which role(s) in the collaboration. A connectable element may be bound to multiple roles in the same collaboration use (that is, it may play multiple roles).&#xD;&#xA;"/>
+    </elements>
+    <elements xmi:id="_690y4KDJEeSZxfCXzZz3-w" name="Collaboration" supertypes="_690yZaDJEeSZxfCXzZz3-w _690yuaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690y4aDJEeSZxfCXzZz3-w" name="collaborationRole" type="Reference" description="References connectable elements (possibly owned by other classifiers) which represent roles that instances may play in this collaboration."/>
+    </elements>
+    <elements xmi:id="_690y4qDJEeSZxfCXzZz3-w" name="UseCase" supertypes="_690yZaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690y46DJEeSZxfCXzZz3-w" name="include" type="Reference" description="References the Include relationships owned by this use case."/>
+      <properties xmi:id="_690y5KDJEeSZxfCXzZz3-w" name="extend" type="Reference" description="References the Extend relationships owned by this use case."/>
+      <properties xmi:id="_690y5aDJEeSZxfCXzZz3-w" name="extensionPoint" type="Reference" description="References the ExtensionPoints owned by the use case."/>
+      <properties xmi:id="_690y5qDJEeSZxfCXzZz3-w" name="subject" type="Reference" description="References the subjects to which this use case applies. The subject or its parts realize all the use cases that apply to this subject. Use cases need not be attached to any specific subject, however. The subject may, but need not, own the use cases that apply to it."/>
+    </elements>
+    <elements xmi:id="_690y56DJEeSZxfCXzZz3-w" name="Include" supertypes="_690xk6DJEeSZxfCXzZz3-w _690xnaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690y6KDJEeSZxfCXzZz3-w" name="addition" type="Reference" description="References the use case that is to be included.&#xD;&#xA;"/>
+      <properties xmi:id="_690y6aDJEeSZxfCXzZz3-w" name="includingCase" type="Reference" description="References the use case which will include the addition and owns the include relationship."/>
+    </elements>
+    <elements xmi:id="_690y6qDJEeSZxfCXzZz3-w" name="Extend" supertypes="_690xk6DJEeSZxfCXzZz3-w _690xnaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690y66DJEeSZxfCXzZz3-w" name="extendedCase" type="Reference" description="References the use case that is being extended."/>
+      <properties xmi:id="_690y7KDJEeSZxfCXzZz3-w" name="condition" type="Reference" description="References the condition that must hold when the first extension point is reached for the extension to take place. If no constraint is associated with the extend relationship, the extension is unconditional.&#xD;&#xA;"/>
+      <properties xmi:id="_690y7aDJEeSZxfCXzZz3-w" name="extensionLocation" type="Reference" description="An ordered list of extension points belonging to the extended use case, specifying where the respective behavioral fragments of the extending use case are to be inserted. The first fragment in the extending use case is associated with the first extension point in the list, the second fragment with the second point, and so on. (Note that, in most practical cases, the extending use case has just a single behavior fragment, so that the list of extension points is trivial.)&#xD;&#xA;"/>
+      <properties xmi:id="_690y7qDJEeSZxfCXzZz3-w" name="extension" type="Reference" description="References the use case that represents the extension and owns the extend relationship."/>
+    </elements>
+    <elements xmi:id="_690y76DJEeSZxfCXzZz3-w" name="ExtensionPoint" supertypes="_690x0KDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690y8KDJEeSZxfCXzZz3-w" name="useCase" type="Reference" description="References the use case that owns this extension point."/>
+    </elements>
+    <elements xmi:id="_690y8aDJEeSZxfCXzZz3-w" name="RedefinableTemplateSignature" supertypes="_690x0KDJEeSZxfCXzZz3-w _690x26DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690y8qDJEeSZxfCXzZz3-w" name="extendedSignature" type="Reference" description="The template signature that is extended by this template signature."/>
+      <properties xmi:id="_690y86DJEeSZxfCXzZz3-w" name="inheritedParameter" type="Reference" description="The formal template parameters of the extendedSignature."/>
+      <properties xmi:id="_690y9KDJEeSZxfCXzZz3-w" name="classifier" type="Reference" description="The classifier that owns this template signature."/>
+    </elements>
+    <elements xmi:id="_690y9aDJEeSZxfCXzZz3-w" name="ClassifierTemplateParameter" supertypes="_690x36DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690y9qDJEeSZxfCXzZz3-w" name="allowSubstitutable" description="Constrains the required relationship between an actual parameter and the parameteredElement for this formal parameter."/>
+      <properties xmi:id="_690y96DJEeSZxfCXzZz3-w" name="constrainingClassifier" type="Reference" description="The classifiers that constrain the argument that can be used for the parameter. If the allowSubstitutable attribute is true, then any classifier that is compatible with this constraining classifier can be substituted; otherwise, it must be either this classifier or one of its subclasses. If this property is empty, there are no constraints on the classifier that can be used as an argument."/>
+    </elements>
+    <elements xmi:id="_690y-KDJEeSZxfCXzZz3-w" name="StringExpression" supertypes="_690y-6DJEeSZxfCXzZz3-w _690x1KDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690y-aDJEeSZxfCXzZz3-w" name="subExpression" type="Reference" description="The StringExpressions that constitute this StringExpression."/>
+      <properties xmi:id="_690y-qDJEeSZxfCXzZz3-w" name="owningExpression" type="Reference" description="The string expression of which this expression is a substring."/>
+    </elements>
+    <elements xmi:id="_690y-6DJEeSZxfCXzZz3-w" name="Expression" supertypes="_690xtqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690y_KDJEeSZxfCXzZz3-w" name="symbol" description="The symbol associated with the node in the expression tree."/>
+      <properties xmi:id="_690y_aDJEeSZxfCXzZz3-w" name="operand" type="Reference" description="Specifies a sequence of operands."/>
+    </elements>
+    <elements xmi:id="_690y_qDJEeSZxfCXzZz3-w" name="Usage" supertypes="_690xmqDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690y_6DJEeSZxfCXzZz3-w" name="PackageMerge" supertypes="_690xnaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zAKDJEeSZxfCXzZz3-w" name="mergedPackage" type="Reference" description="References the Package that is to be merged with the receiving package of the PackageMerge."/>
+      <properties xmi:id="_690zAaDJEeSZxfCXzZz3-w" name="receivingPackage" type="Reference" description="References the Package that is being extended with the contents of the merged package of the PackageMerge."/>
+    </elements>
+    <elements xmi:id="_690zAqDJEeSZxfCXzZz3-w" name="ProfileApplication" supertypes="_690xnaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zA6DJEeSZxfCXzZz3-w" name="appliedProfile" type="Reference" description="References the Profiles that are applied to a Package through this ProfileApplication."/>
+      <properties xmi:id="_690zBKDJEeSZxfCXzZz3-w" name="isStrict" description="Specifies that the Profile filtering rules for the metaclasses of the referenced metamodel shall be strictly applied."/>
+      <properties xmi:id="_690zBaDJEeSZxfCXzZz3-w" name="applyingPackage" type="Reference" description="The package that owns the profile application."/>
+    </elements>
+    <elements xmi:id="_690zBqDJEeSZxfCXzZz3-w" name="Enumeration" supertypes="_690y1qDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zB6DJEeSZxfCXzZz3-w" name="ownedLiteral" type="Reference" description="The ordered set of literals for this Enumeration."/>
+    </elements>
+    <elements xmi:id="_690zCKDJEeSZxfCXzZz3-w" name="EnumerationLiteral" supertypes="_690zC6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zCaDJEeSZxfCXzZz3-w" name="enumeration" type="Reference" description="The Enumeration that this EnumerationLiteral is a member of."/>
+      <properties xmi:id="_690zCqDJEeSZxfCXzZz3-w" name="classifier" type="Reference" description="The classifier of this EnumerationLiteral is derived to be equal to its enumeration. Redefines InstanceSpecification::classifier."/>
+    </elements>
+    <elements xmi:id="_690zC6DJEeSZxfCXzZz3-w" name="InstanceSpecification" supertypes="_690yLKDJEeSZxfCXzZz3-w _690xkqDJEeSZxfCXzZz3-w _690yM6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zDKDJEeSZxfCXzZz3-w" name="classifier" type="Reference" description="The classifier or classifiers of the represented instance. If multiple classifiers are specified, the instance is classified by all of them."/>
+      <properties xmi:id="_690zDaDJEeSZxfCXzZz3-w" name="slot" type="Reference" description="A slot giving the value or values of a structural feature of the instance. An instance specification can have one slot per structural feature of its classifiers, including inherited features. It is not necessary to model a slot for each structural feature, in which case the instance specification is a partial description."/>
+      <properties xmi:id="_690zDqDJEeSZxfCXzZz3-w" name="specification" type="Reference" description="A specification of how to compute, derive, or construct the instance."/>
+    </elements>
+    <elements xmi:id="_690zD6DJEeSZxfCXzZz3-w" name="Slot" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zEKDJEeSZxfCXzZz3-w" name="definingFeature" type="Reference" description="The structural feature that specifies the values that may be held by the slot."/>
+      <properties xmi:id="_690zEaDJEeSZxfCXzZz3-w" name="value" type="Reference" description="The value or values corresponding to the defining feature for the owning instance specification."/>
+      <properties xmi:id="_690zEqDJEeSZxfCXzZz3-w" name="owningInstance" type="Reference" description="The instance specification that owns this slot."/>
+    </elements>
+    <elements xmi:id="_690zE6DJEeSZxfCXzZz3-w" name="PrimitiveType" supertypes="_690y1qDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690zFKDJEeSZxfCXzZz3-w" name="LiteralSpecification" supertypes="_690xtqDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690zFaDJEeSZxfCXzZz3-w" name="LiteralInteger" supertypes="_690zFKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zFqDJEeSZxfCXzZz3-w" name="value" description="The specified Integer value."/>
+    </elements>
+    <elements xmi:id="_690zF6DJEeSZxfCXzZz3-w" name="LiteralString" supertypes="_690zFKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zGKDJEeSZxfCXzZz3-w" name="value" description="The specified String value."/>
+    </elements>
+    <elements xmi:id="_690zGaDJEeSZxfCXzZz3-w" name="LiteralBoolean" supertypes="_690zFKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zGqDJEeSZxfCXzZz3-w" name="value" description="The specified Boolean value."/>
+    </elements>
+    <elements xmi:id="_690zG6DJEeSZxfCXzZz3-w" name="LiteralNull" supertypes="_690zFKDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690zHKDJEeSZxfCXzZz3-w" name="InstanceValue" supertypes="_690xtqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zHaDJEeSZxfCXzZz3-w" name="instance" type="Reference" description="The instance that is the specified value."/>
+    </elements>
+    <elements xmi:id="_690zHqDJEeSZxfCXzZz3-w" name="LiteralUnlimitedNatural" supertypes="_690zFKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zH6DJEeSZxfCXzZz3-w" name="value" description="The specified UnlimitedNatural value."/>
+    </elements>
+    <elements xmi:id="_690zIKDJEeSZxfCXzZz3-w" name="OpaqueBehavior" supertypes="_690yVaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zIaDJEeSZxfCXzZz3-w" name="body" description="Specifies the behavior in one or more languages."/>
+      <properties xmi:id="_690zIqDJEeSZxfCXzZz3-w" name="language" description="Languages the body strings use in the same order as the body strings."/>
+    </elements>
+    <elements xmi:id="_690zI6DJEeSZxfCXzZz3-w" name="FunctionBehavior" supertypes="_690zIKDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690zJKDJEeSZxfCXzZz3-w" name="OpaqueAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zJaDJEeSZxfCXzZz3-w" name="body" description="Specifies the action in one or more languages."/>
+      <properties xmi:id="_690zJqDJEeSZxfCXzZz3-w" name="language" description="Languages the body strings use, in the same order as the body strings"/>
+      <properties xmi:id="_690zJ6DJEeSZxfCXzZz3-w" name="inputValue" type="Reference" description="Provides input to the action."/>
+      <properties xmi:id="_690zKKDJEeSZxfCXzZz3-w" name="outputValue" type="Reference" description="Takes output from the action."/>
+    </elements>
+    <elements xmi:id="_690zKaDJEeSZxfCXzZz3-w" name="Action" supertypes="_690zMKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zKqDJEeSZxfCXzZz3-w" name="output" type="Reference" description="The ordered set of output pins connected to the Action. The action places its results onto pins in this set."/>
+      <properties xmi:id="_690zK6DJEeSZxfCXzZz3-w" name="input" type="Reference" description="The ordered set of input pins connected to the Action. These are among the total set of inputs."/>
+      <properties xmi:id="_690zLKDJEeSZxfCXzZz3-w" name="context" type="Reference" description="The classifier that owns the behavior of which this action is a part."/>
+      <properties xmi:id="_690zLaDJEeSZxfCXzZz3-w" name="localPrecondition" type="Reference" description="Constraint that must be satisfied when execution is started."/>
+      <properties xmi:id="_690zLqDJEeSZxfCXzZz3-w" name="localPostcondition" type="Reference" description="Constraint that must be satisfied when executed is completed."/>
+      <properties xmi:id="_690zL6DJEeSZxfCXzZz3-w" name="isLocallyReentrant" type="Boolean" description="If true, the action can begin a new, concurrent execution, even if there is already another execution of the action ongoing. If false, the action cannot begin a new execution until any previous execution has completed. The default is false."/>
+    </elements>
+    <elements xmi:id="_690zMKDJEeSZxfCXzZz3-w" name="ExecutableNode" supertypes="_690zMqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zMaDJEeSZxfCXzZz3-w" name="handler" type="Reference" description="A set of exception handlers that are examined if an uncaught exception propagates to the outer level of the executable node."/>
+    </elements>
+    <elements xmi:id="_690zMqDJEeSZxfCXzZz3-w" name="ActivityNode" supertypes="_690x0KDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zM6DJEeSZxfCXzZz3-w" name="inStructuredNode" type="Reference" description="Structured activity node containing the node."/>
+      <properties xmi:id="_690zNKDJEeSZxfCXzZz3-w" name="activity" type="Reference" description="Activity containing the node."/>
+      <properties xmi:id="_690zNaDJEeSZxfCXzZz3-w" name="outgoing" type="Reference" description="Edges that have the node as source."/>
+      <properties xmi:id="_690zNqDJEeSZxfCXzZz3-w" name="incoming" type="Reference" description="Edges that have the node as target."/>
+      <properties xmi:id="_690zN6DJEeSZxfCXzZz3-w" name="inPartition" type="Reference" description="Partitions containing the node."/>
+      <properties xmi:id="_690zOKDJEeSZxfCXzZz3-w" name="inInterruptibleRegion" type="Reference" description="Interruptible regions containing the node."/>
+      <properties xmi:id="_690zOaDJEeSZxfCXzZz3-w" name="inGroup" type="Reference" description="Groups containing the node."/>
+      <properties xmi:id="_690zOqDJEeSZxfCXzZz3-w" name="redefinedNode" type="Reference" description="Inherited nodes replaced by this node in a specialization of the activity."/>
+    </elements>
+    <elements xmi:id="_690zO6DJEeSZxfCXzZz3-w" name="StructuredActivityNode" supertypes="_690zKaDJEeSZxfCXzZz3-w _690xoqDJEeSZxfCXzZz3-w _690zQqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zPKDJEeSZxfCXzZz3-w" name="variable" type="Reference" description="A variable defined in the scope of the structured activity node. It has no value and may not be accessed"/>
+      <properties xmi:id="_690zPaDJEeSZxfCXzZz3-w" name="edge" type="Reference" description="Edges immediately contained in the structured node."/>
+      <properties xmi:id="_690zPqDJEeSZxfCXzZz3-w" name="mustIsolate" description="If true, then the actions in the node execute in isolation from actions outside the node."/>
+      <properties xmi:id="_690zP6DJEeSZxfCXzZz3-w" name="node" type="Reference" description="Nodes immediately contained in the group."/>
+      <properties xmi:id="_690zQKDJEeSZxfCXzZz3-w" name="structuredNodeInput" type="Reference" multiplicity="-1"/>
+      <properties xmi:id="_690zQaDJEeSZxfCXzZz3-w" name="structuredNodeOutput" type="Reference" multiplicity="-1"/>
+    </elements>
+    <elements xmi:id="_690zQqDJEeSZxfCXzZz3-w" name="ActivityGroup" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zQ6DJEeSZxfCXzZz3-w" name="subgroup" type="Reference" description="Groups immediately contained in the group."/>
+      <properties xmi:id="_690zRKDJEeSZxfCXzZz3-w" name="superGroup" type="Reference" description="Group immediately containing the group."/>
+      <properties xmi:id="_690zRaDJEeSZxfCXzZz3-w" name="inActivity" type="Reference" description="Activity containing the group."/>
+      <properties xmi:id="_690zRqDJEeSZxfCXzZz3-w" name="containedEdge" type="Reference" description="Edges immediately contained in the group."/>
+      <properties xmi:id="_690zR6DJEeSZxfCXzZz3-w" name="containedNode" type="Reference" description="Nodes immediately contained in the group."/>
+    </elements>
+    <elements xmi:id="_690zSKDJEeSZxfCXzZz3-w" name="Activity" supertypes="_690yVaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zSaDJEeSZxfCXzZz3-w" name="structuredNode" type="Reference" description="Top-level structured nodes in the activity."/>
+      <properties xmi:id="_690zSqDJEeSZxfCXzZz3-w" name="variable" type="Reference" description="Top-level variables in the activity."/>
+      <properties xmi:id="_690zS6DJEeSZxfCXzZz3-w" name="node" type="Reference" description="Nodes coordinated by the activity."/>
+      <properties xmi:id="_690zTKDJEeSZxfCXzZz3-w" name="isReadOnly" description="If true, this activity must not make any changes to variables outside the activity or to objects. (This is an assertion, not an executable property. It may be used by an execution engine to optimize model execution. If the assertion is violated by the action, then the model is ill-formed.) The default is false (an activity may make nonlocal changes)."/>
+      <properties xmi:id="_690zTaDJEeSZxfCXzZz3-w" name="edge" type="Reference" description="Edges expressing flow between nodes of the activity."/>
+      <properties xmi:id="_690zTqDJEeSZxfCXzZz3-w" name="partition" type="Reference" description="Top-level partitions in the activity."/>
+      <properties xmi:id="_690zT6DJEeSZxfCXzZz3-w" name="isSingleExecution" description="If true, all invocations of the activity are handled by the same execution."/>
+      <properties xmi:id="_690zUKDJEeSZxfCXzZz3-w" name="group" type="Reference" description="Top-level groups in the activity."/>
+    </elements>
+    <elements xmi:id="_690zUaDJEeSZxfCXzZz3-w" name="Variable" supertypes="_690yFaDJEeSZxfCXzZz3-w _690yDqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zUqDJEeSZxfCXzZz3-w" name="scope" type="Reference" description="A structured activity node that owns the variable."/>
+      <properties xmi:id="_690zU6DJEeSZxfCXzZz3-w" name="activityScope" type="Reference" description="An activity that owns the variable."/>
+    </elements>
+    <elements xmi:id="_690zVKDJEeSZxfCXzZz3-w" name="ActivityEdge" supertypes="_690x0KDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zVaDJEeSZxfCXzZz3-w" name="source" type="Reference" description="Node from which tokens are taken when they traverse the edge."/>
+      <properties xmi:id="_690zVqDJEeSZxfCXzZz3-w" name="target" type="Reference" description="Node to which tokens are put when they traverse the edge."/>
+      <properties xmi:id="_690zV6DJEeSZxfCXzZz3-w" name="redefinedEdge" type="Reference" description="Inherited edges replaced by this edge in a specialization of the activity."/>
+      <properties xmi:id="_690zWKDJEeSZxfCXzZz3-w" name="inPartition" type="Reference" description="Partitions containing the edge."/>
+      <properties xmi:id="_690zWaDJEeSZxfCXzZz3-w" name="guard" type="Reference" description="Specification evaluated at runtime to determine if the edge can be traversed."/>
+      <properties xmi:id="_690zWqDJEeSZxfCXzZz3-w" name="weight" type="Reference" description="The minimum number of tokens that must traverse the edge at the same time."/>
+      <properties xmi:id="_690zW6DJEeSZxfCXzZz3-w" name="interrupts" type="Reference" description="Region that the edge can interrupt."/>
+      <properties xmi:id="_690zXKDJEeSZxfCXzZz3-w" name="inStructuredNode" type="Reference" description="Structured activity node containing the edge."/>
+      <properties xmi:id="_690zXaDJEeSZxfCXzZz3-w" name="inGroup" type="Reference" description="Groups containing the edge."/>
+      <properties xmi:id="_690zXqDJEeSZxfCXzZz3-w" name="activity" type="Reference" description="Activity containing the edge."/>
+    </elements>
+    <elements xmi:id="_690zX6DJEeSZxfCXzZz3-w" name="ActivityPartition" supertypes="_690xk6DJEeSZxfCXzZz3-w _690zQqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zYKDJEeSZxfCXzZz3-w" name="isDimension" description="Tells whether the partition groups other partitions along a dimension."/>
+      <properties xmi:id="_690zYaDJEeSZxfCXzZz3-w" name="isExternal" description="Tells whether the partition represents an entity to which the partitioning structure does not apply."/>
+      <properties xmi:id="_690zYqDJEeSZxfCXzZz3-w" name="node" type="Reference" description="Nodes immediately contained in the group."/>
+      <properties xmi:id="_690zY6DJEeSZxfCXzZz3-w" name="subpartition" type="Reference" description="Partitions immediately contained in the partition."/>
+      <properties xmi:id="_690zZKDJEeSZxfCXzZz3-w" name="superPartition" type="Reference" description="Partition immediately containing the partition."/>
+      <properties xmi:id="_690zZaDJEeSZxfCXzZz3-w" name="represents" type="Reference" description="An element constraining behaviors invoked by nodes in the partition."/>
+      <properties xmi:id="_690zZqDJEeSZxfCXzZz3-w" name="edge" type="Reference" description="Edges immediately contained in the group."/>
+    </elements>
+    <elements xmi:id="_690zZ6DJEeSZxfCXzZz3-w" name="InterruptibleActivityRegion" supertypes="_690zQqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zaKDJEeSZxfCXzZz3-w" name="node" type="Reference" description="Nodes immediately contained in the group."/>
+      <properties xmi:id="_690zaaDJEeSZxfCXzZz3-w" name="interruptingEdge" type="Reference" description="The edges leaving the region that will abort other tokens flowing in the region."/>
+    </elements>
+    <elements xmi:id="_690zaqDJEeSZxfCXzZz3-w" name="ExceptionHandler" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690za6DJEeSZxfCXzZz3-w" name="handlerBody" type="Reference" description="A node that is executed if the handler satisfies an uncaught exception."/>
+      <properties xmi:id="_690zbKDJEeSZxfCXzZz3-w" name="exceptionInput" type="Reference" description="An object node within the handler body. When the handler catches an exception, the exception token is placed in this node, causing the body to execute."/>
+      <properties xmi:id="_690zbaDJEeSZxfCXzZz3-w" name="exceptionType" type="Reference" description="The kind of instances that the handler catches. If an exception occurs whose type is any of the classifiers in the set, the handler catches the exception and executes its body."/>
+      <properties xmi:id="_690zbqDJEeSZxfCXzZz3-w" name="protectedNode" type="Reference" description="The node protected by the handler. The handler is examined if an exception propagates to the outside of the node."/>
+    </elements>
+    <elements xmi:id="_690zb6DJEeSZxfCXzZz3-w" name="ObjectNode" supertypes="_690zMqDJEeSZxfCXzZz3-w _690xt6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zcKDJEeSZxfCXzZz3-w" name="ordering" type="Enumeration" description="Tells whether and how the tokens in the object node are ordered for selection to traverse edges outgoing from the object node."/>
+      <properties xmi:id="_690zcaDJEeSZxfCXzZz3-w" name="isControlType" description="Tells whether the type of the object node is to be treated as control."/>
+      <properties xmi:id="_690zcqDJEeSZxfCXzZz3-w" name="upperBound" type="Reference" description="The maximum number of tokens allowed in the node. Objects cannot flow into the node if the upper bound is reached."/>
+      <properties xmi:id="_690zc6DJEeSZxfCXzZz3-w" name="inState" type="Reference" description="The required states of the object available at this point in the activity."/>
+      <properties xmi:id="_690zdKDJEeSZxfCXzZz3-w" name="selection" type="Reference" description="Selects tokens for outgoing edges."/>
+    </elements>
+    <elements xmi:id="_690zdaDJEeSZxfCXzZz3-w" name="OutputPin" supertypes="_690zdqDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690zdqDJEeSZxfCXzZz3-w" name="Pin" supertypes="_690zb6DJEeSZxfCXzZz3-w _690yDqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zd6DJEeSZxfCXzZz3-w" name="isControl" description="Tells whether the pins provide data to the actions, or just controls when it executes it."/>
+    </elements>
+    <elements xmi:id="_690zeKDJEeSZxfCXzZz3-w" name="InputPin" supertypes="_690zdqDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690zeaDJEeSZxfCXzZz3-w" name="CallAction" supertypes="_690zfKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zeqDJEeSZxfCXzZz3-w" name="isSynchronous" description="If true, the call is synchronous and the caller waits for completion of the invoked behavior.&#xD;&#xA;If false, the call is asynchronous and the caller proceeds immediately and does not expect a return values.&#xD;&#xA;"/>
+      <properties xmi:id="_690ze6DJEeSZxfCXzZz3-w" name="result" type="Reference" description="A list of output pins where the results of performing the invocation are placed."/>
+    </elements>
+    <elements xmi:id="_690zfKDJEeSZxfCXzZz3-w" name="InvocationAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zfaDJEeSZxfCXzZz3-w" name="argument" type="Reference" description="Specification of the ordered set of argument values that appears during execution."/>
+      <properties xmi:id="_690zfqDJEeSZxfCXzZz3-w" name="onPort" type="Reference" description="A optional port of the receiver object on which the behavioral feature is invoked."/>
+    </elements>
+    <elements xmi:id="_690zf6DJEeSZxfCXzZz3-w" name="SendSignalAction" supertypes="_690zfKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zgKDJEeSZxfCXzZz3-w" name="target" type="Reference" description="The target object to which the signal is sent."/>
+      <properties xmi:id="_690zgaDJEeSZxfCXzZz3-w" name="signal" type="Reference" description="The type of signal transmitted to the target object."/>
+    </elements>
+    <elements xmi:id="_690zgqDJEeSZxfCXzZz3-w" name="CallOperationAction" supertypes="_690zeaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zg6DJEeSZxfCXzZz3-w" name="operation" type="Reference" description="The operation to be invoked by the action execution."/>
+      <properties xmi:id="_690zhKDJEeSZxfCXzZz3-w" name="target" type="Reference" description="The target object to which the request is sent. The classifier of the target object is used to dynamically determine a behavior to invoke. This object constitutes the context of the execution of the operation."/>
+    </elements>
+    <elements xmi:id="_690zhaDJEeSZxfCXzZz3-w" name="CallBehaviorAction" supertypes="_690zeaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zhqDJEeSZxfCXzZz3-w" name="behavior" type="Reference" description="The invoked behavior. It must be capable of accepting and returning control."/>
+    </elements>
+    <elements xmi:id="_690zh6DJEeSZxfCXzZz3-w" name="SequenceNode" supertypes="_690zO6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690ziKDJEeSZxfCXzZz3-w" name="executableNode" type="Reference" description="An ordered set of executable nodes."/>
+    </elements>
+    <elements xmi:id="_690ziaDJEeSZxfCXzZz3-w" name="ControlNode" supertypes="_690zMqDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690ziqDJEeSZxfCXzZz3-w" name="ControlFlow" supertypes="_690zVKDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690zi6DJEeSZxfCXzZz3-w" name="InitialNode" supertypes="_690ziaDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690zjKDJEeSZxfCXzZz3-w" name="ActivityParameterNode" supertypes="_690zb6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zjaDJEeSZxfCXzZz3-w" name="parameter" type="Reference" description="The parameter the object node will be accepting or providing values for."/>
+    </elements>
+    <elements xmi:id="_690zjqDJEeSZxfCXzZz3-w" name="ValuePin" supertypes="_690zeKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zj6DJEeSZxfCXzZz3-w" name="value" type="Reference" description="Value that the pin will provide."/>
+    </elements>
+    <elements xmi:id="_690zkKDJEeSZxfCXzZz3-w" name="Message" supertypes="_690xk6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zkaDJEeSZxfCXzZz3-w" name="messageKind" type="Enumeration" description="The derived kind of the Message (complete, lost, found or unknown)"/>
+      <properties xmi:id="_690zkqDJEeSZxfCXzZz3-w" name="messageSort" type="Enumeration" description="The sort of communication reflected by the Message"/>
+      <properties xmi:id="_690zk6DJEeSZxfCXzZz3-w" name="receiveEvent" type="Reference" description="References the Receiving of the Message"/>
+      <properties xmi:id="_690zlKDJEeSZxfCXzZz3-w" name="sendEvent" type="Reference" description="References the Sending of the Message."/>
+      <properties xmi:id="_690zlaDJEeSZxfCXzZz3-w" name="connector" type="Reference" description="The Connector on which this Message is sent."/>
+      <properties xmi:id="_690zlqDJEeSZxfCXzZz3-w" name="interaction" type="Reference" description="The enclosing Interaction owning the Message"/>
+      <properties xmi:id="_690zl6DJEeSZxfCXzZz3-w" name="argument" type="Reference" description="The arguments of the Message"/>
+      <properties xmi:id="_690zmKDJEeSZxfCXzZz3-w" name="signature" type="Reference" description="The definition of the type or signature of the Message (depending on its kind). The associated named element is derived from the message end that constitutes the sending or receiving message event. If both a sending event and a receiving message event are present, the signature is obtained from the sending event."/>
+    </elements>
+    <elements xmi:id="_690zmaDJEeSZxfCXzZz3-w" name="MessageEnd" supertypes="_690xk6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zmqDJEeSZxfCXzZz3-w" name="message" type="Reference" description="References a Message."/>
+    </elements>
+    <elements xmi:id="_690zm6DJEeSZxfCXzZz3-w" name="Interaction" supertypes="_690yVaDJEeSZxfCXzZz3-w _690zoaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690znKDJEeSZxfCXzZz3-w" name="lifeline" type="Reference" description="Specifies the participants in this Interaction."/>
+      <properties xmi:id="_690znaDJEeSZxfCXzZz3-w" name="fragment" type="Reference" description="The ordered set of fragments in the Interaction."/>
+      <properties xmi:id="_690znqDJEeSZxfCXzZz3-w" name="action" type="Reference" description="Actions owned by the Interaction."/>
+      <properties xmi:id="_690zn6DJEeSZxfCXzZz3-w" name="formalGate" type="Reference" description="Specifies the gates that form the message interface between this Interaction and any InteractionUses which reference it.&#xD;&#xA;"/>
+      <properties xmi:id="_690zoKDJEeSZxfCXzZz3-w" name="message" type="Reference" description="The Messages contained in this Interaction."/>
+    </elements>
+    <elements xmi:id="_690zoaDJEeSZxfCXzZz3-w" name="InteractionFragment" supertypes="_690xk6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zoqDJEeSZxfCXzZz3-w" name="covered" type="Reference" description="References the Lifelines that the InteractionFragment involves."/>
+      <properties xmi:id="_690zo6DJEeSZxfCXzZz3-w" name="generalOrdering" type="Reference" description="The general ordering relationships contained in this fragment."/>
+      <properties xmi:id="_690zpKDJEeSZxfCXzZz3-w" name="enclosingInteraction" type="Reference" description="The Interaction enclosing this InteractionFragment."/>
+      <properties xmi:id="_690zpaDJEeSZxfCXzZz3-w" name="enclosingOperand" type="Reference" description="The operand enclosing this InteractionFragment (they may nest recursively)"/>
+    </elements>
+    <elements xmi:id="_690zpqDJEeSZxfCXzZz3-w" name="Lifeline" supertypes="_690xk6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zp6DJEeSZxfCXzZz3-w" name="represents" type="Reference" description="References the ConnectableElement within the classifier that contains the enclosing interaction."/>
+      <properties xmi:id="_690zqKDJEeSZxfCXzZz3-w" name="interaction" type="Reference" description="References the Interaction enclosing this Lifeline."/>
+      <properties xmi:id="_690zqaDJEeSZxfCXzZz3-w" name="selector" type="Reference" description="If the referenced ConnectableElement is multivalued, then this specifies the specific individual part within that set."/>
+      <properties xmi:id="_690zqqDJEeSZxfCXzZz3-w" name="decomposedAs" type="Reference" description="References the Interaction that represents the decomposition."/>
+      <properties xmi:id="_690zq6DJEeSZxfCXzZz3-w" name="coveredBy" type="Reference" description="References the InteractionFragments in which this Lifeline takes part."/>
+    </elements>
+    <elements xmi:id="_690zrKDJEeSZxfCXzZz3-w" name="PartDecomposition" supertypes="_690zraDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690zraDJEeSZxfCXzZz3-w" name="InteractionUse" supertypes="_690zoaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zrqDJEeSZxfCXzZz3-w" name="refersTo" type="Reference" description="Refers to the Interaction that defines its meaning"/>
+      <properties xmi:id="_690zr6DJEeSZxfCXzZz3-w" name="actualGate" type="Reference" description="The actual gates of the InteractionUse"/>
+      <properties xmi:id="_690zsKDJEeSZxfCXzZz3-w" name="argument" type="Reference" description="The actual arguments of the Interaction"/>
+      <properties xmi:id="_690zsaDJEeSZxfCXzZz3-w" name="returnValue" type="Reference" description="The value of the executed Interaction."/>
+      <properties xmi:id="_690zsqDJEeSZxfCXzZz3-w" name="returnValueRecipient" type="Reference" description="The recipient of the return value."/>
+    </elements>
+    <elements xmi:id="_690zs6DJEeSZxfCXzZz3-w" name="Gate" supertypes="_690zmaDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690ztKDJEeSZxfCXzZz3-w" name="GeneralOrdering" supertypes="_690xk6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690ztaDJEeSZxfCXzZz3-w" name="before" type="Reference" description="The OccurrenceSpecification referenced comes before the OccurrenceSpecification referenced by after."/>
+      <properties xmi:id="_690ztqDJEeSZxfCXzZz3-w" name="after" type="Reference" description="The OccurrenceSpecification referenced comes after the OccurrenceSpecification referenced by before."/>
+    </elements>
+    <elements xmi:id="_690zt6DJEeSZxfCXzZz3-w" name="OccurrenceSpecification" supertypes="_690zoaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zuKDJEeSZxfCXzZz3-w" name="toBefore" type="Reference" description="References the GeneralOrderings that specify EventOcurrences that must occur before this OccurrenceSpecification&#xD;&#xA;"/>
+      <properties xmi:id="_690zuaDJEeSZxfCXzZz3-w" name="toAfter" type="Reference" description="References the GeneralOrderings that specify EventOcurrences that must occur after this OccurrenceSpecification&#xD;&#xA;"/>
+    </elements>
+    <elements xmi:id="_690zuqDJEeSZxfCXzZz3-w" name="InteractionOperand" supertypes="_690xoqDJEeSZxfCXzZz3-w _690zoaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zu6DJEeSZxfCXzZz3-w" name="guard" type="Reference" description="Constraint of the operand."/>
+      <properties xmi:id="_690zvKDJEeSZxfCXzZz3-w" name="fragment" type="Reference" description="The fragments of the operand."/>
+    </elements>
+    <elements xmi:id="_690zvaDJEeSZxfCXzZz3-w" name="InteractionConstraint" supertypes="_690xsqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zvqDJEeSZxfCXzZz3-w" name="minint" type="Reference" description="The minimum number of iterations of a loop"/>
+      <properties xmi:id="_690zv6DJEeSZxfCXzZz3-w" name="maxint" type="Reference" description="The maximum number of iterations of a loop"/>
+    </elements>
+    <elements xmi:id="_690zwKDJEeSZxfCXzZz3-w" name="ExecutionSpecification" supertypes="_690zoaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zwaDJEeSZxfCXzZz3-w" name="start" type="Reference" description="References the OccurrenceSpecification that designates the start of the Action or Behavior"/>
+      <properties xmi:id="_690zwqDJEeSZxfCXzZz3-w" name="finish" type="Reference" description="References the OccurrenceSpecification that designates the finish of the Action or Behavior."/>
+    </elements>
+    <elements xmi:id="_690zw6DJEeSZxfCXzZz3-w" name="StateInvariant" supertypes="_690zoaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zxKDJEeSZxfCXzZz3-w" name="invariant" type="Reference" description="A Constraint that should hold at runtime for this StateInvariant"/>
+    </elements>
+    <elements xmi:id="_690zxaDJEeSZxfCXzZz3-w" name="ActionExecutionSpecification" supertypes="_690zwKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zxqDJEeSZxfCXzZz3-w" name="action" type="Reference" description="Action whose execution is occurring."/>
+    </elements>
+    <elements xmi:id="_690zx6DJEeSZxfCXzZz3-w" name="BehaviorExecutionSpecification" supertypes="_690zwKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zyKDJEeSZxfCXzZz3-w" name="behavior" type="Reference" description="Behavior whose execution is occurring."/>
+    </elements>
+    <elements xmi:id="_690zyaDJEeSZxfCXzZz3-w" name="CreationEvent" supertypes="_690ylKDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690zyqDJEeSZxfCXzZz3-w" name="MessageEvent" supertypes="_690ylKDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690zy6DJEeSZxfCXzZz3-w" name="MessageOccurrenceSpecification" supertypes="_690zt6DJEeSZxfCXzZz3-w _690zmaDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690zzKDJEeSZxfCXzZz3-w" name="ExecutionOccurrenceSpecification" supertypes="_690zt6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690zzaDJEeSZxfCXzZz3-w" name="execution" type="Reference" multiplicity="2" description="References the execution specification describing the execution that is started or finished at this execution event."/>
+    </elements>
+    <elements xmi:id="_690zzqDJEeSZxfCXzZz3-w" name="Actor" supertypes="_690yZaDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690zz6DJEeSZxfCXzZz3-w" name="CallEvent" supertypes="_690zyqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690z0KDJEeSZxfCXzZz3-w" name="operation" type="Reference" description="Designates the operation whose invocation raised the call event."/>
+    </elements>
+    <elements xmi:id="_690z0aDJEeSZxfCXzZz3-w" name="ChangeEvent" supertypes="_690ylKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690z0qDJEeSZxfCXzZz3-w" name="changeExpression" type="Reference" description="A Boolean-valued expression that will result in a change event whenever its value changes from false to true."/>
+    </elements>
+    <elements xmi:id="_690z06DJEeSZxfCXzZz3-w" name="SignalEvent" supertypes="_690zyqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690z1KDJEeSZxfCXzZz3-w" name="signal" type="Reference" description="The specific signal that is associated with this event."/>
+    </elements>
+    <elements xmi:id="_690z1aDJEeSZxfCXzZz3-w" name="AnyReceiveEvent" supertypes="_690zyqDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690z1qDJEeSZxfCXzZz3-w" name="ForkNode" supertypes="_690ziaDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690z16DJEeSZxfCXzZz3-w" name="FlowFinalNode" supertypes="_690z2KDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690z2KDJEeSZxfCXzZz3-w" name="FinalNode" supertypes="_690ziaDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690z2aDJEeSZxfCXzZz3-w" name="CentralBufferNode" supertypes="_690zb6DJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690z2qDJEeSZxfCXzZz3-w" name="MergeNode" supertypes="_690ziaDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690z26DJEeSZxfCXzZz3-w" name="DecisionNode" supertypes="_690ziaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690z3KDJEeSZxfCXzZz3-w" name="decisionInput" type="Reference" description="Provides input to guard specifications on edges outgoing from the decision node."/>
+      <properties xmi:id="_690z3aDJEeSZxfCXzZz3-w" name="decisionInputFlow" type="Reference" description="An additional edge incoming to the decision node that provides a decision input value."/>
+    </elements>
+    <elements xmi:id="_690z3qDJEeSZxfCXzZz3-w" name="ObjectFlow" supertypes="_690zVKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690z36DJEeSZxfCXzZz3-w" name="isMulticast" description="Tells whether the objects in the flow are passed by multicasting."/>
+      <properties xmi:id="_690z4KDJEeSZxfCXzZz3-w" name="isMultireceive" description="Tells whether the objects in the flow are gathered from respondents to multicasting."/>
+      <properties xmi:id="_690z4aDJEeSZxfCXzZz3-w" name="transformation" type="Reference" description="Changes or replaces data tokens flowing along edge."/>
+      <properties xmi:id="_690z4qDJEeSZxfCXzZz3-w" name="selection" type="Reference" description="Selects tokens from a source object node."/>
+    </elements>
+    <elements xmi:id="_690z46DJEeSZxfCXzZz3-w" name="ActivityFinalNode" supertypes="_690z2KDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690z5KDJEeSZxfCXzZz3-w" name="ComponentRealization" supertypes="_690x_aDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690z5aDJEeSZxfCXzZz3-w" name="abstraction" type="Reference" description="The Component that owns this ComponentRealization and which is implemented by its realizing classifiers."/>
+      <properties xmi:id="_690z5qDJEeSZxfCXzZz3-w" name="realizingClassifier" type="Reference" description="The classifiers that are involved in the implementation of the Component that owns this Realization."/>
+    </elements>
+    <elements xmi:id="_690z56DJEeSZxfCXzZz3-w" name="Component" supertypes="_690yXqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690z6KDJEeSZxfCXzZz3-w" name="isIndirectlyInstantiated" description="The kind of instantiation that applies to a Component. If false, the component is instantiated as an addressable object. If true, the Component is defined at design-time, but at runtime (or execution-time) an object specified by the Component does not exist, that is, the component is instantiated indirectly, through the instantiation of its realizing classifiers or parts. Several standard stereotypes use this meta attribute, e.g. &lt;&lt;specification>>, &lt;&lt;focus>>, &lt;&lt;subsystem>>."/>
+      <properties xmi:id="_690z6aDJEeSZxfCXzZz3-w" name="required" type="Reference" description="The interfaces that the component requires from other components in its environment in order to be able to offer its full set of provided functionality. These interfaces may be used by the Component or any of its realizingClassifiers, or they may be the Interfaces that are required by its public Ports."/>
+      <properties xmi:id="_690z6qDJEeSZxfCXzZz3-w" name="provided" type="Reference" description="The interfaces that the component exposes to its environment. These interfaces may be Realized by the Component or any of its realizingClassifiers, or they may be the Interfaces that are provided by its public Ports."/>
+      <properties xmi:id="_690z66DJEeSZxfCXzZz3-w" name="packagedElement" type="Reference" description="The set of PackageableElements that a Component owns. In the namespace of a component, all model elements that are involved in or related to its definition may be owned or imported explicitly. These may include e.g. Classes, Interfaces, Components, Packages, Use cases, Dependencies (e.g. mappings), and Artifacts."/>
+      <properties xmi:id="_690z7KDJEeSZxfCXzZz3-w" name="realization" type="Reference" description="The set of Realizations owned by the Component. Realizations reference the Classifiers of which the Component is an abstraction; i.e., that realize its behavior."/>
+    </elements>
+    <elements xmi:id="_690z7aDJEeSZxfCXzZz3-w" name="Node" supertypes="_690yXqDJEeSZxfCXzZz3-w _690yLKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690z7qDJEeSZxfCXzZz3-w" name="nestedNode" type="Reference" description="The Nodes that are defined (nested) within the Node."/>
+    </elements>
+    <elements xmi:id="_690z76DJEeSZxfCXzZz3-w" name="CommunicationPath" supertypes="_690xu6DJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690z8KDJEeSZxfCXzZz3-w" name="Device" supertypes="_690z7aDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690z8aDJEeSZxfCXzZz3-w" name="ExecutionEnvironment" supertypes="_690z7aDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_690z8qDJEeSZxfCXzZz3-w" name="CombinedFragment" supertypes="_690zoaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690z86DJEeSZxfCXzZz3-w" name="interactionOperator" type="Enumeration" description="Specifies the operation which defines the semantics of this combination of InteractionFragments."/>
+      <properties xmi:id="_690z9KDJEeSZxfCXzZz3-w" name="operand" type="Reference" description="The set of operands of the combined fragment."/>
+      <properties xmi:id="_690z9aDJEeSZxfCXzZz3-w" name="cfragmentGate" type="Reference" description="Specifies the gates that form the interface between this CombinedFragment and its surroundings"/>
+    </elements>
+    <elements xmi:id="_690z9qDJEeSZxfCXzZz3-w" name="Continuation" supertypes="_690zoaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690z96DJEeSZxfCXzZz3-w" name="setting" description="True: when the Continuation is at the end of the enclosing InteractionFragment and False when it is in the beginning."/>
+    </elements>
+    <elements xmi:id="_690z-KDJEeSZxfCXzZz3-w" name="ConsiderIgnoreFragment" supertypes="_690z8qDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690z-aDJEeSZxfCXzZz3-w" name="message" type="Reference" description="The set of messages that apply to this fragment"/>
+    </elements>
+    <elements xmi:id="_690z-qDJEeSZxfCXzZz3-w" name="CreateObjectAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690z-6DJEeSZxfCXzZz3-w" name="classifier" type="Reference" description="Classifier to be instantiated."/>
+      <properties xmi:id="_690z_KDJEeSZxfCXzZz3-w" name="result" type="Reference" description="Gives the output pin on which the result is put."/>
+    </elements>
+    <elements xmi:id="_690z_aDJEeSZxfCXzZz3-w" name="DestroyObjectAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_690z_qDJEeSZxfCXzZz3-w" name="isDestroyLinks" description="Specifies whether links in which the object participates are destroyed along with the object."/>
+      <properties xmi:id="_690z_6DJEeSZxfCXzZz3-w" name="isDestroyOwnedObjects" description="Specifies whether objects owned by the object are destroyed along with the object."/>
+      <properties xmi:id="_6900AKDJEeSZxfCXzZz3-w" name="target" type="Reference" description="The input pin providing the object to be destroyed."/>
+    </elements>
+    <elements xmi:id="_6900AaDJEeSZxfCXzZz3-w" name="TestIdentityAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6900AqDJEeSZxfCXzZz3-w" name="first" type="Reference" description="Gives the pin on which an object is placed."/>
+      <properties xmi:id="_6900A6DJEeSZxfCXzZz3-w" name="second" type="Reference" description="Gives the pin on which an object is placed."/>
+      <properties xmi:id="_6900BKDJEeSZxfCXzZz3-w" name="result" type="Reference" description="Tells whether the two input objects are identical."/>
+    </elements>
+    <elements xmi:id="_6900BaDJEeSZxfCXzZz3-w" name="ReadSelfAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6900BqDJEeSZxfCXzZz3-w" name="result" type="Reference" description="Gives the output pin on which the hosting object is placed."/>
+    </elements>
+    <elements xmi:id="_6900B6DJEeSZxfCXzZz3-w" name="StructuralFeatureAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6900CKDJEeSZxfCXzZz3-w" name="structuralFeature" type="Reference" description="Structural feature to be read."/>
+      <properties xmi:id="_6900CaDJEeSZxfCXzZz3-w" name="object" type="Reference" description="Gives the input pin from which the object whose structural feature is to be read or written is obtained.&#xD;&#xA;"/>
+    </elements>
+    <elements xmi:id="_6900CqDJEeSZxfCXzZz3-w" name="ReadStructuralFeatureAction" supertypes="_6900B6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6900C6DJEeSZxfCXzZz3-w" name="result" type="Reference" description="Gives the output pin on which the result is put."/>
+    </elements>
+    <elements xmi:id="_6900DKDJEeSZxfCXzZz3-w" name="WriteStructuralFeatureAction" supertypes="_6900B6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6900DaDJEeSZxfCXzZz3-w" name="value" type="Reference" description="Value to be added or removed from the structural feature."/>
+      <properties xmi:id="_6900DqDJEeSZxfCXzZz3-w" name="result" type="Reference" description="Gives the output pin on which the result is put."/>
+    </elements>
+    <elements xmi:id="_6900D6DJEeSZxfCXzZz3-w" name="ClearStructuralFeatureAction" supertypes="_6900B6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6900EKDJEeSZxfCXzZz3-w" name="result" type="Reference" description="Gives the output pin on which the result is put."/>
+    </elements>
+    <elements xmi:id="_6900EaDJEeSZxfCXzZz3-w" name="RemoveStructuralFeatureValueAction" supertypes="_6900DKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6900EqDJEeSZxfCXzZz3-w" name="isRemoveDuplicates" description="Specifies whether to remove duplicates of the value in nonunique structural features."/>
+      <properties xmi:id="_6900E6DJEeSZxfCXzZz3-w" name="removeAt" type="Reference" description="Specifies the position of an existing value to remove in ordered nonunique structural features. The type of the pin is UnlimitedNatural, but the value cannot be zero or unlimited."/>
+    </elements>
+    <elements xmi:id="_6900FKDJEeSZxfCXzZz3-w" name="AddStructuralFeatureValueAction" supertypes="_6900DKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6900FaDJEeSZxfCXzZz3-w" name="isReplaceAll" description="Specifies whether existing values of the structural feature of the object should be removed before adding the new value."/>
+      <properties xmi:id="_6900FqDJEeSZxfCXzZz3-w" name="insertAt" type="Reference" description="Gives the position at which to insert a new value or move an existing value in ordered structural features. The type of the pin is UnlimitedNatural, but the value cannot be zero. This pin is omitted for unordered structural features."/>
+    </elements>
+    <elements xmi:id="_6900F6DJEeSZxfCXzZz3-w" name="LinkAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_69638KDJEeSZxfCXzZz3-w" name="endData" type="Reference" description="Data identifying one end of a link by the objects on its ends and qualifiers."/>
+      <properties xmi:id="_69638aDJEeSZxfCXzZz3-w" name="inputValue" type="Reference" description="Pins taking end objects and qualifier values as input."/>
+    </elements>
+    <elements xmi:id="_69638qDJEeSZxfCXzZz3-w" name="LinkEndData" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_696386DJEeSZxfCXzZz3-w" name="value" type="Reference" description="Input pin that provides the specified object for the given end. This pin is omitted if the link-end data specifies an 'open' end for reading."/>
+      <properties xmi:id="_69639KDJEeSZxfCXzZz3-w" name="end" type="Reference" description="Association end for which this link-end data specifies values."/>
+      <properties xmi:id="_69639aDJEeSZxfCXzZz3-w" name="qualifier" type="Reference" description="List of qualifier values"/>
+    </elements>
+    <elements xmi:id="_69639qDJEeSZxfCXzZz3-w" name="QualifierValue" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_696396DJEeSZxfCXzZz3-w" name="qualifier" type="Reference" description="Attribute representing the qualifier for which the value is to be specified."/>
+      <properties xmi:id="_6963-KDJEeSZxfCXzZz3-w" name="value" type="Reference" description="Input pin from which the specified value for the qualifier is taken."/>
+    </elements>
+    <elements xmi:id="_6963-aDJEeSZxfCXzZz3-w" name="ReadLinkAction" supertypes="_6900F6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6963-qDJEeSZxfCXzZz3-w" name="result" type="Reference" description="The pin on which are put the objects participating in the association at the end not specified by the inputs.&#xD;&#xA;"/>
+    </elements>
+    <elements xmi:id="_6963-6DJEeSZxfCXzZz3-w" name="LinkEndCreationData" supertypes="_69638qDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6963_KDJEeSZxfCXzZz3-w" name="isReplaceAll" description="Specifies whether the existing links emanating from the object on this end should be destroyed before creating a new link."/>
+      <properties xmi:id="_6963_aDJEeSZxfCXzZz3-w" name="insertAt" type="Reference" description="Specifies where the new link should be inserted for ordered association ends, or where an existing link should be moved to. The type of the input is UnlimitedNatural, but the input cannot be zero. This pin is omitted for association ends that are not ordered."/>
+    </elements>
+    <elements xmi:id="_6963_qDJEeSZxfCXzZz3-w" name="CreateLinkAction" supertypes="_6963_6DJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_6963_6DJEeSZxfCXzZz3-w" name="WriteLinkAction" supertypes="_6900F6DJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_6964AKDJEeSZxfCXzZz3-w" name="DestroyLinkAction" supertypes="_6963_6DJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_6964AaDJEeSZxfCXzZz3-w" name="LinkEndDestructionData" supertypes="_69638qDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964AqDJEeSZxfCXzZz3-w" name="isDestroyDuplicates" description="Specifies whether to destroy duplicates of the value in nonunique association ends."/>
+      <properties xmi:id="_6964A6DJEeSZxfCXzZz3-w" name="destroyAt" type="Reference" description="Specifies the position of an existing link to be destroyed in ordered nonunique association ends. The type of the pin is UnlimitedNatural, but the value cannot be zero or unlimited."/>
+    </elements>
+    <elements xmi:id="_6964BKDJEeSZxfCXzZz3-w" name="ClearAssociationAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964BaDJEeSZxfCXzZz3-w" name="object" type="Reference" description="Gives the input pin from which is obtained the object whose participation in the association is to be cleared."/>
+      <properties xmi:id="_6964BqDJEeSZxfCXzZz3-w" name="association" type="Reference" description="Association to be cleared."/>
+    </elements>
+    <elements xmi:id="_6964B6DJEeSZxfCXzZz3-w" name="BroadcastSignalAction" supertypes="_690zfKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964CKDJEeSZxfCXzZz3-w" name="signal" type="Reference" description="The specification of signal object transmitted to the target objects."/>
+    </elements>
+    <elements xmi:id="_6964CaDJEeSZxfCXzZz3-w" name="SendObjectAction" supertypes="_690zfKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964CqDJEeSZxfCXzZz3-w" name="target" type="Reference" description="The target object to which the object is sent."/>
+      <properties xmi:id="_6964C6DJEeSZxfCXzZz3-w" name="request" type="Reference" description="The request object, which is transmitted to the target object. The object may be copied in transmission, so identity might not be preserved."/>
+    </elements>
+    <elements xmi:id="_6964DKDJEeSZxfCXzZz3-w" name="ValueSpecificationAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964DaDJEeSZxfCXzZz3-w" name="value" type="Reference" description="Value specification to be evaluated."/>
+      <properties xmi:id="_6964DqDJEeSZxfCXzZz3-w" name="result" type="Reference" description="Gives the output pin on which the result is put."/>
+    </elements>
+    <elements xmi:id="_6964D6DJEeSZxfCXzZz3-w" name="TimeExpression" supertypes="_690xtqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964EKDJEeSZxfCXzZz3-w" name="expr" type="Reference" description="The value of the time expression."/>
+      <properties xmi:id="_6964EaDJEeSZxfCXzZz3-w" name="observation" type="Reference" description="Refers to the time and duration observations that are involved in expr."/>
+    </elements>
+    <elements xmi:id="_6964EqDJEeSZxfCXzZz3-w" name="Observation" supertypes="_690xkqDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_6964E6DJEeSZxfCXzZz3-w" name="Duration" supertypes="_690xtqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964FKDJEeSZxfCXzZz3-w" name="expr" type="Reference" description="The value of the Duration."/>
+      <properties xmi:id="_6964FaDJEeSZxfCXzZz3-w" name="observation" type="Reference" description="Refers to the time and duration observations that are involved in expr."/>
+    </elements>
+    <elements xmi:id="_6964FqDJEeSZxfCXzZz3-w" name="DurationInterval" supertypes="_6964F6DJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_6964F6DJEeSZxfCXzZz3-w" name="Interval" supertypes="_690xtqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964GKDJEeSZxfCXzZz3-w" name="min" type="Reference" description="Refers to the ValueSpecification denoting the minimum value of the range."/>
+      <properties xmi:id="_6964GaDJEeSZxfCXzZz3-w" name="max" type="Reference" description="Refers to the ValueSpecification denoting the maximum value of the range."/>
+    </elements>
+    <elements xmi:id="_6964GqDJEeSZxfCXzZz3-w" name="TimeConstraint" supertypes="_6964HKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964G6DJEeSZxfCXzZz3-w" name="firstEvent" description="The value of firstEvent is related to constrainedElement. If firstEvent is true, then the corresponding observation event is the first time instant the execution enters constrainedElement. If firstEvent is false, then the corresponding observation event is the last time instant the execution is within constrainedElement."/>
+    </elements>
+    <elements xmi:id="_6964HKDJEeSZxfCXzZz3-w" name="IntervalConstraint" supertypes="_690xsqDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_6964HaDJEeSZxfCXzZz3-w" name="TimeInterval" supertypes="_6964F6DJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_6964HqDJEeSZxfCXzZz3-w" name="DurationConstraint" supertypes="_6964HKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964H6DJEeSZxfCXzZz3-w" name="firstEvent" description="The value of firstEvent[i] is related to constrainedElement[i] (where i is 1 or 2). If firstEvent[i] is true, then the corresponding observation event is the first time instant the execution enters constrainedElement[i]. If firstEvent[i] is false, then the corresponding observation event is the last time instant the execution is within constrainedElement[i]. Default value is true applied when constrainedElement[i] refers an element that represents only one time instant."/>
+    </elements>
+    <elements xmi:id="_6964IKDJEeSZxfCXzZz3-w" name="TimeObservation" supertypes="_6964EqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964IaDJEeSZxfCXzZz3-w" name="event" type="Reference" description="The observation is determined by the entering or exiting of the event element during execution."/>
+      <properties xmi:id="_6964IqDJEeSZxfCXzZz3-w" name="firstEvent" description="The value of firstEvent is related to event. If firstEvent is true, then the corresponding observation event is the first time instant the execution enters event. If firstEvent is false, then the corresponding observation event is the time instant the execution exits event."/>
+    </elements>
+    <elements xmi:id="_6964I6DJEeSZxfCXzZz3-w" name="DurationObservation" supertypes="_6964EqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964JKDJEeSZxfCXzZz3-w" name="event" type="Reference" description="The observation is determined by the entering or exiting of the event element during execution."/>
+      <properties xmi:id="_6964JaDJEeSZxfCXzZz3-w" name="firstEvent" description="The value of firstEvent[i] is related to event[i] (where i is 1 or 2). If firstEvent[i] is true, then the corresponding observation event is the first time instant the execution enters event[i]. If firstEvent[i] is false, then the corresponding observation event is the time instant the execution exits event[i]. Default value is true applied when event[i] refers an element that represents only one time instant."/>
+    </elements>
+    <elements xmi:id="_6964JqDJEeSZxfCXzZz3-w" name="FinalState" supertypes="_690ynaDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_6964J6DJEeSZxfCXzZz3-w" name="TimeEvent" supertypes="_690ylKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964KKDJEeSZxfCXzZz3-w" name="isRelative" description="Specifies whether it is relative or absolute time."/>
+      <properties xmi:id="_6964KaDJEeSZxfCXzZz3-w" name="when" type="Reference" description="Specifies the corresponding time deadline."/>
+    </elements>
+    <elements xmi:id="_6964KqDJEeSZxfCXzZz3-w" name="VariableAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964K6DJEeSZxfCXzZz3-w" name="variable" type="Reference" description="Variable to be read."/>
+    </elements>
+    <elements xmi:id="_6964LKDJEeSZxfCXzZz3-w" name="ReadVariableAction" supertypes="_6964KqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964LaDJEeSZxfCXzZz3-w" name="result" type="Reference" description="Gives the output pin on which the result is put."/>
+    </elements>
+    <elements xmi:id="_6964LqDJEeSZxfCXzZz3-w" name="WriteVariableAction" supertypes="_6964KqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964L6DJEeSZxfCXzZz3-w" name="value" type="Reference" description="Value to be added or removed from the variable."/>
+    </elements>
+    <elements xmi:id="_6964MKDJEeSZxfCXzZz3-w" name="ClearVariableAction" supertypes="_6964KqDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_6964MaDJEeSZxfCXzZz3-w" name="AddVariableValueAction" supertypes="_6964LqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964MqDJEeSZxfCXzZz3-w" name="isReplaceAll" description="Specifies whether existing values of the variable should be removed before adding the new value."/>
+      <properties xmi:id="_6964M6DJEeSZxfCXzZz3-w" name="insertAt" type="Reference" description="Gives the position at which to insert a new value or move an existing value in ordered variables. The types is UnlimitedINatural, but the value cannot be zero. This pin is omitted for unordered variables."/>
+    </elements>
+    <elements xmi:id="_6964NKDJEeSZxfCXzZz3-w" name="RemoveVariableValueAction" supertypes="_6964LqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964NaDJEeSZxfCXzZz3-w" name="isRemoveDuplicates" description="Specifies whether to remove duplicates of the value in nonunique variables."/>
+      <properties xmi:id="_6964NqDJEeSZxfCXzZz3-w" name="removeAt" type="Reference" description="Specifies the position of an existing value to remove in ordered nonunique variables. The type of the pin is UnlimitedNatural, but the value cannot be zero or unlimited."/>
+    </elements>
+    <elements xmi:id="_6964N6DJEeSZxfCXzZz3-w" name="RaiseExceptionAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964OKDJEeSZxfCXzZz3-w" name="exception" type="Reference" description="An input pin whose value becomes an exception object."/>
+    </elements>
+    <elements xmi:id="_6964OaDJEeSZxfCXzZz3-w" name="ActionInputPin" supertypes="_690zeKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964OqDJEeSZxfCXzZz3-w" name="fromAction" type="Reference" description="The action used to provide values."/>
+    </elements>
+    <elements xmi:id="_6964O6DJEeSZxfCXzZz3-w" name="InformationItem" supertypes="_690xwaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964PKDJEeSZxfCXzZz3-w" name="represented" type="Reference" description="Determines the classifiers that will specify the structure and nature of the information. An information item represents all its represented classifiers."/>
+    </elements>
+    <elements xmi:id="_6964PaDJEeSZxfCXzZz3-w" name="InformationFlow" supertypes="_690xkqDJEeSZxfCXzZz3-w _690xnaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964PqDJEeSZxfCXzZz3-w" name="realization" type="Reference" description="Determines which Relationship will realize the specified flow"/>
+      <properties xmi:id="_6964P6DJEeSZxfCXzZz3-w" name="conveyed" type="Reference" description="Specifies the information items that may circulate on this information flow."/>
+      <properties xmi:id="_6964QKDJEeSZxfCXzZz3-w" name="informationSource" type="Reference" description="Defines from which source the conveyed InformationItems are initiated."/>
+      <properties xmi:id="_6964QaDJEeSZxfCXzZz3-w" name="informationTarget" type="Reference" description="Defines to which target the conveyed InformationItems are directed."/>
+      <properties xmi:id="_6964QqDJEeSZxfCXzZz3-w" name="realizingActivityEdge" type="Reference" description="Determines which ActivityEdges will realize the specified flow."/>
+      <properties xmi:id="_6964Q6DJEeSZxfCXzZz3-w" name="realizingConnector" type="Reference" description="Determines which Connectors will realize the specified flow."/>
+      <properties xmi:id="_6964RKDJEeSZxfCXzZz3-w" name="realizingMessage" type="Reference" description="Determines which Messages will realize the specified flow."/>
+    </elements>
+    <elements xmi:id="_6964RaDJEeSZxfCXzZz3-w" name="ReadExtentAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964RqDJEeSZxfCXzZz3-w" name="result" type="Reference" description="The runtime instances of the classifier."/>
+      <properties xmi:id="_6964R6DJEeSZxfCXzZz3-w" name="classifier" type="Reference" description="The classifier whose instances are to be retrieved."/>
+    </elements>
+    <elements xmi:id="_6964SKDJEeSZxfCXzZz3-w" name="ReclassifyObjectAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964SaDJEeSZxfCXzZz3-w" name="isReplaceAll" description="Specifies whether existing classifiers should be removed before adding the new classifiers."/>
+      <properties xmi:id="_6964SqDJEeSZxfCXzZz3-w" name="oldClassifier" type="Reference" description="A set of classifiers to be removed from the classifiers of the object."/>
+      <properties xmi:id="_6964S6DJEeSZxfCXzZz3-w" name="newClassifier" type="Reference" description="A set of classifiers to be added to the classifiers of the object."/>
+      <properties xmi:id="_6964TKDJEeSZxfCXzZz3-w" name="object" type="Reference" description="Holds the object to be reclassified."/>
+    </elements>
+    <elements xmi:id="_6964TaDJEeSZxfCXzZz3-w" name="ReadIsClassifiedObjectAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964TqDJEeSZxfCXzZz3-w" name="isDirect" description="Indicates whether the classifier must directly classify the input object."/>
+      <properties xmi:id="_6964T6DJEeSZxfCXzZz3-w" name="classifier" type="Reference" description="The classifier against which the classification of the input object is tested."/>
+      <properties xmi:id="_6964UKDJEeSZxfCXzZz3-w" name="result" type="Reference" description="After termination of the action, will hold the result of the test."/>
+      <properties xmi:id="_6964UaDJEeSZxfCXzZz3-w" name="object" type="Reference" description="Holds the object whose classification is to be tested."/>
+    </elements>
+    <elements xmi:id="_6964UqDJEeSZxfCXzZz3-w" name="StartClassifierBehaviorAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964U6DJEeSZxfCXzZz3-w" name="object" type="Reference" description="Holds the object on which to start the owned behavior."/>
+    </elements>
+    <elements xmi:id="_6964VKDJEeSZxfCXzZz3-w" name="ReadLinkObjectEndAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964VaDJEeSZxfCXzZz3-w" name="object" type="Reference" description="Gives the input pin from which the link object is obtained."/>
+      <properties xmi:id="_6964VqDJEeSZxfCXzZz3-w" name="end" type="Reference" description="Link end to be read."/>
+      <properties xmi:id="_6964V6DJEeSZxfCXzZz3-w" name="result" type="Reference" description="Pin where the result value is placed."/>
+    </elements>
+    <elements xmi:id="_6964WKDJEeSZxfCXzZz3-w" name="ReadLinkObjectEndQualifierAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964WaDJEeSZxfCXzZz3-w" name="object" type="Reference" description="Gives the input pin from which the link object is obtained."/>
+      <properties xmi:id="_6964WqDJEeSZxfCXzZz3-w" name="result" type="Reference" description="Pin where the result value is placed."/>
+      <properties xmi:id="_6964W6DJEeSZxfCXzZz3-w" name="qualifier" type="Reference" description="The attribute representing the qualifier to be read."/>
+    </elements>
+    <elements xmi:id="_6964XKDJEeSZxfCXzZz3-w" name="CreateLinkObjectAction" supertypes="_6963_qDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964XaDJEeSZxfCXzZz3-w" name="result" type="Reference" description="Gives the output pin on which the result is put."/>
+    </elements>
+    <elements xmi:id="_6964XqDJEeSZxfCXzZz3-w" name="AcceptEventAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964X6DJEeSZxfCXzZz3-w" name="isUnmarshall" description="Indicates whether there is a single output pin for the event, or multiple output pins for attributes of the event."/>
+      <properties xmi:id="_6964YKDJEeSZxfCXzZz3-w" name="result" type="Reference" description="Pins holding the received event objects or their attributes. Event objects may be copied in transmission, so identity might not be preserved."/>
+      <properties xmi:id="_6964YaDJEeSZxfCXzZz3-w" name="trigger" type="Reference" description="The type of events accepted by the action, as specified by triggers. For triggers with signal events, a signal of the specified type or any subtype of the specified signal type is accepted."/>
+    </elements>
+    <elements xmi:id="_6964YqDJEeSZxfCXzZz3-w" name="AcceptCallAction" supertypes="_6964XqDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964Y6DJEeSZxfCXzZz3-w" name="returnInformation" type="Reference" description="Pin where a value is placed containing sufficient information to perform a subsequent reply and return control to the caller. The contents of this value are opaque. It can be passed and copied but it cannot be manipulated by the model."/>
+    </elements>
+    <elements xmi:id="_6964ZKDJEeSZxfCXzZz3-w" name="ReplyAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964ZaDJEeSZxfCXzZz3-w" name="replyToCall" type="Reference" description="The trigger specifying the operation whose call is being replied to."/>
+      <properties xmi:id="_6964ZqDJEeSZxfCXzZz3-w" name="returnInformation" type="Reference" description="A pin containing the return information value produced by an earlier AcceptCallAction."/>
+      <properties xmi:id="_6964Z6DJEeSZxfCXzZz3-w" name="replyValue" type="Reference" description="A list of pins containing the reply values of the operation. These values are returned to the caller."/>
+    </elements>
+    <elements xmi:id="_6964aKDJEeSZxfCXzZz3-w" name="UnmarshallAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964aaDJEeSZxfCXzZz3-w" name="result" type="Reference" description="The values of the structural features of the input object."/>
+      <properties xmi:id="_6964aqDJEeSZxfCXzZz3-w" name="unmarshallType" type="Reference" description="The type of the object to be unmarshalled."/>
+      <properties xmi:id="_6964a6DJEeSZxfCXzZz3-w" name="object" type="Reference" description="The object to be unmarshalled."/>
+    </elements>
+    <elements xmi:id="_6964bKDJEeSZxfCXzZz3-w" name="ReduceAction" supertypes="_690zKaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964baDJEeSZxfCXzZz3-w" name="reducer" type="Reference" description="Behavior that is applied to two elements of the input collection to produce a value that is the same type as elements of the collection."/>
+      <properties xmi:id="_6964bqDJEeSZxfCXzZz3-w" name="result" type="Reference" description="Gives the output pin on which the result is put."/>
+      <properties xmi:id="_6964b6DJEeSZxfCXzZz3-w" name="collection" type="Reference" description="The collection to be reduced."/>
+      <properties xmi:id="_6964cKDJEeSZxfCXzZz3-w" name="isOrdered" description="Tells whether the order of the input collection should determine the order in which the behavior is applied to its elements."/>
+    </elements>
+    <elements xmi:id="_6964caDJEeSZxfCXzZz3-w" name="StartObjectBehaviorAction" supertypes="_690zeaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964cqDJEeSZxfCXzZz3-w" name="object" type="Reference" description="Holds the object which is either a behavior to be started or has a classifier behavior to be started."/>
+    </elements>
+    <elements xmi:id="_6964c6DJEeSZxfCXzZz3-w" name="JoinNode" supertypes="_690ziaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964dKDJEeSZxfCXzZz3-w" name="isCombineDuplicate" description="Tells whether tokens having objects with the same identity are combined into one by the join."/>
+      <properties xmi:id="_6964daDJEeSZxfCXzZz3-w" name="joinSpec" type="Reference" description="A specification giving the conditions under which the join with emit a token. Default is &quot;and&quot;."/>
+    </elements>
+    <elements xmi:id="_6964dqDJEeSZxfCXzZz3-w" name="DataStoreNode" supertypes="_690z2aDJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_6964d6DJEeSZxfCXzZz3-w" name="ConditionalNode" supertypes="_690zO6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964eKDJEeSZxfCXzZz3-w" name="isDeterminate" description="If true, the modeler asserts that at most one test will succeed."/>
+      <properties xmi:id="_6964eaDJEeSZxfCXzZz3-w" name="isAssured" description="If true, the modeler asserts that at least one test will succeed."/>
+      <properties xmi:id="_6964eqDJEeSZxfCXzZz3-w" name="clause" type="Reference" description="Set of clauses composing the conditional."/>
+      <properties xmi:id="_6964e6DJEeSZxfCXzZz3-w" name="result" type="Reference" description="A list of output pins that constitute the data flow outputs of the conditional."/>
+    </elements>
+    <elements xmi:id="_6964fKDJEeSZxfCXzZz3-w" name="Clause" supertypes="_690xhaDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964faDJEeSZxfCXzZz3-w" name="test" type="Reference" multiplicity="-1" description="A nested activity fragment with a designated output pin that specifies the result of the test."/>
+      <properties xmi:id="_6964fqDJEeSZxfCXzZz3-w" name="body" type="Reference" description="A nested activity fragment that is executed if the test evaluates to true and the clause is chosen over any concurrent clauses that also evaluate to true."/>
+      <properties xmi:id="_6964f6DJEeSZxfCXzZz3-w" name="predecessorClause" type="Reference" description="A set of clauses whose tests must all evaluate false before the current clause can be tested."/>
+      <properties xmi:id="_6964gKDJEeSZxfCXzZz3-w" name="successorClause" type="Reference" description="A set of clauses which may not be tested unless the current clause tests false."/>
+      <properties xmi:id="_6964gaDJEeSZxfCXzZz3-w" name="decider" type="Reference" description="An output pin within the test fragment the value of which is examined after execution of the test to determine whether the body should be executed."/>
+      <properties xmi:id="_6964gqDJEeSZxfCXzZz3-w" name="bodyOutput" type="Reference" description="A list of output pins within the body fragment whose values are moved to the result pins of the containing conditional node after execution of the clause body."/>
+    </elements>
+    <elements xmi:id="_6964g6DJEeSZxfCXzZz3-w" name="LoopNode" supertypes="_690zO6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964hKDJEeSZxfCXzZz3-w" name="isTestedFirst" description="If true, the test is performed before the first execution of the body.&#xA;If false, the body is executed once before the test is performed.&#xA;"/>
+      <properties xmi:id="_6964haDJEeSZxfCXzZz3-w" name="bodyPart" type="Reference" description="The set of nodes and edges that perform the repetitive computations of the loop. The body section is executed as long as the test section produces a true value."/>
+      <properties xmi:id="_6964hqDJEeSZxfCXzZz3-w" name="setupPart" type="Reference" description="The set of nodes and edges that initialize values or perform other setup computations for the loop."/>
+      <properties xmi:id="_6964h6DJEeSZxfCXzZz3-w" name="decider" type="Reference" description="An output pin within the test fragment the value of which is examined after execution of the test to determine whether to execute the loop body."/>
+      <properties xmi:id="_6964iKDJEeSZxfCXzZz3-w" name="test" type="Reference" multiplicity="-1" description="The set of nodes, edges, and designated value that compute a Boolean value to determine if another execution of the body will be performed."/>
+      <properties xmi:id="_6964iaDJEeSZxfCXzZz3-w" name="result" type="Reference" description="A list of output pins that constitute the data flow output of the entire loop."/>
+      <properties xmi:id="_6964iqDJEeSZxfCXzZz3-w" name="loopVariable" type="Reference" description="A list of output pins that hold the values of the loop variables during an execution of the loop. When the test fails, the values are movied to the result pins of the loop."/>
+      <properties xmi:id="_6964i6DJEeSZxfCXzZz3-w" name="bodyOutput" type="Reference" description="A list of output pins within the body fragment the values of which are moved to the loop variable pins after completion of execution of the body, before the next iteration of the loop begins or before the loop exits."/>
+      <properties xmi:id="_6964jKDJEeSZxfCXzZz3-w" name="loopVariableInput" type="Reference" description="A list of values that are moved into the loop variable pins before the first iteration of the loop."/>
+    </elements>
+    <elements xmi:id="_6964jaDJEeSZxfCXzZz3-w" name="ExpansionNode" supertypes="_690zb6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964jqDJEeSZxfCXzZz3-w" name="regionAsOutput" type="Reference" description="The expansion region for which the node is an output."/>
+      <properties xmi:id="_6964j6DJEeSZxfCXzZz3-w" name="regionAsInput" type="Reference" description="The expansion region for which the node is an input."/>
+    </elements>
+    <elements xmi:id="_6964kKDJEeSZxfCXzZz3-w" name="ExpansionRegion" supertypes="_690zO6DJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964kaDJEeSZxfCXzZz3-w" name="mode" type="Enumeration" description="The way in which the executions interact:&#xD;&#xA;parallel: all interactions are independent&#xD;&#xA;iterative: the interactions occur in order of the elements&#xD;&#xA;stream: a stream of values flows into a single execution&#xD;&#xA;"/>
+      <properties xmi:id="_6964kqDJEeSZxfCXzZz3-w" name="inputElement" type="Reference" description="An object node that holds a separate element of the input collection during each of the multiple executions of the region."/>
+      <properties xmi:id="_6964k6DJEeSZxfCXzZz3-w" name="outputElement" type="Reference" description="An object node that accepts a separate element of the output collection during each of the multiple executions of the region. The values are formed into a collection that is available when the execution of the region is complete."/>
+    </elements>
+    <elements xmi:id="_6964lKDJEeSZxfCXzZz3-w" name="ProtocolTransition" supertypes="_690yiKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964laDJEeSZxfCXzZz3-w" name="postCondition" type="Reference" description="Specifies the post condition of the transition which is the condition that should be obtained once the transition is triggered. This post condition is part of the post condition of the operation connected to the transition.&#xD;&#xA;"/>
+      <properties xmi:id="_6964lqDJEeSZxfCXzZz3-w" name="referred" type="Reference" description="This association refers to the associated operation. It is derived from the operation of the call trigger when applicable."/>
+      <properties xmi:id="_6964l6DJEeSZxfCXzZz3-w" name="preCondition" type="Reference" description="Specifies the precondition of the transition. It specifies the condition that should be verified before triggering the transition. This guard condition added to the source state will be evaluated as part of the precondition of the operation referred by the transition if any."/>
+    </elements>
+    <elements xmi:id="_6964mKDJEeSZxfCXzZz3-w" name="AssociationClass" supertypes="_690yXqDJEeSZxfCXzZz3-w _690xu6DJEeSZxfCXzZz3-w"/>
+    <elements xmi:id="_6964maDJEeSZxfCXzZz3-w" name="EModelElement">
+      <properties xmi:id="_6964mqDJEeSZxfCXzZz3-w" name="eAnnotations" type="Reference"/>
+    </elements>
+    <elements xmi:id="_6964m6DJEeSZxfCXzZz3-w" name="LiteralReal" supertypes="_690zFKDJEeSZxfCXzZz3-w">
+      <properties xmi:id="_6964nKDJEeSZxfCXzZz3-w" name="value" label="" description="The specified Real value."/>
+    </elements>
+    <elements xmi:id="_6964naDJEeSZxfCXzZz3-w" name="DestructionOccurrenceSpecification" supertypes="_690zy6DJEeSZxfCXzZz3-w"/>
+    <modelElementFactory href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@modelElementFactories.1"/>
+  </dataContexts>
+  <dataContexts xmi:id="_6964nqDJEeSZxfCXzZz3-w" name="MemberEnd" label="Multiplicity">
+    <properties xmi:id="_6964n6DJEeSZxfCXzZz3-w" name="owner" label="Owner" type="Enumeration"/>
+    <properties xmi:id="_6964oKDJEeSZxfCXzZz3-w" name="navigable" label="Navigable" type="Boolean"/>
+    <modelElementFactory href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@modelElementFactories.0"/>
+  </dataContexts>
+  <dataContexts xmi:id="_6964oaDJEeSZxfCXzZz3-w" name="Multiplicity" label="Multiplicity">
+    <properties xmi:id="_6964oqDJEeSZxfCXzZz3-w" name="multiplicity" label="Multiplicity"/>
+    <modelElementFactory href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@modelElementFactories.0"/>
+  </dataContexts>
+  <dataContexts xmi:id="_6964o6DJEeSZxfCXzZz3-w" name="StereotypeApplication" label="Stereotype application">
+    <properties xmi:id="_6964pKDJEeSZxfCXzZz3-w" name="stereotypeApplication" label="Stereotype application" type="Reference" multiplicity="-1"/>
+    <properties xmi:id="_6964paDJEeSZxfCXzZz3-w" name="profileApplication" label="Profile application" type="Reference" multiplicity="-1"/>
+    <modelElementFactory href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@modelElementFactories.3"/>
+  </dataContexts>
+  <dataContexts xmi:id="_6964pqDJEeSZxfCXzZz3-w" name="CustomImage" label="Custom Image">
+    <elements xmi:id="_6964p6DJEeSZxfCXzZz3-w" name="Image">
+      <properties xmi:id="_6964qKDJEeSZxfCXzZz3-w" name="kind" type="Enumeration" description="The kind of image to be used. If icon is set, the image will be displayed on the stereotyped element. If shape is used, the image will be used as the graphical element. "/>
+      <properties xmi:id="_6964qaDJEeSZxfCXzZz3-w" name="expression" description="A boolean expression to determine under which condition this image should be displayed."/>
+      <properties xmi:id="_6964qqDJEeSZxfCXzZz3-w" name="name" label="" description="The image's name. This is a virtual property, used only for label display."/>
+    </elements>
+    <modelElementFactory href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@modelElementFactories.5"/>
+  </dataContexts>
+  <dataContexts xmi:id="_6964q6DJEeSZxfCXzZz3-w" name="AppliedComments" label="AppliedComments">
+    <properties xmi:id="_6964rKDJEeSZxfCXzZz3-w" name="appliedComments" label="" type="Reference" multiplicity="-1" description="The list of comments applied to this element"/>
+    <modelElementFactory href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@modelElementFactories.7"/>
+  </dataContexts>
+  <dataContexts xmi:id="_6964raDJEeSZxfCXzZz3-w" name="OwnedComments" label="OwnedComments">
+    <properties xmi:id="_6964rqDJEeSZxfCXzZz3-w" name="ownedComment" label="Owned comments" type="Reference" multiplicity="-1"/>
+    <modelElementFactory href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@modelElementFactories.7"/>
+  </dataContexts>
+  <dataContexts xmi:id="_6964r6DJEeSZxfCXzZz3-w" name="Profile" label="ProfileDefinition">
+    <elements xmi:id="_6964sKDJEeSZxfCXzZz3-w" name="Profile">
+      <properties xmi:id="_6964saDJEeSZxfCXzZz3-w" name="definitions" type="Reference" multiplicity="-1" description="The list of definitions of this profile"/>
+    </elements>
+    <modelElementFactory href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@modelElementFactories.8"/>
+  </dataContexts>
+  <dataContexts xmi:id="_6964sqDJEeSZxfCXzZz3-w" name="ProfileDefinitionAnnotation" label="ProfileDefinitionAnnotation">
+    <elements xmi:id="_6964s6DJEeSZxfCXzZz3-w" name="PapyrusVersion">
+      <properties xmi:id="_6964tKDJEeSZxfCXzZz3-w" name="Version"/>
+      <properties xmi:id="_6964taDJEeSZxfCXzZz3-w" name="Author"/>
+      <properties xmi:id="_6964tqDJEeSZxfCXzZz3-w" name="Copyright"/>
+      <properties xmi:id="_6964t6DJEeSZxfCXzZz3-w" name="Date"/>
+      <properties xmi:id="_6964uKDJEeSZxfCXzZz3-w" name="Comment"/>
+    </elements>
+    <modelElementFactory href="ppe:/environment/org.eclipse.papyrus.infra.properties.ui/model/Environment.xmi#//@modelElementFactories.1"/>
+  </dataContexts>
+  <dataContexts xmi:id="_6964uaDJEeSZxfCXzZz3-w" name="ImportedPackage" label="Imported Package">
+    <elements xmi:id="_6964uqDJEeSZxfCXzZz3-w" name="Package">
+      <properties xmi:id="_6964u6DJEeSZxfCXzZz3-w" name="location" label="Location" description="The location of imported package"/>
+    </elements>
+    <modelElementFactory href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@modelElementFactories.9"/>
+  </dataContexts>
+  <prototype href="ppe:/context/org.eclipse.papyrus.uml.properties/Model/UML/UML.ctx#_69QJkKDJEeSZxfCXzZz3-w"/>
+</contexts:Context>
