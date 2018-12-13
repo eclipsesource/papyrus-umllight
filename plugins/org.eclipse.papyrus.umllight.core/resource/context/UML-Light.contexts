@@ -133,6 +133,9 @@
     <sections xmi:id="_3OOlHf7xEeioQ5IXbg1K0w" name="MultiplePackageableElement" sectionFile="ui/MultiplePackageableElement.xwt">
       <widget href="ui/MultiplePackageableElement.xwt#/"/>
     </sections>
+    <sections xmi:id="_YN2T0P8KEeia9orao6j1zA" name="MultiplePackageImport" sectionFile="ui/MultiplePackageImport.xwt">
+      <widget href="ui/MultiplePackageImport.xwt#/"/>
+    </sections>
     <sections xmi:id="_3OOlHv7xEeioQ5IXbg1K0w" name="MultipleParameter" sectionFile="ui/MultipleParameter.xwt">
       <widget href="ui/MultipleParameter.xwt#/"/>
     </sections>
@@ -237,6 +240,9 @@
     </sections>
     <sections xmi:id="_3OOlP_7xEeioQ5IXbg1K0w" name="SinglePackage" sectionFile="ui/SinglePackage.xwt">
       <widget href="ui/SinglePackage.xwt#/"/>
+    </sections>
+    <sections xmi:id="_YN2T0f8KEeia9orao6j1zA" name="SinglePackageImport" sectionFile="ui/SinglePackageImport.xwt">
+      <widget href="ui/SinglePackageImport.xwt#/"/>
     </sections>
     <sections xmi:id="_3OOlQP7xEeioQ5IXbg1K0w" name="SinglePackageableElement" sectionFile="ui/SinglePackageableElement.xwt">
       <widget href="ui/SinglePackageableElement.xwt#/"/>
@@ -530,6 +536,12 @@
       <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlnv7xEeioQ5IXbg1K0w" name="umlClassName" value="PackageableElement"/>
     </constraints>
   </views>
+  <views xmi:id="_YN2T0v8KEeia9orao6j1zA" elementMultiplicity="-1" name="MultiplePackageImport" sections="_YN2T0P8KEeia9orao6j1zA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_YN2T0_8KEeia9orao6j1zA" name="isMultiplePackageImport">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_YN2T1P8KEeia9orao6j1zA" name="umlClassName" value="PackageImport"/>
+    </constraints>
+  </views>
   <views xmi:id="_3OOln_7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleParameter" sections="_3OOlHv7xEeioQ5IXbg1K0w" automaticContext="true">
     <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOloP7xEeioQ5IXbg1K0w" name="isMultipleParameter">
       <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
@@ -744,6 +756,12 @@
     <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMUf7xEeioQ5IXbg1K0w" name="isSinglePackageableElement">
       <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
       <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMUv7xEeioQ5IXbg1K0w" name="umlClassName" value="PackageableElement"/>
+    </constraints>
+  </views>
+  <views xmi:id="_YN2T1f8KEeia9orao6j1zA" name="SinglePackageImport" sections="_YN2T0f8KEeia9orao6j1zA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_YN2T1v8KEeia9orao6j1zA" name="isSinglePackageImport">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_YN2T1_8KEeia9orao6j1zA" name="umlClassName" value="PackageImport"/>
     </constraints>
   </views>
   <views xmi:id="_3OPMU_7xEeioQ5IXbg1K0w" name="SingleParameter" sections="_3OOlQf7xEeioQ5IXbg1K0w" automaticContext="true">
