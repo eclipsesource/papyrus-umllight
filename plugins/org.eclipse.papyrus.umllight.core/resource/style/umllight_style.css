@@ -13,16 +13,22 @@
  */
 
 ClassDiagram *,
-UseCaseDiagram * {
+UseCaseDiagram *,
+SequenceDiagram * {
 	gradient: none;
 	transparency: 0;
 	lineWidth: 1px;
-	elementIcon: true;
 	shadow: true;
 	shadowWidth: 2px;
 	shadowColor: darkgray;
 	radiusWidth: 3px;
 	radiusHeight: 3px;
+	lineColor: steelblue;
+}
+
+ClassDiagram *,
+UseCaseDiagram * {
+	elementIcon: true;	
 }
 
 Comment {
@@ -38,19 +44,12 @@ Constraint {
 }
 
 AssociationClass, Class, DataType, Enumeration, Package, Interface, PrimitiveType,
-UseCase, StateMachine, State, Region {
+UseCase, StateMachine, State, Region, Activity, Interaction, InteractionUse {
 	fillColor: white;
 	lineColor: steelblue;
 	nameBackgroundColor: ghostwhite;
-}
-
-/* Line between member end classes should be black, we but can only style complete AssociationClass */
-AssociationClass {
-	lineColor: #000000;
-}
-
-Package {
-	fillColor: white;
+	shadow: true;
+	shadowWidth: 2px;
 }
 
 /* hide compartments by default */
@@ -78,7 +77,8 @@ Property {
 	maskLabel: name type multiplicity;
 }
 
-Association > Label {
+Association > Label,
+AssociationClass > Label {
 	elementIcon: false;
 }
 
@@ -88,12 +88,18 @@ Association > Label:targetMultiplicity {
 }
  
 Association > Label:sourceRole,
-Association > Label:targetRole {
+Association > Label:targetRole,
+AssociationClass > Label:sourceRole,
+AssociationClass > Label:targetRole {
 	maskLabel: name multiplicity;
 }
 
 Association > Label:name,
-Usage > Label {
+Usage > Label,
+ContextLink > Label,
+CommentLink > Label,
+ConstraintLink > Label,
+ActivityFinalNode > Label {
 	visible: false;
 }
 
@@ -132,6 +138,42 @@ StateMachine * {
 	shadowWidth: 0px;
 }
 
-FinalState * {
-	fillColor: white;
+Transition,
+Pseudostate {
+	lineColor: steelblue;
+}
+
+Pseudostate > Label,
+FinalState > Label,
+ForkNode > Label,
+MergeNode > Label,
+DecisionNode > Label,
+JoinNode > Label,
+InitialNode > Label,
+FlowFinalNode > Label,
+InputPin > Label,
+OutputPin > Label {
+	visible: false;
+}
+
+FinalState, Pseudostate, InitialNode {
+	fillColor: steelblue;
+	lineColor: steelblue;
+}
+
+OpaqueAction, CallBehaviorAction, CallOperationAction, AcceptEventAction, InputPin, OutputPin,
+ControlFlow, FlowFinalNode, DecisionNode, MergeNode, ForkNode, JoinNode, ActivityFinalNode,
+BehaviorExecutionSpecification, ActionExecutionSpecification {
+	lineColor: steelblue;
+	fillColor: ghostwhite;
+}
+
+OpaqueAction,
+CallBehaviorAction,
+CallOperationAction {
+	elementIcon: true;
+}
+
+Lifeline, Message {
+	lineColor: steelblue;
 }
