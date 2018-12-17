@@ -2102,7 +2102,7 @@
       <properties xmi:id="_6964nKDJEeSZxfCXzZz3-w" name="value" label="" description="The specified Real value."/>
     </elements>
     <elements xmi:id="_6964naDJEeSZxfCXzZz3-w" name="DestructionOccurrenceSpecification" supertypes="_690zy6DJEeSZxfCXzZz3-w"/>
-    <modelElementFactory href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@modelElementFactories.1"/>
+    <modelElementFactory href="Environment.xmi#//@modelElementFactories.0"/>
   </dataContexts>
   <dataContexts xmi:id="_6964nqDJEeSZxfCXzZz3-w" name="MemberEnd" label="Multiplicity">
     <properties xmi:id="_6964n6DJEeSZxfCXzZz3-w" name="owner" label="Owner" type="Enumeration"/>
