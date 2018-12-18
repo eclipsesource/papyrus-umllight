@@ -40,6 +40,236 @@
     <sections xmi:id="_69idmaDJEeSZxfCXzZz3-w" name="SingleComment" sectionFile="ui/SingleComment.xwt">
       <widget href="ui/SingleComment.xwt#/"/>
     </sections>
+    <sections xmi:id="_3OOlAP7xEeioQ5IXbg1K0w" name="MemberEnd" sectionFile="ui/MemberEnd.xwt">
+      <widget href="ui/MemberEnd.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlAf7xEeioQ5IXbg1K0w" name="MultipleAssociation" sectionFile="ui/MultipleAssociation.xwt">
+      <widget href="ui/MultipleAssociation.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlAv7xEeioQ5IXbg1K0w" name="MultipleAssociationClass" sectionFile="ui/MultipleAssociationClass.xwt">
+      <widget href="ui/MultipleAssociationClass.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlA_7xEeioQ5IXbg1K0w" name="MultipleClass" sectionFile="ui/MultipleClass.xwt">
+      <widget href="ui/MultipleClass.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlBP7xEeioQ5IXbg1K0w" name="MultipleClassifier" sectionFile="ui/MultipleClassifier.xwt">
+      <widget href="ui/MultipleClassifier.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlBf7xEeioQ5IXbg1K0w" name="MultipleConstraint" sectionFile="ui/MultipleConstraint.xwt">
+      <widget href="ui/MultipleConstraint.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlBv7xEeioQ5IXbg1K0w" name="MultipleDataType" sectionFile="ui/MultipleDataType.xwt">
+      <widget href="ui/MultipleDataType.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlB_7xEeioQ5IXbg1K0w" name="MultipleDependency" sectionFile="ui/MultipleDependency.xwt">
+      <widget href="ui/MultipleDependency.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlCP7xEeioQ5IXbg1K0w" name="MultipleElement" sectionFile="ui/MultipleElement.xwt">
+      <widget href="ui/MultipleElement.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlCf7xEeioQ5IXbg1K0w" name="MultipleEnumeration" sectionFile="ui/MultipleEnumeration.xwt">
+      <widget href="ui/MultipleEnumeration.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlCv7xEeioQ5IXbg1K0w" name="MultipleEnumerationLiteral" sectionFile="ui/MultipleEnumerationLiteral.xwt">
+      <widget href="ui/MultipleEnumerationLiteral.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlC_7xEeioQ5IXbg1K0w" name="MultipleExpression" sectionFile="ui/MultipleExpression.xwt">
+      <widget href="ui/MultipleExpression.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlDP7xEeioQ5IXbg1K0w" name="MultipleFeature" sectionFile="ui/MultipleFeature.xwt">
+      <widget href="ui/MultipleFeature.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlDf7xEeioQ5IXbg1K0w" name="MultipleGeneralization" sectionFile="ui/MultipleGeneralization.xwt">
+      <widget href="ui/MultipleGeneralization.xwt#/"/>
+    </sections>
+    <sections xmi:id="_z5kJwP8GEeiem9LAZuCuxA" name="MultipleInstanceValue" sectionFile="ui/MultipleInstanceValue.xwt">
+      <widget href="ui/MultipleInstanceValue.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlDv7xEeioQ5IXbg1K0w" name="MultipleInterface" sectionFile="ui/MultipleInterface.xwt">
+      <widget href="ui/MultipleInterface.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlD_7xEeioQ5IXbg1K0w" name="MultipleInterfaceRealization" sectionFile="ui/MultipleInterfaceRealization.xwt">
+      <widget href="ui/MultipleInterfaceRealization.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlEP7xEeioQ5IXbg1K0w" name="MultipleLiteralBoolean" sectionFile="ui/MultipleLiteralBoolean.xwt">
+      <widget href="ui/MultipleLiteralBoolean.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlEf7xEeioQ5IXbg1K0w" name="MultipleLiteralInteger" sectionFile="ui/MultipleLiteralInteger.xwt">
+      <widget href="ui/MultipleLiteralInteger.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlEv7xEeioQ5IXbg1K0w" name="MultipleLiteralNull" sectionFile="ui/MultipleLiteralNull.xwt">
+      <widget href="ui/MultipleLiteralNull.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlE_7xEeioQ5IXbg1K0w" name="MultipleLiteralSpecification" sectionFile="ui/MultipleLiteralSpecification.xwt">
+      <widget href="ui/MultipleLiteralSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlFP7xEeioQ5IXbg1K0w" name="MultipleLiteralString" sectionFile="ui/MultipleLiteralString.xwt">
+      <widget href="ui/MultipleLiteralString.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlFf7xEeioQ5IXbg1K0w" name="MultipleLiteralUnlimitedNatural" sectionFile="ui/MultipleLiteralUnlimitedNatural.xwt">
+      <widget href="ui/MultipleLiteralUnlimitedNatural.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlFv7xEeioQ5IXbg1K0w" name="MultipleModel" sectionFile="ui/MultipleModel.xwt">
+      <widget href="ui/MultipleModel.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlF_7xEeioQ5IXbg1K0w" name="MultipleMultiplicityElement" sectionFile="ui/MultipleMultiplicityElement.xwt">
+      <widget href="ui/MultipleMultiplicityElement.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlGP7xEeioQ5IXbg1K0w" name="MultipleNamedElement" sectionFile="ui/MultipleNamedElement.xwt">
+      <widget href="ui/MultipleNamedElement.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlGf7xEeioQ5IXbg1K0w" name="MultipleNamespace" sectionFile="ui/MultipleNamespace.xwt">
+      <widget href="ui/MultipleNamespace.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlGv7xEeioQ5IXbg1K0w" name="MultipleOpaqueExpression" sectionFile="ui/MultipleOpaqueExpression.xwt">
+      <widget href="ui/MultipleOpaqueExpression.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlG_7xEeioQ5IXbg1K0w" name="MultipleOperation" sectionFile="ui/MultipleOperation.xwt">
+      <widget href="ui/MultipleOperation.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlHP7xEeioQ5IXbg1K0w" name="MultiplePackage" sectionFile="ui/MultiplePackage.xwt">
+      <widget href="ui/MultiplePackage.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlHf7xEeioQ5IXbg1K0w" name="MultiplePackageableElement" sectionFile="ui/MultiplePackageableElement.xwt">
+      <widget href="ui/MultiplePackageableElement.xwt#/"/>
+    </sections>
+    <sections xmi:id="_YN2T0P8KEeia9orao6j1zA" name="MultiplePackageImport" sectionFile="ui/MultiplePackageImport.xwt">
+      <widget href="ui/MultiplePackageImport.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlHv7xEeioQ5IXbg1K0w" name="MultipleParameter" sectionFile="ui/MultipleParameter.xwt">
+      <widget href="ui/MultipleParameter.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlH_7xEeioQ5IXbg1K0w" name="MultiplePrimitiveType" sectionFile="ui/MultiplePrimitiveType.xwt">
+      <widget href="ui/MultiplePrimitiveType.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlIP7xEeioQ5IXbg1K0w" name="MultipleProperty" sectionFile="ui/MultipleProperty.xwt">
+      <widget href="ui/MultipleProperty.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlIf7xEeioQ5IXbg1K0w" name="MultipleLiteralReal" sectionFile="ui/MultipleLiteralReal.xwt">
+      <widget href="ui/MultipleLiteralReal.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlIv7xEeioQ5IXbg1K0w" name="MultipleType" sectionFile="ui/MultipleType.xwt">
+      <widget href="ui/MultipleType.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlI_7xEeioQ5IXbg1K0w" name="MultipleTypedElement" sectionFile="ui/MultipleTypedElement.xwt">
+      <widget href="ui/MultipleTypedElement.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlJP7xEeioQ5IXbg1K0w" name="SingleAssociation" sectionFile="ui/SingleAssociation.xwt">
+      <widget href="ui/SingleAssociation.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlJf7xEeioQ5IXbg1K0w" name="SingleAssociationClass" sectionFile="ui/SingleAssociationClass.xwt">
+      <widget href="ui/SingleAssociationClass.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlJv7xEeioQ5IXbg1K0w" name="SingleClass" sectionFile="ui/SingleClass.xwt">
+      <widget href="ui/SingleClass.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlJ_7xEeioQ5IXbg1K0w" name="SingleClassifier" sectionFile="ui/SingleClassifier.xwt">
+      <widget href="ui/SingleClassifier.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlKP7xEeioQ5IXbg1K0w" name="SingleConstraint" sectionFile="ui/SingleConstraint.xwt">
+      <widget href="ui/SingleConstraint.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlKf7xEeioQ5IXbg1K0w" name="SingleDataType" sectionFile="ui/SingleDataType.xwt">
+      <widget href="ui/SingleDataType.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlKv7xEeioQ5IXbg1K0w" name="SingleDependency" sectionFile="ui/SingleDependency.xwt">
+      <widget href="ui/SingleDependency.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlK_7xEeioQ5IXbg1K0w" name="SingleElement" sectionFile="ui/SingleElement.xwt">
+      <widget href="ui/SingleElement.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlLP7xEeioQ5IXbg1K0w" name="SingleEnumeration" sectionFile="ui/SingleEnumeration.xwt">
+      <widget href="ui/SingleEnumeration.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlLf7xEeioQ5IXbg1K0w" name="SingleEnumerationLiteral" sectionFile="ui/SingleEnumerationLiteral.xwt">
+      <widget href="ui/SingleEnumerationLiteral.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlLv7xEeioQ5IXbg1K0w" name="SingleExpression" sectionFile="ui/SingleExpression.xwt">
+      <widget href="ui/SingleExpression.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlL_7xEeioQ5IXbg1K0w" name="SingleFeature" sectionFile="ui/SingleFeature.xwt">
+      <widget href="ui/SingleFeature.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlMP7xEeioQ5IXbg1K0w" name="SingleGeneralization" sectionFile="ui/SingleGeneralization.xwt">
+      <widget href="ui/SingleGeneralization.xwt#/"/>
+    </sections>
+    <sections xmi:id="_z5kJwf8GEeiem9LAZuCuxA" name="SingleInstanceValue" sectionFile="ui/SingleInstanceValue.xwt">
+      <widget href="ui/SingleInstanceValue.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlMf7xEeioQ5IXbg1K0w" name="SingleInterface" sectionFile="ui/SingleInterface.xwt">
+      <widget href="ui/SingleInterface.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlMv7xEeioQ5IXbg1K0w" name="SingleInterfaceRealization" sectionFile="ui/SingleInterfaceRealization.xwt">
+      <widget href="ui/SingleInterfaceRealization.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlM_7xEeioQ5IXbg1K0w" name="SingleLiteralBoolean" sectionFile="ui/SingleLiteralBoolean.xwt">
+      <widget href="ui/SingleLiteralBoolean.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlNP7xEeioQ5IXbg1K0w" name="SingleLiteralInteger" sectionFile="ui/SingleLiteralInteger.xwt">
+      <widget href="ui/SingleLiteralInteger.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlNf7xEeioQ5IXbg1K0w" name="SingleLiteralNull" sectionFile="ui/SingleLiteralNull.xwt">
+      <widget href="ui/SingleLiteralNull.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlNv7xEeioQ5IXbg1K0w" name="SingleLiteralSpecification" sectionFile="ui/SingleLiteralSpecification.xwt">
+      <widget href="ui/SingleLiteralSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlN_7xEeioQ5IXbg1K0w" name="SingleLiteralString" sectionFile="ui/SingleLiteralString.xwt">
+      <widget href="ui/SingleLiteralString.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlOP7xEeioQ5IXbg1K0w" name="SingleLiteralUnlimitedNatural" sectionFile="ui/SingleLiteralUnlimitedNatural.xwt">
+      <widget href="ui/SingleLiteralUnlimitedNatural.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlOf7xEeioQ5IXbg1K0w" name="SingleModel" sectionFile="ui/SingleModel.xwt">
+      <widget href="ui/SingleModel.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlOv7xEeioQ5IXbg1K0w" name="SingleMultiplicityElement" sectionFile="ui/SingleMultiplicityElement.xwt">
+      <widget href="ui/SingleMultiplicityElement.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlO_7xEeioQ5IXbg1K0w" name="SingleNamedElement" sectionFile="ui/SingleNamedElement.xwt">
+      <widget href="ui/SingleNamedElement.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlPP7xEeioQ5IXbg1K0w" name="SingleNamespace" sectionFile="ui/SingleNamespace.xwt">
+      <widget href="ui/SingleNamespace.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlPf7xEeioQ5IXbg1K0w" name="SingleOpaqueExpression" sectionFile="ui/SingleOpaqueExpression.xwt">
+      <widget href="ui/SingleOpaqueExpression.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlPv7xEeioQ5IXbg1K0w" name="SingleOperation" sectionFile="ui/SingleOperation.xwt">
+      <widget href="ui/SingleOperation.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlP_7xEeioQ5IXbg1K0w" name="SinglePackage" sectionFile="ui/SinglePackage.xwt">
+      <widget href="ui/SinglePackage.xwt#/"/>
+    </sections>
+    <sections xmi:id="_YN2T0f8KEeia9orao6j1zA" name="SinglePackageImport" sectionFile="ui/SinglePackageImport.xwt">
+      <widget href="ui/SinglePackageImport.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlQP7xEeioQ5IXbg1K0w" name="SinglePackageableElement" sectionFile="ui/SinglePackageableElement.xwt">
+      <widget href="ui/SinglePackageableElement.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlQf7xEeioQ5IXbg1K0w" name="SingleParameter" sectionFile="ui/SingleParameter.xwt">
+      <widget href="ui/SingleParameter.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlQv7xEeioQ5IXbg1K0w" name="SinglePrimitiveType" sectionFile="ui/SinglePrimitiveType.xwt">
+      <widget href="ui/SinglePrimitiveType.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlQ_7xEeioQ5IXbg1K0w" name="SingleProperty" sectionFile="ui/SingleProperty.xwt">
+      <widget href="ui/SingleProperty.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlRP7xEeioQ5IXbg1K0w" name="SingleLiteralReal" sectionFile="ui/SingleLiteralReal.xwt">
+      <widget href="ui/SingleLiteralReal.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlRf7xEeioQ5IXbg1K0w" name="SingleType" sectionFile="ui/SingleType.xwt">
+      <widget href="ui/SingleType.xwt#/"/>
+    </sections>
+    <sections xmi:id="_3OOlRv7xEeioQ5IXbg1K0w" name="SingleTypedElement" sectionFile="ui/SingleTypedElement.xwt">
+      <widget href="ui/SingleTypedElement.xwt#/"/>
+    </sections>
+  </tabs>
+  <tabs xmi:id="_vMwxgP8IEeif09Qs_5sVbA" label="Constraints" id="uml-light-constraints" category="org.eclipse.papyrus" image="" priority="11">
+    <sections xmi:id="_vMwxgf8IEeif09Qs_5sVbA" name="SingleOperationConstraints" sectionFile="ui/SingleOperationConstraints.xwt">
+      <widget href="ui/SingleOperationConstraints.xwt#/"/>
+    </sections>
   </tabs>
   <views xmi:id="_69ur3KDJEeSZxfCXzZz3-w" name="SingleFinalState" sections="_69cXZ6DJEeSZxfCXzZz3-w" automaticContext="true">
     <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69ur3aDJEeSZxfCXzZz3-w" name="isSingleFinalState">
@@ -117,6 +347,451 @@
     <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69usrKDJEeSZxfCXzZz3-w" name="isSingleComment">
       <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
       <properties xsi:type="constraints:ValueProperty" xmi:id="_69usraDJEeSZxfCXzZz3-w" name="umlClassName" value="Comment"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlR_7xEeioQ5IXbg1K0w" name="MemberEnd" sections="_3OOlAP7xEeioQ5IXbg1K0w"/>
+  <views xmi:id="_3OOlSP7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleAssociation" sections="_3OOlAf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlSf7xEeioQ5IXbg1K0w" name="isMultipleAssociation">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlSv7xEeioQ5IXbg1K0w" name="umlClassName" value="Association"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlS_7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleAssociationClass" sections="_3OOlAv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlTP7xEeioQ5IXbg1K0w" name="isMultipleAssociationClass">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlTf7xEeioQ5IXbg1K0w" name="umlClassName" value="AssociationClass"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlTv7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleClass" sections="_3OOlA_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlT_7xEeioQ5IXbg1K0w" name="isMultipleClass">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlUP7xEeioQ5IXbg1K0w" name="umlClassName" value="Class"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlUf7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleClassifier" sections="_3OOlBP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlUv7xEeioQ5IXbg1K0w" name="isMultipleClassifier">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlU_7xEeioQ5IXbg1K0w" name="umlClassName" value="Classifier"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlVP7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleConstraint" sections="_3OOlBf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlVf7xEeioQ5IXbg1K0w" name="isMultipleConstraint">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlVv7xEeioQ5IXbg1K0w" name="umlClassName" value="Constraint"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlV_7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleDataType" sections="_3OOlBv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlWP7xEeioQ5IXbg1K0w" name="isMultipleDataType">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlWf7xEeioQ5IXbg1K0w" name="umlClassName" value="DataType"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlWv7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleDependency" sections="_3OOlB_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlW_7xEeioQ5IXbg1K0w" name="isMultipleDependency">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlXP7xEeioQ5IXbg1K0w" name="umlClassName" value="Dependency"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlXf7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleElement" sections="_3OOlCP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlXv7xEeioQ5IXbg1K0w" name="isMultipleElement">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlX_7xEeioQ5IXbg1K0w" name="umlClassName" value="Element"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlYP7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleEnumeration" sections="_3OOlCf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlYf7xEeioQ5IXbg1K0w" name="isMultipleEnumeration">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlYv7xEeioQ5IXbg1K0w" name="umlClassName" value="Enumeration"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlY_7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleEnumerationLiteral" sections="_3OOlCv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlZP7xEeioQ5IXbg1K0w" name="isMultipleEnumerationLiteral">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlZf7xEeioQ5IXbg1K0w" name="umlClassName" value="EnumerationLiteral"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlZv7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleExpression" sections="_3OOlC_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlZ_7xEeioQ5IXbg1K0w" name="isMultipleExpression">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlaP7xEeioQ5IXbg1K0w" name="umlClassName" value="Expression"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlaf7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleFeature" sections="_3OOlDP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlav7xEeioQ5IXbg1K0w" name="isMultipleFeature">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOla_7xEeioQ5IXbg1K0w" name="umlClassName" value="Feature"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlbP7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleGeneralization" sections="_3OOlDf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlbf7xEeioQ5IXbg1K0w" name="isMultipleGeneralization">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlbv7xEeioQ5IXbg1K0w" name="umlClassName" value="Generalization"/>
+    </constraints>
+  </views>
+  <views xmi:id="_z5kJwv8GEeiem9LAZuCuxA" elementMultiplicity="-1" name="MultipleInstanceValue" sections="_z5kJwP8GEeiem9LAZuCuxA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_z5kJw_8GEeiem9LAZuCuxA" name="isMultipleInstanceValue">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_z5kJxP8GEeiem9LAZuCuxA" name="umlClassName" value="InstanceValue"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlb_7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleInterface" sections="_3OOlDv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlcP7xEeioQ5IXbg1K0w" name="isMultipleInterface">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlcf7xEeioQ5IXbg1K0w" name="umlClassName" value="Interface"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlcv7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleInterfaceRealization" sections="_3OOlD_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlc_7xEeioQ5IXbg1K0w" name="isMultipleInterfaceRealization">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOldP7xEeioQ5IXbg1K0w" name="umlClassName" value="InterfaceRealization"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOldf7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleLiteralBoolean" sections="_3OOlEP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOldv7xEeioQ5IXbg1K0w" name="isMultipleLiteralBoolean">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOld_7xEeioQ5IXbg1K0w" name="umlClassName" value="LiteralBoolean"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOleP7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleLiteralInteger" sections="_3OOlEf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlef7xEeioQ5IXbg1K0w" name="isMultipleLiteralInteger">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlev7xEeioQ5IXbg1K0w" name="umlClassName" value="LiteralInteger"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOle_7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleLiteralNull" sections="_3OOlEv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlfP7xEeioQ5IXbg1K0w" name="isMultipleLiteralNull">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlff7xEeioQ5IXbg1K0w" name="umlClassName" value="LiteralNull"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlqP7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleLiteralReal" sections="_3OOlIf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlqf7xEeioQ5IXbg1K0w" name="isMultipleLiteralReal">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlqv7xEeioQ5IXbg1K0w" name="umlClassName" value="LiteralReal"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlfv7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleLiteralSpecification" sections="_3OOlE_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlf_7xEeioQ5IXbg1K0w" name="isMultipleLiteralSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlgP7xEeioQ5IXbg1K0w" name="umlClassName" value="LiteralSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlgf7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleLiteralString" sections="_3OOlFP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlgv7xEeioQ5IXbg1K0w" name="isMultipleLiteralString">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlg_7xEeioQ5IXbg1K0w" name="umlClassName" value="LiteralString"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlhP7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleLiteralUnlimitedNatural" sections="_3OOlFf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlhf7xEeioQ5IXbg1K0w" name="isMultipleLiteralUnlimitedNatural">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlhv7xEeioQ5IXbg1K0w" name="umlClassName" value="LiteralUnlimitedNatural"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlh_7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleModel" sections="_3OOlFv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOliP7xEeioQ5IXbg1K0w" name="isMultipleModel">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlif7xEeioQ5IXbg1K0w" name="umlClassName" value="Model"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOliv7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleMultiplicityElement" sections="_3OOlF_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOli_7xEeioQ5IXbg1K0w" name="isMultipleMultiplicityElement">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOljP7xEeioQ5IXbg1K0w" name="umlClassName" value="MultiplicityElement"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOljf7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleNamedElement" sections="_3OOlGP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOljv7xEeioQ5IXbg1K0w" name="isMultipleNamedElement">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlj_7xEeioQ5IXbg1K0w" name="umlClassName" value="NamedElement"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlkP7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleNamespace" sections="_3OOlGf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlkf7xEeioQ5IXbg1K0w" name="isMultipleNamespace">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlkv7xEeioQ5IXbg1K0w" name="umlClassName" value="Namespace"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlk_7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleOpaqueExpression" sections="_3OOlGv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOllP7xEeioQ5IXbg1K0w" name="isMultipleOpaqueExpression">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOllf7xEeioQ5IXbg1K0w" name="umlClassName" value="OpaqueExpression"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOllv7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleOperation" sections="_3OOlG_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOll_7xEeioQ5IXbg1K0w" name="isMultipleOperation">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlmP7xEeioQ5IXbg1K0w" name="umlClassName" value="Operation"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlmf7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultiplePackage" sections="_3OOlHP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlmv7xEeioQ5IXbg1K0w" name="isMultiplePackage">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlm_7xEeioQ5IXbg1K0w" name="umlClassName" value="Package"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlnP7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultiplePackageableElement" sections="_3OOlHf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlnf7xEeioQ5IXbg1K0w" name="isMultiplePackageableElement">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlnv7xEeioQ5IXbg1K0w" name="umlClassName" value="PackageableElement"/>
+    </constraints>
+  </views>
+  <views xmi:id="_YN2T0v8KEeia9orao6j1zA" elementMultiplicity="-1" name="MultiplePackageImport" sections="_YN2T0P8KEeia9orao6j1zA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_YN2T0_8KEeia9orao6j1zA" name="isMultiplePackageImport">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_YN2T1P8KEeia9orao6j1zA" name="umlClassName" value="PackageImport"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOln_7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleParameter" sections="_3OOlHv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOloP7xEeioQ5IXbg1K0w" name="isMultipleParameter">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlof7xEeioQ5IXbg1K0w" name="umlClassName" value="Parameter"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlov7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultiplePrimitiveType" sections="_3OOlH_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlo_7xEeioQ5IXbg1K0w" name="isMultiplePrimitiveType">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlpP7xEeioQ5IXbg1K0w" name="umlClassName" value="PrimitiveType"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlpf7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleProperty" sections="_3OOlIP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlpv7xEeioQ5IXbg1K0w" name="isMultipleProperty">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlp_7xEeioQ5IXbg1K0w" name="umlClassName" value="Property"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlq_7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleType" sections="_3OOlIv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlrP7xEeioQ5IXbg1K0w" name="isMultipleType">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlrf7xEeioQ5IXbg1K0w" name="umlClassName" value="Type"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlrv7xEeioQ5IXbg1K0w" elementMultiplicity="-1" name="MultipleTypedElement" sections="_3OOlI_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlr_7xEeioQ5IXbg1K0w" name="isMultipleTypedElement">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlsP7xEeioQ5IXbg1K0w" name="umlClassName" value="TypedElement"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlsf7xEeioQ5IXbg1K0w" name="SingleAssociation" sections="_3OOlJP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlsv7xEeioQ5IXbg1K0w" name="isSingleAssociation">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOls_7xEeioQ5IXbg1K0w" name="umlClassName" value="Association"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOltP7xEeioQ5IXbg1K0w" name="SingleAssociationClass" sections="_3OOlJf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOltf7xEeioQ5IXbg1K0w" name="isSingleAssociationClass">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOltv7xEeioQ5IXbg1K0w" name="umlClassName" value="AssociationClass"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlt_7xEeioQ5IXbg1K0w" name="SingleClass" sections="_3OOlJv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOluP7xEeioQ5IXbg1K0w" name="isSingleClass">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOluf7xEeioQ5IXbg1K0w" name="umlClassName" value="Class"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOluv7xEeioQ5IXbg1K0w" name="SingleClassifier" sections="_3OOlJ_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlu_7xEeioQ5IXbg1K0w" name="isSingleClassifier">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlvP7xEeioQ5IXbg1K0w" name="umlClassName" value="Classifier"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlvf7xEeioQ5IXbg1K0w" name="SingleConstraint" sections="_3OOlKP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlvv7xEeioQ5IXbg1K0w" name="isSingleConstraint">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlv_7xEeioQ5IXbg1K0w" name="umlClassName" value="Constraint"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlwP7xEeioQ5IXbg1K0w" name="SingleDataType" sections="_3OOlKf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlwf7xEeioQ5IXbg1K0w" name="isSingleDataType">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OOlwv7xEeioQ5IXbg1K0w" name="umlClassName" value="DataType"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OOlw_7xEeioQ5IXbg1K0w" name="SingleDependency" sections="_3OOlKv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OOlxP7xEeioQ5IXbg1K0w" name="isSingleDependency">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMEP7xEeioQ5IXbg1K0w" name="umlClassName" value="Dependency"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMEf7xEeioQ5IXbg1K0w" name="SingleElement" sections="_3OOlK_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMEv7xEeioQ5IXbg1K0w" name="isSingleElement">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPME_7xEeioQ5IXbg1K0w" name="umlClassName" value="Element"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMFP7xEeioQ5IXbg1K0w" name="SingleEnumeration" sections="_3OOlLP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMFf7xEeioQ5IXbg1K0w" name="isSingleEnumeration">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMFv7xEeioQ5IXbg1K0w" name="umlClassName" value="Enumeration"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMF_7xEeioQ5IXbg1K0w" name="SingleEnumerationLiteral" sections="_3OOlLf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMGP7xEeioQ5IXbg1K0w" name="isSingleEnumerationLiteral">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMGf7xEeioQ5IXbg1K0w" name="umlClassName" value="EnumerationLiteral"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMGv7xEeioQ5IXbg1K0w" name="SingleExpression" sections="_3OOlLv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMG_7xEeioQ5IXbg1K0w" name="isSingleExpression">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMHP7xEeioQ5IXbg1K0w" name="umlClassName" value="Expression"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMHf7xEeioQ5IXbg1K0w" name="SingleFeature" sections="_3OOlL_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMHv7xEeioQ5IXbg1K0w" name="isSingleFeature">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMH_7xEeioQ5IXbg1K0w" name="umlClassName" value="Feature"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMIP7xEeioQ5IXbg1K0w" name="SingleGeneralization" sections="_3OOlMP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMIf7xEeioQ5IXbg1K0w" name="isSingleGeneralization">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMIv7xEeioQ5IXbg1K0w" name="umlClassName" value="Generalization"/>
+    </constraints>
+  </views>
+  <views xmi:id="_z5kJxf8GEeiem9LAZuCuxA" name="SingleInstanceValue" sections="_z5kJwf8GEeiem9LAZuCuxA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_z5kJxv8GEeiem9LAZuCuxA" name="isSingleInstanceValue">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_z5kJx_8GEeiem9LAZuCuxA" name="umlClassName" value="InstanceValue"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMI_7xEeioQ5IXbg1K0w" name="SingleInterface" sections="_3OOlMf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMJP7xEeioQ5IXbg1K0w" name="isSingleInterface">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMJf7xEeioQ5IXbg1K0w" name="umlClassName" value="Interface"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMJv7xEeioQ5IXbg1K0w" name="SingleInterfaceRealization" sections="_3OOlMv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMJ_7xEeioQ5IXbg1K0w" name="isSingleInterfaceRealization">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMKP7xEeioQ5IXbg1K0w" name="umlClassName" value="InterfaceRealization"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMKf7xEeioQ5IXbg1K0w" name="SingleLiteralBoolean" sections="_3OOlM_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMKv7xEeioQ5IXbg1K0w" name="isSingleLiteralBoolean">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMK_7xEeioQ5IXbg1K0w" name="umlClassName" value="LiteralBoolean"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMLP7xEeioQ5IXbg1K0w" name="SingleLiteralInteger" sections="_3OOlNP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMLf7xEeioQ5IXbg1K0w" name="isSingleLiteralInteger">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMLv7xEeioQ5IXbg1K0w" name="umlClassName" value="LiteralInteger"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPML_7xEeioQ5IXbg1K0w" name="SingleLiteralNull" sections="_3OOlNf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMMP7xEeioQ5IXbg1K0w" name="isSingleLiteralNull">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMMf7xEeioQ5IXbg1K0w" name="umlClassName" value="LiteralNull"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMXP7xEeioQ5IXbg1K0w" name="SingleLiteralReal" sections="_3OOlRP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMXf7xEeioQ5IXbg1K0w" name="isSingleLiteralReal">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMXv7xEeioQ5IXbg1K0w" name="umlClassName" value="LiteralReal"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMMv7xEeioQ5IXbg1K0w" name="SingleLiteralSpecification" sections="_3OOlNv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMM_7xEeioQ5IXbg1K0w" name="isSingleLiteralSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMNP7xEeioQ5IXbg1K0w" name="umlClassName" value="LiteralSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMNf7xEeioQ5IXbg1K0w" name="SingleLiteralString" sections="_3OOlN_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMNv7xEeioQ5IXbg1K0w" name="isSingleLiteralString">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMN_7xEeioQ5IXbg1K0w" name="umlClassName" value="LiteralString"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMOP7xEeioQ5IXbg1K0w" name="SingleLiteralUnlimitedNatural" sections="_3OOlOP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMOf7xEeioQ5IXbg1K0w" name="isSingleLiteralUnlimitedNatural">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMOv7xEeioQ5IXbg1K0w" name="umlClassName" value="LiteralUnlimitedNatural"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMO_7xEeioQ5IXbg1K0w" name="SingleModel" sections="_3OOlOf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMPP7xEeioQ5IXbg1K0w" name="isSingleModel">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMPf7xEeioQ5IXbg1K0w" name="umlClassName" value="Model"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMPv7xEeioQ5IXbg1K0w" name="SingleMultiplicityElement" sections="_3OOlOv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMP_7xEeioQ5IXbg1K0w" name="isSingleMultiplicityElement">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMQP7xEeioQ5IXbg1K0w" name="umlClassName" value="MultiplicityElement"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMQf7xEeioQ5IXbg1K0w" name="SingleNamedElement" sections="_3OOlO_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMQv7xEeioQ5IXbg1K0w" name="isSingleNamedElement">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMQ_7xEeioQ5IXbg1K0w" name="umlClassName" value="NamedElement"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMRP7xEeioQ5IXbg1K0w" name="SingleNamespace" sections="_3OOlPP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMRf7xEeioQ5IXbg1K0w" name="isSingleNamespace">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMRv7xEeioQ5IXbg1K0w" name="umlClassName" value="Namespace"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMR_7xEeioQ5IXbg1K0w" name="SingleOpaqueExpression" sections="_3OOlPf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMSP7xEeioQ5IXbg1K0w" name="isSingleOpaqueExpression">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMSf7xEeioQ5IXbg1K0w" name="umlClassName" value="OpaqueExpression"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMSv7xEeioQ5IXbg1K0w" name="SingleOperation" sections="_3OOlPv7xEeioQ5IXbg1K0w _vMwxgf8IEeif09Qs_5sVbA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMS_7xEeioQ5IXbg1K0w" name="isSingleOperation">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMTP7xEeioQ5IXbg1K0w" name="umlClassName" value="Operation"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMTf7xEeioQ5IXbg1K0w" name="SinglePackage" sections="_3OOlP_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMTv7xEeioQ5IXbg1K0w" name="isSinglePackage">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMT_7xEeioQ5IXbg1K0w" name="umlClassName" value="Package"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMUP7xEeioQ5IXbg1K0w" name="SinglePackageableElement" sections="_3OOlQP7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMUf7xEeioQ5IXbg1K0w" name="isSinglePackageableElement">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMUv7xEeioQ5IXbg1K0w" name="umlClassName" value="PackageableElement"/>
+    </constraints>
+  </views>
+  <views xmi:id="_YN2T1f8KEeia9orao6j1zA" name="SinglePackageImport" sections="_YN2T0f8KEeia9orao6j1zA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_YN2T1v8KEeia9orao6j1zA" name="isSinglePackageImport">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_YN2T1_8KEeia9orao6j1zA" name="umlClassName" value="PackageImport"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMU_7xEeioQ5IXbg1K0w" name="SingleParameter" sections="_3OOlQf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMVP7xEeioQ5IXbg1K0w" name="isSingleParameter">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMVf7xEeioQ5IXbg1K0w" name="umlClassName" value="Parameter"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMVv7xEeioQ5IXbg1K0w" name="SinglePrimitiveType" sections="_3OOlQv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMV_7xEeioQ5IXbg1K0w" name="isSinglePrimitiveType">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMWP7xEeioQ5IXbg1K0w" name="umlClassName" value="PrimitiveType"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMWf7xEeioQ5IXbg1K0w" name="SingleProperty" sections="_3OOlQ_7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMWv7xEeioQ5IXbg1K0w" name="isSingleProperty">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMW_7xEeioQ5IXbg1K0w" name="umlClassName" value="Property"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMX_7xEeioQ5IXbg1K0w" name="SingleType" sections="_3OOlRf7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMYP7xEeioQ5IXbg1K0w" name="isSingleType">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMYf7xEeioQ5IXbg1K0w" name="umlClassName" value="Type"/>
+    </constraints>
+  </views>
+  <views xmi:id="_3OPMYv7xEeioQ5IXbg1K0w" name="SingleTypedElement" sections="_3OOlRv7xEeioQ5IXbg1K0w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_3OPMY_7xEeioQ5IXbg1K0w" name="isSingleTypedElement">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_3OPMZP7xEeioQ5IXbg1K0w" name="umlClassName" value="TypedElement"/>
     </constraints>
   </views>
   <dataContexts xmi:id="_690xgaDJEeSZxfCXzZz3-w" name="UML" label="UML">
