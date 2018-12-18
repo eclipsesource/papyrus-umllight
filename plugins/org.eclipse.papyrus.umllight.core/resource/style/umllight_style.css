@@ -169,7 +169,7 @@ FinalState, Pseudostate, InitialNode {
 
 OpaqueAction, CallBehaviorAction, CallOperationAction, AcceptEventAction, InputPin, OutputPin,
 ControlFlow, FlowFinalNode, DecisionNode, MergeNode, ForkNode, JoinNode, ActivityFinalNode,
-BehaviorExecutionSpecification, ActionExecutionSpecification {
+BehaviorExecutionSpecification, ActionExecutionSpecification, ObjectFlow {
 	lineColor: steelblue;
 	fillColor: ghostwhite;
 }
