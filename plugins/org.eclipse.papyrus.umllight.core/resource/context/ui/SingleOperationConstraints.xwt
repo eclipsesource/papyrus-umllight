@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composite xmlns="http://www.eclipse.org/xwt/presentation"
+	xmlns:j="clr-namespace:java.lang" xmlns:ppe="clr-namespace:org.eclipse.papyrus.infra.properties.ui.widgets"
+	xmlns:ppel="clr-namespace:org.eclipse.papyrus.infra.properties.ui.widgets.layout"
+	xmlns:umlXtext="clr-namespace:org.eclipse.papyrus.uml.properties.xtext"
+	xmlns:x="http://www.eclipse.org/xwt"
+	xmlns:xtext="clr-namespace:org.eclipse.papyrus.infra.widgets.xtext.creation">
+	<Composite.layout>
+		<ppel:PropertiesLayout></ppel:PropertiesLayout>
+	</Composite.layout>
+	<Composite>
+		<Composite.layout>
+			<ppel:PropertiesLayout numColumns="1"></ppel:PropertiesLayout>
+		</Composite.layout>
+		<ppe:ReferenceDialog input="{Binding}"
+			property="UML:Operation:bodyCondition"></ppe:ReferenceDialog>
+	</Composite>
+	<Composite>
+		<Composite.layout>
+			<ppel:PropertiesLayout numColumns="2"></ppel:PropertiesLayout>
+		</Composite.layout>
+		<ppe:MultiReference input="{Binding}"
+			property="UML:Operation:precondition"></ppe:MultiReference>
+		<ppe:MultiReference input="{Binding}"
+			property="UML:Operation:postcondition"></ppe:MultiReference>
+	</Composite>
+</Composite>
