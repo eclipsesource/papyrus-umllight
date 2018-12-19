@@ -451,6 +451,36 @@
     <sections xmi:id="_QadOrQIAEembuNUueTsgQA" name="SingleOpaqueBehavior" sectionFile="ui/SingleOpaqueBehavior.xwt">
       <widget href="ui/SingleOpaqueBehavior.xwt#/"/>
     </sections>
+     <sections xmi:id="_69WQhKDJEeSZxfCXzZz3-w" name="SingleInclude" sectionFile="ui/SingleInclude.xwt">
+      <widget href="ui/SingleInclude.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQhaDJEeSZxfCXzZz3-w" name="MultipleInclude" sectionFile="ui/MultipleInclude.xwt">
+      <widget href="ui/MultipleInclude.xwt#/"/>
+    </sections>
+        <sections xmi:id="_69WQhqDJEeSZxfCXzZz3-w" name="SingleExtend" sectionFile="ui/SingleExtend.xwt">
+      <widget href="ui/SingleExtend.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQh6DJEeSZxfCXzZz3-w" name="MultipleExtend" sectionFile="ui/MultipleExtend.xwt">
+      <widget href="ui/MultipleExtend.xwt#/"/>
+    </sections>
+      <sections xmi:id="_69WQiKDJEeSZxfCXzZz3-w" name="SingleExtensionPoint" sectionFile="ui/SingleExtensionPoint.xwt">
+      <widget href="ui/SingleExtensionPoint.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQiaDJEeSZxfCXzZz3-w" name="MultipleExtensionPoint" sectionFile="ui/MultipleExtensionPoint.xwt">
+      <widget href="ui/MultipleExtensionPoint.xwt#/"/>
+    </sections>
+     <sections xmi:id="_69WQgqDJEeSZxfCXzZz3-w" name="SingleUseCase" sectionFile="ui/SingleUseCase.xwt">
+      <widget href="ui/SingleUseCase.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQg6DJEeSZxfCXzZz3-w" name="MultipleUseCase" sectionFile="ui/MultipleUseCase.xwt">
+      <widget href="ui/MultipleUseCase.xwt#/"/>
+    </sections>
+     <sections xmi:id="_69cW-6DJEeSZxfCXzZz3-w" name="SingleActor" sectionFile="ui/SingleActor.xwt">
+      <widget href="ui/SingleActor.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69cW_KDJEeSZxfCXzZz3-w" name="MultipleActor" sectionFile="ui/MultipleActor.xwt">
+      <widget href="ui/MultipleActor.xwt#/"/>
+    </sections>
   </tabs>
   <views xmi:id="_69uq1KDJEeSZxfCXzZz3-w" name="SingleObjectFlow" sections="_69cXD6DJEeSZxfCXzZz3-w" automaticContext="true">
     <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69uq1aDJEeSZxfCXzZz3-w" name="isSingleObjectFlow">
@@ -518,6 +548,66 @@
     <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69olTaDJEeSZxfCXzZz3-w" name="isMultipleInputPin">
       <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
       <properties xsi:type="constraints:ValueProperty" xmi:id="_69olTqDJEeSZxfCXzZz3-w" name="umlClassName" value="InputPin"/>
+    </constraints>
+  </views>
+    <views xmi:id="_69omA6DJEeSZxfCXzZz3-w" name="SingleActor" sections="_69cW-6DJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69omBKDJEeSZxfCXzZz3-w" name="isSingleActor">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69omBaDJEeSZxfCXzZz3-w" name="umlClassName" value="Actor"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69omBqDJEeSZxfCXzZz3-w" elementMultiplicity="-1" name="MultipleActor" sections="_69cW_KDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69omB6DJEeSZxfCXzZz3-w" name="isMultipleActor">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69omCKDJEeSZxfCXzZz3-w" name="umlClassName" value="Actor"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69okbqDJEeSZxfCXzZz3-w" name="SingleUseCase" sections="_69WQgqDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69okb6DJEeSZxfCXzZz3-w" name="isSingleUseCase">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69okcKDJEeSZxfCXzZz3-w" name="umlClassName" value="UseCase"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69okcaDJEeSZxfCXzZz3-w" elementMultiplicity="-1" name="MultipleUseCase" sections="_69WQg6DJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69okcqDJEeSZxfCXzZz3-w" name="isMultipleUseCase">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69okc6DJEeSZxfCXzZz3-w" name="umlClassName" value="UseCase"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69okgKDJEeSZxfCXzZz3-w" name="SingleExtensionPoint" sections="_69WQiKDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69okgaDJEeSZxfCXzZz3-w" name="isSingleExtensionPoint">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69okgqDJEeSZxfCXzZz3-w" name="umlClassName" value="ExtensionPoint"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69okg6DJEeSZxfCXzZz3-w" elementMultiplicity="-1" name="MultipleExtensionPoint" sections="_69WQiaDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69okhKDJEeSZxfCXzZz3-w" name="isMultipleExtensionPoint">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69okhaDJEeSZxfCXzZz3-w" name="umlClassName" value="ExtensionPoint"/>
+    </constraints>
+  </views>
+   <views xmi:id="_69okeqDJEeSZxfCXzZz3-w" name="SingleExtend" sections="_69WQhqDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69oke6DJEeSZxfCXzZz3-w" name="isSingleExtend">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69okfKDJEeSZxfCXzZz3-w" name="umlClassName" value="Extend"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69okfaDJEeSZxfCXzZz3-w" elementMultiplicity="-1" name="MultipleExtend" sections="_69WQh6DJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69okfqDJEeSZxfCXzZz3-w" name="isMultipleExtend">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69okf6DJEeSZxfCXzZz3-w" name="umlClassName" value="Extend"/>
+    </constraints>
+  </views>
+   <views xmi:id="_69okdKDJEeSZxfCXzZz3-w" name="SingleInclude" sections="_69WQhKDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69okdaDJEeSZxfCXzZz3-w" name="isSingleInclude">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69okdqDJEeSZxfCXzZz3-w" name="umlClassName" value="Include"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69okd6DJEeSZxfCXzZz3-w" elementMultiplicity="-1" name="MultipleInclude" sections="_69WQhaDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69okeKDJEeSZxfCXzZz3-w" name="isMultipleInclude">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69okeaDJEeSZxfCXzZz3-w" name="umlClassName" value="Include"/>
     </constraints>
   </views>
   <views xmi:id="_69ur3KDJEeSZxfCXzZz3-w" name="SingleFinalState" sections="_69cXZ6DJEeSZxfCXzZz3-w" automaticContext="true">
