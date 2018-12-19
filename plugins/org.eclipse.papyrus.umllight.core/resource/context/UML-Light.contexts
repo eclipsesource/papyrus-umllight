@@ -331,12 +331,6 @@
     <sections xmi:id="_69WQ1qDJEeSZxfCXzZz3-w" name="MultipleCallBehaviorAction" sectionFile="ui/MultipleCallBehaviorAction.xwt">
       <widget href="ui/MultipleCallBehaviorAction.xwt#/"/>
     </sections>
-     <sections xmi:id="_69ideaDJEeSZxfCXzZz3-w" name="SingleAcceptEventAction" sectionFile="ui/SingleAcceptEventAction.xwt">
-      <widget href="ui/SingleAcceptEventAction.xwt#/"/>
-    </sections>
-    <sections xmi:id="_69ideqDJEeSZxfCXzZz3-w" name="MultipleAcceptEventAction" sectionFile="ui/MultipleAcceptEventAction.xwt">
-      <widget href="ui/MultipleAcceptEventAction.xwt#/"/>
-    </sections>
       <sections xmi:id="_69WQy6DJEeSZxfCXzZz3-w" name="SingleInputPin" sectionFile="ui/SingleInputPin.xwt">
       <widget href="ui/SingleInputPin.xwt#/"/>
     </sections>
@@ -355,7 +349,43 @@
     <sections xmi:id="_69cW1KDJEeSZxfCXzZz3-w" name="MultipleValuePin" sectionFile="ui/MultipleValuePin.xwt">
       <widget href="ui/MultipleValuePin.xwt#/"/>
     </sections>
+    <sections xmi:id="_69WQ26DJEeSZxfCXzZz3-w" name="SingleControlFlow" sectionFile="ui/SingleControlFlow.xwt">
+      <widget href="ui/SingleControlFlow.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69WQ3KDJEeSZxfCXzZz3-w" name="MultipleControlFlow" sectionFile="ui/MultipleControlFlow.xwt">
+      <widget href="ui/MultipleControlFlow.xwt#/"/>
+    </sections>
+     <sections xmi:id="_69cXD6DJEeSZxfCXzZz3-w" name="SingleObjectFlow" sectionFile="ui/SingleObjectFlow.xwt">
+      <widget href="ui/SingleObjectFlow.xwt#/"/>
+    </sections>
+    <sections xmi:id="_69cXEKDJEeSZxfCXzZz3-w" name="MultipleObjectFlow" sectionFile="ui/MultipleObjectFlow.xwt">
+      <widget href="ui/MultipleObjectFlow.xwt#/"/>
+    </sections>
   </tabs>
+  <views xmi:id="_69uq1KDJEeSZxfCXzZz3-w" name="SingleObjectFlow" sections="_69cXD6DJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69uq1aDJEeSZxfCXzZz3-w" name="isSingleObjectFlow">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69uq1qDJEeSZxfCXzZz3-w" name="umlClassName" value="ObjectFlow"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69uq16DJEeSZxfCXzZz3-w" elementMultiplicity="-1" name="MultipleObjectFlow" sections="_69cXEKDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69uq2KDJEeSZxfCXzZz3-w" name="isMultipleObjectFlow">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69uq2aDJEeSZxfCXzZz3-w" name="umlClassName" value="ObjectFlow"/>
+    </constraints>
+  </views>
+   <views xmi:id="_69oleaDJEeSZxfCXzZz3-w" name="SingleControlFlow" sections="_69WQ26DJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69oleqDJEeSZxfCXzZz3-w" name="isSingleControlFlow">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69ole6DJEeSZxfCXzZz3-w" name="umlClassName" value="ControlFlow"/>
+    </constraints>
+  </views>
+  <views xmi:id="_69olfKDJEeSZxfCXzZz3-w" elementMultiplicity="-1" name="MultipleControlFlow" sections="_69WQ3KDJEeSZxfCXzZz3-w" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69olfaDJEeSZxfCXzZz3-w" name="isMultipleControlFlow">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_69olfqDJEeSZxfCXzZz3-w" name="umlClassName" value="ControlFlow"/>
+    </constraints>
+  </views>
   <tabs xmi:id="_vMwxgP8IEeif09Qs_5sVbA" label="Constraints" id="uml-light-constraints" category="org.eclipse.papyrus" image="" priority="11">
     <sections xmi:id="_vMwxgf8IEeif09Qs_5sVbA" name="SingleOperationConstraints" sectionFile="ui/SingleOperationConstraints.xwt">
       <widget href="ui/SingleOperationConstraints.xwt#/"/>
@@ -1050,18 +1080,6 @@
     <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69ola6DJEeSZxfCXzZz3-w" name="isMultipleCallBehaviorAction">
       <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
       <properties xsi:type="constraints:ValueProperty" xmi:id="_69olbKDJEeSZxfCXzZz3-w" name="umlClassName" value="CallBehaviorAction"/>
-    </constraints>
-  </views>
-   <views xmi:id="_69usTqDJEeSZxfCXzZz3-w" name="SingleAcceptEventAction" sections="_69ideaDJEeSZxfCXzZz3-w" automaticContext="true">
-    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69usT6DJEeSZxfCXzZz3-w" name="isSingleAcceptEventAction">
-      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
-      <properties xsi:type="constraints:ValueProperty" xmi:id="_69usUKDJEeSZxfCXzZz3-w" name="umlClassName" value="AcceptEventAction"/>
-    </constraints>
-  </views>
-  <views xmi:id="_69usUaDJEeSZxfCXzZz3-w" elementMultiplicity="-1" name="MultipleAcceptEventAction" sections="_69ideqDJEeSZxfCXzZz3-w" automaticContext="true">
-    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69usUqDJEeSZxfCXzZz3-w" name="isMultipleAcceptEventAction">
-      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
-      <properties xsi:type="constraints:ValueProperty" xmi:id="_69usU6DJEeSZxfCXzZz3-w" name="umlClassName" value="AcceptEventAction"/>
     </constraints>
   </views>
   <dataContexts xmi:id="_690xgaDJEeSZxfCXzZz3-w" name="UML" label="UML">

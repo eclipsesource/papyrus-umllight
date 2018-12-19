@@ -11,7 +11,9 @@
 		<Composite.layout>
 			<ppel:PropertiesLayout></ppel:PropertiesLayout>
 		</Composite.layout>
-		<ppe:BooleanRadio input="{Binding}"
-			property="UML:AcceptEventAction:isUnmarshall"></ppe:BooleanRadio>
+		<ppe:StringEditor input="{Binding}"
+			property="UML:NamedElement:name"></ppe:StringEditor>
+		<ppe:StringEditor input="{Binding}"
+			property="UML:NamedElement:label"></ppe:StringEditor>
 	</Composite>
 </Composite>

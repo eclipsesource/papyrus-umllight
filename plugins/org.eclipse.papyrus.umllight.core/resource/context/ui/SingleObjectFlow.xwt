@@ -16,20 +16,4 @@
 		<ppe:StringEditor input="{Binding}"
 			property="UML:NamedElement:label"></ppe:StringEditor>
 	</Composite>
-	<Composite>
-		<Composite.layout>
-			<ppel:PropertiesLayout></ppel:PropertiesLayout>
-		</Composite.layout>
-		<ppe:BooleanRadio input="{Binding}"
-			property="UML:AcceptEventAction:isUnmarshall"></ppe:BooleanRadio>
-	</Composite>
-	<Composite>
-		<Composite.layout>
-			<ppel:PropertiesLayout numColumns="2"></ppel:PropertiesLayout>
-		</Composite.layout>
-		<ppe:MultiReference input="{Binding}"
-			property="UML:AcceptEventAction:result"></ppe:MultiReference>
-		<ppe:MultiReference input="{Binding}"
-			property="UML:AcceptEventAction:trigger"></ppe:MultiReference>
-	</Composite>
 </Composite>

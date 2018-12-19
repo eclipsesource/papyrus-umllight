@@ -305,12 +305,6 @@
           <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.CallOperationAction_Shape"/>
         </elementDescriptors>
       </ownedConfigurations>
-      <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.accepteventaction" label="Accept Event Action" description="Create an Accept Event Action node" kind="CreationTool">
-        <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/AcceptEventAction.gif"/>
-        <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
-          <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.AcceptEventAction_Shape"/>
-        </elementDescriptors>
-      </ownedConfigurations>
     </ownedConfigurations>
     <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.nodes.comment" label="Comment" description="Create a Comment" kind="CreationTool">
       <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Comment.gif"/>
@@ -325,6 +319,12 @@
       <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ControlFlow.gif"/>
       <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
         <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ControlFlow_Edge"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+     <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.edges.objectflow" label="Object Flow" description="Create an Object Flow" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/ObjectFlow.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.ObjectFlow_Edge"/>
       </elementDescriptors>
     </ownedConfigurations>
     <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="activity.edges.link" label="Comment Link" description="Create of a link for comment" kind="ConnectionTool">
