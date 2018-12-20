@@ -20,6 +20,6 @@
 		<Composite.layout>
 			<ppel:PropertiesLayout></ppel:PropertiesLayout>
 		</Composite.layout>
-		<ppe:ReferenceDialog input="{Binding}" property="UML:Extend:includingCase" readOnly="true"></ppe:ReferenceDialog>
+		<ppe:ReferenceDialog input="{Binding}" property="UML:Include:addition" customLabel="Included case" readOnly="true"></ppe:ReferenceDialog>
 	</Composite>
 </Composite>
