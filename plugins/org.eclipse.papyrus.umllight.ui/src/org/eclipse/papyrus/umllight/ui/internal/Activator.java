@@ -80,4 +80,9 @@ public class Activator extends AbstractUIPlugin {
 	public void log(Throwable exception) {
 		logHelper.error("Uncaught exception", exception); //$NON-NLS-1$
 	}
+
+	public void warn(String message) {
+		logHelper.warn(message);
+	}
+
 }
