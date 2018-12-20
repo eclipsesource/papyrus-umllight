@@ -17,10 +17,13 @@ import java.util.Map;
 import java.util.Set;
 
 import org.eclipse.core.databinding.observable.IObservable;
+import org.eclipse.core.databinding.observable.Realm;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EReference;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.edit.domain.EditingDomain;
+import org.eclipse.jface.viewers.ILabelProvider;
+import org.eclipse.papyrus.infra.gmfdiag.common.databinding.GMFObservableValue;
 import org.eclipse.papyrus.infra.properties.ui.creation.EcorePropertyEditorFactory;
 import org.eclipse.papyrus.infra.properties.ui.modelelement.DataSource;
 import org.eclipse.papyrus.infra.widgets.creation.ReferenceValueFactory;
@@ -61,6 +64,9 @@ public class UMLLightModelElement extends UMLModelElement {
 		if (feature == UMLPackage.Literals.MESSAGE__MESSAGE_SORT) {
 			// We don't support all of the message sorts
 			return messageSortHelper.getObservableValue();
+		} else if (feature == UMLPackage.Literals.EXTEND__EXTENSION_LOCATION) {
+			// We disguise the multi reference as an ObservableValue
+			return new GMFObservableValue(Realm.getDefault(), getSource(), feature, getDomain());
 		} else {
 			return super.doGetObservable(propertyPath);
 		}
@@ -76,6 +82,16 @@ public class UMLLightModelElement extends UMLModelElement {
 		} else {
 			return super.getContentProvider(propertyPath);
 		}
+	}
+
+	@Override
+	public ILabelProvider getLabelProvider(String propertyPath) {
+		EStructuralFeature feature = getFeature(propertyPath);
+		ILabelProvider baseLabelProvider = super.getLabelProvider(propertyPath);
+		if (feature == UMLPackage.Literals.EXTEND__EXTENSION_LOCATION) {
+			return new MultiAsSingleReferenceLabelProvider(baseLabelProvider);
+		}
+		return super.getLabelProvider(propertyPath);
 	}
 
 	private Set<MessageSort> getAllowedMessageSorts(EObject source) {
