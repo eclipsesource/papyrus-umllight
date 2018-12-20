@@ -12,4 +12,10 @@
 		<ppe:StringEditor input="{Binding}" property="UML:NamedElement:name"></ppe:StringEditor>
 		<ppe:StringEditor input="{Binding}" property="UML:NamedElement:label"></ppe:StringEditor>
 	</Composite>
+	<Composite>
+		<Composite.layout>
+			<ppel:PropertiesLayout></ppel:PropertiesLayout>
+		</Composite.layout>
+		<ppe:ReferenceDialog input="{Binding}" property="UML:MessageEnd:message" readOnly="true"></ppe:ReferenceDialog>
+	</Composite>
 </Composite>

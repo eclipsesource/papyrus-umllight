@@ -12,15 +12,20 @@
 package org.eclipse.papyrus.umllight.ui.internal.properties;
 
 import java.lang.reflect.Field;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EReference;
 import org.eclipse.papyrus.infra.properties.ui.creation.EcorePropertyEditorFactory;
 import org.eclipse.papyrus.uml.properties.creation.UMLPropertyEditorFactory;
 import org.eclipse.papyrus.umllight.core.internal.UMLLightSubset;
 import org.eclipse.papyrus.umllight.ui.internal.Activator;
+import org.eclipse.uml2.uml.UMLPackage;
 
 /**
  * Custom property editor factory that supports filtering of the metaclasses
@@ -30,6 +35,15 @@ import org.eclipse.papyrus.umllight.ui.internal.Activator;
 public class UMLLightPropertyEditorFactory extends UMLPropertyEditorFactory {
 
 	private static final ConcurrentHashMap<String, Function<EcorePropertyEditorFactory, ?>> fieldAccessors = new ConcurrentHashMap<>();
+
+	private static final Set<EReference> NON_EDITABLE_REFERENCES = new HashSet<>(
+			Arrays.asList(UMLPackage.Literals.MESSAGE__SEND_EVENT, //
+					UMLPackage.Literals.MESSAGE__RECEIVE_EVENT, //
+					UMLPackage.Literals.MESSAGE_END__MESSAGE, //
+					UMLPackage.Literals.EXECUTION_SPECIFICATION__START, //
+					UMLPackage.Literals.EXECUTION_SPECIFICATION__FINISH, //
+					UMLPackage.Literals.EXECUTION_OCCURRENCE_SPECIFICATION__EXECUTION //
+			));
 
 	/**
 	 * Initializes me from the {@code original} to copy.
@@ -55,6 +69,16 @@ public class UMLLightPropertyEditorFactory extends UMLPropertyEditorFactory {
 		List<EClass> result = super.getAvailableEClasses();
 		result.removeIf(UMLLightSubset.getInstance().getMetaclassFilter().negate());
 		return result;
+	}
+
+	@Override
+	public boolean canCreateObject() {
+		return super.canCreateObject() && !NON_EDITABLE_REFERENCES.contains(referenceIn);
+	}
+
+	@Override
+	public boolean canEdit() {
+		return super.canEdit() && !NON_EDITABLE_REFERENCES.contains(referenceIn);
 	}
 
 	/**

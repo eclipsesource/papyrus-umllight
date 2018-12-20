@@ -12,10 +12,13 @@
 package org.eclipse.papyrus.umllight.ui.internal.properties;
 
 import java.util.EnumSet;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 import org.eclipse.core.databinding.observable.IObservable;
 import org.eclipse.emf.ecore.EObject;
+import org.eclipse.emf.ecore.EReference;
 import org.eclipse.emf.ecore.EStructuralFeature;
 import org.eclipse.emf.edit.domain.EditingDomain;
 import org.eclipse.papyrus.infra.properties.ui.creation.EcorePropertyEditorFactory;
@@ -34,6 +37,8 @@ import org.eclipse.uml2.uml.UMLPackage;
 public class UMLLightModelElement extends UMLModelElement {
 
 	private final DynamicEnumComboHelper<MessageSort> messageSortHelper;
+
+	private final Map<String, ReferenceValueFactory> valueFactories = new HashMap<>();
 
 	/**
 	 * Initializes me with my {@code source} element and contextual editing
@@ -88,24 +93,43 @@ public class UMLLightModelElement extends UMLModelElement {
 
 	@Override
 	public ReferenceValueFactory getValueFactory(String propertyPath) {
-		ReferenceValueFactory result = super.getValueFactory(propertyPath);
+		return valueFactories.computeIfAbsent(propertyPath, path -> {
+			ReferenceValueFactory result = super.getValueFactory(path);
 
-		if (result == null || !(result instanceof EcorePropertyEditorFactory)) {
-			return result;
-		}
+			if (result == null || !(result instanceof EcorePropertyEditorFactory)) {
+				return result;
+			}
 
-		// Copy with filtering of creatable EClasses
-		UMLLightPropertyEditorFactory factory = new UMLLightPropertyEditorFactory((EcorePropertyEditorFactory) result);
+			// Copy with filtering of creatable EClasses
+			UMLLightPropertyEditorFactory factory = new UMLLightPropertyEditorFactory(
+					(EcorePropertyEditorFactory) result);
 
-		EStructuralFeature feature = getFeature(propertyPath);
-		if (feature == UMLPackage.Literals.MESSAGE__SIGNATURE) {
-			// We don't support signals, so there's only one choice
-			factory.setEClass(UMLPackage.Literals.OPERATION);
+			EStructuralFeature feature = getFeature(path);
+			if (feature == UMLPackage.Literals.MESSAGE__SIGNATURE) {
+				// We don't support signals, so there's only one choice
+				factory.setEClass(UMLPackage.Literals.OPERATION);
+				result = factory;
+			}
+
 			result = factory;
-		}
+			return result;
+		});
+	}
 
-		result = factory;
-		return result;
+	@Override
+	public boolean getDirectCreation(String propertyPath) {
+		EStructuralFeature feature = getFeature(propertyPath);
+		return super.getDirectCreation(propertyPath)
+				// We don't want to show the '...' button for read-only references
+				|| ((feature instanceof EReference) && !getValueFactory(propertyPath).canCreateObject());
+	}
+
+	@Override
+	public boolean isMandatory(String propertyPath) {
+		EStructuralFeature feature = getFeature(propertyPath);
+		return super.isMandatory(propertyPath)
+				// We don't want to show the 'X' button for read-only references
+				|| ((feature instanceof EReference) && !getValueFactory(propertyPath).canEdit());
 	}
 
 	@Override

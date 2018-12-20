@@ -94,7 +94,6 @@ public class UMLLightSubset {
 		case UMLPackage.PACKAGE:
 		case UMLPackage.PACKAGE_IMPORT:
 		case UMLPackage.DEPENDENCY:
-		case UMLPackage.COMMENT:
 			return true;
 		// Class Diagram concepts
 		case UMLPackage.CLASS:
@@ -153,6 +152,19 @@ public class UMLLightSubset {
 		case UMLPackage.BEHAVIOR_EXECUTION_SPECIFICATION:
 		case UMLPackage.INTERACTION_USE:
 		case UMLPackage.OPAQUE_BEHAVIOR:
+			return true;
+		// Common concepts:
+		case UMLPackage.LITERAL_BOOLEAN:
+		case UMLPackage.LITERAL_STRING:
+		case UMLPackage.LITERAL_INTEGER:
+		case UMLPackage.LITERAL_UNLIMITED_NATURAL:
+		case UMLPackage.LITERAL_REAL:
+		case UMLPackage.LITERAL_NULL:
+		case UMLPackage.INSTANCE_VALUE:
+		case UMLPackage.COMMENT:
+		case UMLPackage.CONSTRAINT:
+		case UMLPackage.OPAQUE_EXPRESSION:
+		case UMLPackage.EXPRESSION:
 			return true;
 		default:
 			return false;
