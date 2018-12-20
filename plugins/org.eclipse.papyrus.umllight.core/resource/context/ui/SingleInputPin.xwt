@@ -3,6 +3,7 @@
 	xmlns:j="clr-namespace:java.lang"
 	xmlns:ppe="clr-namespace:org.eclipse.papyrus.infra.properties.ui.widgets"
 	xmlns:ppel="clr-namespace:org.eclipse.papyrus.infra.properties.ui.widgets.layout"
+	xmlns:umllight="clr-namespace:org.eclipse.papyrus.umllight.ui.properties.widgets"
 	xmlns:uml="clr-namespace:org.eclipse.papyrus.uml.properties.widgets"
 	xmlns:x="http://www.eclipse.org/xwt">
 	<Composite.layout>
@@ -34,7 +35,7 @@
 			property="UML:ObjectNode:ordering"></ppe:EnumCombo>
 		<ppe:ReferenceDialog input="{Binding}"
 			property="UML:TypedElement:type"></ppe:ReferenceDialog>
-		<uml:MultiplicityDialog input="{Binding}"
-			property="Multiplicity:multiplicity"></uml:MultiplicityDialog>
+		<umllight:UMLLightMultiplicityDialog input="{Binding}"
+		    property="Multiplicity:multiplicity"></umllight:UMLLightMultiplicityDialog>
 	</Composite>
 </Composite>
