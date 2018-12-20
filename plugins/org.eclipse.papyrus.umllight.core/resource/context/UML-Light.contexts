@@ -361,6 +361,96 @@
     <sections xmi:id="_69cXEKDJEeSZxfCXzZz3-w" name="MultipleObjectFlow" sectionFile="ui/MultipleObjectFlow.xwt">
       <widget href="ui/MultipleObjectFlow.xwt#/"/>
     </sections>
+    <sections xmi:id="_QadOkAIAEembuNUueTsgQA" name="MultipleActionExecutionSpecification" sectionFile="ui/MultipleActionExecutionSpecification.xwt">
+      <widget href="ui/MultipleActionExecutionSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOkQIAEembuNUueTsgQA" name="MultipleBehavior" sectionFile="ui/MultipleBehavior.xwt">
+      <widget href="ui/MultipleBehavior.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOkgIAEembuNUueTsgQA" name="MultipleBehaviorExecutionSpecification" sectionFile="ui/MultipleBehaviorExecutionSpecification.xwt">
+      <widget href="ui/MultipleBehaviorExecutionSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOkwIAEembuNUueTsgQA" name="MultipleDestructionOccurrenceSpecification" sectionFile="ui/MultipleDestructionOccurrenceSpecification.xwt">
+      <widget href="ui/MultipleDestructionOccurrenceSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOlAIAEembuNUueTsgQA" name="MultipleExecutionOccurrenceSpecification" sectionFile="ui/MultipleExecutionOccurrenceSpecification.xwt">
+      <widget href="ui/MultipleExecutionOccurrenceSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOlQIAEembuNUueTsgQA" name="MultipleExecutionSpecification" sectionFile="ui/MultipleExecutionSpecification.xwt">
+      <widget href="ui/MultipleExecutionSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOlgIAEembuNUueTsgQA" name="MultipleInteraction" sectionFile="ui/MultipleInteraction.xwt">
+      <widget href="ui/MultipleInteraction.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOlwIAEembuNUueTsgQA" name="MultipleInteractionFragment" sectionFile="ui/MultipleInteractionFragment.xwt">
+      <widget href="ui/MultipleInteractionFragment.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOmAIAEembuNUueTsgQA" name="MultipleInteractionUse" sectionFile="ui/MultipleInteractionUse.xwt">
+      <widget href="ui/MultipleInteractionUse.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOmQIAEembuNUueTsgQA" name="MultipleLifeline" sectionFile="ui/MultipleLifeline.xwt">
+      <widget href="ui/MultipleLifeline.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOmgIAEembuNUueTsgQA" name="MultipleMessage" sectionFile="ui/MultipleMessage.xwt">
+      <widget href="ui/MultipleMessage.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOmwIAEembuNUueTsgQA" name="MultipleMessageEnd" sectionFile="ui/MultipleMessageEnd.xwt">
+      <widget href="ui/MultipleMessageEnd.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOnAIAEembuNUueTsgQA" name="MultipleMessageOccurrenceSpecification" sectionFile="ui/MultipleMessageOccurrenceSpecification.xwt">
+      <widget href="ui/MultipleMessageOccurrenceSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOnQIAEembuNUueTsgQA" name="MultipleOccurrenceSpecification" sectionFile="ui/MultipleOccurrenceSpecification.xwt">
+      <widget href="ui/MultipleOccurrenceSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOngIAEembuNUueTsgQA" name="MultipleOpaqueBehavior" sectionFile="ui/MultipleOpaqueBehavior.xwt">
+      <widget href="ui/MultipleOpaqueBehavior.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOnwIAEembuNUueTsgQA" name="SingleActionExecutionSpecification" sectionFile="ui/SingleActionExecutionSpecification.xwt">
+      <widget href="ui/SingleActionExecutionSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOoAIAEembuNUueTsgQA" name="SingleBehavior" sectionFile="ui/SingleBehavior.xwt">
+      <widget href="ui/SingleBehavior.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOoQIAEembuNUueTsgQA" name="SingleBehaviorExecutionSpecification" sectionFile="ui/SingleBehaviorExecutionSpecification.xwt">
+      <widget href="ui/SingleBehaviorExecutionSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOogIAEembuNUueTsgQA" name="SingleDestructionOccurrenceSpecification" sectionFile="ui/SingleDestructionOccurrenceSpecification.xwt">
+      <widget href="ui/SingleDestructionOccurrenceSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOowIAEembuNUueTsgQA" name="SingleExecutionOccurrenceSpecification" sectionFile="ui/SingleExecutionOccurrenceSpecification.xwt">
+      <widget href="ui/SingleExecutionOccurrenceSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOpAIAEembuNUueTsgQA" name="SingleExecutionSpecification" sectionFile="ui/SingleExecutionSpecification.xwt">
+      <widget href="ui/SingleExecutionSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOpQIAEembuNUueTsgQA" name="SingleInteraction" sectionFile="ui/SingleInteraction.xwt">
+      <widget href="ui/SingleInteraction.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOpgIAEembuNUueTsgQA" name="SingleInteractionFragment" sectionFile="ui/SingleInteractionFragment.xwt">
+      <widget href="ui/SingleInteractionFragment.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOpwIAEembuNUueTsgQA" name="SingleInteractionUse" sectionFile="ui/SingleInteractionUse.xwt">
+      <widget href="ui/SingleInteractionUse.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOqAIAEembuNUueTsgQA" name="SingleLifeline" sectionFile="ui/SingleLifeline.xwt">
+      <widget href="ui/SingleLifeline.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOqQIAEembuNUueTsgQA" name="SingleMessage" sectionFile="ui/SingleMessage.xwt">
+      <widget href="ui/SingleMessage.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOqgIAEembuNUueTsgQA" name="SingleMessageEnd" sectionFile="ui/SingleMessageEnd.xwt">
+      <widget href="ui/SingleMessageEnd.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOqwIAEembuNUueTsgQA" name="SingleMessageOccurrenceSpecification" sectionFile="ui/SingleMessageOccurrenceSpecification.xwt">
+      <widget href="ui/SingleMessageOccurrenceSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOrAIAEembuNUueTsgQA" name="SingleOccurrenceSpecification" sectionFile="ui/SingleOccurrenceSpecification.xwt">
+      <widget href="ui/SingleOccurrenceSpecification.xwt#/"/>
+    </sections>
+    <sections xmi:id="_QadOrQIAEembuNUueTsgQA" name="SingleOpaqueBehavior" sectionFile="ui/SingleOpaqueBehavior.xwt">
+      <widget href="ui/SingleOpaqueBehavior.xwt#/"/>
+    </sections>
   </tabs>
   <views xmi:id="_69uq1KDJEeSZxfCXzZz3-w" name="SingleObjectFlow" sections="_69cXD6DJEeSZxfCXzZz3-w" automaticContext="true">
     <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69uq1aDJEeSZxfCXzZz3-w" name="isSingleObjectFlow">
@@ -389,6 +479,9 @@
   <tabs xmi:id="_vMwxgP8IEeif09Qs_5sVbA" label="Constraints" id="uml-light-constraints" category="org.eclipse.papyrus" image="" priority="11">
     <sections xmi:id="_vMwxgf8IEeif09Qs_5sVbA" name="SingleOperationConstraints" sectionFile="ui/SingleOperationConstraints.xwt">
       <widget href="ui/SingleOperationConstraints.xwt#/"/>
+    </sections>
+    <sections xmi:id="_y3BpEAIDEem-9ZNT6Xm3MA" name="SingleBehaviorConstraints" sectionFile="ui/SingleBehaviorConstraints.xwt">
+      <widget href="ui/SingleBehaviorConstraints.xwt#/"/>
     </sections>
   </tabs>
     <views xmi:id="_69oli6DJEeSZxfCXzZz3-w" name="SingleValuePin" sections="_69cW06DJEeSZxfCXzZz3-w" automaticContext="true">
@@ -1080,6 +1173,186 @@
     <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_69ola6DJEeSZxfCXzZz3-w" name="isMultipleCallBehaviorAction">
       <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
       <properties xsi:type="constraints:ValueProperty" xmi:id="_69olbKDJEeSZxfCXzZz3-w" name="umlClassName" value="CallBehaviorAction"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1oAIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleActionExecutionSpecification" sections="_QadOkAIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1oQIAEembuNUueTsgQA" name="isMultipleActionExecutionSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1ogIAEembuNUueTsgQA" name="umlClassName" value="ActionExecutionSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1owIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleBehavior" sections="_QadOkQIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1pAIAEembuNUueTsgQA" name="isMultipleBehavior">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1pQIAEembuNUueTsgQA" name="umlClassName" value="Behavior"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1pgIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleBehaviorExecutionSpecification" sections="_QadOkgIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1pwIAEembuNUueTsgQA" name="isMultipleBehaviorExecutionSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1qAIAEembuNUueTsgQA" name="umlClassName" value="BehaviorExecutionSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1qQIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleDestructionOccurrenceSpecification" sections="_QadOkwIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1qgIAEembuNUueTsgQA" name="isMultipleDestructionOccurrenceSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1qwIAEembuNUueTsgQA" name="umlClassName" value="DestructionOccurrenceSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1rAIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleExecutionOccurrenceSpecification" sections="_QadOlAIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1rQIAEembuNUueTsgQA" name="isMultipleExecutionOccurrenceSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1rgIAEembuNUueTsgQA" name="umlClassName" value="ExecutionOccurrenceSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1rwIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleExecutionSpecification" sections="_QadOlQIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1sAIAEembuNUueTsgQA" name="isMultipleExecutionSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1sQIAEembuNUueTsgQA" name="umlClassName" value="ExecutionSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1sgIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleInteraction" sections="_QadOlgIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1swIAEembuNUueTsgQA" name="isMultipleInteraction">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1tAIAEembuNUueTsgQA" name="umlClassName" value="Interaction"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1tQIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleInteractionFragment" sections="_QadOlwIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1tgIAEembuNUueTsgQA" name="isMultipleInteractionFragment">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1twIAEembuNUueTsgQA" name="umlClassName" value="InteractionFragment"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1uAIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleInteractionUse" sections="_QadOmAIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1uQIAEembuNUueTsgQA" name="isMultipleInteractionUse">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1ugIAEembuNUueTsgQA" name="umlClassName" value="InteractionUse"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1uwIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleLifeline" sections="_QadOmQIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1vAIAEembuNUueTsgQA" name="isMultipleLifeline">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1vQIAEembuNUueTsgQA" name="umlClassName" value="Lifeline"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1vgIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleMessage" sections="_QadOmgIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1vwIAEembuNUueTsgQA" name="isMultipleMessage">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1wAIAEembuNUueTsgQA" name="umlClassName" value="Message"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1wQIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleMessageEnd" sections="_QadOmwIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1wgIAEembuNUueTsgQA" name="isMultipleMessageEnd">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1wwIAEembuNUueTsgQA" name="umlClassName" value="MessageEnd"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1xAIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleMessageOccurrenceSpecification" sections="_QadOnAIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1xQIAEembuNUueTsgQA" name="isMultipleMessageOccurrenceSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1xgIAEembuNUueTsgQA" name="umlClassName" value="MessageOccurrenceSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1xwIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleOccurrenceSpecification" sections="_QadOnQIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1yAIAEembuNUueTsgQA" name="isMultipleOccurrenceSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1yQIAEembuNUueTsgQA" name="umlClassName" value="OccurrenceSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1ygIAEembuNUueTsgQA" elementMultiplicity="-1" name="MultipleOpaqueBehavior" sections="_QadOngIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1ywIAEembuNUueTsgQA" name="isMultipleOpaqueBehavior">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1zAIAEembuNUueTsgQA" name="umlClassName" value="OpaqueBehavior"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad1zQIAEembuNUueTsgQA" name="SingleActionExecutionSpecification" sections="_QadOnwIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1zgIAEembuNUueTsgQA" name="isSingleActionExecutionSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1zwIAEembuNUueTsgQA" name="umlClassName" value="ActionExecutionSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad10AIAEembuNUueTsgQA" name="SingleBehavior" sections="_QadOoAIAEembuNUueTsgQA _y3BpEAIDEem-9ZNT6Xm3MA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad10QIAEembuNUueTsgQA" name="isSingleBehavior">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad10gIAEembuNUueTsgQA" name="umlClassName" value="Behavior"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad10wIAEembuNUueTsgQA" name="SingleBehaviorExecutionSpecification" sections="_QadOoQIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad11AIAEembuNUueTsgQA" name="isSingleBehaviorExecutionSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad11QIAEembuNUueTsgQA" name="umlClassName" value="BehaviorExecutionSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad11gIAEembuNUueTsgQA" name="SingleDestructionOccurrenceSpecification" sections="_QadOogIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad11wIAEembuNUueTsgQA" name="isSingleDestructionOccurrenceSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad12AIAEembuNUueTsgQA" name="umlClassName" value="DestructionOccurrenceSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad12QIAEembuNUueTsgQA" name="SingleExecutionOccurrenceSpecification" sections="_QadOowIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad12gIAEembuNUueTsgQA" name="isSingleExecutionOccurrenceSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad12wIAEembuNUueTsgQA" name="umlClassName" value="ExecutionOccurrenceSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad13AIAEembuNUueTsgQA" name="SingleExecutionSpecification" sections="_QadOpAIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad13QIAEembuNUueTsgQA" name="isSingleExecutionSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad13gIAEembuNUueTsgQA" name="umlClassName" value="ExecutionSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad13wIAEembuNUueTsgQA" name="SingleInteraction" sections="_QadOpQIAEembuNUueTsgQA _y3BpEAIDEem-9ZNT6Xm3MA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad14AIAEembuNUueTsgQA" name="isSingleInteraction">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad14QIAEembuNUueTsgQA" name="umlClassName" value="Interaction"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad14gIAEembuNUueTsgQA" name="SingleInteractionFragment" sections="_QadOpgIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad14wIAEembuNUueTsgQA" name="isSingleInteractionFragment">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad15AIAEembuNUueTsgQA" name="umlClassName" value="InteractionFragment"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad15QIAEembuNUueTsgQA" name="SingleInteractionUse" sections="_QadOpwIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad15gIAEembuNUueTsgQA" name="isSingleInteractionUse">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad15wIAEembuNUueTsgQA" name="umlClassName" value="InteractionUse"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad16AIAEembuNUueTsgQA" name="SingleLifeline" sections="_QadOqAIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad16QIAEembuNUueTsgQA" name="isSingleLifeline">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad16gIAEembuNUueTsgQA" name="umlClassName" value="Lifeline"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad16wIAEembuNUueTsgQA" name="SingleMessage" sections="_QadOqQIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad17AIAEembuNUueTsgQA" name="isSingleMessage">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad17QIAEembuNUueTsgQA" name="umlClassName" value="Message"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad17gIAEembuNUueTsgQA" name="SingleMessageEnd" sections="_QadOqgIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad17wIAEembuNUueTsgQA" name="isSingleMessageEnd">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad18AIAEembuNUueTsgQA" name="umlClassName" value="MessageEnd"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad18QIAEembuNUueTsgQA" name="SingleMessageOccurrenceSpecification" sections="_QadOqwIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad18gIAEembuNUueTsgQA" name="isSingleMessageOccurrenceSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad18wIAEembuNUueTsgQA" name="umlClassName" value="MessageOccurrenceSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad19AIAEembuNUueTsgQA" name="SingleOccurrenceSpecification" sections="_QadOrAIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad19QIAEembuNUueTsgQA" name="isSingleOccurrenceSpecification">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad19gIAEembuNUueTsgQA" name="umlClassName" value="OccurrenceSpecification"/>
+    </constraints>
+  </views>
+  <views xmi:id="_Qad19wIAEembuNUueTsgQA" name="SingleOpaqueBehavior" sections="_QadOrQIAEembuNUueTsgQA" automaticContext="true">
+    <constraints xsi:type="constraints:SimpleConstraint" xmi:id="_Qad1-AIAEembuNUueTsgQA" name="isSingleOpaqueBehavior">
+      <constraintType href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@constraintTypes.0"/>
+      <properties xsi:type="constraints:ValueProperty" xmi:id="_Qad1-QIAEembuNUueTsgQA" name="umlClassName" value="OpaqueBehavior"/>
     </constraints>
   </views>
   <dataContexts xmi:id="_690xgaDJEeSZxfCXzZz3-w" name="UML" label="UML">
@@ -2117,7 +2390,7 @@
       <properties xmi:id="_6964nKDJEeSZxfCXzZz3-w" name="value" label="" description="The specified Real value."/>
     </elements>
     <elements xmi:id="_6964naDJEeSZxfCXzZz3-w" name="DestructionOccurrenceSpecification" supertypes="_690zy6DJEeSZxfCXzZz3-w"/>
-    <modelElementFactory href="ppe:/environment/org.eclipse.papyrus.uml.properties/Model/Environment.xmi#//@modelElementFactories.1"/>
+    <modelElementFactory href="Environment.xmi#//@modelElementFactories.0"/>
   </dataContexts>
   <dataContexts xmi:id="_6964nqDJEeSZxfCXzZz3-w" name="MemberEnd" label="Multiplicity">
     <properties xmi:id="_6964n6DJEeSZxfCXzZz3-w" name="owner" label="Owner" type="Enumeration"/>

@@ -3,6 +3,9 @@
     xmi:version="2.0"
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:environment="http://www.eclipse.org/papyrus/properties/environment/0.9">
+  <modelElementFactories
+      name="UML Light Factory"
+      factoryClass="org.eclipse.papyrus.umllight.ui.internal.properties.UMLLightModelElementFactory"/>
   <propertyEditorTypes
       label="Light Multiplicity Editor"
       widgetClass="UMLLightMultiplicityDialog"
