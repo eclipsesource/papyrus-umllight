@@ -20,7 +20,7 @@
 		<Composite.layout>
 			<ppel:PropertiesLayout></ppel:PropertiesLayout>
 		</Composite.layout>
-		<ppe:MultiReference input="{Binding}" property="UML:Extend:extensionLocation" customLabel="Location" readOnly="true"></ppe:MultiReference>
+		<ppe:ReferenceDialog input="{Binding}" property="UML:Extend:extensionLocation" customLabel="Location" readOnly="true"></ppe:ReferenceDialog>
 		<ppe:ReferenceDialog input="{Binding}" property="UML:Extend:extendedCase" readOnly="true"></ppe:ReferenceDialog>
 	</Composite>
 </Composite>

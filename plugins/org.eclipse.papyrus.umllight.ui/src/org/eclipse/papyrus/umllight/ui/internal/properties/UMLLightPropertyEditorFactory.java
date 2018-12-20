@@ -42,7 +42,10 @@ public class UMLLightPropertyEditorFactory extends UMLPropertyEditorFactory {
 					UMLPackage.Literals.MESSAGE_END__MESSAGE, //
 					UMLPackage.Literals.EXECUTION_SPECIFICATION__START, //
 					UMLPackage.Literals.EXECUTION_SPECIFICATION__FINISH, //
-					UMLPackage.Literals.EXECUTION_OCCURRENCE_SPECIFICATION__EXECUTION //
+					UMLPackage.Literals.EXECUTION_OCCURRENCE_SPECIFICATION__EXECUTION, //
+					UMLPackage.Literals.EXTEND__EXTENSION_LOCATION, //
+					UMLPackage.Literals.EXTEND__EXTENDED_CASE, //
+					UMLPackage.Literals.INCLUDE__ADDITION //
 			));
 
 	/**
