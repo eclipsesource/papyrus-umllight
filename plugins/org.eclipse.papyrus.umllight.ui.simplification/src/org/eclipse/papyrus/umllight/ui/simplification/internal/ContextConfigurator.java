@@ -22,11 +22,10 @@ public final class ContextConfigurator {
 	}
 
 	/**
-	 * Disables the context with the given name.
-	 * If no such context can be found,
+	 * Disables the context with the given name if the context can be found
 	 * 
-	 * @param name
-	 *            context name
+	 * @param name 
+	 * 			context name
 	 * @see Context
 	 */
 	public static void disableContext(String name) {
@@ -38,6 +37,44 @@ public final class ContextConfigurator {
 				// nothing we can really do
 			}
 		}
+	}
+
+	/**
+	 * Enables the context with the given name if the context can be found
+	 * 
+	 * @param name 
+	 * 			context name
+	 * @see Context
+	 */
+	public static void enableContext(String name) {
+		org.eclipse.papyrus.infra.properties.contexts.Context context = configurationManager.getContext(name);
+		if (context != null) {
+			try {
+				configurationManager.enableContext(context, true);
+			} catch (IllegalStateException e) {
+				// nothing we can really do
+			}
+		}
+	}
+
+	/**
+	 * Queries whether the context with the given name is enabled
+	 * 
+	 * @param name 
+	 * 			context name
+	 * @return whether the context with the given name is enabled. False if no matching context can be found
+	 * @see Context
+	 */
+	public static boolean isEnabled(String name) {
+		org.eclipse.papyrus.infra.properties.contexts.Context context = configurationManager.getContext(name);
+		if (context != null) {
+			try {
+				return configurationManager.isEnabled(context);
+			} catch (IllegalStateException e) {
+				// nothing we can really do
+			}
+		}
+		return false;
 	}
 
 	public interface Context {

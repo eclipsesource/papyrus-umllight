@@ -42,7 +42,7 @@ public class Activator extends AbstractUIPlugin {
 		super.start(context);
 		plugin = this;
 		configureCreationMenus();
-		ContextConfigurator.disableContext(Context.UML);
+		configureContexts();
 	}
 
 	public void stop(BundleContext context) throws Exception {
@@ -59,6 +59,13 @@ public class Activator extends AbstractUIPlugin {
 		return plugin;
 	}
 
+	private void configureContexts() {
+		if (ContextConfigurator.isEnabled(Context.UML)) {
+			ContextConfigurator.disableContext(Context.UML);
+			ContextConfigurator.enableContext(Context.UML_LIGHT);
+		}
+	}
+
 	private void configureCreationMenus() {
 		// Do this on the UI thread because that's the context in which the creation
 		// menu registry is generally accessed
@@ -70,19 +77,20 @@ public class Activator extends AbstractUIPlugin {
 			}
 		}.schedule();
 	}
-	
-	// 
-	  // Nested types 
-	  // 
-	 
-	  /** 
-	   * An early startup hook that cleans the creation menu registry disables unwanted contexts. 
-	   */ 
-	  public static class Startup implements IStartup { 
-	    @Override 
-	    public void earlyStartup() { 
-	      // Nothing really to do but kick the activator 
-	      Activator.getDefault(); 
-	    } 
-	  }
+
+	//
+	// Nested types
+	//
+
+	/**
+	 * An early startup hook that cleans the creation menu registry disables
+	 * unwanted contexts.
+	 */
+	public static class Startup implements IStartup {
+		@Override
+		public void earlyStartup() {
+			// Nothing really to do but kick the activator
+			Activator.getDefault();
+		}
+	}
 }
