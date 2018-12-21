@@ -21,7 +21,6 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: org.eclipse.papyrus.umllight.core
 Bundle-ActivationPolicy: lazy
 Export-Package: org.eclipse.papyrus.umllight.ui.internal;x-internal:=true,
- org.eclipse.papyrus.umllight.ui.internal.newchild;x-internal:=true,
  org.eclipse.papyrus.umllight.ui.internal.properties;x-internal:=true,
  org.eclipse.papyrus.umllight.ui.internal.widgets.editors;x-internal:=true,
  org.eclipse.papyrus.umllight.ui.internal.wizard;x-internal:=true,

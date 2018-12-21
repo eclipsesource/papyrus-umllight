@@ -10,7 +10,7 @@
  *   Martin Fleck (EclipseSource) - Initial API and implementation
  *   Christian W. Damus - adaptation for UML Light
  */
-package org.eclipse.papyrus.umllight.ui.internal.newchild;
+package org.eclipse.papyrus.umllight.ui.simplification.internal;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -22,8 +22,6 @@ import org.eclipse.core.runtime.Status;
 import org.eclipse.osgi.util.NLS;
 import org.eclipse.papyrus.infra.newchild.CreationMenuRegistry;
 import org.eclipse.papyrus.infra.newchild.elementcreationmenumodel.Folder;
-import org.eclipse.papyrus.umllight.ui.internal.Activator;
-import org.eclipse.ui.IStartup;
 
 /**
  * Cleans the creation menu.
@@ -72,20 +70,5 @@ public final class CreationMenuCleaner {
 		}
 
 		return Status.OK_STATUS;
-	}
-
-	//
-	// Nested types
-	//
-
-	/**
-	 * An early startup hook that cleans the creation menu registry.
-	 */
-	public static class Startup implements IStartup {
-		@Override
-		public void earlyStartup() {
-			// Nothing really to do but kick the activator
-			Activator.getDefault();
-		}
 	}
 }

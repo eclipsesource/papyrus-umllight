@@ -12,12 +12,8 @@
 
 package org.eclipse.papyrus.umllight.ui.internal;
 
-import org.eclipse.core.runtime.IProgressMonitor;
-import org.eclipse.core.runtime.IStatus;
 import org.eclipse.papyrus.infra.core.log.LogHelper;
-import org.eclipse.papyrus.umllight.ui.internal.newchild.CreationMenuCleaner;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
-import org.eclipse.ui.progress.UIJob;
 import org.osgi.framework.BundleContext;
 
 /**
@@ -45,8 +41,6 @@ public class Activator extends AbstractUIPlugin {
 
 		logHelper = new LogHelper(context.getBundle());
 		plugin = this;
-
-		configureCreationMenus();
 	}
 
 	public void stop(BundleContext context) throws Exception {
@@ -63,18 +57,6 @@ public class Activator extends AbstractUIPlugin {
 	 */
 	public static Activator getDefault() {
 		return plugin;
-	}
-
-	private void configureCreationMenus() {
-		// Do this on the UI thread because that's the context in which the creation
-		// menu registry is generally accessed
-		new UIJob("Initializing creation menus") {
-
-			@Override
-			public IStatus runInUIThread(IProgressMonitor monitor) {
-				return CreationMenuCleaner.clean();
-			}
-		}.schedule();
 	}
 
 	public void log(Throwable exception) {

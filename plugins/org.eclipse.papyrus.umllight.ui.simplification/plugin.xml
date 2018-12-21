@@ -575,4 +575,10 @@
          </enablement>
       </actionProvider>
    </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="org.eclipse.papyrus.umllight.ui.simplification.internal.Activator$Startup">
+      </startup>
+   </extension>
 </plugin>
