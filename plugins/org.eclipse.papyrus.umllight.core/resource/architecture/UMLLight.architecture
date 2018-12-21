@@ -27,7 +27,9 @@
       <modelRules xmi:type="representation:ModelRule" xmi:id="_rZbO8O2SEeitgq1z0sVnow" permit="false" elementMultiplicity="1" multiplicity="-1">
         <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//UseCase"/>
       </modelRules>
-      <modelRules xmi:type="representation:ModelRule" xmi:id="_5A0rAO2NEeifX8BMmiNuTQ" permit="true" elementMultiplicity="1" multiplicity="-1"/>
+      <modelRules xmi:type="representation:ModelRule" xmi:id="_5A0rAO2NEeifX8BMmiNuTQ" permit="true" elementMultiplicity="1" multiplicity="-1">
+        <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
+      </modelRules>
       <owningRules xmi:type="representation:OwningRule" xmi:id="_2wpxsNR_EeiRo86uKpcSsw" permit="false" multiplicity="-1">
         <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Behavior"/>
       </owningRules>
@@ -229,7 +231,7 @@
       </owningRules>
       <owningRules xmi:type="representation:OwningRule" xmi:id="_wcUnsPkwEeiKWJa2NO5rkQ" permit="true" multiplicity="-1">
         <element xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
-        <newModelPath xmi:type="representation:ModelAutoCreate" xmi:id="_xSMYYPkzEeiKWJa2NO5rkQ"  creationType="org.eclipse.papyrus.uml.Activity">
+        <newModelPath xmi:type="representation:ModelAutoCreate" xmi:id="_xSMYYPkzEeiKWJa2NO5rkQ" creationType="org.eclipse.papyrus.uml.Activity">
           <feature xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package/packagedElement"/>
         </newModelPath>
       </owningRules>
