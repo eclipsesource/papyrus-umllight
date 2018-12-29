@@ -1,2 +1,4 @@
 #Bundle ID regex, Resource Path regex, resource path
 org\.eclipse\.papyrus\.infra\.nattable\.common,plugin\.xml,/transforms/nattable.xslt
+org\.eclipse\.papyrus\.uml\.textedit\.state\.xtext\.ui,plugin\.xml,/transforms/direct-edit.xslt
+org\.eclipse\.papyrus\.uml\.textedit\.transition\.xtext\.ui,plugin\.xml,/transforms/direct-edit.xslt

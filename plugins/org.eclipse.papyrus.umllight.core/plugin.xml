@@ -38,6 +38,15 @@
          </Priority>
       </editpolicyProvider>
    </extension>
+   <extension
+         point="org.eclipse.gmf.runtime.diagram.ui.editpartProviders">
+      <editpartProvider
+            class="org.eclipse.papyrus.umllight.core.internal.provider.StateMachineEditPartProvider">
+         <Priority
+               name="High">
+         </Priority>
+      </editpartProvider>
+   </extension>
     <extension
          name="UML Subset for UML Light"
          point="org.eclipse.papyrus.infra.properties.contexts">
