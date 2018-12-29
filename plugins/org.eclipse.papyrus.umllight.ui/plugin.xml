@@ -68,4 +68,35 @@
          </newWizardShortcut>
       </perspectiveExtension>
    </extension>
+
+   <extension
+         point="org.eclipse.papyrus.infra.gmfdiag.extensionpoints.editors.DirectEditor">
+      <DirectEditor
+            additionalConstraint="org.eclipse.papyrus.umllight.ui.internal.directedit.IsUMLLightConstraint"
+            contributor="EclipseSource Munich"
+            language="UML Light State Name Editor"
+            objectToEdit="org.eclipse.uml2.uml.State">
+         <popupeditor
+               editorConfiguration="org.eclipse.papyrus.umllight.ui.internal.directedit.NamedElementDirectEditorConfiguration">
+         </popupeditor>
+         <Priority
+               name="High">
+         </Priority>         
+      </DirectEditor>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.infra.gmfdiag.extensionpoints.editors.DirectEditor">
+      <DirectEditor
+            additionalConstraint="org.eclipse.papyrus.umllight.ui.internal.directedit.IsUMLLightConstraint"
+            contributor="EclipseSource Munich"
+            language="UML Light Transition Name Editor"
+            objectToEdit="org.eclipse.uml2.uml.Transition">
+         <popupeditor
+               editorConfiguration="org.eclipse.papyrus.umllight.ui.internal.directedit.NamedElementDirectEditorConfiguration">
+         </popupeditor>
+         <Priority
+               name="High">
+         </Priority>         
+      </DirectEditor>
+   </extension>
 </plugin>
