@@ -1,6 +1,6 @@
-target "UML Light  Target Platform - Release" with source requirements
+target "UML Light Target Platform - 2018-12 Release" with source requirements
 
-location "http://download.eclipse.org/releases/photon/" eclipse-photon {
+location "http://download.eclipse.org/releases/2018-12/" eclipse-platform {
 	org.eclipse.platform.feature.group
 	org.eclipse.sdk.feature.group
 	org.eclipse.rcp.feature.group
@@ -18,15 +18,17 @@ location "http://download.eclipse.org/releases/photon/" eclipse-photon {
 	org.eclipse.gmf.runtime.notation.sdk.feature.group
 	org.eclipse.gmf.runtime.sdk.feature.group
 	org.eclipse.uml2.sdk.feature.group
+	org.eclipse.equinox.transforms.hook
+	org.eclipse.equinox.transforms.xslt
 }
 
-location "http://download.eclipse.org/egit/updates-5.0.3" egit {
+location "http://download.eclipse.org/egit/updates-5.2" egit {
 	org.eclipse.egit.feature.group
 	org.eclipse.jgit.feature.group
 }
 
 
-location orbit "http://download.eclipse.org/tools/orbit/downloads/drops/R20180606145124/repository/" {
+location orbit "http://download.eclipse.org/tools/orbit/downloads/drops/R20181128170323/repository/" {
 	org.apache.commons.io
 	org.apache.commons.io.source
 	com.google.inject
@@ -44,7 +46,7 @@ location orbit "http://download.eclipse.org/tools/orbit/downloads/drops/R2018060
 	org.objenesis [1.0.0,2.0.0)
 }
 
-location papyrus "http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/photon" {
+location papyrus "http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/2018-12" {
 	org.eclipse.papyrus.sdk.feature.feature.group
 	org.eclipse.papyrus.infra.gmfdiag.feature.feature.group
 	org.eclipse.papyrus.infra.services.feature.feature.group
@@ -52,7 +54,8 @@ location papyrus "http://download.eclipse.org/modeling/mdt/papyrus/updates/relea
 	org.eclipse.papyrus.uml.assistants.feature.feature.group
 	org.eclipse.papyrus.toolsmiths.feature.feature.group
 }
-// Using nightly version of Papyrus compare for now because the latest stable version has Photon incompatibilities 
+
+// Using nightly version of Papyrus compare for now because there is no stable version for 2018-12 
 location "http://download.eclipse.org/modeling/mdt/papyrus/components/compare/updates/nightly/latest/" {
 	org.eclipse.papyrus.compare.feature.feature.group 
 }

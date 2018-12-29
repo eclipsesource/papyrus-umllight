@@ -1,6 +1,6 @@
 target "UML Light Target Platform - 2018-12 Nightly" with source requirements
 
-location "http://download.eclipse.org/releases/2018-09/" eclipse-platform {
+location "http://download.eclipse.org/releases/2018-12/" eclipse-platform {
 	org.eclipse.platform.feature.group
 	org.eclipse.sdk.feature.group
 	org.eclipse.rcp.feature.group
@@ -22,13 +22,13 @@ location "http://download.eclipse.org/releases/2018-09/" eclipse-platform {
 	org.eclipse.equinox.transforms.xslt
 }
 
-location "http://download.eclipse.org/egit/updates-5.1.3" egit {
+location "http://download.eclipse.org/egit/updates-5.2" egit {
 	org.eclipse.egit.feature.group
 	org.eclipse.jgit.feature.group
 }
 
 
-location orbit "http://download.eclipse.org/tools/orbit/downloads/drops/S20181031145145/repository/" {
+location orbit "http://download.eclipse.org/tools/orbit/downloads/drops/R20181128170323/repository/" {
 	org.apache.commons.io
 	org.apache.commons.io.source
 	com.google.inject

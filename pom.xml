@@ -20,7 +20,7 @@
 		<!-- r2018-12 | photon | oxygen -->
 		<target.eclipseversion>r2018-12</target.eclipseversion>
 		<!-- release | nightly -->
-		<target.branch>nightly</target.branch>
+		<target.branch>release</target.branch>
 		<target.version>0.0.1-SNAPSHOT</target.version>
 	</properties>
 
@@ -141,11 +141,6 @@
 						<environment>
 							<os>win32</os>
 							<ws>win32</ws>
-							<arch>x86</arch>
-						</environment>
-						<environment>
-							<os>win32</os>
-							<ws>win32</ws>
 							<arch>x86_64</arch>
 						</environment>
 						<environment>
@@ -158,7 +153,6 @@
 							<ws>cocoa</ws>
 							<arch>x86_64</arch>
 						</environment>
-						<!-- <environment><os>macosx</os><ws>cocoa</ws><arch>x86_64</arch></environment>-->
 					</environments>
 					<target>
 						<artifact>
