@@ -581,4 +581,10 @@
             class="org.eclipse.papyrus.umllight.ui.simplification.internal.Activator$Startup">
       </startup>
    </extension>
+   <extension
+         point="org.eclipse.papyrus.emf.facet.util.emf.core.modeldeclaration">
+      <modeldeclaration
+            file="resource/UMLLight.custom">
+      </modeldeclaration>
+   </extension> 
 </plugin>

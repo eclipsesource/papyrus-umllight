@@ -1,18 +1,24 @@
 Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: UML Light UI Simplification
-Bundle-SymbolicName: org.eclipse.papyrus.umllight.ui.simplification;singleton:=true
-Bundle-Version: 0.0.1.qualifier
-Bundle-Activator: org.eclipse.papyrus.umllight.ui.simplification.internal.Activator
-Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.ui,
- org.eclipse.papyrus.umllight.core;bundle-version="[0.0.1,1.0.0)",
- org.eclipse.papyrus.infra.newchild;bundle-version="[4.0.0,5.0.0)",
- org.eclipse.ui.navigator.resources;bundle-version="[3.6.100,4.0.0)",
- org.eclipse.ui.navigator;bundle-version="[3.7.100,4.0.0)",
- org.eclipse.papyrus.views.properties;bundle-version="4.0.0"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: org.eclipse.papyrus.umllight.core
+Bundle-SymbolicName: org.eclipse.papyrus.umllight.ui.simplification;si
+ ngleton:=true
+Export-Package: org.eclipse.papyrus.umllight.ui.simplification.interna
+ l;x-internal:=true,org.eclipse.papyrus.umllight.ui.simplification.int
+ ernal.navigator;x-internal:=true
+Bundle-Name: UML Light UI Simplification
+Bundle-Version: 0.0.1.qualifier
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.ui,org.eclipse.pa
+ pyrus.umllight.core;bundle-version="[0.0.1,1.0.0)",org.eclipse.papyru
+ s.infra.newchild;bundle-version="[4.0.0,5.0.0)",org.eclipse.ui.naviga
+ tor.resources;bundle-version="[3.6.100,4.0.0)",org.eclipse.ui.navigat
+ or;bundle-version="[3.7.100,4.0.0)",org.eclipse.papyrus.views.propert
+ ies;bundle-version="4.0.0",org.eclipse.papyrus.emf.facet.util.core;bu
+ ndle-version="1.2.0",org.eclipse.uml2.uml,org.eclipse.uml2.types,org.
+ eclipse.papyrus.emf.facet.efacet.core,org.eclipse.papyrus.emf.facet.q
+ uery.java.core
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.papyrus.umllight.ui.simplification.inter
+ nal.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
-Export-Package: org.eclipse.papyrus.umllight.ui.simplification.internal;x-internal:=true,
- org.eclipse.papyrus.umllight.ui.simplification.internal.navigator;x-internal:=true
+
