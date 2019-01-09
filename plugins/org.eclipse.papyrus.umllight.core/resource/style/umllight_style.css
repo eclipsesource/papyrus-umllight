@@ -14,7 +14,9 @@
 
 ClassDiagram *,
 UseCaseDiagram *,
-SequenceDiagram * {
+SequenceDiagram *,
+ComponentDiagram *,
+DeploymentDiagram * {
 	gradient: none;
 	transparency: 0;
 	lineWidth: 1px;
@@ -44,7 +46,8 @@ Constraint {
 }
 
 AssociationClass, Class, DataType, Enumeration, Package, Interface, PrimitiveType,
-UseCase, StateMachine, State, Region, Activity, Interaction, InteractionUse {
+UseCase, StateMachine, State, Region, Activity, Interaction, InteractionUse,
+Component, Node, Device, ExecutionEnvironment, Artifact, DeploymentSpecification {
 	fillColor: white;
 	lineColor: steelblue;
 	nameBackgroundColor: ghostwhite;
@@ -52,7 +55,13 @@ UseCase, StateMachine, State, Region, Activity, Interaction, InteractionUse {
 	shadowWidth: 2px;
 }
 
-/* hide compartments by default */
+Port {
+	fillColor: white;
+	lineColor: steelblue;
+	shadow: false;
+}
+
+/* hide compartments by default (except in Component) */
 AssociationClass > Compartment,
 Class > Compartment,
 DataType > Compartment,
@@ -73,7 +82,7 @@ Interface > Compartment[kind="operations"] {
     showTitle: false;
 }
 
-Property {
+Property, Port {
 	maskLabel: name type multiplicity;
 }
 
