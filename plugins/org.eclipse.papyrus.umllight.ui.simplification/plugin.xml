@@ -18,8 +18,8 @@
 
       <category
             id="org.eclipse.papyrus.umllight.ui.simplification.activities"
-            name="UML Light Advanced Functionality"
-            description="Advanced Eclipse capabilities not ordinarily needed for modeling with UML Light.">
+            name="%category.name"
+            description="%category.description">
       </category>
       <categoryActivityBinding
             categoryId="org.eclipse.papyrus.umllight.ui.simplification.activities"
@@ -73,7 +73,7 @@
       <!-- Eclipse UI -->
       <activity
             id="org.eclipse.papyrus.umllight.ui.simplification.EclipseUI"
-            name="Advanced Eclipse UI Functionality">
+            name="%activity.eclipse.name">
       </activity>
       <activityPatternBinding
 			activityId="org.eclipse.papyrus.umllight.ui.simplification.EclipseUI"
@@ -91,7 +91,7 @@
       <!-- PDE -->
       <activity
             id="org.eclipse.papyrus.umllight.ui.simplification.PDE"
-            name="Plugin Development (PDE) Functionality">
+            name="%activity.pde.name">
       </activity>
       <activityPatternBinding
             activityId="org.eclipse.papyrus.umllight.ui.simplification.PDE"
@@ -114,7 +114,7 @@
       <!-- Debug -->
       <activity
             id="org.eclipse.papyrus.umllight.ui.simplification.Debug"
-            name="Debug Functionality">
+            name="%activity.debug.name">
       </activity>
       <activityPatternBinding
             activityId="org.eclipse.papyrus.umllight.ui.simplification.Debug"
@@ -128,7 +128,7 @@
       <!-- JDT -->
       <activity
             id="org.eclipse.papyrus.umllight.ui.simplification.JDT"
-            name="Java Development (JDT) Functionality">
+            name="%activity.java.name">
       </activity>
       <activityPatternBinding
             activityId="org.eclipse.papyrus.umllight.ui.simplification.JDT"
@@ -164,7 +164,7 @@
       <!-- Xtend/Xtext/Xbase -->
       <activity
             id="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
-            name="Xtend/Xtext/Xbase Functionality">
+            name="%activity.xtext.name">
       </activity>
       <activityPatternBinding
             activityId="org.eclipse.papyrus.umllight.ui.simplification.Xtext"
@@ -227,7 +227,7 @@
       <!-- Ant -->
       <activity
             id="org.eclipse.papyrus.umllight.ui.simplification.Ant"
-            name="Ant Functionality">
+            name="%activity.ant.name">
       </activity>
       <activityPatternBinding
             activityId="org.eclipse.papyrus.umllight.ui.simplification.Ant"
@@ -237,7 +237,7 @@
       <!-- Papyrus -->
       <activity
             id="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
-            name="Advanced Papyrus Functionality">
+            name="%activity.papyrus.name">
       </activity>
       <activityPatternBinding
             activityId="org.eclipse.papyrus.umllight.ui.simplification.Papyrus"
@@ -335,7 +335,7 @@
       <!-- Equinox -->
       <activity
             id="org.eclipse.papyrus.umllight.ui.simplification.Equinox"
-            name="Equinox Functionality">
+            name="%activity.equinox.name">
       </activity>
       <activityPatternBinding
             activityId="org.eclipse.papyrus.umllight.ui.simplification.Equinox"
@@ -345,7 +345,7 @@
       <!-- EMF -->
       <activity
             id="org.eclipse.papyrus.umllight.ui.simplification.EMF"
-            name="Advanced EMF Functionality">
+            name="%activity.emf.name">
       </activity>
       <activityPatternBinding
             activityId="org.eclipse.papyrus.umllight.ui.simplification.EMF"
@@ -435,7 +435,7 @@
       <!-- External Tools -->
       <activity
             id="org.eclipse.papyrus.umllight.ui.simplification.ExternalTools"
-            name="External Tools Functionality">
+            name="%activity.tools.name">
       </activity>
       <activityPatternBinding
             activityId="org.eclipse.papyrus.umllight.ui.simplification.ExternalTools"
@@ -445,7 +445,7 @@
       <!-- OCL -->
       <activity
             id="org.eclipse.papyrus.umllight.ui.simplification.OCL"
-            name="OCL Functionality">
+            name="%activity.ocl.name">
       </activity>
       <activityPatternBinding
             activityId="org.eclipse.papyrus.umllight.ui.simplification.OCL"
@@ -490,7 +490,7 @@
       <!-- QVTo -->
       <activity
             id="org.eclipse.papyrus.umllight.ui.simplification.QVTo"
-            name="QVT Operational Functionality">
+            name="%activity.qvto.name">
       </activity>
       <activityPatternBinding
             activityId="org.eclipse.papyrus.umllight.ui.simplification.QVTo"

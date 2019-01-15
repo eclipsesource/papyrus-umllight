@@ -4,9 +4,7 @@
       label="%featureName"
       version="0.0.1.qualifier"
       provider-name="%providerName"
-      plugin="org.eclipse.papyrus.umllight.core"
-      os="linux,macosx,win32"
-      arch="x86,x86_64">
+      plugin="org.eclipse.papyrus.umllight.core">
 
    <description>
       This feature provides a stream-lined product for UML based on Papyrus.

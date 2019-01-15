@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: UML Light UI
+Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.eclipse.papyrus.umllight.ui;singleton:=true
 Bundle-Version: 0.0.1.qualifier
 Bundle-Activator: org.eclipse.papyrus.umllight.ui.internal.Activator
@@ -27,3 +27,4 @@ Export-Package: org.eclipse.papyrus.umllight.ui.internal;x-internal:=true,
  org.eclipse.papyrus.umllight.ui.internal.widgets.editors;x-internal:=true,
  org.eclipse.papyrus.umllight.ui.internal.wizard;x-internal:=true,
  org.eclipse.papyrus.umllight.ui.properties.widgets
+Bundle-Vendor: %Bundle-Vendor

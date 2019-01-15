@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: UML Light UI Simplification Transforms
+Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.eclipse.papyrus.umllight.ui.simplification.transforms;singleton:=true
 Bundle-Version: 0.0.1.qualifier
 Bundle-Activator: org.eclipse.papyrus.umllight.ui.simplification.transforms.internal.Activator
@@ -10,3 +10,4 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: org.eclipse.papyrus.umllight.core
 Bundle-ActivationPolicy: lazy
 Export-Package: org.eclipse.papyrus.umllight.ui.simplification.transforms.internal;x-internal:=true
+Bundle-Vendor: %Bundle-Vendor
