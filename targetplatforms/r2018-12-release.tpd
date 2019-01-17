@@ -50,7 +50,7 @@ location papyrus "http://download.eclipse.org/modeling/mdt/papyrus/updates/relea
 	org.eclipse.papyrus.sdk.feature.feature.group
 	org.eclipse.papyrus.infra.gmfdiag.feature.feature.group
 	org.eclipse.papyrus.infra.services.feature.feature.group
-	org.eclipse.papyrus.views.documentation.feature.feature.group lazy
+	org.eclipse.papyrus.views.documentation.feature.feature.group
 	org.eclipse.papyrus.views.properties.toolsmiths
 	org.eclipse.papyrus.uml.assistants.feature.feature.group
 	org.eclipse.papyrus.toolsmiths.feature.feature.group
