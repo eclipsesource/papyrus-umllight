@@ -75,19 +75,19 @@
   <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="StateMachine" role="packagedElement" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.StateMachine"/>
   </menu>
-  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Initial State" role="subvertex" displayAllRoles="false">
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Initial State" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../types/UMLLight.elementtypesconfigurations#_ICEUQO2cEeivp-E0jxzQrg"/>
   </menu>
-  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Final State" role="subvertex" displayAllRoles="false">
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Final State" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.FinalState"/>
   </menu>
-  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Choice" role="subvertex" displayAllRoles="false">
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Choice" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../types/UMLLight.elementtypesconfigurations#_MBXwgO2eEeivp-E0jxzQrg"/>
   </menu>
-  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Junction" role="subvertex" displayAllRoles="false">
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Junction" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="../types/UMLLight.elementtypesconfigurations#_MReCAO2eEeivp-E0jxzQrg"/>
   </menu>
-  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="State" role="subvertex" displayAllRoles="false">
+  <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="State" displayAllRoles="false">
     <elementType xsi:type="elementtypesconfigurations:MetamodelTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.State"/>
   </menu>
   <menu xsi:type="ElementCreationMenuModel:CreationMenu" label="Initial Node" displayAllRoles="false">
