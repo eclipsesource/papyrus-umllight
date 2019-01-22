@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom:Customization xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:custom="http://www.eclipse.org/papyrus/emf/facet/custom/0.2.incubation/custom" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:efacet="http://www.eclipse.org/papyrus/emf/facet/efacet/0.2.incubation/efacet" xmlns:javaQuery="http://www.eclipse.org/papyrus/emf/facet/query/java/0.2.incubation/javaquery" xmlns:oclQuery="http://www.eclipse.org/papyrus/emf/facet/query/ocl/0.3.incubation/oclquery" name="UMLLight" documentation="Simplifications of the Model Explorer presentation for UML Light." mustBeLoadedByDefault="true" rank="10">
+  <eClassifiers xsi:type="custom:EClassCustomization" name="LightStateMachine" documentation="A state machine in an UML Light model.">
+    <extendedMetaclass href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+    <facetElements xsi:type="efacet:FacetReference" name="regionComments" upperBound="-1" volatile="true" transient="true" derived="true">
+      <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Comment"/>
+      <query xsi:type="oclQuery:OclQuery" oclExpression="self.region.ownedComment">
+        <context xsi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </query>
+    </facetElements>
+    <facetElements xsi:type="efacet:FacetReference" name="regionConstraints" upperBound="-1" volatile="true" transient="true" derived="true">
+      <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint"/>
+      <query xsi:type="oclQuery:OclQuery" oclExpression="self.region.ownedRule">
+        <context xsi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </query>
+    </facetElements>
+    <facetElements xsi:type="efacet:FacetReference" name="vertices" upperBound="-1" volatile="true" transient="true" derived="true">
+      <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Vertex"/>
+      <query xsi:type="oclQuery:OclQuery" oclExpression="self.region.subvertex">
+        <context xsi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </query>
+    </facetElements>
+    <facetElements xsi:type="efacet:FacetReference" name="transitions" upperBound="-1" volatile="true" transient="true" derived="true">
+      <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Transition"/>
+      <query xsi:type="oclQuery:OclQuery" oclExpression="self.region.transition">
+        <context xsi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//StateMachine"/>
+      </query>
+    </facetElements>
+    <facetOperations name="umlLightVisibleReferences" upperBound="-1">
+      <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EReference"/>
+      <query xsi:type="javaQuery:JavaQuery" canBeCached="true" implementationClassName="org.eclipse.papyrus.umllight.ui.internal.facet.UMLLightVisibleReferencesQuery"/>
+      <override xsi:type="efacet:FacetOperation" href="platform:/plugin/org.eclipse.papyrus.uml.modelexplorer/resource/SimpleUML.custom#//Element/DisplayOnlyContainmentReferences"/>
+    </facetOperations>
+    <extendedFacets href="platform:/plugin/org.eclipse.papyrus.uml.modelexplorer/resource/SimpleUML.custom#//Element"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="custom:EClassCustomization" name="RegionOwnedElement" documentation="An element that is in a region of a state machine." conformanceTypedElement="//RegionOwnedElement/isInRegion">
+    <extendedMetaclass href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+    <facetOperations name="isInRegion" lowerBound="1" documentation="Query whether the element is owned by a state machine region.">
+      <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+      <query xsi:type="oclQuery:OclQuery" canBeCached="true" oclExpression="self.owner.oclIsKindOf(Region)">
+        <context xsi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </query>
+    </facetOperations>
+    <facetOperations name="impliedOwner" lowerBound="1" documentation="The implied owner of the element, which is its owning region's state machine.">
+      <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+      <eParameters name="eStructuralFeature">
+        <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//ETypedElement"/>
+      </eParameters>
+      <query xsi:type="oclQuery:OclQuery" oclExpression="self.owner.oclAsType(Region).stateMachine">
+        <context xsi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+      </query>
+      <override xsi:type="efacet:FacetOperation" href="platform:/plugin/org.eclipse.papyrus.emf.facet.custom.ui/resources/customproperties.efacet#//CustomizedEObject/parent"/>
+    </facetOperations>
+    <extendedFacets href="platform:/plugin/org.eclipse.papyrus.emf.facet.custom.ui/resources/customproperties.efacet#//CustomizedEObject"/>
+  </eClassifiers>
+</custom:Customization>

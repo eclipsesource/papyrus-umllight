@@ -1,5 +1,5 @@
 /*****************************************************************************
- * Copyright (c) 2018 Christian W. Damus and others.
+ * Copyright (c) 2018, 2019 Christian W. Damus and others.
  *
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v2.0
@@ -17,6 +17,9 @@ import org.eclipse.gmf.runtime.emf.type.core.IElementMatcher;
 import org.eclipse.gmf.runtime.emf.type.core.IHintedType;
 import org.eclipse.gmf.runtime.emf.type.core.edithelper.AbstractEditHelperAdvice;
 import org.eclipse.gmf.runtime.emf.type.core.requests.ConfigureRequest;
+import org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest;
+import org.eclipse.gmf.runtime.emf.type.core.requests.GetEditContextRequest;
+import org.eclipse.gmf.runtime.emf.type.core.requests.IEditCommandRequest;
 import org.eclipse.gmf.runtime.emf.type.core.requests.SetRequest;
 import org.eclipse.uml2.uml.Pseudostate;
 import org.eclipse.uml2.uml.PseudostateKind;
@@ -27,11 +30,30 @@ import org.eclipse.uml2.uml.UMLPackage;
  */
 public class PseudostateAdvice extends AbstractEditHelperAdvice {
 
+	private final RegionElisionHelper region = new RegionElisionHelper();
+
 	/**
 	 * Initializes me.
 	 */
 	public PseudostateAdvice() {
 		super();
+	}
+
+	@Override
+	protected ICommand getBeforeEditContextCommand(GetEditContextRequest request) {
+		return region.getBeforeEditContextCommand(request);
+	}
+
+	public void configureRequest(IEditCommandRequest request) {
+		super.configureRequest(request);
+
+		if (request instanceof CreateElementRequest) {
+			configureCreateRequest((CreateElementRequest) request);
+		}
+	}
+
+	protected void configureCreateRequest(CreateElementRequest request) {
+		region.configureCreateRequest(request);
 	}
 
 	@Override

@@ -99,4 +99,12 @@
          </Priority>         
       </DirectEditor>
    </extension>
+   
+   <extension
+         point="org.eclipse.papyrus.emf.facet.util.emf.core.modeldeclaration">
+      <modeldeclaration
+            file="resources/facet/UMLLight.custom">
+      </modeldeclaration>
+   </extension>
+   
 </plugin>
