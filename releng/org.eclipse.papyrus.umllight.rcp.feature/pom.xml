@@ -10,6 +10,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	</parent>
 	<artifactId>org.eclipse.papyrus.umllight.rcp.feature</artifactId>
 	<packaging>eclipse-feature</packaging>
-	<name>org.eclipse.papyrus.umllight.rcpfeature</name>
+	<name>org.eclipse.papyrus.umllight.rcp.feature</name>
 	<description>The definition of the UML Light RCP product.</description>
 </project>
