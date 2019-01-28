@@ -55,7 +55,15 @@ location papyrus "http://download.eclipse.org/modeling/mdt/papyrus/updates/night
 	org.eclipse.papyrus.uml.assistants.feature.feature.group lazy
 	org.eclipse.papyrus.toolsmiths.feature.feature.group lazy
 }
-// Using nightly version of Papyrus compare for now because the latest stable version has Photon incompatibilities 
+
+location "http://download.eclipse.org/modeling/emf/compare/updates/nightly/" emfCompare {
+	org.eclipse.emf.compare.diagram.gmf.feature.group lazy
+	org.eclipse.emf.compare.uml2.feature.group lazy
+	org.eclipse.emf.compare.egit.feature.group lazy
+	org.eclipse.emf.compare.ide.ui.feature.group lazy
+	org.eclipse.emf.compare.rcp.ui.feature.group lazy
+}
+
 location "http://download.eclipse.org/modeling/mdt/papyrus/components/compare/updates/nightly/latest/" {
 	org.eclipse.papyrus.compare.feature.feature.group lazy
 }
