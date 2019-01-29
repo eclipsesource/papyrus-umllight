@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
-<target name="UML Light Target Platform - 2018-12 Nightly" sequenceNumber="1547657085">
+<target name="UML Light Target Platform - 2018-12 Nightly" sequenceNumber="1548665879">
   <locations>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.platform.feature.group" version="4.10.0.v20181206-0815"/>
@@ -57,6 +57,14 @@
       <unit id="org.eclipse.papyrus.uml.assistants.feature.feature.group" version="0.0.0"/>
       <unit id="org.eclipse.papyrus.toolsmiths.feature.feature.group" version="0.0.0"/>
       <repository id="papyrus" location="http://download.eclipse.org/modeling/mdt/papyrus/updates/nightly/master"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.emf.compare.diagram.gmf.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.emf.compare.uml2.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.emf.compare.egit.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.emf.compare.ide.ui.feature.group" version="0.0.0"/>
+      <unit id="org.eclipse.emf.compare.rcp.ui.feature.group" version="0.0.0"/>
+      <repository id="emfCompare" location="http://download.eclipse.org/modeling/emf/compare/updates/nightly/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.papyrus.compare.feature.feature.group" version="0.0.0"/>

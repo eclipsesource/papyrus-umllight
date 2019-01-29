@@ -56,7 +56,14 @@ location papyrus "http://download.eclipse.org/modeling/mdt/papyrus/updates/relea
 	org.eclipse.papyrus.toolsmiths.feature.feature.group
 }
 
-// Using nightly version of Papyrus compare for now because there is no stable version for 2018-12 
-location "http://download.eclipse.org/modeling/mdt/papyrus/components/compare/updates/nightly/latest/" {
+location "http://download.eclipse.org/modeling/emf/compare/updates/releases/" emfCompare {
+	org.eclipse.emf.compare.diagram.gmf.feature.group
+	org.eclipse.emf.compare.uml2.feature.group
+	org.eclipse.emf.compare.egit.feature.group
+	org.eclipse.emf.compare.ide.ui.feature.group
+	org.eclipse.emf.compare.rcp.ui.feature.group
+}
+
+location "http://download.eclipse.org/modeling/mdt/papyrus/components/compare/updates/integration" {
 	org.eclipse.papyrus.compare.feature.feature.group 
 }
